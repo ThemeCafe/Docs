@@ -1,0 +1,78 @@
+site_name: Theme Café
+theme:
+  name: material
+  icon:
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+  features:
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - navigation.indexes
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: purple
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+extra:
+  generator: false
+
+nav:
+  - Home: index.md
+  - Installing:
+      - install/index.md
+      - Menu Files: install/files.md
+      - Patching: install/patching.md
+      - Loading Theme: install/loading.md
+      - Fonts: install/fonts.md
+  - Theme Creation:
+      - themecreation/index.md
+      - themecreation/patching2.md
+  - Troubleshooting: troubleshooting/troubleshooting.md
+  - Tutorials:
+      - tutorials/cursor.md
+      - tutorials/floor.md
+      - tutorials/framebyframe.md
+      - tutorials/layers.md
+      - tutorials/mixthemes.md
+      - tutorials/music.md
+      - tutorials/scrolling.md
+      - tutorials/splash.md
+      - tutorials/static.md
+  - Credits: credits/credits.md
