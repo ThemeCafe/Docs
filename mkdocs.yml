@@ -16,6 +16,7 @@ theme:
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
   features:
+    - navigation.tabs
     - navigation.top
     - search.suggest
     - search.highlight
@@ -53,26 +54,40 @@ markdown_extensions:
 extra:
   generator: false
 
+# not_in_nav: |
+#   /tutorials/**/*.md
+
 nav:
-  - Home: index.md
-  - Installing:
-      - install/index.md
-      - Menu Files: install/files.md
-      - Patching: install/patching.md
-      - Loading Theme: install/loading.md
-      - Fonts: install/fonts.md
+  - Home: 
+    - index.md
+    - Install:
+        - install/index.md
+        - Menu Files: install/files.md
+        - Patching: install/patching.md
+        - Loading Theme: install/loading.md
+        - Fonts: install/fonts.md
+    - Troubleshooting: troubleshooting/troubleshooting.md
+    - Credits: credits.md
   - Theme Creation:
       - themecreation/index.md
+      - Static:
+        - themecreation/static/index.md
+        - Tutorial: themecreation/static/tutorial.md
+      - Animated:
+        - themecreation/animated/index.md
+        - Tutorial: themecreation/animated/tutorial.md
+      - Music:
+        - themecreation/music/index.md
+        - Tutorial: themecreation/music/tutorial.md
+
       - themecreation/patching2.md
-  - Troubleshooting: troubleshooting/troubleshooting.md
   - Tutorials:
       - tutorials/cursor.md
       - tutorials/floor.md
-      - tutorials/framebyframe.md
-      - tutorials/layers.md
-      - tutorials/mixthemes.md
-      - tutorials/music.md
-      - tutorials/scrolling.md
+      # - tutorials/framebyframe.md
+      # - tutorials/layers.md
+      # - tutorials/mixthemes.md
+      # - tutorials/music.md
+      # - tutorials/scrolling.md
       - tutorials/splash.md
-      - tutorials/static.md
-  - Credits: credits/credits.md
+      # - tutorials/static.md

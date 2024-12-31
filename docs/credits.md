@@ -1,4 +1,4 @@
-![Image title](perro.png){ width="200" }
+![Image title](credits/perro.png){ width="200" }
 /// caption
 Perrohuevo
 /// caption
@@ -6,7 +6,7 @@ Owner
 ///
 ///
 
-![Image title](dewgong.png){ width="200" }
+![Image title](credits/dewgong.png){ width="200" }
 /// caption
 dewgong
 /// caption
@@ -14,7 +14,7 @@ Head Moderator
 ///
 ///
 
-![Image title](gato.png){ width="200" }
+![Image title](credits/gato.png){ width="200" }
 /// caption
 Gato-kun
 /// caption
@@ -22,7 +22,7 @@ Moderator
 ///
 ///
 
-![Image title](kusa.png){ width="200" }
+![Image title](credits/kusa.png){ width="200" }
 /// caption
 Kusa
 /// caption
@@ -30,7 +30,7 @@ Moderator
 ///
 ///
 
-![Image title](Daniel.png){ width="200" }
+![Image title](credits/Daniel.png){ width="200" }
 /// caption
 DanielKO
 /// caption
@@ -41,7 +41,7 @@ DEV - System Font Replacer Plugin Creator
 ///
 ///
 
-![Image title](juanen.png){ width="200" }
+![Image title](credits/juanen.png){ width="200" }
 /// caption
 Juanen
 /// caption
@@ -50,7 +50,7 @@ DEV - StyleMiiU Plugin Creator
 ///
 
 
-![Image title](Ac.png){ width="200" }
+![Image title](credits/Ac.png){ width="200" }
 /// caption
 Alpha Craft
 /// caption
@@ -59,7 +59,7 @@ DEV
 ///
 
 
-![Image title](nathaniel.png){ width="200" }
+![Image title](credits/nathaniel.png){ width="200" }
 /// caption
 Nathaniel
 /// caption
@@ -67,7 +67,7 @@ DEV
 ///
 ///
 
-![Image title](Asty.png){ width="200" }
+![Image title](credits/Asty.png){ width="200" }
 /// caption
 Asty
 /// caption

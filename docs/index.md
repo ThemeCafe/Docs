@@ -32,6 +32,6 @@
 
     Meet the team behind Theme Café
 
-    [Credits](credits/credits.md)
+    [Credits](credits.md)
 
 </div>
