@@ -59,6 +59,16 @@ them in `SD:/wiiu/fonts/`; that's the default location the plugin looks for font
 
 5. Reboot your Wii U.
 
+!!! success
+
+    You should now see your custom font
+
+!!! warning
+
+    If you have any issues getting your fonts to work check [Issues](#issues)
+
+--------------
+
 ### Helper App
 
 If you get a custom font in the form of a `.bps` patch, to be applied to one of the system
@@ -75,18 +85,22 @@ leave this option enabled ("*yes*"), so only the Wii U Menu is affected by the c
 font. If you trust your custom font to not crash the on-screen keyboard, the System
 Settings, the Friends List, etc, you can disable this option ("*no*").
 
-### Freezes/Crashes and text glitches
+--------------
+
+### Issues
+
+#### Freezes/Crashes and text glitches
 
 Not every game/app has good a font rendering implementation. Some cannot handle more
 "advanced" TTF fonts, and will either render it incorrectly, or outright crash.
 
-### Large font files
+#### Large font files
 
 Aroma plugins have very limited amount of memory to use. If the font file is too large, it
 might use too much memory, and other plugins might stop working. Fonts up to 2.5 MiB in
 size seem to work fine; larger fonts have not been tested.
 
-### Missing symbols
+#### Missing symbols
 
 Some Wii U software make use of the system font's Private Use Area (PUA) block (from
 `U+E000` to `U+E099`), to show symbols for gamepad buttons, sticks, etc. If the

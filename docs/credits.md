@@ -1,3 +1,7 @@
+# Credits
+
+--------------
+
 ![Image title](credits/perro.png){ width="200" }
 /// caption
 Perrohuevo

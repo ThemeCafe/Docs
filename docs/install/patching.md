@@ -1,5 +1,7 @@
 # Patching
 
+--------------
+
 You will need:
 
 - [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or [Flips](https://github.com/Alcaro/Flips)
@@ -15,14 +17,14 @@ You will need:
 
 ### Getting a patch file
 
-You can join the [Theme Café](#) discord server to check for new themes or go to the [Theme Café Wesbsite](https://perrohuevo.wixsite.com/theme-cafe)
+You can join the Theme Café [discord server](https://discord.com/invite/2DNvH9db2A) to check for new themes or go to the [Theme Café Wesbsite](https://perrohuevo.wixsite.com/theme-cafe)
 
 If you are in the Theme Café discord server
 
 - You can check for [Static Themes here](https://discord.com/channels/1195784055296381020/1226501319976816671)
 - You can check for [Animated Themes here](https://discord.com/channels/1195784055296381020/1233945865312538684)
 
-!!! info
+??? info "Theme Café Website Info"
 
     The Theme Café website might not upload new themes very often, it's recommended to join the discord server
 
@@ -37,7 +39,8 @@ Applying patches:
     ![Image title](install2imgs/p1.png)
 
 2. for the ROM file get your original (Men.pack / Men2.pack / cafe_barista_men.bfsar) file
-*For this example we will be using **Men.pack***
+
+    *For this example we will be using **Men.pack***
 
     ![Image title](install2imgs/p2.png)
 
@@ -49,7 +52,7 @@ Applying patches:
 
     ![Image title](install2imgs/p4.png)
 
-    !!! info
+    ??? info "Source ROM checksum mismatch error"
     
         - If you're getting a Source ROM checksum mismatch, you can follow [Troubleshooting](../troubleshooting/troubleshooting.md#checksum-mismatch)
 

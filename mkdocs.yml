@@ -39,6 +39,8 @@ theme:
       primary: teal
       accent: purple
 markdown_extensions:
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -51,6 +53,11 @@ markdown_extensions:
   - pymdownx.blocks.caption
   - admonition
   - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 extra:
   generator: false
 
@@ -68,6 +75,7 @@ nav:
         - Fonts: install/fonts.md
     - Troubleshooting: troubleshooting/troubleshooting.md
     - Credits: credits.md
+    # - MD guide: md.md
   - Theme Creation:
       - themecreation/index.md
       - Static:
@@ -81,9 +89,13 @@ nav:
         - Tutorial: themecreation/music/tutorial.md
 
       - themecreation/patching2.md
+
+      - Old tutorials:
+        - themecreation/tutorials_old/index.md
+        - Floor: themecreation/tutorials_old/floor.md
   - Tutorials:
       - tutorials/cursor.md
-      - tutorials/floor.md
+      # - tutorials/floor.md
       # - tutorials/framebyframe.md
       # - tutorials/layers.md
       # - tutorials/mixthemes.md

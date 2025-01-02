@@ -1,5 +1,7 @@
 # Installing
 
+--------------
+
 ## Index
 
 ### **Get started here!**

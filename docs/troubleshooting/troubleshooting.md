@@ -42,7 +42,7 @@ Go to [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
         61a43d75cebba980568f0b554d3638a8a6441597
         ```
 
-If the information does not match, follow [Menu Files](../install/files.md) to get your original files again
+If the information does not match, follow [JNUSTool](../install/files.md#jnustool) to get your original files again
 
 If the information matches with the one from your files and you're still getting the Source ROM checksum mismatch error, it might be a bad patch, you can try applying the patch anyways or use another theme
 

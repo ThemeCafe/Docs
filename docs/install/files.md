@@ -1,5 +1,7 @@
 # Menu Files
 
+--------------
+
 First, we need to obtain the menu files, there's a few ways to do it
 
 - [FTP](#ftp)
@@ -45,7 +47,7 @@ Step by step guide
 
     You can now go to [Patching](patching.md)
 
-!!! abstract
+??? abstract "Credits"
 
     Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page
 

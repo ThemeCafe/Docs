@@ -1,5 +1,7 @@
 # Loading Custom Themes
 
+--------------
+
 Currently there's two ways to load themes using aroma
 
 - [SDCafiine](#sdcafiine)
@@ -11,7 +13,7 @@ Currently there's two ways to load themes using aroma
 
 ### What you need
 
-- [SDCafiine Plugin](https://github.com/wiiu-env/sdcafiine_plugin/releases/tag/v0.1.5)
+- [SDCafiine Plugin](https://github.com/wiiu-env/sdcafiine_plugin/releases)
 - A patched Men.pack, Men2.pack or cafe_barista_men.bfsar
     - If you do not have a patched menu file, follow [Patching](patching.md)
 
@@ -53,11 +55,11 @@ Select your theme with the A button
 
     Your theme should now have loaded
 
-!!! note
+??? info "Fonts"
 
     If you want to use custom fonts, follow [Fonts](fonts.md)
 
-!!! warning
+???+ warning "Troubleshooting"
 
     - If you're stuck on a black screen follow [Black Screen](../troubleshooting/troubleshooting.md#black-screen)
 
@@ -65,7 +67,7 @@ Select your theme with the A button
 
     - If your theme didn't load and it's showing the stock one follow [Theme not loading](../troubleshooting/troubleshooting.md#theme-not-loading)
 
-!!! abstract
+!!! abstract "Credits"
 
     Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page
 
@@ -85,7 +87,7 @@ This is an Aroma plugin to safely apply custom themes!
 - A patched Men.pack, Men2.pack or cafe_barista_men.bfsar
     - If you do not have a patched menu file, follow [Patching](patching.md)
 
-!!! note
+??? note "If you used an older version of this plugin"
 
     If you happen to have installed an older version of this plugin, delete the previous `theme_manager.wps` and rename `sd:/wiiu/environments/aroma/plugins/config/theme_manager.json` to `style-mii-u.json`
 
@@ -120,11 +122,11 @@ A step to step guide on how to use it:
 
     Your theme should now have loaded
 
-!!! note
+??? info "Fonts"
 
     If you want to use custom fonts, follow [Fonts](fonts.md)
 
-!!! warning
+???+ warning "Troubleshooting"
 
     If your theme didn't load / the console is loading indefinitely, you can follow [Loading Indefinitely](../troubleshooting/troubleshooting.md#loading-indefinitely-stylemiiu-plugin)
 
