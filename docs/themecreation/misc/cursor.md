@@ -9,7 +9,7 @@ Requirements:
 - [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox?tab=readme-ov-file)
 - Your original Men.pack file
 
-To get your original Men.pack file you will need to follow the tutorial on [Menu Files](../install/files.md) and come back 
+To get your original Men.pack file you will need to follow the tutorial on [Menu Files](../../install/files.md) and come back 
 
 --------------
 

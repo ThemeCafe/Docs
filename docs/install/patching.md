@@ -70,3 +70,5 @@ Now repeat with the other files
 !!! success
 
     You can now go to [Loading Custom Themes](loading.md)
+
+    [Continue to Loading Custom Themes → ](loading.md){ .md-button .md-button--primary }

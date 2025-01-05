@@ -186,7 +186,7 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
 
 ## buttons
 
-[This is a button](#){ .md-button }
+[This is a button](#){ .md-button } [this is a primary button → ](#){ .md-button .md-button--primary }
 
 [this is a primary button](#){ .md-button .md-button--primary }
 

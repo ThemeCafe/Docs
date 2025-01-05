@@ -46,6 +46,8 @@ Step by step guide
 !!! success
 
     You can now go to [Patching](patching.md)
+        
+    [Continue to Patching → ](patching.md){ .md-button .md-button--primary }
 
 ??? abstract "Credits"
 
@@ -112,3 +114,5 @@ Go into "root/content/Common/Sound/Men" and download **cafe_barista_men.bfsar**
 !!! success
 
     You can now go to [Patching](patching.md)
+
+    [Continue to Patching → ](patching.md){ .md-button .md-button--primary }

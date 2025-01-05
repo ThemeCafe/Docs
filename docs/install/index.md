@@ -6,36 +6,20 @@
 
 ### **Get started here!**
 
-!!! tip
-
-    You can start [here](files.md)
+[Get started here!](files.md){ .md-button .md-button--primary }
 
 --------------
 
-### ***Menu Files***
+***Menu Files***: You can get your menu files with [FTP](files.md#ftp) or [JNUSTool](files.md#jnustool)
 
-You can get your menu files with [FTP](files.md#ftp) or [JNUSTool](files.md#jnustool)
+***Patching***: To patch your `.ips, .bps, .ups, .ppf, .aps` or `.rup` files follow [Patching](patching.md)
 
---------------
-
-### ***Patching***
-
-To patch your `.ips, .bps, .ups, .ppf, .aps` or `.rup` files follow [Patching](patching.md)
-
---------------
-
-### ***Loading Custom Themes***
-
-To load your custom theme, you can use any of the following
+***Loading Custom Themes***: To load your custom theme, you can use any of the following
 
 - [SDCafiine](loading.md#sdcafiine)
 - [StyleMiiU-Plugin](loading.md#stylemiiu-plugin)
 
---------------
-
-### ***Using custom fonts***
-
-If you want to learn how to use custom fonts follow [Fonts](fonts.md)
+***Using custom fonts***: If you want to learn how to use custom fonts follow [Fonts](fonts.md)
 
 --------------
 
