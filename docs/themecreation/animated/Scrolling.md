@@ -3,7 +3,7 @@
 This is a Scrolling Animated Theme
 
 <video controls>
-<source src="../imgs/frame/vf.mp4" type="video/mp4">
+<source src="../imgs/scrolling/vs.mp4" type="video/mp4">
 </video>
 
 ## What you need.
