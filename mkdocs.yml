@@ -79,14 +79,14 @@ nav:
   - Theme Creation:
       - themecreation/index.md
       - Static:
-        - themecreation/static/index.md
+        # - themecreation/static/index.md
         - Static: themecreation/static/tutorial.md
       - Animated:
         - themecreation/animated/index.md
-        - Tutorial: themecreation/animated/tutorial.md
+        - Frame-based: themecreation/animated/Frame.md
       - Music:
-        - themecreation/music/index.md
-        - Tutorial: themecreation/music/tutorial.md
+        # - themecreation/music/index.md
+        - Tutorial: themecreation/music/music.md
       - Misc:
         - Wii Remote Cursor: themecreation/misc/cursor.md 
         - Splash Screen: themecreation/misc/splash.md
@@ -103,13 +103,3 @@ nav:
         - Music: themecreation/tutorials_old/music.md
         - Scrolling: themecreation/tutorials_old/scrolling.md
         - Static: themecreation/tutorials_old/static.md
-  # - Tutorials:
-      
-      # - tutorials/floor.md
-      # - tutorials/framebyframe.md
-      # - tutorials/layers.md
-      # - tutorials/mixthemes.md
-      # - tutorials/music.md
-      # - tutorials/scrolling.md
-      
-      # - tutorials/static.md
