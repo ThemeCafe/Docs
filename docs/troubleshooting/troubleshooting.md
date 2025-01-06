@@ -70,6 +70,12 @@ If it doesn't work and the console is still showing a black screen you can try
 
 Something is wrong with the cafe_barista_men.bfsar
 
+Either
+
+- Your music is too long
+- Your music is too heavy
+- The file was not patched correctly
+
 You can
 
 - Patch the files again

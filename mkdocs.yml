@@ -86,7 +86,7 @@ nav:
         - Frame-based: themecreation/animated/Frame.md
       - Music:
         # - themecreation/music/index.md
-        - Tutorial: themecreation/music/music.md
+        - Music: themecreation/music/music.md
       - Misc:
         - Wii Remote Cursor: themecreation/misc/cursor.md 
         - Splash Screen: themecreation/misc/splash.md

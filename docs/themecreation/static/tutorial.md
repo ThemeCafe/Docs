@@ -6,7 +6,9 @@ This is a Static Theme
 
 "Static" themes are the themes that have a 2D non-moving image
 
-### What you need
+-------------------------
+
+## What you need
 
 - [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases/tag/Final)
 
