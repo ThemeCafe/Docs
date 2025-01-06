@@ -26,9 +26,9 @@ If you want to follow the old guide go to [Frame by frame](../tutorials_old/fram
 
 We will be working with this base
 
-[Download Base](bases/frame/Men2.bps){ .md-button .md-button--primary }
+[Download Base (Frame-based)](bases/frame/Men2.bps){ .md-button .md-button--primary }
 
-Patch it in [Patching](../../install/patching.md) and come back here when you're done
+Apply the patch to a copy of your `Men2.pack` file ([Patching](../../install/patching.md)) and come back here when you're done
 
 ### Exporting
 
@@ -53,6 +53,10 @@ Open `LoungueVR.szs` with [TrackStudio](https://github.com/MapStudioProject/Trac
 - Go inside Textures
 
 - Now replace every frame that you are going to use with your images
+
+    ??? info "Recommended Image Resolution"
+
+        1280x720 or less, anything higher is more likely to crash on console
 
     - Right click the frame you are going to replace
     - Click Replace

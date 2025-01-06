@@ -6,7 +6,7 @@
 
     We are not responsible for what you do with your console.
     
-    The guides provided make use of [SDCafiine](https://github.com/wiiu-env/sdcafiine_plugin/releases) and it **does not modify the Wii U System Files**, SDCafiine works by loading the files via the SD Card.
+    The guides provided make use of [SDCafiine](https://github.com/wiiu-env/sdcafiine_plugin/releases) to load custom themes which **does not modify the Wii U System Files**, SDCafiine works by loading the files via the SD Card.
 
 [Get started here!](files.md){ .md-button .md-button--primary }
 
