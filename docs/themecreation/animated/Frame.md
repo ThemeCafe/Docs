@@ -49,7 +49,7 @@ You can close Switch Toolbox for now
 
 Open `LoungueVR.szs` with [TrackStudio](https://github.com/MapStudioProject/Track-Studio/releases)
 
-- Go inside gsys.bfres
+- Double click `gsys.bfres`
 - Go inside Textures
 
 - Now replace every frame that you are going to use with your images
@@ -79,7 +79,7 @@ Now that you replaced all the textures you need, you need to change the animatio
 
 This is needed so your animation can work as intended
 
-- Open the following [Animation JSON Generator](framescript/animation.html){:target="_blank"}
+- Open the following [Animation JSON Generator](scripts/animation.html){:target="_blank"}
 
 Now you can set the framerate of your animation and the amount of frames it has
 
@@ -122,4 +122,4 @@ Now open the patched base with Switch Toolbox
 
 !!! success
 
-    Your Frame-based animation is done
+    Your Frame-based animation is done and you can now test it [SDCafiine](../../install/loading.md#sdcafiine)

@@ -84,6 +84,7 @@ nav:
       - Animated:
         - themecreation/animated/index.md
         - Frame-based: themecreation/animated/Frame.md
+        - Scrolling: themecreation/animated/Scrolling.md
       - Music:
         # - themecreation/music/index.md
         - Music: themecreation/music/music.md

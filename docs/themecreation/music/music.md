@@ -48,17 +48,23 @@ The best settings are
 
 #### Adding your music
 
-- Open Citric Composer
+- Launch Citric Composer
 - Open your cafe_barista_men.bfsar already patched with the provided [Base](#base)
 - Double click `Wave Archives`
 - Double click `[1] WARC_1_GUESS_GROUP_MEN`
 - A new window will open
+
+    ![image](imgs/m1.png)
+
 - Double click `Waves`
 - Scroll to the bottom to find `[302] WAV_302_GUESS_BANK_MEN_BGM`
 - Right click `[302] WAV_302_GUESS_BANK_MEN_BGM`
 - Click replace
 - Choose your `.WAV` file
 - Wait for it to change the name to `[302] {Unknown Wave Name}`
+
+    ![image](imgs/m2.png)
+
 - Click file on the top left corner
 - Click Save
 
@@ -69,6 +75,9 @@ You can now close this window
 - Go back to the original window of Citric Composer
 - Double click `Sound Sequences`
 - Scroll until you find `[371] BGM_MEN_TV` and `[372] BGM_MEN_DRC_MAIN`
+
+    ![image](imgs/m3.png)
+
 - Right click `[371] BGM_MEN_TV`
 - Click `Export`
 - Save the `BGM_MEN_TV.bfseq` file on your device
