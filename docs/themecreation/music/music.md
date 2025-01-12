@@ -218,4 +218,39 @@ Go back to Citric Composer
 
     - If the console freezes before loading the Wii U menu follow [Freezing](../../troubleshooting/troubleshooting.md#freezing)
     - If the song is not looping properly follow [Looping](#looping)
-    
+
+??? info "Tips and Tricks for making Wii U Custom Music
+
+    !!! abstract "Credits"
+
+        Thanks to the discord user @yeetyeeter456 for these tips and tricks
+
+    Tips and tricks to help you spend just a few minutes per song!
+
+    NOTICE: 
+
+    - This tutorial assumes you already know the basics of making Wii U music. If you have not already, look at this tutorial: [Music](#Music)  
+    - I am not a pro at this I just have some helpful things I've found and want more people to know about.
+
+    Ok, let us begin
+    ----------------------------------------
+
+    - If you need a feature rich and free option for converting files to .wav, shortening files, or changing khz, Audacity works very well.
+
+    - Before starting to make something, ALWAYS check the file in Audacity (or another audio tool) to make sure its in stereo and the khz aren't too high. This is just a good routine to get into so that you make sure you never waste your time. 
+
+    - Keep a backup of your patched .bfsar file and just copy it when you want to make a new song. This way you won't have to patch it every time.
+
+    - Keep back ups of the converted  .FSEQ files for BGM_MEN_DRC_MAIN and  BGM_MEN_TV in the same folder as the converter. This way all you'll have to do when replacing the .bfseq files is edit the .FSEQ files again to whatever their new values they should be and then drag and drop each one into the converter. 
+
+    -  Have a place to put your finished music that way you always know where they are.  
+
+    - If you have a fairly short song, convert it into higher khz to make it sound better. If it doesn't work you can always lower the khz again. 
+
+    - If you have a fairly long song, convert it into lower khz to fit the whole thing. This is how I was able to fit the entire 4 minute song for my upside down theme. 
+
+    - Keep websites like: https://www.marcrobledo.com/RomPatcher.js/ saved somewhere for easy access
+    ----------------------------------------
+
+    alright, hopefully that helped some of you but That's all I can think of on the spot. I'll probably add more later though.
+        

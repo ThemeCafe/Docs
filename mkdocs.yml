@@ -89,7 +89,22 @@ nav:
         # - themecreation/music/index.md
         - Music: themecreation/music/music.md
       - Misc:
-        - Wii Remote Cursor: themecreation/misc/cursor.md 
+        - Active Frame: themecreation/misc/activeframe.md
+        - Applets: themecreation/misc/applets.md
+        - Arrows: themecreation/misc/arrows.md
+        - Background: themecreation/misc/background.md
+        - Button Swap: themecreation/misc/swap.md
+        - Button Account Select: themecreation/misc/btnaccselect.md
+        - Floor: themecreation/misc/floor.md
+        - Menu Icons: themecreation/misc/menuicons.md
+        - Page Indicator: themecreation/misc/pageindicator.md
+        - Select Frame: themecreation/misc/selectframe.md
+        # - Select User: themecreation/misc/selectuser.md
+        - Wii Remote Cursor: themecreation/misc/cursor.md
+      - General Tutorials: 
+        - Changing Colors: themecreation/general/colors.md 
+        - Textures: themecreation/general/textures.md
+        - Exporting / Replacing: themecreation/general/exportimport.md
         - Splash Screen: themecreation/misc/splash.md
         - Mix Themes: themecreation/misc/mixthemes.md
 

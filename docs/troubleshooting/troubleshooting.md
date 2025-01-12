@@ -2,6 +2,20 @@
 
 --------------
 
+## Menu loads but it's unresponsive
+
+You are probably using Swip Swap Me
+
+If you are using the default configuration
+
+- Press the TV button on the gamepad
+
+If you are not using the default configuration and don't remember the button combo
+
+- Delete the config file of the plugin and/or Delete the plugin
+
+--------------
+
 ## Checksum Mismatch
 
 Go to [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
