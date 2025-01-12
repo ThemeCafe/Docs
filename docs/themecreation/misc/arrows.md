@@ -4,7 +4,7 @@
 
 If you want to change colors, please add this to the textures list and use it
 
-![image](#)
+![image](imgs/arrows/blackarrow.png)
 
 ## Outside folders
 
