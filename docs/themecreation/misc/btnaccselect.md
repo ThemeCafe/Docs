@@ -13,3 +13,7 @@ If you want to change the color
 - Select the `Picture pane` tab
 - On `Vertex Colors` click `All`
 - Change the color
+
+If you want to change the color of the blue glow
+
+- Change the [Color](../general/colors.md) of the material ActiveFrame_01
