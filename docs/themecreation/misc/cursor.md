@@ -1,10 +1,10 @@
 # Custom Cursor
 
-!!! abstract
+!!! abstract "Credits"
 
     Credits to the discord user *@dot0451* for the information in this page
 
-Requirements:
+## Requirements:
 
 - [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox?tab=readme-ov-file)
 - Your original Men.pack file
@@ -13,7 +13,7 @@ To get your original Men.pack file you will need to follow the tutorial on [Menu
 
 --------------
 
-Instructions:
+## Instructions:
 
 - Drag Men.pack Into Swich Toolbox
 
@@ -45,19 +45,58 @@ I recommend you start from top to bottom.
 
 You want to click on any of the four files, and click **color** at the bottom
 
-Not a lot is understood about how the colors work, but...
+## **Editing Cursor Colors**
 
-- You can edit the left side colors, but **make sure you copy down your hex codes** somewhere if you wish to revert back or if you're copying it to the other CursorBase files.
-- A rule of thumb is to always keep the right side colors untouched. They should either be only black or white. They might change while you're editing the left side colors, so just change them back.
-- If you see no change in the cursor color, you either leave it as is, or revert it back. Not sure if it matters, but it's your choice.
+### **Left Side Colors:**
+
+When editing the colors on the left side of the cursor:
+
+- ***Save your hex codes.*** 
+
+Use a Notes app or a similar tool to record them. Your hex code(s) should be exactly 8 characters long. **This step is crucial for later on in the tutorial**, additionally, it ensures consistency across all four base files, especially if you’re creating a solid-colored cursor like the one in this tutorial, which is what most people go for.
+
+??? note "Tip for dummies" 
+
+    If you find colored hex codes online that are shorter than 8 characters (e.g. 6 characters), simply ask ChatGPT to convert them to 8 characters long.
+
+### **Right Side Colors**:
+
+The colors on the right side of the cursor should **always** be **black or white**.
+
+- If these colors change while editing the left side colors, simply **change them back to black (00000000) or white**(FFFFFFFF). 
+- Not doing so may cause the cursor to look weird. 
+
+- Uncertain Changes:
+
+    At times, you might notice no visible change after editing the cursor color.
+
+    - It’s up to you to either leave it as is or revert it to its original state.
+    - Currently, it’s unclear if this has a significant impact, but it’s worth noting.
+
+These guidelines may be updated in the future. For now, adhering to them should make the editing process smoother."
 
 ![Image title](imgs/cursor/c4.png)
+
+In CursorBaseAlpha, the upper-left color is arguably the most important hex code. This color serves as a reference when updating the RGB (Red, Green, Blue) values in Cursor_CursorNumber.bflan within the anim folder. If the RGB colors in both files do not align, the changes made to the cursor’s outline in CursorBaseAlpha will not be properly reflected.
+
+![Image title](imgs/cursor/CursorBaseAlpha.gif)
+
+![Image title](imgs/cursor/c12.png)
+
+![Image title](imgs/cursor/RGB_Change.gif)
+
+Here’s how I edited the colors for this particular cursor. There’s no right or wrong way to approach this—you can follow my method or take a completely different approach when editing the colors; the choice is yours. However, I recommend following my method if you're a beginner and just getting started.
+
+![Image title](imgs/cursor/BaseColorEdits.gif)
 
 After you are satisfied with how the cursor looks, click the save button located at the top left. It should say **Saved Cursor.bflyt to archive** and make sure you save the project in case anything happens.
 
 ![Image title](imgs/cursor/c5.png)
 
 --------------
+
+## Animation Folder
+
 Now time for the anim folder. There is a file called **Cursor_CursorNumber.bflan** double click it to open it.
 
 ![Image title](imgs/cursor/c6.png)
@@ -95,3 +134,7 @@ Then close that window and save the project again.
 !!! success
 
     That's it, you're done!
+
+    Here's how it turned out
+
+    ![Image title](imgs/cursor/result.png)

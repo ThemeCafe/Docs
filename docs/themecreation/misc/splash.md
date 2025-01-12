@@ -7,6 +7,10 @@ to add your own
 1. Update aroma
 2. Go to **sd:/wiiu/environments/aroma/** and add your **splash.png**
 
+??? info "Recommended Image Resolution"
+
+    1280x720
+
 !!! success
 
     happy modding!

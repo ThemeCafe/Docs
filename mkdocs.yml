@@ -96,10 +96,14 @@ nav:
         - Button Swap: themecreation/misc/swap.md
         - Button Account Select: themecreation/misc/btnaccselect.md
         - Floor: themecreation/misc/floor.md
+        - Folder Icon: themecreation/misc/foldericon.md
         - Menu Icons: themecreation/misc/menuicons.md
+        - Network Icon: themecreation/misc/network.md
         - Page Indicator: themecreation/misc/pageindicator.md
         - Select Frame: themecreation/misc/selectframe.md
+        - Select User: themecreation/misc/selectuser.md
         # - Select User: themecreation/misc/selectuser.md
+        - Usb Indicator: themecreation/misc/usbindicator.md
         - Wii Remote Cursor: themecreation/misc/cursor.md
       - General Tutorials: 
         - Changing Colors: themecreation/general/colors.md 
