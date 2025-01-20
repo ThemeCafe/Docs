@@ -5,6 +5,28 @@
 ##### Heading level 5
 ###### Heading level 6
 
+# Calculator Example
+
+Enter two numbers, click "Calculate," and see the result:
+
+<div>
+  <label for="num1">Number 1:</label>
+  <input type="number" id="num1" />
+  <label for="num2">Number 2:</label>
+  <input type="number" id="num2" />
+  <button onclick="calculate()">Calculate</button>
+  <p>Result: <span id="result">0</span></p>
+</div>
+
+<script>
+  function calculate() {
+    const num1 = parseFloat(document.getElementById('num1').value) || 0;
+    const num2 = parseFloat(document.getElementById('num2').value) || 0;
+    document.getElementById('result').textContent = num1 + num2;
+  }
+</script>
+
+
 separating
 
 ---------------

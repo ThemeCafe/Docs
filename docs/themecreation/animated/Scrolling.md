@@ -57,11 +57,11 @@ After replacing the textures
 
     Your Scrolling animation is done and you can now test it [SDCafiine](../../install/loading.md#sdcafiine)
 
-#### Scrolling Speed
+## Scrolling Speed
 
 If you want to change the Scrolling Speed of your theme you need to follow a few more steps
 
-##### What you need
+### What you need
 
 - [TrackStudio](https://github.com/MapStudioProject/Track-Studio/releases)
 
@@ -78,10 +78,29 @@ Open your scrolling theme with [Switch Toolbox](https://github.com/KillzXGaming/
 
 You can close Switch Toolbox for now
 
-- Open the following [Scrolling Animation Generator](scripts/scrolling.html){:target="_blank"}
+Use the following Scrolling Animation Generator tool
+
 - In `Amount of seconds` set the amount of seconds you want before the animation loops
 - In `Amount of panels` set the amount of panels you are using (6 is default)
 - After you set your values click on `Generate Wait.json`
+
+<div>
+    <label for="seconds">Amount of seconds:</label>
+    <input type="number" id="seconds" placeholder="Enter seconds">
+    <br><br>
+    <label for="panels">Amount of panels:</label>
+    <select id="panels">
+        <option value="6">6</option>
+        <option value="5">5</option>
+        <option value="4">4</option>
+        <option value="3">3</option>
+        <option value="2">2</option>
+        <option value="1">1</option>
+    </select>
+    <br><br>
+    <button id="generate"><b>Generate Wait.json</b></button>
+    <script src="../scripts/scroll.js"></script>
+</div>
 
 This will generate a `Wait.json` file
 

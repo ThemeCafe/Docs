@@ -8,6 +8,8 @@ This is a Static Theme
 
 -------------------------
 
+If you want to follow the previous method and also hide the wara wara plaza go to [Static](../tutorials_old/static.md)
+
 ## What you need
 
 - [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases/tag/Final)

@@ -1,6 +1,6 @@
 # Animated
 
-Here are a few ways to make Animated Themes
+Here are some templates and tutorials to help you make animated themes
 
 ## Frame-based
 

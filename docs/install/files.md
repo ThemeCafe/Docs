@@ -79,7 +79,15 @@ Copy the Common Key
 
 ### **Setting up JNUSTool**
 
-Open the JNUSTool folder and open config, then replace [COMMON KEY] with the common key we previously copied
+Open the JNUSTool folder and open config, then replace `[COMMON KEY]` with the common key we previously copied
+
+``` title="config" hl_lines="2"
+http://ccs.cdn.wup.shop.nintendo.net/ccs/download
+[COMMONKEY]
+updatetitles.csv
+https://tagaya.wup.shop.nintendo.net/tagaya/versionlist/EUR/EU/latest_version
+https://tagaya-wup.cdn.nintendo.net/tagaya/versionlist/EUR/EU/list/%d.versionlist
+```
 
 ![Image title](install1imgs/i3.png)
 

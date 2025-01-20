@@ -1,5 +1,6 @@
 site_name: Theme Café
 theme:
+  logo: assets/logo/cafe.png
   name: material
   icon:
     admonition:
@@ -10,7 +11,6 @@ theme:
       success: fontawesome/solid/check
       question: fontawesome/solid/circle-question
       warning: fontawesome/solid/triangle-exclamation
-      failure: fontawesome/solid/bomb
       danger: fontawesome/solid/skull
       bug: fontawesome/solid/robot
       example: fontawesome/solid/flask
@@ -58,8 +58,11 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-extra:
-  generator: false
+extra_css:
+  - assets/css/styles.css
+  - install/patching/rom-patcher-js/style.css
+extra_javascript:
+  - install/patching/rom-patcher-js/RomPatcher.webapp.js
 
 # not_in_nav: |
 #   /tutorials/**/*.md
@@ -123,3 +126,13 @@ nav:
         - Music: themecreation/tutorials_old/music.md
         - Scrolling: themecreation/tutorials_old/scrolling.md
         - Static: themecreation/tutorials_old/static.md
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/2DNvH9db2A
+      name: Theme Café
+    - icon: fontawesome/brands/github
+      link: https://github.com/Gatokun/Gatokun.github.io
+      name: Docs Github Repository

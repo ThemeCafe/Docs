@@ -79,13 +79,32 @@ Now that you replaced all the textures you need, you need to change the animatio
 
 This is needed so your animation can work as intended
 
-- Open the following [Animation JSON Generator](scripts/animation.html){:target="_blank"}
+- Set the framerate of your animation and the amount of frames it has
 
-Now you can set the framerate of your animation and the amount of frames it has
+??? info "Script info"
+
+    With the way this script works, only values divisible by 60 will work for the framerate.
+
+<div>
+    <form id="generate-form">
+        <label for="framerate">Framerate (60,30,20,15,10,6,5):</label>
+        <input type="number" id="framerate" required>
+        <br>
+        <br>
+        <label for="frame-count">Frame Count:</label>
+        <input type="number" id="frame-count" required>
+        <br>
+        <br>
+        <button type="submit"><b>Generate Wait.json</b></button>
+    </form>
+    <script src="../scripts/generator.js"></script>
+</div>
+
+!!! warning "Keep in mind that if the generated output is too long, it might crash and will not work"
 
 ??? question "Why is this needed"
 
-    If you don't change the animation file, your animation will play slowly and will not loop properly
+    If you don't change the animation file, your animation will play at the wrong speed and will not loop properly
 
 After you set your framerate and Frame count click on `Generate Wait.json`
 

@@ -25,6 +25,6 @@
 
 --------------
 
-!!! abstract
+!!! abstract "Credits"
 
     Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page
