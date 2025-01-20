@@ -231,7 +231,7 @@ Go back to Citric Composer
 
     NOTICE: 
 
-    - This tutorial assumes you already know the basics of making Wii U music. If you have not already, look at this tutorial: [Music](#Music)  
+    - This tutorial assumes you already know the basics of making Wii U music. If you have not already, look at this tutorial: [Music](#music)  
     - I am not a pro at this I just have some helpful things I've found and want more people to know about.
 
     Ok, let us begin

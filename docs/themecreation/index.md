@@ -21,7 +21,7 @@ If you want to create your own themes, you will find tutorials here for the type
 
     ??? note "About Switch Toolbox"
 
-        Switch Toolbox is a **Windows** program, if you are running a different OS [MISSING TEXT]
+        Switch Toolbox is a **Windows** program, if you do not use Windows you'll have to look for a way to run Switch Toolbox on your machine
 
     In each of the following tutorials we provide base files patches for you to modify and make it easier to make themes
 
