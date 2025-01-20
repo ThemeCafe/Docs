@@ -219,7 +219,9 @@ Go back to Citric Composer
     - If the console freezes before loading the Wii U menu follow [Freezing](../../troubleshooting/troubleshooting.md#freezing)
     - If the song is not looping properly follow [Looping](#looping)
 
-??? info "Tips and Tricks for making Wii U Custom Music
+#### Tips by yeetyeeter456
+
+???+ info "Tips and Tricks for making Wii U Custom Music"
 
     !!! abstract "Credits"
 
@@ -233,7 +235,6 @@ Go back to Citric Composer
     - I am not a pro at this I just have some helpful things I've found and want more people to know about.
 
     Ok, let us begin
-    ----------------------------------------
 
     - If you need a feature rich and free option for converting files to .wav, shortening files, or changing khz, Audacity works very well.
 
@@ -250,7 +251,6 @@ Go back to Citric Composer
     - If you have a fairly long song, convert it into lower khz to fit the whole thing. This is how I was able to fit the entire 4 minute song for my upside down theme. 
 
     - Keep websites like: https://www.marcrobledo.com/RomPatcher.js/ saved somewhere for easy access
-    ----------------------------------------
 
     alright, hopefully that helped some of you but That's all I can think of on the spot. I'll probably add more later though.
         
