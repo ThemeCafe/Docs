@@ -34,7 +34,7 @@ If you are in the Theme Café discord server
 
 2. For the Patch File select the **.ips, .bps, .ups, .ppf, .aps, .rup file** you got from downloading the theme that matches the name of the ROM file
 
-3. Press Apply patch
+3. Click Apply patch
 
 <div id="rom-patcher-container">
     <div>
@@ -106,3 +106,8 @@ Now do the same with the other files
     You can now go to [Loading Custom Themes](loading.md)
 
     [Continue to Loading Custom Themes → ](loading.md){ .md-button .md-button--primary }
+
+
+<script src="rom-patcher-js/RomPatcher.webworker.apply.js"></script>
+<script src="rom-patcher-js/RomPatcher.webworker.crc.js"></script>
+<script src="rom-patcher-js/RomPatcher.webapp.js"></script>

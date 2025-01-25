@@ -42,7 +42,7 @@ What's the difference between **Infinite layers** and **layers**
 
 ![Image title](imgs/layers/l1.png)
 
-3. Press the green button on the right corner **add button**
+3. Click the green button on the right corner **add button**
 
 ![Image title](imgs/layers/l2.png)
 

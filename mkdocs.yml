@@ -1,5 +1,6 @@
 site_name: Theme Café
 theme:
+  custom_dir: docs/material
   logo: assets/logo/cafe.png
   name: material
   icon:
@@ -31,7 +32,7 @@ theme:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
       primary: teal
-      accent: purple 
+      accent: purple
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
@@ -61,24 +62,20 @@ markdown_extensions:
 extra_css:
   - assets/css/styles.css
   - install/patching/rom-patcher-js/style.css
-extra_javascript:
-  - install/patching/rom-patcher-js/RomPatcher.webapp.js
-
-# not_in_nav: |
-#   /tutorials/**/*.md
+not_in_nav: |
+  md.md
 
 nav:
   - Home: 
     - index.md
-    - Install:
-        - install/index.md
-        - Menu Files: install/files.md
-        - Patching: install/patching.md
-        - Loading Theme: install/loading.md
-        - Fonts: install/fonts.md
+  - Install:
+    - install/index.md
+    - Menu Files: install/files.md
+    - Patching: install/patching.md
+    - Loading Theme: install/loading.md
+    - Fonts: install/fonts.md
     - Troubleshooting: troubleshooting/troubleshooting.md
     - Credits: credits.md
-    # - MD guide: md.md
   - Theme Creation:
       - themecreation/index.md
       - Static:
@@ -125,7 +122,7 @@ nav:
         - Layers: themecreation/tutorials_old/layers.md 
         - Music: themecreation/tutorials_old/music.md
         - Scrolling: themecreation/tutorials_old/scrolling.md
-        - Static: themecreation/tutorials_old/static.md
+        - Static: themecreation/tutorials_old/static.md 
 
 extra:
   generator: false

@@ -76,7 +76,7 @@ You can test it directly on switch toolbox
 
 **To test**
 
-Go into animation Hierarchy, select footerout or footerin and press play
+Go into animation Hierarchy, select footerout or footerin and click play
 
 <video controls>
 <source src="../imgs/framebyframe/vf.mp4" type="video/mp4">

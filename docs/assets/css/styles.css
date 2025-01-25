@@ -12,6 +12,7 @@ button {
 
 button:hover {
     background-color: #df41fb;
+    transition: 0.1s;
 }
 
 button:active {
