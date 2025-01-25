@@ -1,5 +1,7 @@
 site_name: Theme Café
 theme:
+  static_templates:
+    - 404.html
   custom_dir: docs/material
   logo: assets/logo/cafe.png
   name: material
