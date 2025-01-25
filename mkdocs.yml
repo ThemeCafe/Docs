@@ -66,8 +66,7 @@ not_in_nav: |
   md.md
 
 nav:
-  - Home: 
-    - index.md
+  - Home: index.md
   - Install:
     - install/index.md
     - Menu Files: install/files.md
