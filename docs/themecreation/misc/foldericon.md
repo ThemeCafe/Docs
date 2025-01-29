@@ -1,6 +1,10 @@
 # Folder Icon
 
+`P_IconFolder_01`
+
 ![image](imgs/foldericon/f1.png)
+
+`P_Folder`
 
 ![image](imgs/foldericon/f2.png)
 
