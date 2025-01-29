@@ -1,5 +1,33 @@
 # Custom Cursor
 
+## Changing Textures
+
+Go to `Men.pack` > `Layout` > `Cursor.szs` > `Cursor.bflyt`
+
+Add your [textures](../general/textures.md)
+
+Change the texture of the materials:
+
+- CursorBase
+- CursorBaseShadow
+- CursorBaseAlpha
+- CursorBaseBlur
+
+Go to animation hierarchy > Cursor_CursorNumber.bflan
+
+Go to Animation Info and in
+
+- CursorBaseAlpha
+- CursorBaseBlur
+- CursorBase
+- CursorBaseShadow
+
+in all of them change target from "Material" to "Pane"
+
+Save
+
+## Changing Colors
+
 !!! abstract "Credits"
 
     Credits to the discord user *@dot0451* for the information in this page

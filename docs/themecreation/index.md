@@ -263,12 +263,20 @@ If you want to create your own themes, you will find tutorials here for the type
 
         ----------------------
 
-    17.  Account Button: 
+    18.  Account Button: 
         
         ![Image title](misc/imgs/btnaccselect/btnaccsg.png)
 
         `Men2.pack` > `Layout` > `BtnAccountSelect.szs`
 
         [Button Account Select](misc/btnaccselect.md){ .md-button }
+
+        ----------------------
+
+    19.  Wii Cursor: 
+
+        `Men.pack` > `Layout` > `Cursor.szs` > `Cursor.bflyt`
+
+        [Wii Cursor](misc/cursor.md){ .md-button }
 
         ----------------------
