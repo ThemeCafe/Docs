@@ -247,7 +247,7 @@ If you want to create your own themes, you will find tutorials here for the type
         
         ![Image title](misc/imgs/menuicons/AppIconDisc.png)
 
-        `Men2.pack` > `Model` > `SystemAppIcon.szs` > `Textures` > `AppIconWii`
+        `Men2.pack` > `Model` > `SystemAppIcon.szs` > `Textures` > `AppIconDisc`
 
         [Menu Icons](misc/menuicons.md){ .md-button }
 
