@@ -79,16 +79,16 @@ nav:
     - Credits: credits.md
   - Theme Creation:
       - themecreation/index.md
-      - Static:
+      - Static: themecreation/static/tutorial.md
         # - themecreation/static/index.md
-        - Static: themecreation/static/tutorial.md
+        # - Static: themecreation/static/tutorial.md
       - Animated:
         - themecreation/animated/index.md
         - Frame-based: themecreation/animated/Frame.md
         - Scrolling: themecreation/animated/Scrolling.md
-      - Music:
+      - Music: themecreation/music/music.md
         # - themecreation/music/index.md
-        - Music: themecreation/music/music.md
+        # - Music: themecreation/music/music.md
       - Misc:
         - Active Frame: themecreation/misc/activeframe.md
         - Applets: themecreation/misc/applets.md
