@@ -13,8 +13,6 @@ After opening the bflyt file of what you want to change the material's colors
 
 ???+ warning "Format"
 
-    Make sure to add the texture the same format as the one you want to replace, this applies mostly for UI elements
-
     - If you are adding a texture for background, use T_BC1_SRGB
 
 - Click OK
