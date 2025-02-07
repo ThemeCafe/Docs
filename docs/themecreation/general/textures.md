@@ -11,9 +11,9 @@ After opening the bflyt file of what you want to change the material's colors
 - Select your image
 - Change the format
 
-???+ warning "Format"
+??? info "Format"
 
-    - If you are adding a texture for background, use T_BC1_SRGB
+    - If you are adding a texture for the background, use T_BC1_SRGB
 
 - Click OK
 

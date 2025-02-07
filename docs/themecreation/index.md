@@ -2,6 +2,10 @@
 
 If you want to create your own themes, you will find tutorials here for the type of theme you want to make
 
+!!! tip "Need help?"
+
+    Join the [Discord Server](https://discord.com/invite/2DNvH9db2A) for support in English
+
 ## Index
 
 - Static themes
@@ -227,9 +231,13 @@ If you want to create your own themes, you will find tutorials here for the type
 
         ----------------------
 
-    14.  Launcher Icons: 
+    14.  Launcher Icon: 
+
+        ![image](misc/imgs/launchericon/image.png)
 
         `Men2.pack` > `Layout` > `LauncherIcon.szs`
+
+        [LauncherIcon](misc/launchericon.md){ .md-button }
 
         ----------------------
 
@@ -278,5 +286,15 @@ If you want to create your own themes, you will find tutorials here for the type
         `Men.pack` > `Layout` > `Cursor.szs` > `Cursor.bflyt`
 
         [Wii Cursor](misc/cursor.md){ .md-button }
+
+        ----------------------
+
+    20.  Balloon Text: 
+
+        ![image](misc/imgs/balloon/image.png)
+
+        `Men2.pack` > `Layout` > `Balloon.szs` > `Balloon.bflyt`
+
+        [Balloon](misc/balloon.md){ .md-button }
 
         ----------------------
