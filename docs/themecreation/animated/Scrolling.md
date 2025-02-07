@@ -137,6 +137,57 @@ Now open your scrolling theme with Switch Toolbox
 - Replace it with the `LoungueVR.szs` we just saved
 - Now click Save
 
+You might want to change the background for the transition and the WaraWara plaza's floor
+
+If so click below to expand
+
+??? info "Click here to expand"
+
+    - Go back the `Models` folder
+    - Double click `FloatIcon00.szs`
+    - Double click `gsys.bfres`
+    - Go inside Textures
+    - Right click `White_00` and select `Replace`
+    - Choose the image you want to use as background for the Menu
+
+        ??? info "Recommended Image Resolution"
+
+            1280x720
+
+    - Save
+
+    ??? question "Where is this image displayed?"
+
+        This image will be displayed here
+
+        ![image](../static/imgs/static/s3.png)
+
+    We still need to change one more image
+
+    - Close `FloatIcon00.szs`
+    - Go back to the `Models` folder
+    - Double click `LoungeFloor.szs`
+    - Double click `gsys.bfres`
+    - Go inside Textures
+    - Right click `Floor_Alb` and select `Replace`
+    - Choose the image you want to use as background for the Menu
+
+        ??? info "Recommended Image Resolution"
+
+            2000x2000
+
+    - Save
+
+    ??? question "Where is this image displayed?"
+
+        This image will be displayed here
+
+        ![image](../static/imgs/static/s4.png)
+        
+    !!! success
+
+        You are done
+
 !!! success
 
     Your Scrolling animation is done and you can now test it [SDCafiine](../../install/loading.md#sdcafiine)
