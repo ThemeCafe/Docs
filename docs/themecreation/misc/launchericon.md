@@ -1,4 +1,4 @@
-# Account Select Button
+# Launcher Icon
 
 ![image](imgs/launchericon/image.png)
 
