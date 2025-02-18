@@ -1,16 +1,23 @@
-Aroma got updated and now we can use splash screens!
+# How to use Splash Screens
 
-you can download the latest Aroma version [here](https://aroma.foryour.cafe/)
+## What you need
 
-to add your own
+- [Aroma](https://aroma.foryour.cafe/)
 
-1. Update aroma
-2. Go to **sd:/wiiu/environments/aroma/** and add your **splash.png**
+## Usage
 
-??? info "Recommended Image Resolution"
+The module will attempt to load the splash image, in this order:
+1. `aroma/splash.png`
+2. `aroma/splash.tga`
+3. A random image from the directory `aroma/splashes/`.
 
-    1280x720
+If no splash screen is found on the sd card, this module will effectively do nothing.
+
+??? tip "Notes"
+
+    - When using a `tga` make sure its 24 bit and uncompressed
+    - In theory any (reasonable) resolution is supported, something like 1280x720 is recommended
 
 !!! success
 
-    happy modding!
+    Your splash will now show after the initial boot up is done
