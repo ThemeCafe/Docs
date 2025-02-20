@@ -3,9 +3,13 @@
 - Tools & Files Needed
 
 • Citric Composer - <https://gota7.github.io/Citric-Composer/>
+
 • SequenceConvert - <https://github.com/Gota7/SequenceConvert>
+
 • SDCafiine - <https://github.com/wiiu-env/sdcafiine_plugin>
+
 • Unmodified cafe_barista_men.bfsar file
+
 • Audio program for converting audio files to WAV format (Audacity works well)
 
 ---------------------------------------------------------------------------

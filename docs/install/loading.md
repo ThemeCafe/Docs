@@ -52,7 +52,7 @@ Currently there's two ways to load themes using aroma
 
     A screen like this will pop up
 
-    ![Image title](install3imgs/l1.png)
+    ![Image title](imgs/l1.png)
 
     Select your theme with the A button
 
@@ -125,10 +125,10 @@ Currently there's two ways to load themes using aroma
 
 ??? warning "Troubleshooting"
 
-    - If you're stuck on a black screen follow [Black Screen](../troubleshooting/troubleshooting.md#black-screen)
+    - If you're stuck on a black screen follow [Black Screen](../troubleshooting.md#black-screen)
 
-    - If your console freezes on the Wii U Menu loading screen follow [Freezing](../troubleshooting/troubleshooting.md#freezing)
+    - If your console freezes on the Wii U Menu loading screen follow [Freezing](../troubleshooting.md#freezing)
 
-    - If your theme didn't load and it's showing the stock one follow [Theme not loading](../troubleshooting/troubleshooting.md#theme-not-loading)
+    - If your theme didn't load and it's showing the stock one follow [Theme not loading](../troubleshooting.md#theme-not-loading)
 
-    - If the console is loading indefinitely, you can follow [Loading Indefinitely](../troubleshooting/troubleshooting.md#loading-indefinitely-stylemiiu-plugin)
+    - If the console is loading indefinitely, you can follow [Loading Indefinitely](../troubleshooting.md#loading-indefinitely-stylemiiu-plugin)

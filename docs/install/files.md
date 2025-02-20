@@ -70,11 +70,11 @@ First, we need to obtain the menu files, there's a few ways to do it
 
     Drag and drop your otp.bin into the Wii U Common Key Extractor
 
-    ![Image title](install1imgs/i1.png)
+    ![Image title](imgs/i1.png)
 
     Copy the Common Key
 
-    ![Image title](install1imgs/i2.png)
+    ![Image title](imgs/i2.png)
 
     ### **Setting up JNUSTool**
 
@@ -88,7 +88,7 @@ First, we need to obtain the menu files, there's a few ways to do it
     https://tagaya-wup.cdn.nintendo.net/tagaya/versionlist/EUR/EU/list/%d.versionlist
     ```
 
-    ![Image title](install1imgs/i3.png)
+    ![Image title](imgs/i3.png)
 
     ### **Running command**
     Make a command.bat file inside the JNUSTool folder and paste this
@@ -108,13 +108,13 @@ First, we need to obtain the menu files, there's a few ways to do it
 
     *Example with USA region*
 
-    ![Image title](install1imgs/i4.png)
+    ![Image title](imgs/i4.png)
 
     ### **Saving files**
 
     Go into "root/content/Common/Package" and download the **Men.pack** and **Men2.pack**
 
-    ![Image title](install1imgs/i5.png)
+    ![Image title](imgs/i5.png)
 
     Go into "root/content/Common/Sound/Men" and download **cafe_barista_men.bfsar**
 

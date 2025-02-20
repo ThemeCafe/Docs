@@ -62,7 +62,6 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
 extra_css:
-  - assets/css/styles.css
   - install/patching/rom-patcher-js/style.css
 not_in_nav: |
   md.md
@@ -75,47 +74,28 @@ nav:
     - Patching: install/patching.md
     - Loading Theme: install/loading.md
     - Fonts: install/fonts.md
-    - Troubleshooting: troubleshooting/troubleshooting.md
+    - Troubleshooting: troubleshooting.md
     - Credits: credits.md
   - Theme Creation:
       - themecreation/index.md
-      - Static: themecreation/static/tutorial.md
-        # - themecreation/static/index.md
-        # - Static: themecreation/static/tutorial.md
+      - Static:
+        - themecreation/themes/static/index.md
       - Animated:
-        - themecreation/animated/index.md
-        - Frame-based: themecreation/animated/Frame.md
-        - Scrolling: themecreation/animated/Scrolling.md
-      - Music: themecreation/music/music.md
-        # - themecreation/music/index.md
-        # - Music: themecreation/music/music.md
-      - Misc:
-        - Active Frame: themecreation/misc/activeframe.md
-        - Applets: themecreation/misc/applets.md
-        - Arrows: themecreation/misc/arrows.md
-        - Background: themecreation/misc/background.md
-        - Balloon: themecreation/misc/balloon.md
-        - Button Swap: themecreation/misc/swap.md
-        - Button Account Select: themecreation/misc/btnaccselect.md
-        - Floor: themecreation/misc/floor.md
-        - Folder Icon: themecreation/misc/foldericon.md
-        - Launcher Icon: themecreation/misc/launchericon.md
-        - Menu Icons: themecreation/misc/menuicons.md
-        - Network Icon: themecreation/misc/network.md
-        - Page Indicator: themecreation/misc/pageindicator.md
-        - Select Frame: themecreation/misc/selectframe.md
-        - Select User: themecreation/misc/selectuser.md
-        # - Select User: themecreation/misc/selectuser.md
-        - Usb Indicator: themecreation/misc/usbindicator.md
-        - Wii Remote Cursor: themecreation/misc/cursor.md
+        - themecreation/themes/animated/index.md
+        - Frame-based: themecreation/themes/animated/Frame.md
+        - Scrolling: themecreation/themes/animated/Scrolling.md
+      - Music: 
+        - themecreation/music/index.md
+      - Advanced:
+        - Launcher: themecreation/advanced/launcher.md
       - General Tutorials: 
         - Changing Colors: themecreation/general/colors.md 
         - Textures: themecreation/general/textures.md
         - Exporting / Replacing: themecreation/general/exportimport.md
-        - Splash Screen: themecreation/misc/splash.md
-        - Mix Themes: themecreation/misc/mixthemes.md
+        - Splash Screen: themecreation/general/splash.md
+        - Mix Themes: themecreation/general/mixthemes.md
 
-      - themecreation/patching2.md
+      - themecreation/sharing.md
 
       - Old tutorials:
         - themecreation/tutorials_old/index.md

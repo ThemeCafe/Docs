@@ -127,17 +127,17 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
 
 It should now look like this
 
-![Image title](install2imgs/p4.png)
+![Image title](imgs/p4.png)
 
 ??? failure "Having issues?"
 
-    - If you're getting a Source ROM checksum mismatch or a red "X", you can follow [Troubleshooting](../troubleshooting/troubleshooting.md#checksum-mismatch)
+    - If you're getting a Source ROM checksum mismatch or a red "X", you can follow [Troubleshooting](../troubleshooting.md#checksum-mismatch)
 
 Finally remove the `(Patched)` from the name
 
-![Image title](install2imgs/p5.png)
+![Image title](imgs/p5.png)
 
-![Image title](install2imgs/p6.png)
+![Image title](imgs/p6.png)
 
 Now do the same with the other files
 
