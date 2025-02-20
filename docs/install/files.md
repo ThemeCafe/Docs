@@ -5,14 +5,6 @@ hide:
 
 # Menu Files
 
-<style>
-@media only screen and (min-width: 60em) {
-  .md-content {
-    margin-right: 0;
-  }
-}
-</style>
-
 --------------
 
 First, we need to obtain the menu files, there's a few ways to do it
