@@ -2,9 +2,7 @@
 
 You can use custom fonts on your Wii U using [System Font Replacer](#system-font-replacer)
 
-!!! abstract
-
-    Credits to [Daniel K.O](https://github.com/dkosmari/) for the information in this page
+!!! abstract "Credits to [Daniel K.O](https://github.com/dkosmari/) for the information in this page"
 
 --------------
 
@@ -15,7 +13,7 @@ This is an Aroma plugin to safely temporarily replace the Wii U's system font.
 The perfect solution for completing your custom Wii U Menu theme, without having to modify
 anything in your NAND.
 
-!!! info
+!!! info ""
 
     **No system file is modified by this plugin. All changes are done in RAM only.**
 

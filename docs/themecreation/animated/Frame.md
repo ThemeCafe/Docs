@@ -85,6 +85,29 @@ This is needed so your animation can work as intended
 
     With the way this script works, only values divisible by 60 will work for the framerate.
 
+<style>
+button {
+    background-color: #009485;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif; 
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #df41fb;
+    transition: 0.1s;
+}
+
+button:active {
+    background-color: #bc60ff;
+}
+</style>
+
 <div>
     <form id="generate-form">
         <label for="framerate">Framerate (60,30,20,15,10,6,5):</label>

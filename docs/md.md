@@ -154,6 +154,12 @@ admonition with new title
 
     Hi
 
+admonition without description
+
+!!! abstract "admonition without description"
+
+!!! abstract "admonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without descriptionadmonition without description"
+
 collapsable
 
 ??? note

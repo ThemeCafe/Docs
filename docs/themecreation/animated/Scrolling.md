@@ -84,6 +84,29 @@ Use the following Scrolling Animation Generator tool
 - In `Amount of panels` set the amount of panels you are using (6 is default)
 - After you set your values click on `Generate Wait.json`
 
+<style>
+button {
+    background-color: #009485;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif; 
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #df41fb;
+    transition: 0.1s;
+}
+
+button:active {
+    background-color: #bc60ff;
+}
+</style>
+
 <div>
     <label for="seconds">Amount of seconds:</label>
     <input type="number" id="seconds" placeholder="Enter seconds">

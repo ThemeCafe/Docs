@@ -36,6 +36,47 @@ If you are in the Theme Café discord server
 
 3. Click Apply patch
 
+<style>
+body[data-md-color-scheme="slate"] #rom-patcher-container {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border: 1px solid #444444;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+body[data-md-color-scheme="slate"] #rom-patcher-container button {
+    color: #ffffff;
+    background-color: #009485;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+body[data-md-color-scheme="slate"] #rom-patcher-container label {
+    color: #ffffff;
+}
+
+body[data-md-color-scheme="slate"] #rom-patcher-container input[type="file"] {
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border: 1px solid #444444; 
+    padding: 0.5em; 
+    border-radius: 5px; 
+    outline: none; 
+    cursor: pointer; 
+}
+
+body[data-md-color-scheme="slate"] #rom-patcher-container input[type="file"]:hover {
+    background-color: #3a3a3a; 
+}
+
+body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+</style>
+
 <div id="rom-patcher-container">
     <div>
         <label for="rom-patcher-input-file-rom">Your original file here:</label>
