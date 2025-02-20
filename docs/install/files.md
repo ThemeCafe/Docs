@@ -48,9 +48,9 @@ First, we need to obtain the menu files, there's a few ways to do it
     10. Now we will do the same but with cafe_barista_men.bfsar, Go back and then navigate into Sound > Men
     11. Download cafe_barista_men.bfsar
 
-    ??? abstract "Credits"
+    ??? abstract "Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page"
 
-    Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page
+    
 
 === "***JNUSTool***"
 
