@@ -50,7 +50,7 @@ This is where the background image/animation is located
 
 Static
 
-![image](../themes/static/imgs/static/s1.jpg)
+![image](../themes/static/imgs/static/s1.jpg){ width="426" height="240" }
 
 [Static](../themes/static/index.md){ .md-button .md-button--primary }
 
@@ -58,7 +58,7 @@ Animated
 
 Frame-based
 
-<video controls>
+<video controls width="426" height="240">
 <source src="/themecreation/themes/animated/imgs/frame/vf.mp4" type="video/mp4">
 </video>
 
@@ -66,7 +66,7 @@ Frame-based
 
 Scrolling
 
-<video controls>
+<video controls width="426" height="240">
 <source src="/themecreation/themes/animated/imgs/scrolling/vs.mp4" type="video/mp4">
 </video>
 
