@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Patching
 
 --------------
@@ -9,9 +14,7 @@ You will need:
 - A patch file
     - It can be one of the following formats .ips, .bps, .ups, .ppf, .aps, .rup
 
-!!! warning
-
-    **Save your unmodified Men.pack, Men2.pack, cafe_barista_men.bfsar files somewhere so you dont need to get your files again**
+!!! info "For convenience, save your unmodified Men.pack, Men2.pack, cafe_barista_men.bfsar files somewhere so you dont need to get your files again"
 
 --------------
 
@@ -19,14 +22,9 @@ You will need:
 
 You can join the Theme Café [discord server](https://discord.com/invite/2DNvH9db2A) to check for new themes or go to the [Theme Café Wesbsite](https://perrohuevo.wixsite.com/theme-cafe)
 
-If you are in the Theme Café discord server
+??? question "Theme Café Website Info"
 
-- You can check for [Static Themes here](https://discord.com/channels/1195784055296381020/1226501319976816671)
-- You can check for [Animated Themes here](https://discord.com/channels/1195784055296381020/1233945865312538684)
-
-??? info "Theme Café Website Info"
-
-    The Theme Café website might not upload new themes very often, it's recommended to join the discord server
+    The Theme Café website might not upload new themes very often, it's recommended to join the [discord server](https://discord.com/invite/2DNvH9db2A)
 
 ### Applying patches
 
@@ -121,9 +119,7 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
     });
 </script>   
 
-??? abstract "Credits"
-
-    Credits to [Marcrobledo](https://www.marcrobledo.com/) for RomPatcher.js
+??? abstract "Credits to [Marcrobledo](https://www.marcrobledo.com/) for RomPatcher.js"
 
 It should now look like this
 

@@ -8,7 +8,7 @@
     
     The guides provided make use of [SDCafiine](https://github.com/wiiu-env/sdcafiine_plugin/releases) to load custom themes which **does not modify the Wii U System Files**, SDCafiine works by loading the files via the SD Card.
 
-[Get started here!](files.md){ .md-button .md-button--primary }
+[Click here to get started!](files.md){ .md-button .md-button--primary }
 
 --------------
 
@@ -25,6 +25,6 @@
 
 --------------
 
-!!! abstract "Credits"
+!!! abstract "Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page"
 
-    Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page
+    
