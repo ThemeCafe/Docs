@@ -64,13 +64,11 @@ Currently there's two ways to load themes using aroma
 
     This is an Aroma plugin to safely apply custom themes!
 
-    !!! info
-
-        **No system file is modified by this plugin.**
+    !!! info "**No system file is modified by this plugin.**"
 
     ### What you need
 
-    - [StyleMiiU-Plugin](https://github.com/Juanen100/StyleMiiU-Plugin/releases/tag/v0.3)
+    - [StyleMiiU-Plugin](https://github.com/Juanen100/StyleMiiU-Plugin/releases)
     - A patched Men.pack, Men2.pack or cafe_barista_men.bfsar
         - If you do not have a patched menu file, follow [Patching](patching.md)
 
@@ -79,30 +77,33 @@ Currently there's two ways to load themes using aroma
         If you happen to have installed an older version of this plugin, delete the previous `theme_manager.wps` and rename `sd:/wiiu/environments/aroma/plugins/config/theme_manager.json` to `style-mii-u.json`
 
     ### Installation
-    1. Download the `stylemiiu.wps` file and copy it to `SD:/wiiu/environments/aroma/plugins`.
 
-    - For StyleMiiU to load the files, you will need create the following folders: 
-        - Create a `themes` folder in your `wiiu` folder on your SD card.
-        - Inside the `themes` folder, create a folder with the name of your theme.
-        - Create a `content` folder inside your theme's name folder.
-        - Create a `Common` folder inside your `content` folder.
-        - Create a `Package` folder inside your `Common` folder.
-        - Place your modified `Men.pack` and `Men2.pack` files inside of the `Package` folder.
-        - Create a `Sound` folder inside your `Common` folder.
-        - Create a `Men` folder inside your `Sound` folder.
-        - Place your modified `cafe_barista_men.bfsar` file inside of the `Men` folder.
+    1. Copy the file `stylemiiu.wps` into `SD:/wiiu/environments/aroma/plugins`.
 
-    - Your final paths should be
-        - `sd:/wiiu/themes/[ThemeName]/content/Common/Package/Men.pack, Men2.pack`
-        - and
-        - `sd:/wiiu/themes/[ThemeName]/content/Common/Sound/Men/cafe_barista_men.bfsar`
+    2. Requires the [WiiUPluginLoaderBackend](https://github.com/wiiu-env/WiiUPluginLoaderBackend) and [ContentRedirectionModule](https://github.com/wiiu-env/ContentRedirectionModule) in `SD:/wiiu/environments/aroma/modules`.
 
     ### Usage
+
+    This plugin can detect Men.pack, Men2.pack and cafe_barista_men.bfsar automatically to make the theme have any folder structure you desire. SDCaffine's file structure is still compatible with this plugin. 
+
+    ??? info "Extra info"
+
+        ??? question "Custom Language Files"
+        
+            *Additional files like AllMessage.szs do still need to be on their corresponding folder structure, like this: `SD:/wiiu/themes/[ThemeName]/content/[TheLanguageToPatch]/Message/AllMessage.szs`*
+        
+        Usually themes will load from `SD:/wiiu/themes/` but, if it detects valid themes in the `SD:/wiiu/sdcafiine/` folder and `SD:/wiiu/themes/` folder doesn't exist, it will load the themes from the SDCafiine's folder. 
+    
+        !!! bug ""
+        
+            **However, it is recommended to move them to the `SD:/wiiu/themes/` folder to prevent issues between SDCafiine and StyleMiiU as it may cause issues when loading themes.**
 
     A step to step guide on how to use it:
 
     1. Open the WUPS menu (**L + ↓ + SELECT**) and enter the **StyleMiiU** menu. Make sure StyleMiiU is enabled, otherwise it won't do anything.
+
     2. Enter the **Available Themes** option and you should see the folders that are in `SD:/wiiu/themes/` (Or `SD:/wiiu/sdcafiine/` in case no themes folder exist), showing up empty if no theme is present. Once there, set whatever theme you want to Current Theme. If no theme it's set, the Wii U's default home menu will be loaded.
+
     3. Once you exit the WUPS menu, the Home Menu should restart and once it gets restarted, your Home Menu will now have the theme you chose applied to it.
 
     ??? question "Additional options"
@@ -131,4 +132,4 @@ Currently there's two ways to load themes using aroma
 
     - If your theme didn't load and it's showing the stock one follow [Theme not loading](../troubleshooting.md#theme-not-loading)
 
-    - If the console is loading indefinitely, you can follow [Loading Indefinitely](../troubleshooting.md#loading-indefinitely-stylemiiu-plugin)
+    - If the console is bootlooping on the "Wii U Menu" splash screen, you can follow [Wii U Menu Bootloop](../troubleshooting.md#wii-u-menu-bootloop)

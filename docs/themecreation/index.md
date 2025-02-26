@@ -1,5 +1,7 @@
 # Theme Creation
 
+!!! star "Special Thanks to Dewgong for creating the templates in these guides"
+
 If you want to create your own themes, you will find tutorials here for the type of theme you want to make
 
 !!! tip "Need help?"

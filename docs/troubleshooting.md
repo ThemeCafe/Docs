@@ -98,15 +98,19 @@ You can
 
 --------------
 
-## Loading Indefinitely (StyleMiiU-Plugin)
+## Wii U Menu Bootloop
 
-If your console is loading indefinitely, something is wrong with your Men.pack, Men2.pack files
+If your console is bootlooping in the "Wii U Menu" splash screen, something is wrong with your Men.pack, Men2.pack files
 
 You can
 
 - Patch the files again
 - Check the size of the file
 - If your console is EUR, check if the Theme is compatible with that region
+
+??? question "European Consoles"
+
+    European consoles have more language packs built onto the menu menaning the file size on themes needs to be smaller to work properly. This is more likely to happen with unoptimized or animated themes
 
 If it doesn't work and the console is still loading indefinitely you can try
 

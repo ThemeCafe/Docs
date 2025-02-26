@@ -7,7 +7,7 @@ theme:
   name: material
   icon:
     admonition:
-      note: fontawesome/solid/note-sticky
+      note: octicons/tag-16
       abstract: fontawesome/solid/book
       info: fontawesome/solid/circle-info
       tip: fontawesome/solid/bullhorn
@@ -63,6 +63,7 @@ markdown_extensions:
   - pymdownx.tilde
 extra_css:
   - install/patching/rom-patcher-js/style.css
+  - stylesheets/extra.css
 not_in_nav: |
   md.md
 
