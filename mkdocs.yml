@@ -66,6 +66,7 @@ extra_css:
   - stylesheets/extra.css
 not_in_nav: |
   md.md
+  themiify.md
 
 nav:
   - Home: index.md
