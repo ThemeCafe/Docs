@@ -67,6 +67,7 @@ extra_css:
 not_in_nav: |
   md.md
   themiify.md
+  themecreation/tutorials_old/bootsound.md
 
 nav:
   - Home: index.md
@@ -100,15 +101,18 @@ nav:
 
       - themecreation/sharing.md
 
-      - Old tutorials:
+      - Archived:
         - themecreation/tutorials_old/index.md
         - New Creator: themecreation/tutorials_old/newcreator.md
+        - Arrows: themecreation/tutorials_old/arrows.md
         - Floor: themecreation/tutorials_old/floor.md
         - Frame by frame: themecreation/tutorials_old/framebyframe.md
         - Layers: themecreation/tutorials_old/layers.md 
         - Music: themecreation/tutorials_old/music.md
         - Scrolling: themecreation/tutorials_old/scrolling.md
         - Static: themecreation/tutorials_old/static.md 
+        - Static to WWP: themecreation/tutorials_old/statictowwp.md
+        - Minimalist: themecreation/tutorials_old/minimalist.md
 
 extra:
   generator: false
