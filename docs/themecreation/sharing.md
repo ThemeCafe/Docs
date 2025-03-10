@@ -21,7 +21,7 @@ If you want to share your themes, first you'll need to make them into a patch
 1. Extract the zip files
 2. Open Flips.exe
 3. Click *"Create Patch"*
-4. Select your ORIGNAL UNMODIFIED file
+4. Select your ORIGINAL UNMODIFIED file
     - You might need to change the setting here and select *"All files (*.*)"*
 
     ![Image title](imgs/p3.png)
