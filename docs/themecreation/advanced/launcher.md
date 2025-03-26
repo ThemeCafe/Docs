@@ -179,11 +179,6 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
 
 `P_BtnSlideR`, `P_BtnSlideL`
 
-
-If you want to change colors, please add this to the textures list and use it
-
-![image](imgs/arrows/blackarrow.png)
-
 ??? note "Outside folders"
 
     Located in Men2.pack > BtnSlideLauncher.szs
