@@ -404,10 +404,6 @@ If you want to change the color of the blue glow
 
     Use a Notes app or a similar tool to record them. Your hex code(s) should be exactly 8 characters long. **This step is crucial for later on in the tutorial**, additionally, it ensures consistency across all four base files, especially if you’re creating a solid-colored cursor like the one in this tutorial, which is what most people go for.
 
-    ??? note "Tip for dummies" 
-
-        If you find colored hex codes online that are shorter than 8 characters (e.g. 6 characters), simply ask ChatGPT to convert them to 8 characters long.
-
     **Right Side Colors**:
 
     The colors on the right side of the cursor should **always** be **black or white**.
