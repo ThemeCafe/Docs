@@ -6,7 +6,9 @@ Scrolling, frame by frame, etc
 
 I'll be making base themes for each new animation styles, but for this tutorial we will be using **Scrolling animation**
 
-We  will be using this one as a base: (Missing)
+We  will be using this one as a base:
+
+- [Pretendo Huevo](base/scrolling/HuevoPretendoIPS_2.zip){ .md-button } 
 
 1. Open switch toolbox and go to **LoungeScaleMeter.bflyt**
 
