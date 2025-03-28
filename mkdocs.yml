@@ -68,6 +68,8 @@ not_in_nav: |
   md.md
   themiify.md
   themecreation/tutorials_old/bootsound.md
+  resources/index.md
+  resources/**/**.md
 
 nav:
   - Home: index.md
