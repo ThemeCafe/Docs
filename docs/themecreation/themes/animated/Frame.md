@@ -36,7 +36,7 @@ Open the patched template with [Switch Toolbox](https://github.com/KillzXGaming/
 
 - Go inside Common
 - Go inside Model
-- Right click `LoungueVR.szs`
+- Right-click `LoungueVR.szs`
 - Select *Export Raw Data*
 
     ![image](imgs/frame/f1.png)
@@ -77,7 +77,7 @@ Now that you replaced all the textures you need, you need to change the animatio
 
 ### Changing the Animation File
 
-This is needed so your animation can work as intended
+This step is required for your animation to work correctly
 
 - Set the framerate of your animation and the amount of frames it has
 

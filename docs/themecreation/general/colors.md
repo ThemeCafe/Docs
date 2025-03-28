@@ -1,6 +1,6 @@
 # Changing Colors
 
-After opening the bflyt file of what you want to change the material's colors
+After opening the bflyt file of what you want to change
 
 - Open the Materials folder
 - Select the Material you want to change the color of

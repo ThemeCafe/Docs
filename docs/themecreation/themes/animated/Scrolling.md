@@ -34,7 +34,7 @@ Open the patched template with [Switch Toolbox](https://github.com/KillzXGaming/
 
         1280x720 or less, anything higher is more likely to crash on console
 
-    - Right click the texture you are going to replace
+    - Right-click the texture you are going to replace
     - Click Replace
     - Select your image
 

@@ -16,7 +16,7 @@ We will be working with this template
 
 [Download template (Music)](templates/cafe_barista_men%20(MII%20SFX).bps){ .md-button .md-button--primary }
 
-???+ info "Music Lenght"
+???+ info "Music Length"
 
     With this template you will be able to make custom music up to 1:55 at 32000khz Stereo before the file is too large to work with
 
@@ -30,7 +30,7 @@ We will be working with this template
 
         ??? info "My music is still longer than 2:26"
 
-            If you want to make longer music you can export your music it at a lower sample rate and use Mono instead of Stereo, what matters is that the size of the file is not too large
+            If you want to make longer music you can export your music at a lower sample rate and use Mono instead of Stereo, what matters is that the size of the file is not too large
 
 Apply the patch to a copy of your `cafe_barista_men.bfsar` file ([Patching](../../install/patching.md)) and come back here when you're done
 
@@ -65,7 +65,7 @@ The best settings are
 
     ![image](imgs/m2.png)
 
-- Click file on the top left corner
+- Click file in the top left corner
 - Click Save
 
 You can now close this window
@@ -130,16 +130,16 @@ SMF_Barista_Main_TV_End:
 You need to change the highlighted line **19**: `fn5 120, 1000`
 
 - *120* is the volume
-- *1000* is the music lenght
+- *1000* is the music length
 
-To calculate and update the music lenght value in order to match the length of your song you will want to take the number of seconds your song is and multiply that value with 192.
+To calculate and update the music length value in order to match the length of your song you will want to take the number of seconds your song is and multiply that value with 192.
 
 ??? example
 
     - A 1:55 song has 115 seconds
     - Multiply `115 x 192`
     - The result is `22080`
-    - In this example the music lenght value would be changed to `fn5 120, 22080`
+    - In this example the music length value would be changed to `fn5 120, 22080`
 
 - Now save your changes
 
@@ -177,16 +177,16 @@ Now open `BGM_MEN_DRC_MAIN.fseq` with the text editor of your choice, the proces
     You need to change the highlighted line **19**: `fn5 120, 1000`
 
     - *120* is the volume
-    - *1000* is the music lenght
+    - *1000* is the music length
 
-    To calculate and update the music lenght value in order to match the length of your song you will want to take the number of seconds your song is and multiply that value with 192.
+    To calculate and update the music length value in order to match the length of your song you will want to take the number of seconds your song is and multiply that value with 192.
 
     ??? example
 
         - A 1:55 song has 115 seconds
         - Multiply `115 x 192`
         - The result is `22080`
-        - In this example the music lenght value would be changed to `fn5 120, 22080`
+        - In this example the music length value would be changed to `fn5 120, 22080`
 
     - Now save your changes
 
@@ -207,7 +207,7 @@ Go back to Citric Composer
 - Right click `[372] BGM_MEN_DRC_MAIN`
 - Click `Replace`
 - Replace with the `BGM_MEN_DRC_MAIN.bfseq` you just converted
-- Click `File` on the top left corner
+- Click `File` in the top left corner
 - Save
 
 !!! success

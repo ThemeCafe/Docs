@@ -19,7 +19,7 @@ After opening the bflyt file of what you want to change the material's colors
 
 !!! failure "Don't delete textures"
 
-    This will cause issues, and will problably corrupt your theme
+    This will cause issues, and will probably corrupt your theme
 
 ## Change a Material's texture
 
