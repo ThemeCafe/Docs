@@ -59,7 +59,7 @@ Animated
 Frame-based
 
 <video controls width="426" height="240">
-<source src="/themecreation/themes/animated/imgs/frame/vf.mp4" type="video/mp4">
+<source src="../../themes/animated/imgs/frame/vf.mp4" type="video/mp4">
 </video>
 
 [Frame-based](../themes/animated/Frame.md){ .md-button .md-button--primary }
@@ -67,7 +67,7 @@ Frame-based
 Scrolling
 
 <video controls width="426" height="240">
-<source src="/themecreation/themes/animated/imgs/scrolling/vs.mp4" type="video/mp4">
+<source src="../../themes/animated/imgs/scrolling/vs.mp4" type="video/mp4">
 </video>
 
 [Scrolling](../themes/animated/Scrolling.md){ .md-button .md-button--primary }
