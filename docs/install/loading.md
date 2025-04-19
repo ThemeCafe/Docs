@@ -56,7 +56,7 @@ Currently there's two ways to load themes using aroma
 
     Select your theme with the A button
 
-    !!! abstract "Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page"
+    !!! abstract "Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for the information in this section"
 
 === "StyleMiiU-Plugin"
 

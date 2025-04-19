@@ -119,7 +119,7 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
     });
 </script>   
 
-??? abstract "Credits to [Marcrobledo](https://www.marcrobledo.com/) for RomPatcher.js"
+!!! abstract "Credits to [Marcrobledo](https://www.marcrobledo.com/) for RomPatcher.js"
 
 It should now look like this
 
