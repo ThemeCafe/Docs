@@ -41,6 +41,7 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: purple
+  favicon: assets/favicon.png
 markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
