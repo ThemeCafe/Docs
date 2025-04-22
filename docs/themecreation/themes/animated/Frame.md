@@ -26,7 +26,7 @@ If you want to follow the old guide go to [Frame by frame](../../tutorials_old/f
 
 We will be working with this template
 
-[Download Template (Frame-based)](templates/frame/Men2.bps){ .md-button .md-button--primary }
+[:fontawesome-solid-download: Download Template (Frame-based)](templates/frame/Men2.bps){ .md-button .md-button--primary }
 
 Apply the patch to a copy of your `Men2.pack` file ([Patching](../../../install/patching.md)) and come back here when you're done
 

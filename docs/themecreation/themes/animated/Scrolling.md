@@ -14,7 +14,7 @@ This is a Scrolling Animated Theme
 
 We will be working with this template
 
-[Download template (Scrolling)](templates/scrolling/Men2.bps){ .md-button .md-button--primary }
+[:fontawesome-solid-download: Download template (Scrolling)](templates/scrolling/Men2.bps){ .md-button .md-button--primary }
 
 Apply the patch to a copy of your `Men2.pack` file ([Patching](../../../install/patching.md)) and come back here when you're done
 

@@ -13,7 +13,7 @@
 
 We will be working with this template
 
-[Download template (Music)](templates/cafe_barista_men%20(MII%20SFX).bps){ .md-button .md-button--primary }
+[:fontawesome-solid-download: Download template (Music)](templates/cafe_barista_men%20(MII%20SFX).bps){ .md-button .md-button--primary }
 
 ???+ info "Music Length"
 
@@ -23,7 +23,7 @@ We will be working with this template
 
         You can also use the following template
 
-        [Download template (Music Without MII SFX)](templates/cafe_barista_men%20(NO%20MII%20SFX).bps){ .md-button .md-button--primary }
+        [:fontawesome-solid-download: Download template (Music Without MII SFX)](templates/cafe_barista_men%20(NO%20MII%20SFX).bps){ .md-button .md-button--primary }
 
         This template does not contain Mii SFX and will get you about 2:26 at 32000khz Stereo
 

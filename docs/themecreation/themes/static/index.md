@@ -18,7 +18,7 @@ If you want to follow the previous method and also hide the wara wara plaza go t
 
 We will be working with this template
 
-[Download template (Static)](templates/static/Men2.bps){ .md-button .md-button--primary }
+[:fontawesome-solid-download: Download template (Static)](templates/static/Men2.bps){ .md-button .md-button--primary }
 
 Apply the patch to a copy of your `Men2.pack` file ([Patching](../../../install/patching.md)) and come back here when you're done
 
