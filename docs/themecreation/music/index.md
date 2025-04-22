@@ -80,7 +80,6 @@ You can now close this window
 !!! bug "If you are having issues"
 
     - If the console freezes before loading the Wii U menu follow [Freezing](../../troubleshooting.md#freezing)
-    - If the song is not looping properly follow [Looping](#looping)
 
 ??? tip "Archived"
 
