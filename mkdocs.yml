@@ -3,7 +3,7 @@ theme:
   static_templates:
     - 404.html
   custom_dir: docs/material
-  logo: assets/logo/cafe.png
+  logo: assets/logo/outline.png
   name: material
   icon:
     admonition:
@@ -41,7 +41,7 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: purple
-  favicon: assets/favicon.png
+  favicon: assets/favicon2.png
 markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true

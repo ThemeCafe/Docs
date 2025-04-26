@@ -8,6 +8,8 @@ This file was automatically generated - do not edit
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/aos.css" />
+    <script src="javascripts/aos.js"></script>
     <title>Theme Café</title>
     <style>
         .first-gradient-body {
@@ -27,6 +29,19 @@ This file was automatically generated - do not edit
             font-size: 1.25rem;
             color: #000000;
             margin: 0 0 2rem 0;
+        }
+
+        .second-gradient-body {
+            background: linear-gradient(180deg, #08fcfc, #089484);
+            color: #fff;
+            padding: 3rem 0;
+        }
+
+        .second-gradient-body h1 {
+            font-size: 1.5rem;
+            color: #000000;
+            margin: 0 0 1rem 0;
+            text-align: center;
         }
 
         .logo {
@@ -60,9 +75,82 @@ This file was automatically generated - do not edit
             background-color: #333;
         }
 
-        .btn-secondary {
+        .btn-creation {
             background-color: #02c4ff;
             font-size: 30px;
+        }
+
+        .card {
+            padding: 20px;
+            background: #ffffff;
+            background: linear-gradient(#20242c, #10323c);
+            border-radius: 20px;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px 30px;
+        }
+
+        .ss:hover {
+            transform: scale(1.005);
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .screenshots {
+            margin: 10px 0;
+            display: flex;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+
+        .screenshots .container {
+            display: flex;
+        }
+
+
+        @media (prefers-reduced-motion: no-preference) {
+            div.screenshots div.container {
+                animation: screenshots-scroll infinite 50s linear;
+            }
+        }
+
+        div.screenshots div.container img {
+            display: block;
+            width: 500px;
+        }
+
+        @keyframes screenshots-scroll {
+            0% {
+                transform: translateX(0px);
+            }
+
+            100% {
+                transform: translateX(-5000px);
+            }
+        }
+
+        @keyframes screenshots-scroll-medium {
+            0% {
+                transform: translateX(0px);
+            }
+
+            100% {
+                transform: translateX(-2500px);
+            }
+        }
+
+        @media screen and (max-width: 1400px) {
+            @media (prefers-reduced-motion: no-preference) {
+                div.screenshots div.container {
+                    animation: screenshots-scroll-medium infinite 50s linear;
+                }
+            }
+
+            div.screenshots div.container img {
+                width: 250px;
+            }
         }
     </style>
 </head>
@@ -72,11 +160,58 @@ This file was automatically generated - do not edit
     <section class="first-gradient-body">
         <h1>Theme Café Docs</h1>
         <p>Bring more life to your Wii U with Custom Themes</p>
-        <img src="assets/logo/cafe.png" alt="Theme Café Logo" class="logo">
-        <button class="btn btn-secondary" onclick="location.href='./themecreation/'"><b>Create Themes</b></button>
+        <img src="assets/logo/outline.png" alt="Theme Café Logo" class="logo">
+        <div data-aos="fade-up">
+            <section class="card">
+                <div class="screenshots">
+                    <div class="container">
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1249100140665639044"
+                                tabindex="-1"><img src="assets/ss1.png"></div></a>
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1264809013279719476"
+                                tabindex="-1"><img src="assets/ss2.png"></div></a>
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1321596400873508925"
+                                tabindex="-1"><img src="assets/ss3.png"></div></a>
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1313673412643651654"
+                                tabindex="-1"><img src="assets/ss4.png"></div></a>
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1304683704945213471"
+                                tabindex="-1"><img src="assets/ss5.png"></div></a>
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1322741398335787120"
+                                tabindex="-1"><img src="assets/ss6.png"></div></a>
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1312866432719126599"
+                                tabindex="-1"><img src="assets/ss7.png"></div></a>
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1361320807095341097"
+                                tabindex="-1"><img src="assets/ss8.png"></div></a>
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1325061449369915402"
+                                tabindex="-1"><img src="assets/ss9.png"></div></a>
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1342398056729018388"
+                                tabindex="-1"><img src="assets/ss10.png"></div></a>
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1249100140665639044"
+                                tabindex="-1"><img src="assets/ss1.png"></div></a>
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1264809013279719476"
+                                tabindex="-1"><img src="assets/ss2.png"></div></a>
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1321596400873508925"
+                                tabindex="-1"><img src="assets/ss3.png"></div></a>
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1313673412643651654"
+                                tabindex="-1"><img src="assets/ss4.png"></div></a>
+                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1304683704945213471"
+                                tabindex="-1"><img src="assets/ss5.png"></div></a>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
         <br>
-        <button class="btn btn-dark" onclick="location.href='./install/'"><b>Install</b></button>
+        <div data-aos="fade-up">
+            <button class="btn btn-creation" onclick="location.href='./themecreation/'"><b>Create Themes</b></button>
+            <br>
+            <button class="btn btn-dark" onclick="location.href='./install/'"><b>Install</b></button>
+        </div>
     </section>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 <style>
@@ -92,10 +227,10 @@ This file was automatically generated - do not edit
         display: none;
     }
 
-    @media screen and (min-width: 60em) {
+    @media screen and (min-width: 76.25em) {
         .md-main {
-        display: none;
-    }
+            display: none;
+        }
     }
 
     @media screen and (min-width: 60em) {
@@ -112,4 +247,3 @@ This file was automatically generated - do not edit
 </style>
 {% endblock %}
 {% block content %}{% endblock %}
-{% block footer %}{% endblock %}
