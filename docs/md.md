@@ -76,7 +76,7 @@ lists
 
 images
 
-![image](logo.jpg)
+![image](assets/logo/cafe.png)
 
 code `code`
 
@@ -299,7 +299,7 @@ keyboard keys
 
 -   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
 
-    ![image](logo.jpg)
+    ![image](assets/logo/cafe.png)
 
     ---
 
