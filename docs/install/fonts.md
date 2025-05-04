@@ -55,7 +55,11 @@ them in `SD:/wiiu/fonts/`; that's the default location the plugin looks for font
 
 4. Exit the plugin menu.
 
-5. Reboot your Wii U.
+5. Reload the Wii U Menu
+
+!!! info ""
+
+    You can reload the Wii U Menu by launching a game/app and returning to the Wii U menu or by rebooting the console
 
 !!! success
 
@@ -95,7 +99,7 @@ Not every game/app has good a font rendering implementation. Some cannot handle 
 #### Large font files
 
 Aroma plugins have very limited amount of memory to use. If the font file is too large, it
-might use too much memory, and other plugins might stop working. Fonts up to 2.5 MiB in
+might use too much memory, and other plugins might stop working. Fonts up to 12.5 MiB in
 size seem to work fine; larger fonts have not been tested.
 
 #### Missing symbols

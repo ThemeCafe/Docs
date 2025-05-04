@@ -1,7 +1,5 @@
 site_name: Theme Café
 theme:
-  static_templates:
-    - 404.html
   custom_dir: docs/material
   logo: assets/logo/outline.png
   name: material
@@ -83,7 +81,6 @@ nav:
     - Patching: install/patching.md
     - Loading Theme: install/loading.md
     - Fonts: install/fonts.md
-    - Troubleshooting: troubleshooting.md
     - Credits: credits.md
   - Theme Creation:
       - themecreation/index.md
@@ -119,6 +116,7 @@ nav:
         - Static: themecreation/tutorials_old/static.md 
         - Static to WWP: themecreation/tutorials_old/statictowwp.md
         - Minimalist: themecreation/tutorials_old/minimalist.md
+  - Troubleshooting: troubleshooting.md
 
 extra:
   generator: false

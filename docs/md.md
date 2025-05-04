@@ -2,6 +2,7 @@
 hide:
   - navigation
   - toc
+comments: true
 ---
 
 # Heading level 1
@@ -76,7 +77,7 @@ lists
 
 images
 
-![image](assets/logo/cafe.png)
+![image](assets/logo/cafe.png){width=300}
 
 code `code`
 
@@ -332,4 +333,67 @@ keyboard keys
 
     [:octicons-arrow-right-24: License](#)
 
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
 </div>
+
+a
+
+!!! quote ""
+
+    ![Image title](https://dummyimage.com/960x540/f5f5f5/aaaaaa?text=–%20Image%20–){ align=right width=500 }
+
+    # Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+    [this is a primary button](#){ .md-button .md-button--primary }
+
+<div class="scroll-container">
+  <img src="../assets/ss2.webp" width="500">
+  <img src="../assets/ss4.webp" width="500">
+  <img src="../assets/ss6.webp" width="500">
+  <img src="../assets/ss8.webp" width="500">
+  <img src="../assets/ss10.webp" width="500">
+</div> 
+
+<style>
+div.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+  height 200px
+}
+
+.md-grid {
+  margin-left:auto;
+  margin-right:auto;
+  max-width:100rem
+}
+</style>
