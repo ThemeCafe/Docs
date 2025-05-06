@@ -63,7 +63,7 @@ If you want to change the Scrolling Speed of your theme you need to follow a few
 
 ### What you need
 
-- [TrackStudio](https://github.com/MapStudioProject/Track-Studio/releases)
+- [TrackStudio](https://mapstudioproject.github.io/TrackStudioDocs/setup/Setup.html)
 
 Open your scrolling theme with [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases/tag/Final)
 
@@ -133,7 +133,7 @@ This will generate a `Wait.json` file
 
     If you are using 6 panels, you don't need to worry about this
 
-Open `LoungueVR.szs` with [TrackStudio](https://github.com/MapStudioProject/Track-Studio/releases)
+Open `LoungueVR.szs` with [TrackStudio](https://mapstudioproject.github.io/TrackStudioDocs/setup/Setup.html)
 
 - Double click `gsys.bfres`
 - Go inside Animations

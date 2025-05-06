@@ -15,7 +15,7 @@ If you want to follow the old guide go to [Frame by frame](../../tutorials_old/f
 ## What you need.
 
 - [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases/tag/Final)
-- [TrackStudio](https://github.com/MapStudioProject/Track-Studio/releases)
+- [TrackStudio](https://mapstudioproject.github.io/TrackStudioDocs/setup/Setup.html)
 - An animation with less than 38 frames
 
     ??? info "About more frames"
@@ -47,7 +47,7 @@ You can close Switch Toolbox for now
 
 ### Replacing Textures
 
-Open `LoungueVR.szs` with [TrackStudio](https://github.com/MapStudioProject/Track-Studio/releases)
+Open `LoungueVR.szs` with [TrackStudio](https://mapstudioproject.github.io/TrackStudioDocs/setup/Setup.html)
 
 - Double click `gsys.bfres`
 - Go inside Textures
