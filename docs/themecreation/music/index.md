@@ -17,7 +17,7 @@ We will be working with this template
 
 ???+ info "Music Length"
 
-    With this template you will be able to make custom music up to 1:55 at 32000khz Stereo before the file is too large to work with
+    With this template you will be able to make custom music up to 1:55 at 3200 Hz Stereo before the file is too large to work with
 
     ??? info "I want to make longer music"
 
@@ -25,7 +25,7 @@ We will be working with this template
 
         [:fontawesome-solid-download: Download template (Music Without MII SFX)](templates/cafe_barista_men%20(NO%20MII%20SFX).bps){ .md-button .md-button--primary }
 
-        This template does not contain Mii SFX and will get you about 2:26 at 32000khz Stereo
+        This template does not contain Mii SFX and will get you about 2:26 at 32000 Hz Stereo
 
         ??? info "My music is still longer than 2:26"
 
@@ -39,7 +39,7 @@ Use the program of your choice to export your music as a `.WAV` file
 
 The best settings are
 
-- Sample Rate: 32000 kHz
+- Sample Rate: 32000 Hz
 - Channels: Stereo
 - Encoding: Signed 16-bit PCM
 
@@ -102,17 +102,17 @@ Tips by yeetyeeter456
 
     Ok, let us begin
 
-    - If you need a feature rich and free option for converting files to .wav, shortening files, or changing khz, Audacity works very well.
+    - If you need a feature rich and free option for converting files to .wav, shortening files, or changing Hz, Audacity works very well.
 
-    - Before starting to make something, ALWAYS check the file in Audacity (or another audio tool) to make sure its in stereo and the khz aren't too high. This is just a good routine to get into so that you make sure you never waste your time. 
+    - Before starting to make something, ALWAYS check the file in Audacity (or another audio tool) to make sure its in stereo and the Hz aren't too high. This is just a good routine to get into so that you make sure you never waste your time. 
 
     - Keep a backup of your patched .bfsar file and just copy it when you want to make a new song. This way you won't have to patch it every time.
 
     -  Have a place to put your finished music that way you always know where they are.  
 
-    - If you have a fairly short song, convert it into higher khz to make it sound better. If it doesn't work you can always lower the khz again. 
+    - If you have a fairly short song, convert it into higher Hz to make it sound better. If it doesn't work you can always lower the Hz again. 
 
-    - If you have a fairly long song, convert it into lower khz to fit the whole thing. This is how I was able to fit the entire 4 minute song for my upside down theme. 
+    - If you have a fairly long song, convert it into lower Hz to fit the whole thing. This is how I was able to fit the entire 4 minute song for my upside down theme. 
 
     - Keep websites like: https://www.marcrobledo.com/RomPatcher.js/ saved somewhere for easy access
 
