@@ -8,13 +8,13 @@ WIP
 
 ### 1. Floor
 
-![Image title](../themes/static/imgs/static/s4.png){ width="426" height="240" }
+![Image title](../themes/imgs/template/s5.png){ width="426" height="240" }
 
 `Men2.pack` > `Model` > `LoungeFloor.szs`
 
 This is where the floor model is located
 
-You can change the [Texture](../general/textures.md) of this by [replacing](../general/exportimport.md#replace) the texture `Floor_Alb`
+[Floor Guide](../themes/template.md#floor){ .md-button .md-button--primary }
 
 ----------------------
 

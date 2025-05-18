@@ -84,12 +84,9 @@ nav:
     - Credits: credits.md
   - Theme Creation:
       - themecreation/index.md
-      - Static:
-        - themecreation/themes/static/index.md
-      - Animated:
-        - themecreation/themes/animated/index.md
-        - Frame-based: themecreation/themes/animated/Frame.md
-        - Scrolling: themecreation/themes/animated/Scrolling.md
+      - Theme:
+        - Template: themecreation/themes/template.md
+        - Animations: themecreation/themes/anim.md
       - Music: 
         - themecreation/music/index.md
       - Advanced:

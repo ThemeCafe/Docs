@@ -48,30 +48,15 @@
 
 This is where the background image/animation is located
 
-Static
+![image](../themes/imgs/template/1.png){ width="426" height="240" }
 
-![image](../themes/static/imgs/static/s1.jpg){ width="426" height="240" }
-
-[Static](../themes/static/index.md){ .md-button .md-button--primary }
-
-Animated
-
-Frame-based
+[Template Guide](../themes/template.md){ .md-button .md-button--primary }
 
 <video controls width="426" height="240">
-<source src="../../themes/animated/imgs/frame/vf.mp4" type="video/mp4">
+<source src="../../themes/imgs/frame/vf.mp4" type="video/mp4">
 </video>
 
-[Frame-based](../themes/animated/Frame.md){ .md-button .md-button--primary }
-
-Scrolling
-
-<video controls width="426" height="240">
-<source src="../../themes/animated/imgs/scrolling/vs.mp4" type="video/mp4">
-</video>
-
-[Scrolling](../themes/animated/Scrolling.md){ .md-button .md-button--primary }
-
+[Animations Guide](../themes/anim.md){ .md-button .md-button--primary }
 
 ??? info "Info"
 
