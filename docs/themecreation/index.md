@@ -10,7 +10,7 @@ If you want to create your own themes, you will find tutorials here for the type
 
 ------------------------------
 
-***Template Guide***: You can start making themes with a themplate! [Teplate](themes/template.md) , or add animations to it with [Animations](themes/anim.md) 
+***Template Guide***: You can start making themes with a template! [Template](themes/template.md) , or add animations to it with [Animations](themes/anim.md) 
 
 ***Custom Music Guide***: If you want to create custom music for your theme, follow [Music](music/index.md)
 
