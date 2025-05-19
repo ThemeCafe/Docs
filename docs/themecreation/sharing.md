@@ -20,9 +20,9 @@ If you want to share your themes, first you'll need to make them into a patch
 
 1. Extract the zip files
 2. Open Flips.exe
-3. Click *"Create Patch"*
+3. Click `Create Patch`
 4. Select your ORIGINAL UNMODIFIED file
-    - You might need to change the setting here and select *"All files (*.*)"*
+    - You might need to change the setting here and select `All files (*.*)`
 
     ![Image title](imgs/p3.png)
 
@@ -44,21 +44,21 @@ If you want to share your themes, first you'll need to make them into a patch
 
     ??? note "Tutorial"
 
-        ## ***Rompatcher.js***
+        ***Rompatcher.js***
 
-        ### What you need
+        *What you need*
 
         1. Your ORIGINAL UNMODIFIED menu files
         2. Your modified file
 
-        ### Guide
+        Guide
 
         1. Go to [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
         2. Click on creator mode
             ![Image title](imgs/p1.png)
             ![Image title](imgs/p2.png)
 
-        3. In Original ROM select your ORIGNAL UNMODIFIED file
+        3. In Original ROM select your ORIGINAL UNMODIFIED file
         4. In Modified ROM select your modified file
         5. Click on Create Patch
 
