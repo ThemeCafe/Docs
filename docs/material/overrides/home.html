@@ -4,218 +4,108 @@ This file was automatically generated - do not edit
 {% extends "main.html" %}
 {% block tabs %}
 {{ super() }}
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheets/aos.css" />
-    <script src="javascripts/aos.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <title>Theme Café</title>
-    <style>
-        .first-gradient-body {
-            background: linear-gradient(0deg, #08fcfc, #089484);
-            color: #fff;
-            padding: 3rem 0;
-            text-align: center;
-        }
-
-        .first-gradient-body h1 {
-            font-size: 3rem;
-            color: #000000;
-            margin: 0 0 1rem 0;
-        }
-
-        .first-gradient-body p {
-            font-size: 1.25rem;
-            color: #000000;
-            margin: 0 0 2rem 0;
-        }
-
-        .second-gradient-body {
-            background: linear-gradient(180deg, #08fcfc, #089484);
-            color: #fff;
-            padding: 3rem 0;
-        }
-
-        .second-gradient-body h1 {
-            font-size: 1.5rem;
-            color: #000000;
-            margin: 0 0 1rem 0;
-            text-align: center;
-        }
-
-        .logo {
-            max-width: 15rem;
-            margin: 0 auto 2rem auto;
-            display: block;
-            width: 100%;
-            height: auto;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 0.75rem 1.5rem;
-            font-size: 1rem;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            margin: 0.5rem;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.);
-            transition: all 0.3s ease;
-        }
-
-        .btn:hover {
-            transform: scale(1.1);
-            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
-            transition: 0.3s;
-        }
-
-        .btn-dark {
-            background-color: #333;
-        }
-
-        .btn-creation {
-            background-color: #02c4ff;
-            font-size: 30px;
-        }
-
-        .card {
-            padding: 20px;
-            background: #ffffff;
-            background: linear-gradient(#20242c, #10323c);
-            border-radius: 20px;
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 30px 30px;
-        }
-
-        .ss:hover {
-            transform: scale(1.005);
-            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
-            transition: 0.3s;
-            cursor: pointer;
-        }
-
-        .screenshots {
-            margin: 10px 0;
-            display: flex;
-            overflow: hidden;
-            border-radius: 20px;
-        }
-
-        .screenshots .container {
-            display: flex;
-        }
-
-
-        @media (prefers-reduced-motion: no-preference) {
-            div.screenshots div.container {
-                animation: screenshots-scroll infinite 50s linear;
-            }
-        }
-
-        div.screenshots div.container img {
-            display: block;
-            width: 500px;
-        }
-
-        @keyframes screenshots-scroll {
-            0% {
-                transform: translateX(0px);
-            }
-
-            100% {
-                transform: translateX(-5000px);
-            }
-        }
-
-        @keyframes screenshots-scroll-medium {
-            0% {
-                transform: translateX(0px);
-            }
-
-            100% {
-                transform: translateX(-2500px);
-            }
-        }
-
-        @media screen and (max-width: 1400px) {
-            @media (prefers-reduced-motion: no-preference) {
-                div.screenshots div.container {
-                    animation: screenshots-scroll-medium infinite 50s linear;
-                }
-            }
-
-            div.screenshots div.container img {
-                width: 250px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="material/overrides/stylesheets/main.css">
 </head>
-
 <body>
     <!-- Hero Section -->
     <section class="first-gradient-body">
-        <h1>Theme Café Docs</h1>
-        <p>Bring more life to your Wii U with Custom Themes</p>
-        <img src="assets/logo/outline.png" alt="Theme Café Logo" class="logo">
-        <div data-aos="fade-up">
-            <section class="card">
-                <div class="screenshots">
-                    <div class="container">
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1249100140665639044"
-                                tabindex="-1"><img src="assets/ss1.webp"></div></a>
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1264809013279719476"
-                                tabindex="-1"><img src="assets/ss2.webp"></div></a>
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1321596400873508925"
-                                tabindex="-1"><img src="assets/ss3.webp"></div></a>
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1313673412643651654"
-                                tabindex="-1"><img src="assets/ss4.webp"></div></a>
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1304683704945213471"
-                                tabindex="-1"><img src="assets/ss5.webp"></div></a>
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1322741398335787120"
-                                tabindex="-1"><img src="assets/ss6.webp"></div></a>
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1312866432719126599"
-                                tabindex="-1"><img src="assets/ss7.webp"></div></a>
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1361320807095341097"
-                                tabindex="-1"><img src="assets/ss8.webp"></div></a>
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1325061449369915402"
-                                tabindex="-1"><img src="assets/ss9.webp"></div></a>
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1342398056729018388"
-                                tabindex="-1"><img src="assets/ss10.webp"></div></a>
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1249100140665639044"
-                                tabindex="-1"><img src="assets/ss1.webp"></div></a>
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1264809013279719476"
-                                tabindex="-1"><img src="assets/ss2.webp"></div></a>
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1321596400873508925"
-                                tabindex="-1"><img src="assets/ss3.webp"></div></a>
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1313673412643651654"
-                                tabindex="-1"><img src="assets/ss4.webp"></div></a>
-                        <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1304683704945213471"
-                                tabindex="-1"><img src="assets/ss5.webp"></div></a>
+        <div class="main-content">
+            <div class="bg-pattern">
+                <div class="banner-wrapper">
+                    <div class="head-banner">
+                        <div class="head-text">
+                            <h1>Theme Café Docs</h1>
+                            <p>Resources for Creating & Installing Wii U Menu Themes</p>
+                        </div>
+                        <img src="assets/logo/favicon.svg" alt="Theme Café Logo" class="logo">
                     </div>
-
                 </div>
-            </section>
+                <div data-aos="fade-up">
+                    <div class="card-wrapper">
+                        <section class="card">
+                            <div class="screenshots">
+                                <div class="container">
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1249100140665639044"
+                                        tabindex="-1"><img src="assets/scroll/ss1.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1264809013279719476"
+                                        tabindex="-1"><img src="assets/scroll/ss2.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1321596400873508925"
+                                        tabindex="-1"><img src="assets/scroll/ss3.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1313673412643651654"
+                                        tabindex="-1"><img src="assets/scroll/ss4.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1304683704945213471"
+                                        tabindex="-1"><img src="assets/scroll/ss5.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1322741398335787120"
+                                        tabindex="-1"><img src="assets/scroll/ss6.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1312866432719126599"
+                                        tabindex="-1"><img src="assets/scroll/ss7.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1361320807095341097"
+                                        tabindex="-1"><img src="assets/scroll/ss8.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1325061449369915402"
+                                        tabindex="-1"><img src="assets/scroll/ss9.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1342398056729018388"
+                                        tabindex="-1"><img src="assets/scroll/ss10.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1249100140665639044"
+                                        tabindex="-1"><img src="assets/scroll/ss1.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1264809013279719476"
+                                        tabindex="-1"><img src="assets/scroll/ss2.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1321596400873508925"
+                                        tabindex="-1"><img src="assets/scroll/ss3.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1313673412643651654"
+                                        tabindex="-1"><img src="assets/scroll/ss4.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1304683704945213471"
+                                        tabindex="-1"><img src="assets/scroll/ss5.webp"></div>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1322741398335787120"
+                                        tabindex="-1"><img src="assets/scroll/ss6.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1312866432719126599"
+                                        tabindex="-1"><img src="assets/scroll/ss7.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1361320807095341097"
+                                        tabindex="-1"><img src="assets/scroll/ss8.webp"></div>
+                                    </a>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1325061449369915402"
+                                        tabindex="-1"><img src="assets/scroll/ss9.webp"></div>
+                                    <div class="ss"><a href="https://discord.com/channels/1195784055296381020/1342398056729018388"
+                                        tabindex="-1"><img src="assets/scroll/ss10.webp"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <br>
-        <div data-aos="fade-up">
-            <button class="btn btn-creation" onclick="location.href='./themecreation/'"><b> <i class="fa-solid fa-paintbrush"></i> Create Themes</b></button>
-            <br>
-            <button class="btn btn-dark" onclick="location.href='./install/'"><b> <i class="fa-solid fa-download"></i> Install</b></button>
+        <div class="btn-group">
+            <a class="btn btn-creation" href='./themecreation/'><b> <i class="fa-solid fa-paintbrush"></i> Create Themes</b></a>
+            <a class="btn btn-dark" href='./install/'><b> <i class="fa-solid fa-download"></i> Install</b></a>
         </div>
     </section>
-
-    <script>
-        AOS.init();
-    </script>
 </body>
 
 <style>
+    .md-header--shadow {
+        box-shadow: none;
+    }
+
     .md-header {
         position: initial;
     }
@@ -246,5 +136,6 @@ This file was automatically generated - do not edit
         }
     }
 </style>
+
 {% endblock %}
 {% block content %}{% endblock %}

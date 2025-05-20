@@ -2,7 +2,7 @@
 
 You can use custom fonts on your Wii U using [System Font Replacer](#system-font-replacer)
 
-!!! abstract "Credits to [Daniel K.O](https://github.com/dkosmari/) for the information in this page"
+!!! abstract "Credits to [Daniel K.O](https://github.com/dkosmari/) for the information in this page & for creating the System Font Replacer plugin"
 
 --------------
 

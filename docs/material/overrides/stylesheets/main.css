@@ -1,0 +1,165 @@
+html, body {
+    background-image: url("/assets/pattern.png");
+    background-size: 12px 12px;
+}
+
+.first-gradient-body {
+    flex: 1 0 auto;
+}
+
+.second-gradient-body h1 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+.main-content {
+    background: linear-gradient(0deg, #242831, #0a4645);
+}
+
+.bg-pattern {
+    background-image: url("/assets/pattern.png");
+    background-size: 16px 16px;
+}
+
+.head-banner {
+    margin-top: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.head-text h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 0 0 .2rem 0;
+}
+
+.head-text p {
+    font-size: 1.25rem;
+    color: #c6c6c6;
+    margin: 0;
+}
+
+.logo {
+    max-width: 15rem;
+    display: block;
+    max-height: 160px;
+    padding: 0;
+    margin: 1rem;
+}
+
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 2.5rem 0 2rem 0;
+}
+
+.btn {
+    display: block;
+    padding: 0.75rem 1.5rem;
+    font-size: 25px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 0.5rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.);
+    transition: all 0.3s ease;
+    min-width: 290px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.btn-dark {
+    background-color: #333;
+}
+
+.btn-creation {
+    background-color: #32b4a7;
+}
+
+.card {
+    max-width: 3840px;
+    margin: 0 auto;
+    padding: 30px 30px;
+
+}
+
+.ss:hover {
+    transform: scale(1.005);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.screenshots {
+    display: flex;
+    overflow: hidden;
+    border-radius: 9px;
+}
+
+.screenshots .container {
+    display: flex;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    div.screenshots div.container {
+        animation: screenshots-scroll infinite 40s linear;
+    }
+}
+
+div.screenshots div.container img {
+    display: block;
+    width: 350px;
+}
+
+@keyframes screenshots-scroll {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-3500px);
+    }
+}
+
+@keyframes screenshots-scroll-medium {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-2500px);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    @media (prefers-reduced-motion: no-preference) {
+        div.screenshots div.container {
+            animation: screenshots-scroll-medium infinite 50s linear;
+        }
+    }
+    div.screenshots div.container img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 910px) {
+    .head-text h1,
+    .head-text p {
+        text-align: center;
+    }
+    .head-text {
+        margin-top: 1rem;
+    }
+}

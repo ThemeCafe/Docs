@@ -1,8 +1,8 @@
-site_name: Theme Café
+site_name: Theme Café Docs
 theme:
+  name: material
   custom_dir: docs/material
   logo: assets/logo/outline.png
-  name: material
   icon:
     admonition:
       note: octicons/tag-16
@@ -39,7 +39,7 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: purple
-  favicon: assets/favicon2.png
+  favicon: assets/logo/favicon.svg
 markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
