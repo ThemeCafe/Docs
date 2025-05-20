@@ -1,5 +1,5 @@
 html, body {
-    background-image: url("/assets/pattern.png");
+    background-image: url("../../../assets/pattern.png");
     background-size: 12px 12px;
 }
 
@@ -19,7 +19,7 @@ html, body {
 }
 
 .bg-pattern {
-    background-image: url("/assets/pattern.png");
+    background-image: url("../../../assets/pattern.png");
     background-size: 16px 16px;
 }
 
