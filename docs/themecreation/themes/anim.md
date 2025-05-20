@@ -35,7 +35,7 @@ Open `LoungeVR.szs` with [Switch Toolbox](https://github.com/KillzXGaming/Switch
     - Make sure the format is set to `BC1_SRGB`
     - Click OK
 
-Now that you imported your frames, you need to create the animation file
+Now that you've imported your frames, you need to create the animation file
 
 ### Generating the Animation File
 
@@ -45,13 +45,9 @@ This step is required for your animation to work correctly
 - Set the framerate of your animation
 - Upload the animation frames
 
-??? info "Script info"
-
-    Due to the way menu animations work, only values divisible by 60 are available.
-
 <style>
 button {
-    background-color: #009485;
+    background-color:#009485;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -72,8 +68,12 @@ button:active {
 }
 </style>
 
-!!! quote ""
-    <div style="padding: 16px 20px; max-width: 400px;">
+??? info "Script info"
+
+    Due to the way menu animations work, only values divisible by 60 are available.
+
+!!! script "Animation Generator"
+    <div style="padding: 16px 20px; max-width: 350px; display: block;">
         <form id="generate-form" autocomplete="off" style="display: flex; flex-direction: column; gap: 14px;">
             <div style="font-weight: bold;">Model</div>
             <label style="margin-left: 10px;">
