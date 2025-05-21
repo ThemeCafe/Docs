@@ -1,6 +1,22 @@
 html, body {
     background-image: url("../../../assets/pattern.png");
-    background-size: 12px 12px;
+    background-size: 16px 16px;
+}
+
+.md-header, .md-tabs, .md-tabs__list {
+    height: 48px;
+}
+
+body[data-md-color-scheme="slate"] .md-header, .md-tabs {
+    background: #0a4645;
+    background-image: url("../../../assets/pattern.png");
+    background-size: 16px 16px;
+}
+
+body[data-md-color-scheme="default"] .md-tabs, .md-header {
+    background: #009485;
+    background-image: url("../../../assets/pattern.png");
+    background-size: 16px 16px;
 }
 
 .first-gradient-body {
@@ -14,8 +30,12 @@ html, body {
     text-align: center;
 }
 
-.main-content {
-    background: linear-gradient(0deg, #242831, #0a4645);
+body[data-md-color-scheme="slate"] .main-content {
+    background: linear-gradient(0deg, #1E2129, #0a4645);
+}
+
+body[data-md-color-scheme="default"] .main-content {
+    background: linear-gradient(0deg, #FFFFFF, #009485, #009485);
 }
 
 .bg-pattern {

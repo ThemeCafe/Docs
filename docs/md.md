@@ -77,7 +77,7 @@ lists
 
 images
 
-![image](assets/logo/cafe.png){width=300}
+![image](assets/logo/outline.png){width=300}
 
 code `code`
 
@@ -146,6 +146,14 @@ emphazise links like [this](#)
     Hi
 
 !!! quote
+
+    Hi
+
+!!! script
+
+    Hi
+
+!!! star
 
     Hi
 
@@ -300,7 +308,7 @@ keyboard keys
 
 -   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
 
-    ![image](assets/logo/cafe.png)
+    ![image](assets/logo/outline.png)
 
     ---
 
@@ -372,11 +380,11 @@ a
     [this is a primary button](#){ .md-button .md-button--primary }
 
 <div class="scroll-container">
-  <img src="../assets/ss2.webp" width="500">
-  <img src="../assets/ss4.webp" width="500">
-  <img src="../assets/ss6.webp" width="500">
-  <img src="../assets/ss8.webp" width="500">
-  <img src="../assets/ss10.webp" width="500">
+  <img src="../assets/scroll/ss2.webp" width="500">
+  <img src="../assets/scroll/ss4.webp" width="500">
+  <img src="../assets/scroll/ss6.webp" width="500">
+  <img src="../assets/scroll/ss8.webp" width="500">
+  <img src="../assets/scroll/ss10.webp" width="500">
 </div> 
 
 <style>

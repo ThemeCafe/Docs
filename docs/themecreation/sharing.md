@@ -58,7 +58,7 @@ If you want to share your themes, first you'll need to make them into a patch
             ![Image title](imgs/p1.png)
             ![Image title](imgs/p2.png)
 
-        3. In Original ROM select your ORIGNAL UNMODIFIED file
+        3. In Original ROM select your ORIGINAL UNMODIFIED file
         4. In Modified ROM select your modified file
         5. Click on Create Patch
 
