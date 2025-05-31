@@ -306,6 +306,8 @@ If you want to change the color of the blue glow
 
 ### 19. Wii Cursor
 
+![image](imgs/cursor/cursor.png)
+
 `Men.pack` > `Layout` > `Cursor.szs`
 
 ??? note "Changing Textures"
