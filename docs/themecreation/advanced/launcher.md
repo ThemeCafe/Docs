@@ -300,175 +300,92 @@ If you want to change the color
 
 If you want to change the color of the blue glow
 
-- Change the [Color](../general/colors.md) of the material ActiveFrame_01
+- Change the [Color](../general/colors.md) of the material `ActiveFrame_01`
 
 ----------------------
 
 ### 19. Wii Cursor
 
-`Men.pack` > `Layout` > `Cursor.szs` > `Cursor.bflyt`
+`Men.pack` > `Layout` > `Cursor.szs`
 
 ??? note "Changing Textures"
 
-    Go to `Men.pack` > `Layout` > `Cursor.szs` > `Cursor.bflyt`
+    ![image](imgs/cursor/ct0.png)
 
-    Add your [textures](../general/textures.md)
+    Go to `Men.pack` > `Layout` > `Cursor.szs` > `Cursor.arc`
 
-    Change the texture of the materials:
+    - Go to the `timg` folder
+    - Click the texture you want to replace
+    - Change the display to `File Editor` if you haven't
 
-    - CursorBase
-    - CursorBaseShadow
-    - CursorBaseAlpha
-    - CursorBaseBlur
+    ![image](imgs/cursor/ct1.png)
 
-    Go to animation hierarchy > Cursor_CursorNumber.bflan
+    - Click `File`
+    - Click `Replace`
 
-    Go to Animation Info and in
+    ![image](imgs/cursor/ct2.png)
 
-    - CursorBaseAlpha
-    - CursorBaseBlur
-    - CursorBase
-    - CursorBaseShadow
-
-    in all of them change target from "Material" to "Pane"
+    Replace each texture you want to change
 
     Save
 
 ??? note "Changing Colors"
 
-    !!! abstract "Credits to the discord user *@dot0451* for the information in this section"
+    ![image](imgs/cursor/cc0.png)
 
-    Requirements:
+    Go to `Men.pack` > `Layout` > `Cursor.szs` > `Cursor.arc`
 
-    - [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox?tab=readme-ov-file)
-    - Your original Men.pack file
+    - Go to the `anim` folder
+    - Open `Cursor_CursorNumber.bflan`
+    - In Animation Hierarchy open `Cursor_CursorNumber.bflan`
+    - Go to `Animation Info` > `CursorBaseAlpha` > `MaterialColor`
 
-    To get your original Men.pack file you will need to follow the tutorial on [Menu Files](../../install/files.md) and come back 
+    Each player has its own color in separate RGB decimal values
 
-    --------------
+    ![image](imgs/cursor/cc1.png)
 
-    Instructions:
+    - P1 uses frames 0 and 1
+    - P2 uses frames 2 and 3
+    - P3 uses frames 4 and 5
+    - P4 uses frame 6
 
-    - Drag Men.pack Into Swich Toolbox
+    Change the decimal values of the `WhiteColorRed`, `WhiteColorGreen` and `WhiteColorBlue` Key Frames for the player you want to modify
 
-    - Search for "Cursor.szs"
+    ???+ example
 
-    ![Image title](imgs/cursor/c1.png)
+        P1's color is `#008CFF` in hexadecimal
 
-    Once you find it, double click it to reveal '**Cursor.arc**,  and double click '**Cursor.arc** to reveal more folders.
+        You need to separate each RGB value and convert them from Hexadecimal to Decimal values
 
-    We will be focusing on two folders.
-    - **blyt**
-    - **anim**
+        - 00 = 0
+        - 8C = 140
+        - FF = 255
 
-    And the files inside of them. **(Cursor.bflyt, Cursor_CursorNumber.bflan)**
+        Player 1 uses frames 0 and 1, in this case
+        
+        - `WhiteColorRed` in both Key Frames 0 and 1 should have the value 0
+        - `WhiteColorBlue` in both Key Frames 0 and 1 should have the value 140
+        - `WhiteColorGreen` in both Key Frames 0 and 1 should have the value 255
 
-    ![Image title](imgs/cursor/c2.png)
+        If you want to change the color to pink (`#FF8DA1`) for P1
 
-    We will focus on **blyt** folder for now. 
+        Separate the values and convert them to Decimal
 
-    Double click the file **Cursor.bflyt**
+        - FF = 255
+        - 8D = 141
+        - A1 = 161
 
-    Inside of it, there will be a **Materials** folder.
+        and change
 
-    Open it, and it should reveal 4 files inside: **(CursorBase, CursorBaseShadow, CursorBaseAlpha, CursorBaseBlur)**
+        - `WhiteColorRed` in both Key Frames 0 and 1 set the value 255
+        - `WhiteColorBlue` in both Key Frames 0 and 1 set the value 141
+        - `WhiteColorGreen` in both Key Frames 0 and 1 set the value 161
 
-    ![Image title](imgs/cursor/c3.png)
+        Once you set the values, click `Save` on the `Cursor_CursorNumber.bflan` window, close this window, and click `Save` on the `Men.pack` window
 
-    I recommend you start from top to bottom. 
+        Finally, test your theme and you will see that the Cursor has changed from blue to pink
 
-    You want to click on any of the four files, and click **color** at the bottom
-
-    **Editing Cursor Colors**
-
-    **Left Side Colors:**
-
-    When editing the colors on the left side of the cursor:
-
-    - ***Save your hex codes.*** 
-
-    Use a Notes app or a similar tool to record them. Your hex code(s) should be exactly 8 characters long. **This step is crucial for later on in the tutorial**, additionally, it ensures consistency across all four base files, especially if you’re creating a solid-colored cursor like the one in this tutorial, which is what most people go for.
-
-    **Right Side Colors**:
-
-    The colors on the right side of the cursor should **always** be **black or white**.
-
-    - If these colors change while editing the left side colors, simply **change them back to black (00000000) or white**(FFFFFFFF). 
-    - Not doing so may cause the cursor to look weird. 
-
-    - Uncertain Changes:
-
-        At times, you might notice no visible change after editing the cursor color.
-
-        - It’s up to you to either leave it as is or revert it to its original state.
-        - Currently, it’s unclear if this has a significant impact, but it’s worth noting.
-
-    These guidelines may be updated in the future. For now, adhering to them should make the editing process smoother."
-
-    ![Image title](imgs/cursor/c4.png)
-
-    In CursorBaseAlpha, the upper-left color is arguably the most important hex code. This color serves as a reference when updating the RGB (Red, Green, Blue) values in Cursor_CursorNumber.bflan within the anim folder. If the RGB colors in both files do not align, the changes made to the cursor’s outline in CursorBaseAlpha will not be properly reflected.
-
-    ![Image title](imgs/cursor/CursorBaseAlpha.gif)
-
-    ![Image title](imgs/cursor/c12.png)
-
-    ![Image title](imgs/cursor/RGB_Change.gif)
-
-    Here’s how I edited the colors for this particular cursor. There’s no right or wrong way to approach this—you can follow my method or take a completely different approach when editing the colors; the choice is yours. However, I recommend following my method if you're a beginner and just getting started.
-
-    ![Image title](imgs/cursor/BaseColorEdits.gif)
-
-    After you are satisfied with how the cursor looks, click the save button located at the top left. It should say **Saved Cursor.bflyt to archive** and make sure you save the project in case anything happens.
-
-    ![Image title](imgs/cursor/c5.png)
-
-    --------------
-
-    Animation Folder
-
-    Now time for the anim folder. There is a file called **Cursor_CursorNumber.bflan** double click it to open it.
-
-    ![Image title](imgs/cursor/c6.png)
-
-    Expand that window.
-
-    ![Image title](imgs/cursor/c7.png)
-
-    We will be focusing on these. They have RGB color coding that we need to change.
-
-    **Remember when I asked you to keep your hex codes somewhere? This is where they come in.**
-
-    A good website to change hex colors to RGB: [Click here!](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
-
-    ![Image title](imgs/cursor/c8.png)
-
-    As you see, I'm using white so the RGB for Red, Green, and Blue are all 255
-
-    They will differ depending on your hex code.
-
-    **We will only change the Value of KeyFrame0, and KeyFrame1 for Red, Green, and Blue respectively**
-
-    ![Image title](imgs/cursor/c9.png)
-
-    Edit the values with the corresponding numbers that you get from that website.
-
-    Without closing the tab, save it.
-
-    ![Image title](imgs/cursor/c10.png)
-
-    Then close that window and save the project again.
-
-    ![Image title](imgs/cursor/c11.png)
-
-    !!! success
-
-        That's it, you're done!
-
-        Here's how it turned out
-
-        ![Image title](imgs/cursor/result.png)
-
+        ![image](imgs/cursor/cc2.png)
 ----------------------
 
 ### 20. Balloon Text
