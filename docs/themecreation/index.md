@@ -9,11 +9,14 @@
 
 ------------------------------
 
-***Template Guide***: You can start making themes with the [Template](themes/template.md)  
-For adding animations to the template - [Animations](themes/anim.md)  
+<div class="grid cards" markdown>
 
-***Custom Music Guide***: If you want to create custom music for your theme, follow [Music](music/index.md)
+!!! template "[__Template Guide__](themes/template.md) & [__Animations__](themes/anim.md)"
 
-***Advanced***: For extra theme customization options - [Advanced](advanced/launcher.md)
+!!! music "[__Custom Music__](music/index.md)"
 
-***Sharing***: If you are ready to share your theme with everyone, follow [Sharing your themes](sharing.md)
+!!! gear "[__Advanced__](advanced/launcher.md)"
+
+!!! share "[__Sharing__](sharing.md)"
+
+</div>
