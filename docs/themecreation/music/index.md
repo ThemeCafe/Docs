@@ -17,7 +17,7 @@ We will be working with this template
 
 ???+ info "Music Length"
 
-    With this template you will be able to make custom music up to 1:55 at 3200 Hz Stereo before the file is too large to work with
+    With this template you will be able to make custom music up to 1:55 at 32000 Hz Stereo before the file is too large to work with
 
     ??? info "I want to make longer music"
 
