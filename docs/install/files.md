@@ -54,6 +54,7 @@ First, we need to obtain the menu files, there's a few ways to do it
 
 === "***JNUSTool***"
 
+
     ## JNUSTool
 
     This is useful in case you lost your original Wii U menu files
@@ -64,18 +65,23 @@ First, we need to obtain the menu files, there's a few ways to do it
         - It's already in your sd card if you're using aroma
         - SD:\wiiu\backups\SERIAL_NUMBER\otp.bin
     - [JNUSTool](https://github.com/Maschell/JNUSTool/releases/tag/0.3b)
-    - [Wii U Common Key Extractor](https://github.com/GaryOderNichts/WiiUCommonKeyExtractor/releases/tag/v1)
 
     ### **Getting the Wii U Common Key**
 
-    Drag and drop your otp.bin into the Wii U Common Key Extractor
-
-    ![Image title](imgs/i1.png)
-
-    Copy the Common Key
-
-    ![Image title](imgs/i2.png)
-
+    <ul>
+        <li>
+            <label for="upload">Upload otp.bin: </label>
+            <input type="file" id="upload">
+            <ul id="keyItems" style="visibility: hidden;">
+                <li>
+                    <label for="cmnKey">Common Key - </label>
+                    <code id="cmnKey"></code>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <script src="../scripts/otp.js"></script>
+    
     ### **Setting up JNUSTool**
 
     Open the JNUSTool folder and open config, then replace `[COMMON KEY]` with the common key we previously copied
@@ -110,7 +116,7 @@ First, we need to obtain the menu files, there's a few ways to do it
 
     ![Image title](imgs/i4.png)
 
-    ### **Saving files**
+    ### **Downloading files**
 
     Go into "root/content/Common/Package" and download the **Men.pack** and **Men2.pack**
 
