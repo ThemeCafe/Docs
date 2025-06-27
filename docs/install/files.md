@@ -7,14 +7,14 @@ hide:
 
 --------------
 
-First, we need to obtain the menu files, there's a few ways to do it
+First, we need to obtain the menu files, either through FTP or by using JNUSTool
 
-- [FTP](#__tabbed_1_1)
-- [JNUSTool](#__tabbed_1_2)
+- [FTP](#ftp)
+- [JNUSTool](#jnustool)
 
 === "FTP"
 
-    ## FTP
+    ## Retrieving Menu Files Through FTP
 
     ### What you need
 
@@ -55,7 +55,7 @@ First, we need to obtain the menu files, there's a few ways to do it
 === "***JNUSTool***"
 
 
-    ## JNUSTool
+    ## Using JNUSTool to Download Menu Files
 
     This is useful in case you lost your original Wii U menu files
 

@@ -1,0 +1,52 @@
+button {
+    background-color:#009485;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif; 
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #df41fb;
+    transition: 0.1s;
+}
+
+button:active {
+    background-color: #bc60ff;
+}
+
+/* Prevent admonition border from appearing when form elements are selected */
+.admonition:focus-within {
+    box-shadow: none !important;
+}
+
+.formContainer {
+    padding: 16px 20px;
+    max-width: 350px;
+}
+
+.animForm {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.formHdr, .formLbl {
+    display: block;
+    font-weight: bold;
+}
+
+.formLbl {
+    margin-bottom: 6px;
+}
+
+.formSel {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
