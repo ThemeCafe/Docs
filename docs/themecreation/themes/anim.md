@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 <link rel="stylesheet" href="/themecreation/themes/stylesheets/anim.css" />
 
+=======
+>>>>>>> b0cd672e18620ee4caeb5ca96b84f8eb0daf564e
 # Animations
 
 
@@ -47,11 +50,38 @@ This step is required for your animation to work correctly
 - Set the framerate of your animation
 - Upload the animation frames
 
+<<<<<<< HEAD
+=======
+<style>
+button {
+    background-color:#009485;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif; 
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #df41fb;
+    transition: 0.1s;
+}
+
+button:active {
+    background-color: #bc60ff;
+}
+</style>
+
+>>>>>>> b0cd672e18620ee4caeb5ca96b84f8eb0daf564e
 ??? info "Script info"
 
     Due to the way menu animations work, only values divisible by 60 are available.
 
 !!! script "Animation Generator"
+<<<<<<< HEAD
 
     === "Frame By Frame"
 
@@ -142,6 +172,54 @@ This step is required for your animation to work correctly
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 <script src="../scripts/index.js"></script>
+=======
+    <div style="padding: 16px 20px; max-width: 350px; display: block;">
+        <form id="generate-form" autocomplete="off" style="display: flex; flex-direction: column; gap: 14px;">
+            <div style="font-weight: bold;">Model</div>
+            <label style="margin-left: 10px;">
+                <input type="radio" id="vr" value="vr" name="model" required>
+                LoungeVR
+            </label>
+            <label style="margin-left: 10px;">
+                <input type="radio" id="floor" value="floor" name="model">
+                LoungeFloor
+            </label>
+            <div>
+                <label for="fps" style="display: block; font-weight: bold; margin-bottom: 6px;">Framerate (FPS)</label>
+                <select name="fps" id="fps" required style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid #ccc;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="30" selected>30</option>
+                    <option value="60">60</option>
+                </select>
+            </div>
+            <div>
+                <label for="fileupload" style="display: block; font-weight: bold; margin-bottom: 6px;">Upload Frames</label>
+                <input
+                    type="file"
+                    id="fileupload"
+                    accept=".bftex,.dds,.dds2,.png,.bmp,.tga,.jpg,.tiff,.tif,.gif"
+                    multiple
+                    required
+                    style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid #ccc;"
+                />
+            </div>
+            <button type="submit">
+                Generate Animation
+            </button>
+        </form>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+        <script src="../scripts/index.js"></script>
+    </div>
+>>>>>>> b0cd672e18620ee4caeb5ca96b84f8eb0daf564e
 
 
 
@@ -149,8 +227,12 @@ This step is required for your animation to work correctly
 After generating your animation file, go back to ToolBox
 
 - Right click the Animations folder
+<<<<<<< HEAD
 - Select **Import** -> `Texture Pattern Animation` for frame based animations  
 Alternatively, select `Texture SRT Animation` for scrolling animations
+=======
+- Select Import -> `Texture Pattern Animation`
+>>>>>>> b0cd672e18620ee4caeb5ca96b84f8eb0daf564e
 - Open the animation file you previously generated
 
 
