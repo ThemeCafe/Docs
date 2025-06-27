@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 const yamlPat = `
-=======
-const yamlStr = `
->>>>>>> b0cd672e18620ee4caeb5ca96b84f8eb0daf564e
 Name: {}
 Path: 
 Loop: true
@@ -18,7 +14,6 @@ MaterialAnimConfigs:
     ParamInfos: []
 `;
 
-<<<<<<< HEAD
 const yamlSrt = `
 Name: {}
 Path:
@@ -38,9 +33,6 @@ MaterialAnimConfigs:
               0: 0
             Offset: {}
 `;
-=======
-const anim = jsyaml.load(yamlStr);
->>>>>>> b0cd672e18620ee4caeb5ca96b84f8eb0daf564e
 
 function sortFiles(arr) {
 	return arr.sort((a, b) =>
@@ -65,16 +57,10 @@ function processFiles() {
 	return sortFiles(baseNames);
 }
 
-<<<<<<< HEAD
 function genPatYaml(model, skip, fileNames) {
 	const patAnim = jsyaml.load(yamlPat);
 	patAnim.Name = Object.keys(model)[0];
 	patAnim.MaterialAnimConfigs[0].Name = Object.values(model)[0];
-=======
-function genYaml(model, skip, fileNames) {
-	anim.Name = Object.keys(model)[0];
-	anim.MaterialAnimConfigs[0].Name = Object.values(model)[0];
->>>>>>> b0cd672e18620ee4caeb5ca96b84f8eb0daf564e
 
 	const keyFrames = {};
 	let frame = 0;
@@ -84,7 +70,6 @@ function genYaml(model, skip, fileNames) {
 		frame += skip;
 	});
 
-<<<<<<< HEAD
 	patAnim.FrameCount = frame - skip;
 	patAnim.MaterialAnimConfigs[0].TexturePatternInfos[0].CurveData.KeyFrames =
 		keyFrames;
@@ -111,17 +96,6 @@ function genSrtYaml(model, speed, direction, reverse) {
 
 function getModel(form) {
 	const selected = form.querySelector('input[name="model"]:checked')?.value;
-=======
-	anim.FrameCount = frame - skip;
-	anim.MaterialAnimConfigs[0].TexturePatternInfos[0].CurveData.KeyFrames =
-		keyFrames;
-
-	return jsyaml.dump(anim).replace(/'(\w+)':/g, "$1:");
-}
-
-function getModel() {
-	const selected = document.querySelector('input[name="model"]:checked')?.value;
->>>>>>> b0cd672e18620ee4caeb5ca96b84f8eb0daf564e
 
 	switch (selected) {
 		case "vr":
@@ -148,7 +122,6 @@ function exportAnim(filename, content) {
 }
 
 document
-<<<<<<< HEAD
 	.getElementById("gen-pat")
 	.addEventListener("submit", function (event) {
 		event.preventDefault();
@@ -172,16 +145,6 @@ document
 		const scrollDir = document.getElementById("direction").value;
 		const isReverse = document.getElementById("reverse").checked;
 		const yamlData = genSrtYaml(model, scrollSpeed, scrollDir, isReverse);
-=======
-	.getElementById("generate-form")
-	.addEventListener("submit", function (event) {
-		event.preventDefault();
-		const fps = parseInt(document.getElementById("fps").value);
-		const model = getModel();
-		const files = processFiles();
-		const frameSkip = 60 / fps;
-		const yamlData = genYaml(model, frameSkip, files);
->>>>>>> b0cd672e18620ee4caeb5ca96b84f8eb0daf564e
 
 		exportAnim(`${Object.keys(model)[0]}_auto.yaml`, yamlData);
 	});

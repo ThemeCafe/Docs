@@ -46,12 +46,9 @@ theme:
 markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
-<<<<<<< HEAD
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
-=======
->>>>>>> b0cd672e18620ee4caeb5ca96b84f8eb0daf564e
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
