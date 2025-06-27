@@ -1,3 +1,7 @@
+---
+icon: material/format-font
+---
+
 # Fonts
 
 You can use custom fonts on your Wii U using [System Font Replacer](#system-font-replacer)

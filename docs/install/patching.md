@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+icon: fontawesome/solid/wrench
 ---
 
 # Patching

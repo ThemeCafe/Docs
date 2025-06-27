@@ -1,3 +1,7 @@
+---
+icon: fontawesome/solid/user
+---
+
 # Credits
 
 --------------

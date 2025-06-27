@@ -162,5 +162,5 @@ Alternatively, select `Texture SRT Animation` for scrolling animations
 
 !!! success
 
-    Your custom animation has been added and you can now test it [SDCafiine](../../install/loading.md#__tabbed_1_1)
+    Your custom animation has been added and you can now test it [SDCafiine](../../install/loading.md#sdcafiine)
     

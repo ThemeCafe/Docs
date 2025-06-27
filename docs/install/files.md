@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+icon: material/file
 ---
 
 # Menu Files
@@ -52,7 +53,7 @@ First, we need to obtain the menu files, either through FTP or by using JNUSTool
 
     
 
-=== "***JNUSTool***"
+=== "JNUSTool"
 
 
     ## Using JNUSTool to Download Menu Files

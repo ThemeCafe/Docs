@@ -1,4 +1,6 @@
 site_name: Theme Café Docs
+validation:
+  anchors: ignore # ignore anchor link warnings
 theme:
   name: material
   custom_dir: docs/material
@@ -76,8 +78,9 @@ not_in_nav: |
   md.md
   themiify.md
   themecreation/tutorials_old/bootsound.md
-  resources/index.md
-  resources/**/**.md
+  themecreation/advanced/misc.md
+  themecreation/advanced/userselect.md
+  themecreation/advanced/accountsetting.md
 
 nav:
   - Home: index.md
@@ -98,6 +101,9 @@ nav:
       - Advanced:
         - Launcher: themecreation/advanced/launcher.md
         - Wara Wara Plaza: themecreation/advanced/wwp.md
+        # - Account Settings: themecreation/advanced/accountsetting.md
+        # - User Select: themecreation/advanced/userselect.md
+        # - Miscellaneous: themecreation/advanced/misc.md
       - General Tutorials: 
         - Changing Colors: themecreation/general/colors.md 
         - Textures: themecreation/general/textures.md

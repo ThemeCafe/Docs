@@ -92,7 +92,39 @@ This is where the floor model is located
 
 `Men2.pack` > `Layout` > `SpeechBalloon.szs`
 
-WIP
+??? "Balloon"
+
+    You can change the [Color](../general/colors.md) of this by changing the materials:
+
+    - `W_BalloonC`
+    - `W_BalloonLT`
+    - `P_Tip`
+
+    To change or remove the transparency also change these materials:
+
+    - `WF_BalloonC`
+    - `WF_BalloonLT`
+
+    If you want to change the [Color](../general/colors.md) of the title change:
+
+    - `W_NameBaseC`
+    - `W_NameBaseLT`
+
+??? "Text"
+
+    Go to `RootPane` > `N_Trans` > `N_Scale`
+
+    To change the color of the title of the Balloon
+
+    - Go to `N_InBalloon` > `T_Name`
+    - Go to `Text Pane`
+    - In `Font` change the color
+
+    To change the color of the text of the Balloon
+
+    - Click `T_Balloon`
+    - Go to `Text Pane`
+    - In `Font` change the color
 
 ----------------------
 
@@ -102,7 +134,33 @@ WIP
 
 `Men2.pack` > `Layout` > `SpeechBalloonIllust.szs`
 
-WIP
+??? "Balloon"
+
+    You can change the [Color](../general/colors.md) of this by changing the materials:
+
+    - `W_BalloonC`
+    - `W_BalloonLT`
+    - `P_Tip`
+
+    To change or remove the transparency also change these materials:
+
+    - `WF_BalloonC`
+    - `WF_BalloonLT`
+
+    If you want to change the [Color](../general/colors.md) of the title change:
+
+    - `W_NameBaseC`
+    - `W_NameBaseLT`
+
+??? "Text"
+
+    Go to `RootPane` > `N_Trans` > `N_Scale` > `N_InBalloon`
+
+    To change the color of the title of the Balloon
+
+    - Go to `T_Name`
+    - Go to `Text Pane`
+    - In `Font` change the color
 
 ----------------------
 
@@ -112,8 +170,6 @@ WIP
 
 `Men2.pack` > `Model` > `Cube00.szs`
 
-WIP
-
 ----------------------
 
 ### 6. "Save This Mii"
@@ -122,17 +178,17 @@ WIP
 
 `Men2.pack` > `Layout` > `BtnMiiWindow_02.szs`
 
-WIP
+You can change the [Color](../general/colors.md) / [Texture](../general/textures.md) of this by doing changes to the materials inside of the bflyt file 
 
 ----------------------
 
-### 7. App Launch Icon
+### 7. App Launch
 
 ![Image title](imgs/wwp/launchericon/launcher.png)
 
 `Men2.pack` > `Layout` > `CommandLauncherIcon.szs`
 
-WIP
+You can change the [Color](../general/colors.md) of this by changing the material `ActiveFrame_01`
 
 ----------------------
 
@@ -142,8 +198,6 @@ WIP
 
 `Men2.pack` > `Layout` > `CommandPosting.szs`
 
-WIP
-
 ----------------------
 
 ### 9. App Info
@@ -151,8 +205,6 @@ WIP
 ![Image title](imgs/wwp/commandcube/commandcube.png){ width="250"}
 
 `Men2.pack` > `Layout` > `CommandCube.szs`
-
-WIP
 
 ----------------------
 
@@ -162,16 +214,24 @@ WIP
 
 `Men.pack` > `Layout` > `BtnLoungeWindow_00.szs`
 
-WIP
+You can change the [Color](../general/colors.md) of this by changing the materials 
+
+- `W_Shadow_01LT`
+- `W_Shadow_01RT`
+- `W_Shadow_01LB`
+- `W_Shadow_01RB`
 
 ----------------------
 
-### 10. Close Button
+### 11. Close Button
 
 ![Image title](imgs/wwp/btnclose/closebtn.png)
 
 `Men.pack` > `Layout` > `BtnLoungeWindowClose.szs`
 
-WIP
+You can change the [Color](../general/colors.md) of this by changing the materials 
+
+- `W_BtnDialogCloseC`
+- `W_BtnDialogCloseLT`
 
 ----------------------

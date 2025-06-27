@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+icon: material/brush
 ---
 
 # Loading Custom Themes
@@ -9,12 +10,12 @@ hide:
 
 Currently there's two ways to load themes using aroma
 
-- [SDCafiine](#__tabbed_1_1)
-- [StyleMiiU-Plugin](#__tabbed_1_2)
+- [SDCafiine](#sdcafiine)
+- [StyleMiiU-Plugin](#stylemiiu-plugin)
 
 === "SDCafiine"
 
-    ## ***SDCafiine***
+    ## Loading with SDCafiine
 
     ### What you need
 
@@ -60,7 +61,7 @@ Currently there's two ways to load themes using aroma
 
 === "StyleMiiU-Plugin"
 
-    ## ***StyleMiiU-Plugin***
+    ## Loading with StyleMiiU-Plugin
 
     This is an Aroma plugin to safely apply custom themes!
 

@@ -17,14 +17,14 @@ hide:
 
 --------------
 
-***Menu Files***: You can get your menu files with [FTP](files.md#__tabbed_1_1) or [JNUSTool](files.md#__tabbed_1_2)
+***Menu Files***: You can get your menu files with [FTP](files.md#ftp) or [JNUSTool](files.md#jnustool)
 
 ***Patching***: To patch your `.ips, .bps, .ups, .ppf, .aps` or `.rup` files follow [Patching](patching.md)
 
 ***Loading Custom Themes***: To load your custom theme, you can use any of the following
 
-- [SDCafiine](loading.md#__tabbed_1_1)
-- [StyleMiiU-Plugin](loading.md#__tabbed_1_2)
+- [SDCafiine](loading.md#sdcafiine)
+- [StyleMiiU-Plugin](loading.md#stylemiiu-plugin)
 
 ***Using custom fonts***: If you want to learn how to use custom fonts follow [Fonts](fonts.md)
 
