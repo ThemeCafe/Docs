@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/themecreation/themes/stylesheets/anim.css" />
+<link rel="stylesheet" href="../stylesheets/anim.css" />
 
 # Animations
 
