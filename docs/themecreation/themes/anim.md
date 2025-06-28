@@ -12,7 +12,7 @@
 ## What you need.
 
 - [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases/tag/Final)
-
+- [Template](template.md#template)
 
 ### Adding Frames
 
