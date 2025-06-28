@@ -106,12 +106,12 @@ This step is required for your animation to work correctly
             <form id="gen-srt" class="animForm" autocomplete="off">
                 <div class="formHdr">Model</div>
                 <div>
-                    <input type="radio" id="vr" name="model" value="vr" required />
-                    <label for="vr">LoungeVR</label>
+                    <input type="radio" id="vr2" name="model" value="vr" required />
+                    <label for="vr2">LoungeVR</label>
                 </div>
                 <div>
-                    <input type="radio" id="floor" name="model" value="floor" required />
-                    <label for="floor">LoungeFloor</label>
+                    <input type="radio" id="floor2" name="model" value="floor" required />
+                    <label for="floor2">LoungeFloor</label>
                 </div>
                 <div>
                     <label for="speed" class="formLbl">Scrolling Speed</label>
