@@ -43,13 +43,10 @@
           mask-image: var(--md-admonition-icon--script);
 }
 
-.md-typeset .admonition.template,
-.md-typeset details.template {
-  border-color: rgba(53,57,64,255);
-}
 .md-typeset .template > .admonition-title,
 .md-typeset .template > summary {
   background-color: rgba(0, 0, 0, 0);
+  color: rgb(138, 138, 138);
 }
 .md-typeset .template > .admonition-title::before,
 .md-typeset .template > summary::before {
@@ -58,14 +55,12 @@
           mask-image: var(--md-admonition-icon--template);
 }
 
-.md-typeset .admonition.music,
-.md-typeset details.music {
-  border-color: rgba(53,57,64,255);
-}
+
 .md-typeset .music > .admonition-title,
 .md-typeset .music > summary {
   background-color: rgba(0, 0, 0, 0);
 }
+
 .md-typeset .music > .admonition-title::before,
 .md-typeset .music > summary::before {
   background-color: rgb(158, 158, 158);
@@ -73,14 +68,11 @@
           mask-image: var(--md-admonition-icon--music);
 }
 
-.md-typeset .admonition.gear,
-.md-typeset details.gear {
-  border-color: rgba(53,57,64,255);
-}
 .md-typeset .gear > .admonition-title,
 .md-typeset .gear > summary {
   background-color: rgba(0, 0, 0, 0);
 }
+
 .md-typeset .gear > .admonition-title::before,
 .md-typeset .gear > summary::before {
   background-color: rgb(158, 158, 158);
@@ -88,17 +80,36 @@
           mask-image: var(--md-admonition-icon--gear);
 }
 
-.md-typeset .admonition.share,
-.md-typeset details.share {
-  border-color: rgba(53,57,64,255);
-}
 .md-typeset .share > .admonition-title,
 .md-typeset .share > summary {
   background-color: rgba(0, 0, 0, 0);
 }
+
 .md-typeset .share > .admonition-title::before,
 .md-typeset .share > summary::before {
   background-color: rgb(158, 158, 158);
   -webkit-mask-image: var(--md-admonition-icon--share);
           mask-image: var(--md-admonition-icon--share);
+}
+
+[data-md-color-scheme="default"] .md-typeset .admonition.template,
+[data-md-color-scheme="default"] .md-typeset details.template,
+[data-md-color-scheme="default"] .md-typeset .admonition.music,
+[data-md-color-scheme="default"] .md-typeset details.music,
+[data-md-color-scheme="default"] .md-typeset .admonition.gear,
+[data-md-color-scheme="default"] .md-typeset details.gear,
+[data-md-color-scheme="default"] .md-typeset .admonition.share,
+[data-md-color-scheme="default"] .md-typeset details.share {
+  border-color: rgb(144, 150, 159);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.template,
+[data-md-color-scheme="slate"] .md-typeset details.template,
+[data-md-color-scheme="slate"] .md-typeset .admonition.music,
+[data-md-color-scheme="slate"] .md-typeset details.music,
+[data-md-color-scheme="slate"] .md-typeset .admonition.gear,
+[data-md-color-scheme="slate"] .md-typeset details.gear,
+[data-md-color-scheme="slate"] .md-typeset .admonition.share,
+[data-md-color-scheme="slate"] .md-typeset details.share {
+  border-color: rgb(53, 57, 64);
 }

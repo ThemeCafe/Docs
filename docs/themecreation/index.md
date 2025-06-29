@@ -1,8 +1,5 @@
 # Theme Creation
 
-!!! star "Special Thanks to Dewgong for creating the templates in these guides"
-
-
 !!! tip "Need help?"
 
     Join the [Discord Server](https://discord.com/invite/2DNvH9db2A) for support in English or Spanish
