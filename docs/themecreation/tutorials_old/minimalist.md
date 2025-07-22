@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 **Quick tutorial: How to make your own minimalist theme**
 
 I'll assume you already got an editing software for **Men.pack, Men2.pack** files

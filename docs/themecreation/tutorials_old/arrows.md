@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 **Arrow Colors**
 
 ![image](#)

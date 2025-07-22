@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 You will need:
 
 - Structure file as a base for frame by frame animations (it will be at the end of this tutorial)

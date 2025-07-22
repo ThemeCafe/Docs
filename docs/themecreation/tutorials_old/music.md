@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 **Custom Background Music Tutorial**
 
 - Tools & Files Needed

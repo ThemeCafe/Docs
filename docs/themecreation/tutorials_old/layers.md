@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 Layers:
 
 When making themes you may want to add stickers / filters to your theme, so layers will come in handy

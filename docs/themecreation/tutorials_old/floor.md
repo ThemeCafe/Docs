@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Floor
 
 ## **Custom Wara Wara Plaza's floor**

@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 These tutorials were made by the owner of Theme Café @perrohuevo in the Theme Café discord server and are here for archival purposes
 
 [arrows](arrows.md)

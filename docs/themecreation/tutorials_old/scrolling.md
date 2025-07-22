@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 To make animated themes you **MUST** know how to make **static themes**
 
 Animated themes can come in different ways

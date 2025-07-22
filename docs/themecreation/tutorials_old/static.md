@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 So, how to make static themes
 
 "Static" themes are the themes that have a 2D non-moving image

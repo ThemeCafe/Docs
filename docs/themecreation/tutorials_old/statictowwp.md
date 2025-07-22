@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 **Converting a static into a static with Wara Wara Plaza**
 
 1. Open **LauncherBase.szs** > **LauncherBase.bflyt**

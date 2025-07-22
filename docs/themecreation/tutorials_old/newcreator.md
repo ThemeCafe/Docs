@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 **Getting Started for Theme Creators**
 
 I dont know if this is useful or not but since the server was updated ill make a full course for new theme creators so if you are planning in making your own wii u themes you can use this tutorial and get started!

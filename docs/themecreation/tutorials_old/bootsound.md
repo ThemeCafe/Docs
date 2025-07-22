@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Bootsound
 
 !!! danger "WARNING: THIS IS DANGEROUS"
