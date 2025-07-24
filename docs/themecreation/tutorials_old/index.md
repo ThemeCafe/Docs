@@ -1,26 +1,27 @@
 ---
 search:
   exclude: true
+icon: material/folder
 ---
 
-These tutorials were made by the owner of Theme Café @perrohuevo in the Theme Café discord server and are here for archival purposes
+These guides were made by the owner of Theme Café @perrohuevo in the Theme Café discord server and are here for archival purposes
 
-[arrows](arrows.md)
+[Arrows](arrows.md)
 
-[floor](floor.md)
+[Floor](floor.md)
 
-[frame by frame](framebyframe.md)
+[Frame by frame](framebyframe.md)
 
-[layers](layers.md)
+[Layers](layers.md)
 
-[minimalist](minimalist.md)
+[Minimalist](minimalist.md)
 
-[music](music.md)
+[Music](music.md)
 
-[new creator](newcreator.md)
+[New Creator](newcreator.md)
 
-[scrolling](scrolling.md)
+[Scrolling](scrolling.md)
 
-[static](static.md)
+[Static](static.md)
 
-[static to wwp](statictowwp.md)
+[Static to WWP](statictowwp.md)

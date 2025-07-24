@@ -12,7 +12,7 @@
 
 !!! music "[__Custom Music__](music/index.md)"
 
-!!! gear "[__Advanced__](advanced/launcher.md)"
+!!! gear "[__Advanced__](advanced/index.md)"
 
 !!! share "[__Sharing__](sharing.md)"
 

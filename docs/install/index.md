@@ -13,7 +13,7 @@ hide:
     
     The guides provided make use of [Aroma CFW](https://aroma.foryour.cafe/) and [SDCafiine](https://github.com/wiiu-env/sdcafiine_plugin/releases) to load custom themes which **does not modify the Wii U System Files**. SDCafiine works by loading the files via the SD Card.
 
-[Click here to get started!](files.md){ .md-button .md-button--primary }
+[Click here to get started! :material-arrow-right:](files.md){ .md-button .md-button--primary }
 
 --------------
 

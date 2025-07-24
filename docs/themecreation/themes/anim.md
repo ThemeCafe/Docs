@@ -1,3 +1,7 @@
+---
+icon: material/star-shooting
+---
+
 <link rel="stylesheet" href="../stylesheets/anim.css" />
 
 # Animations

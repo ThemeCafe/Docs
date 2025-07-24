@@ -93,12 +93,12 @@ nav:
     - Credits: credits.md
   - Theme Creation:
       - themecreation/index.md
-      - Theme:
-        - Template: themecreation/themes/template.md
-        - Animations: themecreation/themes/anim.md
+      - Template: themecreation/themes/template.md
+      - Animations: themecreation/themes/anim.md
       - Music: 
         - themecreation/music/index.md
       - Advanced:
+        - themecreation/advanced/index.md
         - Launcher: themecreation/advanced/launcher.md
         - Wara Wara Plaza: themecreation/advanced/wwp.md
         # - Account Settings: themecreation/advanced/accountsetting.md

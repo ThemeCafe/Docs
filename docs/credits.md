@@ -6,46 +6,47 @@ icon: fontawesome/solid/user
 
 --------------
 
-![Image title](credits/perro.png){ width="200" }
+Docs Mantainers
+
+<div class="grid cards" markdown>
+
+![Image title](credits/gato.png){ width="200" }
 /// caption
-Perrohuevo
-/// caption
-Owner
-///
+Gatto
 ///
 
 ![Image title](credits/dewgong.png){ width="200" }
 /// caption
-dewgong
-/// caption
-Head Moderator
-///
+dewgong64
 ///
 
-![Image title](credits/gato.png){ width="200" }
+</div>
+
+Wii U App Developers
+
+<div class="grid cards" markdown>
+
+![Image title](credits/Ac.png){ width="200" }
 /// caption
-Gato-kun
-/// caption
-Moderator
-///
+Alpha Craft
 ///
 
-![Image title](credits/kusa.png){ width="200" }
+![Image title](credits/nathaniel.png){ width="200" }
 /// caption
-Kusa
-/// caption
-Moderator
+Nathaniel
 ///
-///
+
+</div>
+
+Plugin Developers
+
+<div class="grid cards" markdown>
 
 ![Image title](credits/Daniel.png){ width="200" }
 /// caption
 DanielKO
 /// caption
-Moderator
-/// caption
-DEV - System Font Replacer Plugin Creator
-///
+System Font Replacer
 ///
 ///
 
@@ -53,35 +54,33 @@ DEV - System Font Replacer Plugin Creator
 /// caption
 Juanen
 /// caption
-DEV - StyleMiiU Plugin Creator 
+StyleMiiU Plugin
 ///
 ///
 
+</div>
 
-![Image title](credits/Ac.png){ width="200" }
-/// caption
-Alpha Craft
-/// caption
-DEV
-///
-///
+Special Thanks
 
+<div class="grid cards" markdown>
 
-![Image title](credits/nathaniel.png){ width="200" }
+![Image title](credits/perro.png){ width="200" }
 /// caption
-Nathaniel
+Perrohuevo
 /// caption
-DEV
+Theme Cafe Owner
 ///
 ///
 
-![Image title](credits/Asty.png){ width="200" }
+![Image title](credits/ils.png){ width="200" }
 /// caption
-Asty
+ilovesplatoon8
 /// caption
-DEV
+Moderator
 ///
 ///
+
+</div>
 
 Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page
 
