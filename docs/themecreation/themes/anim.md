@@ -33,6 +33,10 @@ Open `LoungeVR.szs` with [Switch Toolbox](https://github.com/KillzXGaming/Switch
 
         1280x720 or less, anything higher is more likely to crash on console
 
+    ??? info "Max amount of Frames"
+
+        At 1280x720 you can get about 30 frames, you can also reduce the quality/resolution of the images to get more frames but you'll have to try and see what works before the Menu starts to crash
+
     - Select all textures (with the first frame selected, shift+click the last frame)
     - Change the mip count to 1
 
