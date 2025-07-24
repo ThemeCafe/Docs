@@ -6,7 +6,7 @@ icon: fontawesome/solid/user
 
 --------------
 
-Docs Mantainers
+Docs Maintainers
 
 <div class="grid cards" markdown>
 
