@@ -95,7 +95,7 @@ First, we need to obtain the menu files, either through FTP or by using JNUSTool
     https://tagaya-wup.cdn.nintendo.net/tagaya/versionlist/EUR/EU/list/%d.versionlist
     ```
 
-    ![Image title](imgs/i3.png)
+    ![Image title](imgs/i3.webp)
 
     ### **Running command**
     Make a command.bat file inside the JNUSTool folder and paste this
@@ -115,13 +115,13 @@ First, we need to obtain the menu files, either through FTP or by using JNUSTool
 
     *Example with USA region*
 
-    ![Image title](imgs/i4.png)
+    ![Image title](imgs/i4.webp)
 
     ### **Downloading files**
 
     Go into "root/content/Common/Package" and download the **Men.pack** and **Men2.pack**
 
-    ![Image title](imgs/i5.png)
+    ![Image title](imgs/i5.webp)
 
     Go into "root/content/Common/Sound/Men" and download **cafe_barista_men.bfsar**
 

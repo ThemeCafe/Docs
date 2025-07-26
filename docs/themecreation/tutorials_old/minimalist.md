@@ -11,14 +11,14 @@ You can use **Switch Toolbox** search it up
 
 1. Open **Men2.pack** file and open **Model**
 
-    ![image](imgs/minimalist/m1.png)
+    ![image](imgs/minimalist/m1.webp)
 
 2. the only files we will edit are **LoungeVR** and **FloatIcon00**
 
     **LoungeVR** is the background on the mii's plaza thing (not gamepad)
     **FloatIcon00** is the background on the gamepad}
 
-    ![image](imgs/minimalist/m2.png)
+    ![image](imgs/minimalist/m2.webp)
 
 3. Lets begin with **FloatIcon00**
 
@@ -26,13 +26,13 @@ You can use **Switch Toolbox** search it up
 
     (i usually use **1440 x 900** size images)
 
-    ![image](imgs/minimalist/m3.png)
+    ![image](imgs/minimalist/m3.webp)
 
 4. Now we will do kinda the same with **LoungeVR**
 
     Open the **Textures** folder and replace the **bg02** image
 
-    ![image](imgs/minimalist/m4.png)
+    ![image](imgs/minimalist/m4.webp)
 
     How to edit the **LoungeVR** background?
 

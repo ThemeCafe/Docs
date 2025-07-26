@@ -9,7 +9,7 @@ search:
 
 1. Open **Men2.pack** and then open the **Model** folder
 
-    ![Image title](imgs/floor/f1.png)
+    ![Image title](imgs/floor/f1.webp)
 
 2. Open **LoungeFloor**
 3. Open **Textures**
@@ -25,12 +25,12 @@ search:
 
 6. Open switch toolbox again, right click **Floor_Alb** and then replace it with the floor you just made
 
-    ![Image title](imgs/floor/f2.png)
+    ![Image title](imgs/floor/f2.webp)
 
 7. Save and test
 
 You should end with something like this
 
-![Image title](imgs/floor/f3.png)
+![Image title](imgs/floor/f3.webp)
 
 **this is if you made the floor yellow, its just an example**

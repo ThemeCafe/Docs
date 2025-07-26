@@ -7,7 +7,7 @@ After opening the bflyt file of what you want to change
 - Click on the Colors tab
 - Change the color
 
-![image](imgs/c.png)
+![image](imgs/c.webp)
 
 !!! warning "Don't change the alpha value!"
 

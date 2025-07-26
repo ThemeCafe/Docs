@@ -6,18 +6,13 @@ After opening the bflyt file of what you want to change the material's colors
 
 - Click the green "+" button
 
-    ![image](imgs/t.png)
+    ![image](imgs/t.webp)
 
 - Select your image
 - Change the format
-
-??? info "Format"
-
-    - If you are adding a texture for the background, use T_BC1_SRGB
-
 - Click OK
 
-!!! failure "Don't delete textures"
+!!! failure "Don't delete textures default textures"
 
     This will cause issues, and will probably corrupt your theme
 

@@ -34,7 +34,7 @@ What's the difference between **Infinite layers** and **layers**
 *Here's an example of what i mean*
 
 <video controls>
-<source src="../imgs/layers/vl.mp4" type="video/mp4">
+<source src="../imgs/layers/vl.webm" type="video/mp4">
 </video>
 
 **How can you add your own stickers?**
@@ -45,22 +45,22 @@ What's the difference between **Infinite layers** and **layers**
 
 2. Open **blyt**
 
-![Image title](imgs/layers/l1.png)
+![Image title](imgs/layers/l1.webp)
 
 3. Click the green button on the right corner **add button**
 
-![Image title](imgs/layers/l2.png)
+![Image title](imgs/layers/l2.webp)
 
 4. Select the picture you want to add and select the format **TCS_R8_G8_B8_A8_UNORM**
 
-![Image title](imgs/layers/l3.png)
+![Image title](imgs/layers/l3.webp)
 
 5.Grab the image, left click it, and move it over the screen
 
-![Image title](imgs/layers/l4.png)
+![Image title](imgs/layers/l4.webp)
 
 6. Save and profit
 
 You will end up with something like this
 
-![Image title](imgs/layers/l5.png)
+![Image title](imgs/layers/l5.webp)

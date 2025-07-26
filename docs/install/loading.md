@@ -53,7 +53,7 @@ Currently there's two ways to load themes using aroma
 
     A screen like this will pop up
 
-    ![Image title](imgs/l1.png)
+    ![Image title](imgs/l1.webp)
 
     Select your theme with the A button
 

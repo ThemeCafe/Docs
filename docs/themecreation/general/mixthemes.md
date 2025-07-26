@@ -36,22 +36,22 @@ This guide assumes that you've made at least a theme before and you are somewhat
 
 Let's say that you like the ⭐[Sleepy Yoshi Animated](https://discord.com/channels/1195784055296381020/1264809013279719476)⭐ theme but you wish it had a different floor, something like the floor on ⭐[Pixel Mario](https://discord.com/channels/1195784055296381020/1272742559302680606)⭐ , In this example I will be replacing the floor of Sleepy Yoshi (**Main**) with the one in Pixel Mario (**Source**)
 
-![Image](imgs/m2.png)
+![Image](imgs/m2.webp)
 
-![Image](imgs/m3.png)
+![Image](imgs/m3.webp)
 
 #### Step 1
 Open your **Source** theme and search for the file you want to use on your Main theme (In this case I want the floor from the Pixel Mario theme so I will search for LoungeFloor.szs), if you're unsure where the file is located you can check the tutorials or ask for [help](https://discord.com/channels/1195784055296381020/1205976336209027074)
 
-![Image](imgs/m1.png)
+![Image](imgs/m1.webp)
 
 #### Step 2
 
 After locating the file you want to use on your main theme, right click and choose "Export Raw Data", then save it on your computer
 
-![Image](imgs/m4.png)
+![Image](imgs/m4.webp)
 
-![Image](imgs/m5.png)
+![Image](imgs/m5.webp)
 
 You can repeat Step 1 and 2 if you want to change more files
 
@@ -60,13 +60,13 @@ We are done with the **Source** theme, you can close it now
 #### Step 3
 Open your **Main** theme and search for the file you want to change (In my case LoungueFloor.szs), then choose "Replace Raw Data" and use the file you saved earlier, you can now save your **Main** theme
 
-![Image](imgs/m6.png)
+![Image](imgs/m6.webp)
 
 #### Results
 You can now move your file to your SD as usual and try out the theme
 
 <video controls>
-<source src="../imgs/vm1.mp4" type="video/mp4">
+<source src="../imgs/vm1.webm" type="video/mp4">
 </video>
 
 ✨ If you are going to upload a theme using resources from other people **please credit them** ✨  

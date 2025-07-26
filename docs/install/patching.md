@@ -124,7 +124,7 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
 
 It should now look like this
 
-![Image title](imgs/p4.png)
+![Image title](imgs/p4.webp)
 
 ??? failure "Having issues?"
 
@@ -132,9 +132,9 @@ It should now look like this
 
 Finally remove the `(Patched)` from the name
 
-![Image title](imgs/p5.png)
+![Image title](imgs/p5.webp)
 
-![Image title](imgs/p6.png)
+![Image title](imgs/p6.webp)
 
 Now do the same with the other files
 

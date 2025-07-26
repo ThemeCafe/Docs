@@ -10,19 +10,19 @@ You will need:
 
 1. After downloading/applying the file at the end of this tutorial search for FolderBase.szs > FolderBase.bflyt and open it, you will see something like this
 
-![Image title](imgs/framebyframe/f1.png)
+![Image title](imgs/framebyframe/f1.webp)
 
 2. Open Animation Hierarchy
 
-![Image title](imgs/framebyframe/f2.png)
+![Image title](imgs/framebyframe/f2.webp)
 
 3. Select **FooterOut.bflan**
 
-![Image title](imgs/framebyframe/f3.png)
+![Image title](imgs/framebyframe/f3.webp)
 
 4. Navigate to N_Footer > Translate Y
 
-![Image title](imgs/framebyframe/f4.png)
+![Image title](imgs/framebyframe/f4.webp)
 
 Now we will make a little math, its simple dont worry
 
@@ -45,19 +45,19 @@ The result you got will be the End frame on Taginfo and Animation info
 
 (its **44** not **45** im just dumb ill fix this later)
 
-![Image title](imgs/framebyframe/f5.png)
+![Image title](imgs/framebyframe/f5.webp)
 
-![Image title](imgs/framebyframe/f6.png)
+![Image title](imgs/framebyframe/f6.webp)
 
 we have now set the amount of frames that will be shown
 
 6. Close that and on Animation Hierarchy left click FooterOut.bflan and click export
 
-![Image title](imgs/framebyframe/f7.png)
+![Image title](imgs/framebyframe/f7.webp)
 
 7. On switch toolbox open anim we will work with FooterIn.bflan
 
-![Image title](imgs/framebyframe/f8.png)
+![Image title](imgs/framebyframe/f8.webp)
 
 8. Left click it and then select "Replace Raw Data"
 
@@ -71,20 +71,20 @@ suggested: BC1_UNORM
 
 10. After adding all of your frames open the materials folder, there you will see all the Frames available
 
-![Image title](imgs/framebyframe/f9.png)
+![Image title](imgs/framebyframe/f9.webp)
 
 11. After adding all your frames, go and test it out
 
 You can test it directly on switch toolbox
 
-![Image title](imgs/framebyframe/f10.png)
+![Image title](imgs/framebyframe/f10.webp)
 
 **To test**
 
 Go into animation Hierarchy, select footerout or footerin and click play
 
 <video controls>
-<source src="../imgs/framebyframe/vf.mp4" type="video/mp4">
+<source src="../imgs/framebyframe/vf.webm" type="video/mp4">
 </video>
 
 Use this file as a base "You will need to patch a Men2.pack to use it" [here](../../install/files.md)

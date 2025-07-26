@@ -31,19 +31,19 @@ Themiify searches `SD:/wiiu/themes` for Wii U Theme Archive files (`.utheme`) an
 3. Turn on your Wii U and boot aroma
 4. Open the Themiify app
 
-    ![image](imgs/t1.png)
+    ![image](imgs/t1.webp)
 
 5. Click `Install Theme`
 
-    ![image](imgs/t2.png)
+    ![image](imgs/t2.webp)
 
 6. Select the theme you want to install
 
-    ![image](imgs/t3.png)
+    ![image](imgs/t3.webp)
 
 7. Press `A`
 
-    ![image](imgs/t4.png)
+    ![image](imgs/t4.webp)
 
     The theme will now be installed on the SD Card
 
@@ -51,21 +51,21 @@ Themiify searches `SD:/wiiu/themes` for Wii U Theme Archive files (`.utheme`) an
 
 8. After it's done, Press `X` to delete the `.utheme` file
 
-    ![image](imgs/t6.png)
+    ![image](imgs/t6.webp)
 
 9. Press `Home` or `B` to quit
 
-    ![image](imgs/t2.png)
+    ![image](imgs/t2.webp)
 
 10. The SDCafiine plugin menu will show up, select the theme you want to use and press `A`
 
-    ![image](imgs/t8.png)
+    ![image](imgs/t8.webp)
 
 !!! success
 
     You have succesfully installed a custom theme
 
-    ![image](imgs/r.png)
+    ![image](imgs/r.webp)
 
 ??? info "Fonts"
 

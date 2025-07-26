@@ -27,7 +27,7 @@ search:
 
             like this
 
-            ![image](imgs/bootsound/b1.png)
+            ![image](imgs/bootsound/b1.webp)
 
             **Another alternative for this method could be**
 
@@ -35,7 +35,7 @@ search:
 
             Make this setup
 
-            ![image](imgs/bootsound/b2.png)
+            ![image](imgs/bootsound/b2.webp)
 
             - Then run this command in **.bat**
 
@@ -47,7 +47,7 @@ search:
 
             You should end up with this
 
-            ![image](imgs/bootsound/b3.png)
+            ![image](imgs/bootsound/b3.webp)
 
         **WARNING**
 

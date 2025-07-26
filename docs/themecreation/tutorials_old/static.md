@@ -12,15 +12,15 @@ So, how to make static themes
 
     **double images**
 
-    ![Image title](imgs/static/s1.png)
+    ![Image title](imgs/static/s1.webp)
 
-    ![Image title](imgs/static/s2.png)
+    ![Image title](imgs/static/s2.webp)
 
     **single images**
 
-    ![Image title](imgs/static/s3.png)
+    ![Image title](imgs/static/s3.webp)
 
-    ![Image title](imgs/static/s4.png)
+    ![Image title](imgs/static/s4.webp)
 
     choose which one you wanna use as a base
 
@@ -55,11 +55,11 @@ So, how to make static themes
 
 2. open **Men2.pack** with switch toolbox and search for **LauncherBase.szs**  > **blyt**  > **LauncherBase.bflyt**
 
-    ![Image title](imgs/static/s5.png)
+    ![Image title](imgs/static/s5.webp)
 
     add any image you want with the **green button** on the right corner of the screen
 
-    ![Image title](imgs/static/s6.png)
+    ![Image title](imgs/static/s6.webp)
 
     **For this tutorial we will be using this image**
 
@@ -67,21 +67,21 @@ So, how to make static themes
 
 3. When adding the image make sure you change the **format** to **BC3_UNORM**
 
-    ![Image title](imgs/static/s8.png)
+    ![Image title](imgs/static/s8.webp)
 
     press Ok
 
 4. Open **materials** > **P_pict_0** and click edit
 
-    ![Image title](imgs/static/s9.png)
+    ![Image title](imgs/static/s9.webp)
 
 5. Select your image
 
-    ![Image title](imgs/static/s10.png)
+    ![Image title](imgs/static/s10.webp)
 
 6. Save
 
-    ![Image title](imgs/static/s11.png)
+    ![Image title](imgs/static/s11.webp)
 
 7. Now we will change the second image
 
@@ -89,25 +89,25 @@ So, how to make static themes
 
     Do the same process we did before but with **LoungeScaleMeter.szs**
 
-    ![Image title](imgs/static/s12.png)
+    ![Image title](imgs/static/s12.webp)
 
     We will be using this image
 
-    ![Image title](imgs/static/s13.png)
+    ![Image title](imgs/static/s13.webp)
 
 8. For the last step we will change the 3D image for the image we added on **LauncherBase**
 
     Open **Model** > **FloatIcon00.szs** > **Textures** > **heisjustlikeme**
 
-    ![Image title](imgs/static/s14.png)
+    ![Image title](imgs/static/s14.webp)
 
     Click right click **replace** and select your image
 
     this time the format will stay as default **BC1_UNORM**
 
-    ![Image title](imgs/static/s15.png)
+    ![Image title](imgs/static/s15.webp)
 
     press Ok, save and profit
 
-    ![Image title](imgs/static/s16.png)
-    ![Image title](imgs/static/s17.png)
+    ![Image title](imgs/static/s16.webp)
+    ![Image title](imgs/static/s17.webp)

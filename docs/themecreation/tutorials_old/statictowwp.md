@@ -7,32 +7,32 @@ search:
 
 1. Open **LauncherBase.szs** > **LauncherBase.bflyt**
 
-    ![image](imgs/statictowwp/s1.png)
+    ![image](imgs/statictowwp/s1.webp)
 
 2. Open RootPane and select **P_pict_0**
 
-    ![image](imgs/statictowwp/s2.png)
+    ![image](imgs/statictowwp/s2.webp)
 
 3. Select Pane > Translate and change the Y axis to **-720**
 
-    ![image](imgs/statictowwp/s3.png)
-    ![image](imgs/statictowwp/s4.png)
+    ![image](imgs/statictowwp/s3.webp)
+    ![image](imgs/statictowwp/s4.webp)
 
 4. Now drag **P_pict_0** into **N_PosRoot**
 
-    ![image](imgs/statictowwp/s5.png)
+    ![image](imgs/statictowwp/s5.webp)
 
 5. Open Animation Hierarchy, we will just change a couple stuff on this 2 animations
 
-    ![image](imgs/statictowwp/s6.png)
+    ![image](imgs/statictowwp/s6.webp)
 
 6. Open **LauncherBase_IconDrcOut** and change Key Frame 2's value to 1000 like the picture below
 
-    ![image](imgs/statictowwp/s7.png)
+    ![image](imgs/statictowwp/s7.webp)
 
     Do the same with **LauncherBase_IconTvOut** but in negative -1000
 
-    ![image](imgs/statictowwp/s8.png)
+    ![image](imgs/statictowwp/s8.webp)
 
     What we are doing here is:
 
@@ -42,5 +42,5 @@ search:
 7. Save and test
 
 <video controls>
-<source src="../imgs/statictowwp/v1.mp4" type="video/mp4">
+<source src="../imgs/statictowwp/v1.webm" type="video/mp4">
 </video>

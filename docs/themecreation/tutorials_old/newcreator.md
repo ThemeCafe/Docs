@@ -72,7 +72,7 @@ Painting your theme:
 5. Select P_BtnSlideR
 6. Below the navigator click colors
 
-![Image title](imgs/newcreator/n1.png)
+![Image title](imgs/newcreator/n1.webp)
 
 7. Change the black color to the color you want on your theme arrows
 8. Do the same with P_BtnSlideL
@@ -82,7 +82,7 @@ Painting your theme:
 
 This is an active frame:
 
-![Image title](imgs/newcreator/n2.png)
+![Image title](imgs/newcreator/n2.webp)
 
 1. Open Men2.pack
 2. Search for "Launchericon.szs"
@@ -92,13 +92,13 @@ This is an active frame:
 6. As we did before open colors
 7. This time you will change both colors to the color you like
 
-![Image title](imgs/newcreator/n3.png)
+![Image title](imgs/newcreator/n3.webp)
 
 8. Save
 
 - Changing OverlayAppBase colors
 
-![Image title](imgs/newcreator/n4.png)
+![Image title](imgs/newcreator/n4.webp)
 
 1. Open Men2.pack
 2. Search for "OverlayAppBase.szs"
@@ -111,7 +111,7 @@ This is an active frame:
 
 I was lazy so i didnt fix the bases before uploading them so you may see they look purple **(if this is not the case for you, you can skip this part)**
 
-![Image title](imgs/newcreator/n5.png)
+![Image title](imgs/newcreator/n5.webp)
 
 1. Open Men2.pack
 2. Search for "BtnSlideFolder.szs"
@@ -124,17 +124,17 @@ Download this image as a **png**
 
 5. Click the add button
 
-![Image title](imgs/newcreator/n7.png)
+![Image title](imgs/newcreator/n7.webp)
 
 6. Add the arrow with the format **BC3_UNORM**
 
-![Image title](imgs/newcreator/n8.png)
+![Image title](imgs/newcreator/n8.webp)
 
 7. Open Materials
 8. Click P_BtnSlideR
 9. Click edit
 
-![Image title](imgs/newcreator/n9.png)
+![Image title](imgs/newcreator/n9.webp)
 
 10. Do the same with P_BtnSlideL
 
@@ -147,17 +147,17 @@ Download this image as a **png**
 
 **Men2.pack > PageIndicator.szs**
 
-![Image title](imgs/newcreator/n10.png)
+![Image title](imgs/newcreator/n10.webp)
 
 **Men2.pack > UsbIndicatorDrc.szs**
 
-![Image title](imgs/newcreator/n11.png)
+![Image title](imgs/newcreator/n11.webp)
 
 **Men.pack > BtnSwapDrc.szs (gamepad)**
 **Men.pack > BtnSwap_00.szs (tv)**
 
-![Image title](imgs/newcreator/n12.png)
+![Image title](imgs/newcreator/n12.webp)
 
 **Men.pack > BtnLoungeScale_00**
 
-![Image title](imgs/newcreator/n13.png)
+![Image title](imgs/newcreator/n13.webp)

@@ -17,7 +17,7 @@ We  will be using this one as a base:
 
 1. Open switch toolbox and go to **LoungeScaleMeter.bflyt**
 
-![Image title](imgs/scrolling/s1.png)
+![Image title](imgs/scrolling/s1.webp)
 
 2. Choose your scrolling image
 
@@ -27,11 +27,11 @@ for this tutorial we will be using this one
 
 3. Add it like with **BC3_UNORM** format
 
-![Image title](imgs/scrolling/s3.png)
+![Image title](imgs/scrolling/s3.webp)
 
 4. Open **materials** and select **L_BtnLoungeScale_03**
 
-![Image title](imgs/scrolling/s4.png)
+![Image title](imgs/scrolling/s4.webp)
 
 edit
 
@@ -41,7 +41,7 @@ If you want to leave it as it is now you can do that but ill explain how to anim
 
 Select **Animation Hierarchy** we will be using **LoungeScaleMeter_In.bflan**
 
-![Image title](imgs/scrolling/s5.png)
+![Image title](imgs/scrolling/s5.webp)
 
 An animation is made up by 3 important things
 
@@ -49,7 +49,7 @@ An animation is made up by 3 important things
 -Animation Info
 -**the animated part** on this case **L_BtnLoungeScale_03**
 
-![Image title](imgs/scrolling/s6.png)
+![Image title](imgs/scrolling/s6.webp)
 
 I dont know what the limit of **Frames** an animation haves, but i feel like 1000 to 2000 is enough or atleast for scrolling animations
 
@@ -57,13 +57,13 @@ you can change this on TagInfo and Animation Info
 
 On TagInfo change the **Frame amount** in this case **-1000** to anything you like, do the same with Animation info
 
-![Image title](imgs/scrolling/s7.png)
+![Image title](imgs/scrolling/s7.webp)
 
 6. Now select the part we to animate
 
 in this case **L_BtnLoungeScale_03**
 
-![Image title](imgs/scrolling/s8.png)
+![Image title](imgs/scrolling/s8.webp)
 
 **Translate Y** means it will only move on the **Y** axis
 
@@ -75,7 +75,7 @@ Frame 2 = Back to position A
 
 7. Select the **Key Frame** and edit
 
-![Image title](imgs/scrolling/s9.png)
+![Image title](imgs/scrolling/s9.webp)
 
 **Value** means the position
 
@@ -84,7 +84,7 @@ You can play with this as much as you want, it's all up to you
 i'll save and show the final product
 
 <video controls>
-<source src="../imgs/scrolling/vs.mp4" type="video/mp4">
+<source src="../imgs/scrolling/vs.webm" type="video/mp4">
 </video>
 
 you can make it slower by increasing the amount of frames
