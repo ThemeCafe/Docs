@@ -1,8 +1,29 @@
 # Textures
 
+## Replacing Textures
+
+Open your file
+
+- Go to the `timg` folder
+- Click the texture you want to replace
+
+- In `Display` select `File Editor`
+
+    ![image](imgs/t1.webp)
+
+- Click `File` then `Replace`
+
+    ![image](imgs/t2.webp)
+
+- Select the image you want to use
+- Import it
+- Save
+
 ## Adding a new texture
 
-After opening the bflyt file of what you want to change the material's colors
+!!! warning "If you are going to replace textures, please follow [Replacing Textures](#replacing-textures) instead"
+
+Open your `bflyt` file
 
 - Click the green "+" button
 
@@ -12,9 +33,9 @@ After opening the bflyt file of what you want to change the material's colors
 - Change the format
 - Click OK
 
-!!! failure "Don't delete textures default textures"
+!!! failure "Don't delete default textures"
 
-    This will cause issues, and will probably corrupt your theme
+    This will cause issues, and will probably corrupt your theme, If you are going to replace textures, please follow [Replacing Textures](#replacing-textures) instead
 
 ## Change a Material's texture
 
