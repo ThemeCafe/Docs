@@ -57,7 +57,7 @@ This step is required for your animation to work correctly
 
 ??? info "Script info"
 
-    Due to the way menu animations work, only values divisible by 60 are available.
+    Due to the way menu animations work, only values that are divisors of 60 are available.
 
 !!! script "Animation Generator"
 
