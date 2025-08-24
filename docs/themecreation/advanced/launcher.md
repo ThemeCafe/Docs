@@ -356,10 +356,20 @@ If you want to change the color of the blue glow
 
 `Men2.pack` > `Layout` > `Balloon.szs` > `Balloon.bflyt`
 
-You can change the [Color](../general/colors.md) of this by changing the materials:
+??? "Balloon"
 
-- `W_BalloonC`
-- `W_BalloonLT`
-- `P_Tip`
+    You can change the [Color](../general/colors.md) of this by changing the materials:
+
+    - `W_BalloonC`
+    - `W_BalloonLT`
+    - `P_Tip`
+
+??? "Text"
+
+    Go to `RootPane` > `N_Trans` > `N_Scale`
+    
+    - Click `T_Balloon`
+    - Go to `Text Pane`
+    - Scroll down and in `Font` change the color
 
 ----------------------

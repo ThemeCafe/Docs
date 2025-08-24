@@ -121,7 +121,8 @@ nav:
         - Frame by frame: themecreation/tutorials_old/framebyframe.md
         - Layers: themecreation/tutorials_old/layers.md 
         - Music: themecreation/tutorials_old/music.md
-        - Scrolling: themecreation/tutorials_old/scrolling.md
+        - Vertical Scrolling: themecreation/tutorials_old/v_scroll.md
+        - Horizontal Scrolling: themecreation/tutorials_old/h_scroll.md
         - Static: themecreation/tutorials_old/static.md 
         - Static to WWP: themecreation/tutorials_old/statictowwp.md
         - Minimalist: themecreation/tutorials_old/minimalist.md

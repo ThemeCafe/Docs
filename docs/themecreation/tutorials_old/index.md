@@ -4,7 +4,11 @@ search:
 icon: material/folder
 ---
 
-These guides were made by the owner of Theme Café @perrohuevo in the Theme Café discord server and are here for archival purposes
+# Archived
+
+This is an archive of guides either from the Theme Cafe Discord server or the Theme Cafe Docs itself for preservation purposes and for easy access
+
+<div class="grid" markdown>
 
 [Arrows](arrows.md)
 
@@ -20,8 +24,14 @@ These guides were made by the owner of Theme Café @perrohuevo in the Theme Caf�
 
 [New Creator](newcreator.md)
 
-[Scrolling](scrolling.md)
+[Vertical Scrolling](v_scroll.md)
+
+[Horizontal Scrolling](h_scroll.md)
 
 [Static](static.md)
 
 [Static to WWP](statictowwp.md)
+
+</div>
+
+

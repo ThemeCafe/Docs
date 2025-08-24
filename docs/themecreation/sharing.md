@@ -11,10 +11,6 @@ If you want to share your themes, first you'll need to make them into a patch
 
     ## **Creating Patches with Flips**
 
-    !!! info
-
-        The patches created using Flips instead of RomPatcher.js are much more optimized and prioritize efficiency over speed. If you want to reduce the file size of your patch, It is strongly recommended using Flips to create your patches.
-
     ### What you need
 
     1. [Flips](https://github.com/Alcaro/Flips/releases)
@@ -45,7 +41,7 @@ If you want to share your themes, first you'll need to make them into a patch
 
     !!! bug ""
 
-        Be aware that patches made with Rompatcher.js are unoptimized and their size will be higher than patches made with flips
+        The patches created using Flips instead of RomPatcher.js are much more optimized and prioritize efficiency over speed. It is strongly recommended using Flips to create your patches.
 
         Please only use this method in case you are unable to run Flips in your machine
 
