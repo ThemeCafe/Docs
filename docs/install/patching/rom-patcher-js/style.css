@@ -17,10 +17,10 @@
 	line-height: 1.8;
 
 	background-color: #f9fafa;
-	padding: 30px 15px;
+	border: 1px solid #cccccc;
+	padding: 1em;
 	border-radius: 3px;
 	color: black;
-	max-width: 640px;
 	margin: 0 auto;
 }
 

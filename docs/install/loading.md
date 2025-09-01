@@ -65,17 +65,13 @@ Currently there's two ways to load themes using aroma
 
     This is an Aroma plugin to safely apply custom themes!
 
-    !!! info "**No system file is modified by this plugin.**"
+    !!! info "***No system file is modified by this plugin.***"
 
     ### What you need
 
     - [StyleMiiU-Plugin](https://github.com/Juanen100/StyleMiiU-Plugin/releases)
     - A patched Men.pack, Men2.pack or cafe_barista_men.bfsar
         - If you do not have a patched menu file, follow [Patching](patching.md)
-
-    ??? note "If you used an older version of this plugin"
-
-        If you happen to have installed an older version of this plugin, delete the previous `theme_manager.wps` and rename `sd:/wiiu/environments/aroma/plugins/config/theme_manager.json` to `style-mii-u.json`
 
     ### Installation
 
@@ -85,35 +81,25 @@ Currently there's two ways to load themes using aroma
 
     ### Usage
 
-    This plugin can detect Men.pack, Men2.pack and cafe_barista_men.bfsar automatically to make the theme have any folder structure you desire. SDCaffine's file structure is still compatible with this plugin. 
+    This plugin can detect Men.pack, Men2.pack and cafe_barista_men.bfsar automatically to make the theme have any folder structure you desire, like `SD:/wiiu/themes/[ThemeName]/Men.pack , Men2.pack , cafe_barista_men.bfsar`. SDCaffine's file structure is still compatible with this plugin. 
 
-    ??? info "Extra info"
-
-        ??? question "Custom Language Files"
-        
-            *Additional files like AllMessage.szs do still need to be on their corresponding folder structure, like this: `SD:/wiiu/themes/[ThemeName]/content/[TheLanguageToPatch]/Message/AllMessage.szs`*
-        
-        Usually themes will load from `SD:/wiiu/themes/` but, if it detects valid themes in the `SD:/wiiu/sdcafiine/` folder and `SD:/wiiu/themes/` folder doesn't exist, it will load the themes from the SDCafiine's folder. 
-    
-        !!! bug ""
-        
-            **However, it is recommended to move them to the `SD:/wiiu/themes/` folder to prevent issues between SDCafiine and StyleMiiU as it may cause issues when loading themes.**
+    Themes will only load from the `SD:/wiiu/themes` directory, it is recommended that you move all your themes from SDCafiine into the themes directory to avoid problems of both plugins trying to patch the Wii U Menu.
 
     A step to step guide on how to use it:
 
     1. Open the WUPS menu (**L + ↓ + SELECT**) and enter the **StyleMiiU** menu. Make sure StyleMiiU is enabled, otherwise it won't do anything.
 
-    2. Enter the **Available Themes** option and you should see the folders that are in `SD:/wiiu/themes/` (Or `SD:/wiiu/sdcafiine/` in case no themes folder exist), showing up empty if no theme is present. Once there, set whatever theme you want to Current Theme. If no theme it's set, the Wii U's default home menu will be loaded.
+    2. Enter the **Available Themes** option and you should see the folders that are in `SD:/wiiu/themes/`, showing up empty if no theme is present. Once there, set whatever theme you want to Current Theme. If no theme it's set, the Wii U's default home menu will be loaded.
 
     3. Once you exit the WUPS menu, the Home Menu should restart and once it gets restarted, your Home Menu will now have the theme you chose applied to it.
 
-    ??? question "Additional options"
+    ??? info "Extra Info"
+    
+        - If you happen to have installed an older version of this plugin, delete the previous `theme_manager.wps` and rename `sd:/wiiu/environments/aroma/plugins/config/theme_manager.json` to `style-mii-u.json`
+
+        - Additional files like AllMessage.szs do still need to be on their corresponding folder structure, like this: `SD:/wiiu/themes/[ThemeName]/content/[TheLanguageToPatch]/Message/AllMessage.szs`
 
         - Shuffle themes: This option tries to mimic the 3DS' option of shuffling themes, you can use it by simply activating the option and then in **Available Themes**, select the themes you want to shuffle through. The themes will change **every time you restart the console**. If you disable this option, then the last theme you selected will become the default theme for it to fallback on.
-
-        !!! note ""
-
-            This plugin is only compatible with SDCafiine's folder structure, meaning that you have to put every file on it's corresponding folder. Usually themes will load from `SD:/wiiu/themes/` but, if it detects valid themes in the `SD:/wiiu/sdcafiine/` folder and `SD:/wiiu/themes/` folder exists, it will load the themes from the SDCafiine's folder.
 
 -----------------
 

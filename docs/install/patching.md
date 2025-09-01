@@ -12,6 +12,7 @@ You will need:
 
 - [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or [Flips](https://github.com/Alcaro/Flips)
 - Men.pack, Men2.pack, cafe_barista_men.bfsar
+    - If you do not have your original files please follow [Menu Files](files.md)
 - A patch file
     - It can be one of the following formats .ips, .bps, .ups, .ppf, .aps, .rup
 
@@ -29,7 +30,7 @@ You can join the Theme Café [discord server](https://discord.com/invite/2DNvH9d
 
 ### Applying patches
 
-1. In `Your original file here` select your **ORIGINAL UNMODIFIED** `Men.pack` / `Men2.pack` / `cafe_barista_men.bfsar` file you want to patch
+1. In `Original file` select your **ORIGINAL UNMODIFIED** `Men.pack` / `Men2.pack` / `cafe_barista_men.bfsar` file you want to patch
 
 2. For the Patch File select the **.ips, .bps, .ups, .ppf, .aps, .rup file** you got from downloading the theme that matches the name of the ROM file
 
@@ -40,15 +41,11 @@ body[data-md-color-scheme="slate"] #rom-patcher-container {
     background-color: #2e2e2e;
     color: #ffffff;
     border: 1px solid #444444;
-    padding: 1em;
-    border-radius: 5px;
 }
 
 body[data-md-color-scheme="slate"] #rom-patcher-container button {
     color: #ffffff;
     background-color: #009485;
-    padding: 0.5em 1em;
-    border-radius: 5px;
 }
 
 body[data-md-color-scheme="slate"] #rom-patcher-container label {
@@ -59,10 +56,6 @@ body[data-md-color-scheme="slate"] #rom-patcher-container input[type="file"] {
     color: #ffffff;
     background-color: #2e2e2e;
     border: 1px solid #444444; 
-    padding: 0.5em; 
-    border-radius: 5px; 
-    outline: none; 
-    cursor: pointer; 
 }
 
 body[data-md-color-scheme="slate"] #rom-patcher-container input[type="file"]:hover {
@@ -78,7 +71,7 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
 
 <div id="rom-patcher-container">
     <div>
-        <label for="rom-patcher-input-file-rom">Your original file here:</label>
+        <label for="rom-patcher-input-file-rom">Original file:</label>
         <input type="file" id="rom-patcher-input-file-rom">
     </div>
     <div class="m-b text-selectable text-mono" id="rom-patcher-rom-info">
@@ -97,11 +90,11 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
         </div>
     </div>
     <div>
-        <label for="rom-patcher-input-file-patch">Your Patch File here:</label>
+        <label for="rom-patcher-input-file-patch">Patch File:</label>
         <input type="file" id="rom-patcher-input-file-patch">
     </div>
     <div>
-        <button id="rom-patcher-button-apply">Apply Patch</button>
+        <br><button id="rom-patcher-button-apply">Apply Patch</button>
     </div>
     <div>
         <a id="rom-patcher-download-link" style="display:none;">Download Patched ROM</a>
