@@ -1,4 +1,4 @@
-![Image title](imgs/launchertutorial.png)
+![Image title](imgs/launchertutorial.webp)
 
 --------------------------------
 
@@ -8,7 +8,7 @@
 
 This is where the background image/animation is located
 
-![image](../themes/imgs/template/1.png){ width="426" height="240" }
+![image](../themes/imgs/template/1.webp){ width="426" height="240" }
 
 [Template Guide](../themes/template.md){ .md-button .md-button--primary }
 

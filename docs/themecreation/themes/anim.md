@@ -27,7 +27,7 @@ Open `LoungeVR.szs` with [Switch Toolbox](https://github.com/KillzXGaming/Switch
 - Press import
 - Select all of your frames -> Open
 
-    ![image](imgs/frame/importTex.png)
+    ![image](imgs/frame/importTex.webp)
 
     ??? info "Recommended Image Resolution"
 
@@ -40,7 +40,7 @@ Open `LoungeVR.szs` with [Switch Toolbox](https://github.com/KillzXGaming/Switch
     - Select all textures (with the first frame selected, shift+click the last frame)
     - Change the mip count to 1
 
-        ![image](imgs/frame/mip.png)
+        ![image](imgs/frame/mip.webp)
 
     - Make sure the format is set to `BC1_SRGB`
     - Click OK

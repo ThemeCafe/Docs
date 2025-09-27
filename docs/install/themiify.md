@@ -11,55 +11,25 @@ Themiify searches `SD:/wiiu/themes` for Wii U Theme Archive files (`.utheme`) an
 ## What you need
 
 - A modded Wii U with [Aroma](https://wiiu.hacks.guide/aroma/getting-started.html)
-- [Themiify](#) *Link to github releases*
-- [SDCafiine Plugin](https://github.com/wiiu-env/sdcafiine_plugin/releases)
+- [Themiify](https://github.com/Themiify-hb/Themiify/releases)
+- [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases)
 - Your theme with the extension `.utheme` 
+    - These can be obtained in [Themezer](https://themezer.net/wiiu/themes) or within Themiify
 
-??? question "About the use of SDCafiine"
+??? question "About the use of StyleMiiU"
 
-    SDCafiine works by loading themes safely via the SD Card. Themiify installs the files on the SD Card for SDCafiine to load, if you do not have the [SDCafiine Plugin](https://github.com/wiiu-env/sdcafiine_plugin/releases) installed, no changes will be made and you will not see any custom theme
-
-??? question "Where to get .utheme files"
-
-    Join the [Theme Café discord server](https://discord.com/invite/2DNvH9db2A).
-    
+    StyleMiiU works by loading themes safely via the SD Card. Themiify installs the files on the SD Card for StyleMiiU to load, if you do not have the [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases) installed, no changes will be made and you will not see any custom theme
 
 ## Installation
 
-1. Download [Themiify](#) and copy the `Themiify.wuhb` file to `SD:/wiiu/apps`.
+1. Download [Themiify](https://github.com/Themiify-hb/Themiify/releases) and copy the `Themiify.wuhb` file to `SD:/wiiu/apps`.
 2. Copy your `.utheme` file to `SD:/wiiu/themes`
 3. Turn on your Wii U and boot aroma
 4. Open the Themiify app
 
     ![image](imgs/t1.webp)
 
-5. Click `Install Theme`
-
-    ![image](imgs/t2.webp)
-
-6. Select the theme you want to install
-
-    ![image](imgs/t3.webp)
-
-7. Press `A`
-
-    ![image](imgs/t4.webp)
-
-    The theme will now be installed on the SD Card
-
-    This might take some time, so please wait
-
-8. After it's done, Press `X` to delete the `.utheme` file
-
-    ![image](imgs/t6.webp)
-
-9. Press `Home` or `B` to quit
-
-    ![image](imgs/t2.webp)
-
-10. The SDCafiine plugin menu will show up, select the theme you want to use and press `A`
-
-    ![image](imgs/t8.webp)
+!!! warning "Under Construction"
 
 !!! success
 

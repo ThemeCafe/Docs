@@ -69,7 +69,7 @@ Currently there's two ways to load themes using aroma
 
     ### What you need
 
-    - [StyleMiiU-Plugin](https://github.com/Juanen100/StyleMiiU-Plugin/releases)
+    - [StyleMiiU-Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases)
     - A patched Men.pack, Men2.pack or cafe_barista_men.bfsar
         - If you do not have a patched menu file, follow [Patching](patching.md)
 

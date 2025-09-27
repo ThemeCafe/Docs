@@ -57,7 +57,7 @@ Adding your music
 - Double click `[1] WARC_1_GUESS_GROUP_MEN`
 - A new window will open
 
-    ![image](imgs/m1.png)
+    ![image](imgs/m1.webp)
 
 - Double click `Waves`
 - Scroll to the bottom to find `[302] WAV_302_GUESS_BANK_MEN_BGM`
@@ -66,7 +66,7 @@ Adding your music
 - Choose your `.WAV` file
 - Wait for it to change the name to `[302] {Unknown Wave Name}`
 
-    ![image](imgs/m2.png)
+    ![image](imgs/m2.webp)
 
 - Click `File` in the top left corner
 - Click Save

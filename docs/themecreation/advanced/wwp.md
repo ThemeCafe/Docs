@@ -1,12 +1,12 @@
 # Wara Wara Plaza
 
-![image](imgs/wwptutorial.png)
+![image](imgs/wwptutorial.webp)
 
 ----------------------
 
 ### 1. Floor
 
-![Image title](../themes/imgs/template/s5.png){ width="426" height="240" }
+![Image title](../themes/imgs/template/s5.webp){ width="426" height="240" }
 
 `Men2.pack` > `Model` > `LoungeFloor.szs`
 
@@ -109,23 +109,7 @@ This is where the floor model is located
 
     - `W_NameBaseC`
     - `W_NameBaseLT`
-
-??? "Text"
-
-    Go to `RootPane` > `N_Trans` > `N_Scale`
-
-    To change the color of the title of the Balloon
-
-    - Go to `N_InBalloon` > `T_Name`
-    - Go to `Text Pane`
-    - In `Font` change the color
-
-    To change the color of the text of the Balloon
-
-    - Click `T_Balloon`
-    - Go to `Text Pane`
-    - In `Font` change the color
-
+    
 ----------------------
 
 ### 4. Speech Balloon Drawing

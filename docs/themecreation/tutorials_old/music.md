@@ -143,7 +143,7 @@ At 32khz, I found that the max length was 2:26 (stereo)
     - Double click `Sound Sequences`
     - Scroll until you find `[371] BGM_MEN_TV` and `[372] BGM_MEN_DRC_MAIN`
 
-        ![image](../music/imgs/m3.png)
+        ![image](imgs/music/m10.webp)
 
     - Right click `[371] BGM_MEN_TV`
     - Click `Export`
