@@ -32,7 +32,7 @@ This is where the background image/animation is located
 
 This is where the App Icons at the bottom of the menu are located
 
-You can change the [Color](../general/colors.md) / [Texture](../general/textures.md) of this by changing the material `P_base` of each applet
+You can change the [Color and Texture](../resources/applets.md) of this by [replacing the textures](../general/textures.md#replacing-textures) of each applet
 
 ----------------------
 

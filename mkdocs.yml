@@ -81,6 +81,7 @@ not_in_nav: |
   themecreation/advanced/misc.md
   themecreation/advanced/userselect.md
   themecreation/advanced/accountsetting.md
+  themecreation/resources/arrows.md
 
 nav:
   - Home: index.md
@@ -107,7 +108,7 @@ nav:
       - Resources: 
         - themecreation/resources/index.md
         - Applets: themecreation/resources/applets.md
-        - Arrows: themecreation/resources/arrows.md
+        # - Arrows: themecreation/resources/arrows.md
       - Basic Guides: 
         - themecreation/general/index.md
         - Changing Colors: themecreation/general/colors.md 
