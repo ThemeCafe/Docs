@@ -1,5 +1,5 @@
 ---
-icon: material/share
+icon: fontawesome/solid/share
 hide: toc
 ---
 

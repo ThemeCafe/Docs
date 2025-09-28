@@ -1,5 +1,5 @@
 ---
-icon: octicons/gear-16
+icon: fontawesome/solid/gear
 ---
 
 # Advanced

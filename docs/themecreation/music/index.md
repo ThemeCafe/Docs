@@ -1,5 +1,5 @@
 ---
-icon: material/music
+icon: fontawesome/solid/music
 ---
 
 # Music

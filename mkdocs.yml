@@ -104,7 +104,12 @@ nav:
         # - Account Settings: themecreation/advanced/accountsetting.md
         # - User Select: themecreation/advanced/userselect.md
         # - Miscellaneous: themecreation/advanced/misc.md
-      - General Tutorials: 
+      - Resources: 
+        - themecreation/resources/index.md
+        - Applets: themecreation/resources/applets.md
+        - Arrows: themecreation/resources/arrows.md
+      - Basic Guides: 
+        - themecreation/general/index.md
         - Changing Colors: themecreation/general/colors.md 
         - Textures: themecreation/general/textures.md
         - Exporting / Replacing: themecreation/general/exportimport.md

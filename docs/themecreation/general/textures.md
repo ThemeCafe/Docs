@@ -2,36 +2,64 @@
 
 ## Replacing Textures
 
-Open your file
+!!! note "For bfres"
 
-- Go to the `timg` folder
-- Click the texture you want to replace
+    Open your file
 
-- In `Display` select `File Editor`
+    - Go to the `Textures` folder
+    - Right Click the texture you want to replace
+    - Click `Replace`
+    - Select the image you want to use
+    - Make sure the format is set to `BC1_SRGB`
+    - Click OK
+    - Save
 
-    ![image](imgs/t1.webp)
+!!! note "For bflyt"
 
-- Click `File` then `Replace`
+    Open your file
 
-    ![image](imgs/t2.webp)
+    - Go to the `timg` folder
+    - Click the texture you want to replace
 
-- Select the image you want to use
-- Import it
-- Save
+    - In `Display` select `File Editor`
+
+        ![image](imgs/t1.webp)
+
+    - Click `File` then `Replace`
+
+        ![image](imgs/t2.webp)
+
+    - Select the image you want to use
+    - Import it
+    - Save
 
 ## Adding a new texture
 
 !!! warning "If you are going to replace textures, please follow [Replacing Textures](#replacing-textures) instead"
 
-Open your `bflyt` file
+!!! note "For bfres"
 
-- Click the green "+" button
+    Open your file
 
-    ![image](imgs/t.webp)
+    - Right Click the `Textures` folder
+    - Select the image or images you want to use
+    - Select all textures (with the first frame selected, shift+click the last frame)
+    - Change the mip count to 1
+    - Make sure the format is set to `BC1_SRGB`
+    - Click OK
+    - Save
 
-- Select your image
-- Change the format
-- Click OK
+!!! note "For bflyt"
+
+    Open your `bflyt` file
+
+    - Click the green "+" button
+
+        ![image](imgs/t.webp)
+
+    - Select your image
+    - Change the format
+    - Click OK
 
 !!! failure "Don't delete default textures"
 
