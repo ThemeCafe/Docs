@@ -71,7 +71,7 @@ search:
 17. In order to add the modified music to an existing theme you will want to add a folder named "Sound" inside of your common folder. Inside of the Sound folder create another folder titled "Men". Lastly, place your updated cafe_barista_men.bfsar file in this new Men folder. Everything should be ready for testing, and if all went well you should have looping custom background music :)
 
 <video controls>
-<source src="../imgs/music/vm.webm" type="video/mp4">
+<source src="../imgs/music/vm.mp4" type="video/mp4">
 </video>
 
 ---------------------------------------------------------------------------------------------------------------

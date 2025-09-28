@@ -42,5 +42,5 @@ search:
 7. Save and test
 
 <video controls>
-<source src="../imgs/statictowwp/v1.webm" type="video/mp4">
+<source src="../imgs/statictowwp/v1.mp4" type="video/mp4">
 </video>

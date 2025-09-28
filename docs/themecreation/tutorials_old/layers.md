@@ -34,7 +34,7 @@ What's the difference between **Infinite layers** and **layers**
 *Here's an example of what i mean*
 
 <video controls>
-<source src="../imgs/layers/vl.webm" type="video/mp4">
+<source src="../imgs/layers/vl.mp4" type="video/mp4">
 </video>
 
 **How can you add your own stickers?**
