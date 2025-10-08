@@ -109,7 +109,32 @@ This is where the floor model is located
 
     - `W_NameBaseC`
     - `W_NameBaseLT`
-    
+
+??? "Text"
+
+    Go to `RootPane` > `N_Trans` > `N_Scale`
+
+    To change the color of the title of the Balloon
+
+    - Go to `N_InBalloon` > `T_Name`
+    - Go to `Text Pane`
+    - In `Font` change the color
+
+    To change the color of the text of the Balloon
+
+    - Click `T_Balloon`
+    - Go to `Text Pane`
+    - In `Font` change the color
+
+    !!! warning "IMPORTANT"
+
+        - Still in `Text Pane`
+        - Uncheck `Size Restriction`
+
+        ![image](imgs/wwp/speechballoon/sb1.png)
+
+        **OTHERWISE YOUR CONSOLE WILL CRASH!**
+
 ----------------------
 
 ### 4. Speech Balloon Drawing

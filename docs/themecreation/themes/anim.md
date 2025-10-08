@@ -20,7 +20,7 @@ icon: material/star-shooting
 
 ### Adding Frames
 
-Open `LoungeVR.szs` with [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases/tag/Final)
+Open your model file (`LoungeVR.szs`, `LoungeFloor.szs`) with [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases/tag/Final)
 
 - Double click `gsys.bfres`
 - Right click the Textures folder
@@ -31,7 +31,7 @@ Open `LoungeVR.szs` with [Switch Toolbox](https://github.com/KillzXGaming/Switch
 
     ??? info "Recommended Image Resolution"
 
-        1280x720 or less, anything higher is more likely to crash on console
+        For `LoungeVR`: 1280x720 or less, anything higher is going to give you less space to work with and more likely to crash
 
     ??? info "Max amount of Frames"
 

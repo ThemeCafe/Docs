@@ -57,6 +57,7 @@ Open the patched `Men2.pack` template with [Switch Toolbox](https://github.com/K
 
         1280x720
 
+- When importing the image, import it in format `T_BC1_SRGB`
 - Save
 
 ??? question "Where is this image displayed?"
@@ -83,6 +84,7 @@ We are now going to change the image that's between the Wara Wara Plaza and the 
 
         1280x720
 
+- When importing the image, import it in format `T_BC1_SRGB`
 - Save
 
 ??? question "Where is this image displayed?"
