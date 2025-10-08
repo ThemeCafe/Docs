@@ -71,8 +71,9 @@ If you want to share your themes, first you'll need to make them into a patch
 ### What you need
 
 - The BPS Patches of your theme
-- A Preview of your theme for the Launcher Menu (The menu with the Apps) and the Wara Wara Plaza (The menu with the Miis)
+- A 720p Preview of your theme for the Launcher Menu (The menu with the Apps) and the Wara Wara Plaza (The menu with the Miis)
     - You can take a Screenshot of your theme using the [Screenshot Plugin](https://github.com/wiiu-env/ScreenshotWUPS)
+    - Press X on the Wii U Menu to Swap screens and take both screenshots on the TV to get a 720p Screenshot
     - **Do not upload previews taken with your phone camera**
 
 ### Guide
