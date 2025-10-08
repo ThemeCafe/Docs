@@ -5,6 +5,8 @@ hide: toc
 
 # Sharing
 
+## Creating BPS Patch Files
+
 If you want to share your themes, first you'll need to make them into a patch
 
 === "Flips"
@@ -33,10 +35,6 @@ If you want to share your themes, first you'll need to make them into a patch
 
         ![Image title](imgs/p4.webp)
 
-    !!! success
-
-        You are now ready to share your theme
-
 === "Rompatcher.js"
 
     !!! bug ""
@@ -64,8 +62,27 @@ If you want to share your themes, first you'll need to make them into a patch
     4. In Modified ROM select your modified file
     5. Click on Create Patch
 
-    !!! success
+!!! success
 
-        You are now ready to share your theme
+    You are now ready to upload your theme to Themezer
 
-    --------------
+## Uploading to Themezer
+
+### What you need
+
+- The BPS Patches of your theme
+- A Preview of your theme for the Launcher Menu (The menu with the Apps) and the Wara Wara Plaza (The menu with the Miis)
+    - You can take a Screenshot of your theme using the [Screenshot Plugin](https://github.com/wiiu-env/ScreenshotWUPS)
+    - **Do not upload previews taken with your phone camera**
+
+### Guide
+
+- Go to [Themezer](https://themezer.net/)
+- Log in with your Discord Account
+- Go to `+ Create & Upload`
+- Select Wii U
+- Fill out the details, upload your files and share your theme!
+
+!!! success
+
+    Your theme is now available on Themezer!
