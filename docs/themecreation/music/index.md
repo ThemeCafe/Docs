@@ -35,7 +35,7 @@ We will be working with this template
 
             If you want to make longer music you can export your music at a lower sample rate and use Mono instead of Stereo, what matters is that the size of the file is not too large
 
-Apply the patch to a copy of your `cafe_barista_men.bfsar` file ([Patching](../../install/patching.md)) and come back here when you're done
+Apply the patch to a copy of your `cafe_barista_men.bfsar` file ([Patching](../general/patching.md)) and come back here when you're done
 
 ### Exporting Music as WAV
 
@@ -83,7 +83,7 @@ You can now close this window
 
 !!! success
 
-    You can now test your music [SDCafiine](../../install/loading.md#sdcafiine)
+    You can now test your music [StyleMiiU](../general/loading.md#stylemiiu-plugin)
 
 !!! bug "If you are having issues"
 

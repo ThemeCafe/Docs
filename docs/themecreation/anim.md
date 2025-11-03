@@ -166,9 +166,7 @@ Alternatively, select `Texture SRT Animation` for scrolling animations
 
     ![image](imgs/frame/preview.gif)
 
-
-
 !!! success
 
-    Your custom animation has been added and you can now test it [SDCafiine](../../install/loading.md#sdcafiine)
+    Your custom animation has been added and you can now test it [StyleMiiU](general/loading.md#stylemiiu-plugin)
     

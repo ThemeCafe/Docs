@@ -37,7 +37,7 @@ We will be working with a template
 
 </div>
 
-Apply the patch to a copy of your `Men2.pack` (and `Men.pack` if you are using the Dark Template) file ([Patching](../../install/patching.md)) and come back here when you're done
+Apply the patch to a copy of your `Men2.pack` (and `Men.pack` if you are using the Dark Template) file ([Patching](general/patching.md)) and come back here when you're done
 
 -----------------------
 
@@ -222,4 +222,4 @@ select your new texture and make sure you import it in format `TCS_R8_G8_B8_A8_S
 
     For more advanced changes go to
 
-    [:octicons-gear-16: Advanced](../advanced/launcher.md){ .md-button .md-button--primary }
+    [:octicons-gear-16: Advanced](advanced/launcher.md){ .md-button .md-button--primary }

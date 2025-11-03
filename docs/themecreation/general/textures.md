@@ -2,7 +2,7 @@
 
 ## Replacing Textures
 
-!!! note "For bfres"
+!!! note "For `.bfres` files"
 
     Open your file
 
@@ -14,7 +14,7 @@
     - Click OK
     - Save
 
-!!! note "For bflyt"
+!!! note "For `.bflyt` files"
 
     Open your file
 
@@ -37,7 +37,7 @@
 
 !!! warning "If you are going to replace textures, please follow [Replacing Textures](#replacing-textures) instead"
 
-!!! note "For bfres"
+!!! note "For `.bfres` files"
 
     Open your file
 
@@ -49,7 +49,7 @@
     - Click OK
     - Save
 
-!!! note "For bflyt"
+!!! note "For `.bflyt` files"
 
     Open your `bflyt` file
 
@@ -65,7 +65,7 @@
 
     This will cause issues, and will probably corrupt your theme, If you are going to replace textures, please follow [Replacing Textures](#replacing-textures) instead
 
-## Change a Material's texture
+## Change a Material's Texture
 
 - Open the Materials folder
 - Select the Material you want to change the texture of

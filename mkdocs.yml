@@ -72,12 +72,12 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
 extra_css:
-  - install/patching/rom-patcher-js/style.css
+  - themecreation/general/patching/rom-patcher-js/style.css
   - stylesheets/extra.css
 not_in_nav: |
   md.md
   themiify.md
-  themecreation/tutorials_old/bootsound.md
+  archived/bootsound.md
   themecreation/advanced/misc.md
   themecreation/advanced/userselect.md
   themecreation/advanced/accountsetting.md
@@ -87,15 +87,12 @@ nav:
   - Home: index.md
   - Install:
     - install/index.md
-    - Menu Files: install/files.md
-    - Patching: install/patching.md
-    - Loading Theme: install/loading.md
-    - Fonts: install/fonts.md
-    - Credits: credits.md
+    - Custom Fonts: install/fonts.md
+    - Credits: credits/index.md
   - Theme Creation:
       - themecreation/index.md
-      - Template: themecreation/themes/template.md
-      - Animations: themecreation/themes/anim.md
+      - Template: themecreation/template.md
+      - Animations: themecreation/anim.md
       - Music: 
         - themecreation/music/index.md
       - Advanced:
@@ -109,29 +106,31 @@ nav:
         - themecreation/resources/index.md
         - Applets: themecreation/resources/applets.md
         # - Arrows: themecreation/resources/arrows.md
-      - Basic Guides: 
-        - themecreation/general/index.md
-        - Changing Colors: themecreation/general/colors.md 
-        - Textures: themecreation/general/textures.md
-        - Exporting / Replacing: themecreation/general/exportimport.md
-        - Splash Screen: themecreation/general/splash.md
-        - Mix Themes: themecreation/general/mixthemes.md
 
       - themecreation/sharing.md
 
+      - Other Guides: 
+        - Obtaining Menu Files: themecreation/general/files.md
+        - Patching: themecreation/general/patching.md
+        - Manually Loading Themes: themecreation/general/loading.md
+        - Changing Material Colors: themecreation/general/colors.md 
+        - Textures: themecreation/general/textures.md
+        - Exporting / Replacing: themecreation/general/exportimport.md
+        - Splash Screen: themecreation/general/splash.md
+
       - Archived:
-        - themecreation/tutorials_old/index.md
-        - New Creator: themecreation/tutorials_old/newcreator.md
-        - Arrows: themecreation/tutorials_old/arrows.md
-        - Floor: themecreation/tutorials_old/floor.md
-        - Frame by frame: themecreation/tutorials_old/framebyframe.md
-        - Layers: themecreation/tutorials_old/layers.md 
-        - Music: themecreation/tutorials_old/music.md
-        - Vertical Scrolling: themecreation/tutorials_old/v_scroll.md
-        - Horizontal Scrolling: themecreation/tutorials_old/h_scroll.md
-        - Static: themecreation/tutorials_old/static.md 
-        - Static to WWP: themecreation/tutorials_old/statictowwp.md
-        - Minimalist: themecreation/tutorials_old/minimalist.md
+        - New Creator: archived/newcreator.md
+        - Arrows: archived/arrows.md
+        - Floor: archived/floor.md
+        - Frame by frame: archived/framebyframe.md
+        - Layers: archived/layers.md 
+        - Music: archived/music.md
+        - Vertical Scrolling: archived/v_scroll.md
+        - Horizontal Scrolling: archived/h_scroll.md
+        - Static: archived/static.md 
+        - Static to WWP: archived/statictowwp.md
+        - Minimalist: archived/minimalist.md
+        - Mix Themes: archived/mixthemes.md
   - Troubleshooting: troubleshooting.md
 
 extra:

@@ -1,12 +1,12 @@
 # How to Export and Replace files
 
-# Export
+## Export
 
 - Right-click the file you want to export
 - Click Export Raw Data
 - Save it
 
-# Replace
+## Replace
 
 - Right-click the file you want to replace
 - Click Replace Raw Data

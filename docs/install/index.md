@@ -1,33 +1,44 @@
----
-hide:
-    toc
----
+# Themiify
 
-# Install
+!!! abstract "Credits to [Nathaniel](https://github.com/Fangal-Airbag) and [AlphaCraft](https://github.com/AlphaCraft9658) for creating this app."
 
---------------
+Themiify is a homebrew application that allows for on the fly installation of Wii U System Menu themes without the need for users to use external tools.
 
-!!! warning "Disclaimer"
+Themiify searches `SD:/wiiu/themes` for Wii U Theme Archive files (`.utheme`) and installs the contents of the theme archive on the same directory. Once a theme is installed [StyleMiiU](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases) will read the theme and show it next time the Wii U Menu is loaded.
 
-    We are not responsible for what you do with your console.
-    
-    The guides provided make use of [Aroma CFW](https://aroma.foryour.cafe/) and [SDCafiine](https://github.com/wiiu-env/sdcafiine_plugin/releases) to load custom themes which **does not modify the Wii U System Files**. SDCafiine works by loading the files via the SD Card.
+!!! info "**No system file is modified by this app.**"
 
-[Click here to get started! :material-arrow-right:](files.md){ .md-button .md-button--primary }
+## What you need
 
---------------
+- A modded Wii U with [Aroma](https://wiiu.hacks.guide/aroma/getting-started.html).
+- [Themiify](https://github.com/Themiify-hb/Themiify/releases).
+- [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases).
+- Your theme with the extension `.utheme`.
+    - These can be obtained from [Themezer](https://themezer.net/wiiu/themes) or within Themiify in the future.
 
-***Menu Files***: You can get your menu files with [FTP](files.md#ftp) or [JNUSTool](files.md#jnustool)
+## Installation
 
-***Patching***: To patch your `.ips, .bps, .ups, .ppf, .aps` or `.rup` files follow [Patching](patching.md)
+1. Download [Themiify](https://github.com/Themiify-hb/Themiify/releases) and copy the `Themiify.wuhb` file to `SD:/wiiu/apps`.
+2. Download [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases) and copy the file `stylemiiu.wps` to `SD:/wiiu/environments/aroma/plugins`.
+3. Copy your `.utheme` file to `SD:/wiiu/themes`.
+4. Turn on your Wii U and boot aroma.
+5. Open Themiify.
+6. Click `Install Theme`.
+7. Select the theme you want to install.
+8. Press `A` to continue with the installation (This will take a couple of seconds).
+9. Press `X` to delete the `.utheme` file.
+10. Press `B` to go back to the main menu and quit the app.
 
-***Loading Custom Themes***: To load your custom theme, you can use any of the following
+!!! success
 
-- [SDCafiine](loading.md#sdcafiine)
-- [StyleMiiU-Plugin](loading.md#stylemiiu-plugin)
+    You have succesfully installed a custom theme
 
-***Using custom fonts***: If you want to learn how to use custom fonts follow [Fonts](fonts.md)
+    ![image](imgs/r.webp)
 
---------------
+!!! info "If you want to use custom fonts, follow [Fonts](fonts.md)" 
 
-!!! abstract "Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page"
+!!! warning ""
+
+    If your theme is crashing your console go to [Installed with issues](../troubleshooting.md#theme-installed-successfully-but-theres-issues)
+
+    If you were unable to install any themes go to [Unable to install theme](../troubleshooting.md#there-may-be-a-problem-with-the-theme-themiify)

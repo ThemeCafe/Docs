@@ -1,7 +1,6 @@
 ---
 hide:
   - toc
-icon: fontawesome/solid/wrench
 ---
 
 # Patching
@@ -22,11 +21,7 @@ You will need:
 
 ### Getting a patch file
 
-You can join the Theme Café [discord server](https://discord.com/invite/2DNvH9db2A) to check for new themes or go to the [Theme Café Wesbsite](https://perrohuevo.wixsite.com/theme-cafe)
-
-??? question "Theme Café Website Info"
-
-    The Theme Café website might not upload new themes very often, it's recommended to join the [discord server](https://discord.com/invite/2DNvH9db2A)
+You can join the Theme Café [discord server](https://discord.com/invite/2DNvH9db2A) to check for new themes, go to the [Theme Café Wesbsite](https://perrohuevo.wixsite.com/theme-cafe) or go to [Themezer](https://themezer.net) and download theme's assets
 
 ### Applying patches
 
@@ -119,9 +114,8 @@ It should now look like this
 
 ![Image title](imgs/p4.webp)
 
-??? failure "Having issues?"
+!!! failure "If you're getting a Source ROM checksum mismatch or a red "X", you can follow [Troubleshooting](../../troubleshooting.md#checksum-mismatch)"
 
-    - If you're getting a Source ROM checksum mismatch or a red "X", you can follow [Troubleshooting](../troubleshooting.md#checksum-mismatch)
 
 Finally remove the `(Patched)` from the name
 
@@ -130,14 +124,6 @@ Finally remove the `(Patched)` from the name
 ![Image title](imgs/p6.webp)
 
 Now do the same with the other files
-
-
-!!! success
-
-    You can now go to [Loading Custom Themes](loading.md)
-
-    [Continue to Loading Custom Themes → ](loading.md){ .md-button .md-button--primary }
-
 
 <script src="rom-patcher-js/RomPatcher.webworker.apply.js"></script>
 <script src="rom-patcher-js/RomPatcher.webworker.crc.js"></script>
