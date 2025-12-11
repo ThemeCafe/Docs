@@ -26,8 +26,8 @@ icon: fontawesome/solid/gear
 
 -   **Menu Text**
 
-    ![image](../themes/imgs/template/s5.webp)
+    ![image](imgs/text/prev.png)
 
-    [Go :material-arrow-right:](wwp.md){ .md-button .md-button--primary }
+    [Go :material-arrow-right:](text.md){ .md-button .md-button--primary }
 
 </div>
