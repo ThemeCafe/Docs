@@ -115,7 +115,7 @@ You can
 
 ??? question "European Consoles"
 
-    European consoles have more language packs built onto the menu menaning the file size on themes needs to be smaller to work properly. This is more likely to happen with unoptimized or animated themes
+    European consoles have more language packs built onto the menu meaning the file size on themes needs to be smaller to work properly. This is more likely to happen with unoptimized or animated themes
 
 If it doesn't work and the console is still loading indefinitely you can try
 
