@@ -27,13 +27,13 @@ If you want to share your themes, first you'll need to make them into a patch
     4. Select your ORIGINAL UNMODIFIED file
         - You might need to change the setting here and select *"All files (*.*)"*
 
-        ![Image title](imgs/p3.webp)
+        ![Image title](p3.webp)
 
     5. Select your modified file
     6. Save your file
         - You should now see this
 
-        ![Image title](imgs/p4.webp)
+        ![Image title](p4.webp)
 
 === "Rompatcher.js"
 
@@ -55,8 +55,8 @@ If you want to share your themes, first you'll need to make them into a patch
     1. Go to [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
     2. Click on creator mode
     
-        ![Image title](imgs/p1.webp)
-        ![Image title](imgs/p2.webp)
+        ![Image title](p1.webp)
+        ![Image title](p2.webp)
 
     3. In Original ROM select your ORIGINAL UNMODIFIED file
     4. In Modified ROM select your modified file

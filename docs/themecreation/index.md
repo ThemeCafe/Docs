@@ -14,6 +14,6 @@
 
 !!! gear "[__Advanced__](advanced/index.md)"
 
-!!! share "[__Sharing__](sharing.md)"
+!!! share "[__Sharing__](sharing/index.md)"
 
 </div>

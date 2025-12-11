@@ -117,7 +117,7 @@ nav:
         - Splash Screen: themecreation/general/splash.md
         - Mix Themes: themecreation/general/mixthemes.md
 
-      - themecreation/sharing.md
+      - Sharing: themecreation/sharing/index.md
 
       - Archived:
         - archived/index.md
