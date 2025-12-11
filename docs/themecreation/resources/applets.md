@@ -1,5 +1,7 @@
 # Applets
 
+#### By: dewgong64
+
 ----------------------
 
 This will help you edit the applets icons to allow more customization

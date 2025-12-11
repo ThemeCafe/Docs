@@ -108,7 +108,7 @@ nav:
       - Resources: 
         - themecreation/resources/index.md
         - Applets: themecreation/resources/applets.md
-        # - Arrows: themecreation/resources/arrows.md
+        - Arrows: themecreation/resources/arrows.md
       - Basic Guides: 
         - themecreation/general/index.md
         - Changing Colors: themecreation/general/colors.md 
