@@ -51,10 +51,6 @@ Currently there's two ways to load themes using aroma
 
     Insert your SD card into your Wii U and boot into CFW.
 
-    A screen like this will pop up
-
-    ![Image title](imgs/l1.webp)
-
     Select your theme with the A button
 
     !!! abstract "Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for the information in this section"
