@@ -91,7 +91,7 @@ nav:
     - Patching: install/patching.md
     - Loading Theme: install/loading.md
     - Fonts: install/fonts.md
-    - Credits: credits.md
+    - Credits: credits/index.md
   - Theme Creation:
       - themecreation/index.md
       - Template: themecreation/themes/template.md
