@@ -10,50 +10,8 @@ icon: material/brush
 
 Currently there's two ways to load themes using aroma
 
-- [SDCafiine](#sdcafiine)
 - [StyleMiiU-Plugin](#stylemiiu-plugin)
-
-=== "SDCafiine"
-
-    ## Loading with SDCafiine
-
-    ### What you need
-
-    - [SDCafiine Plugin](https://github.com/wiiu-env/sdcafiine_plugin/releases)
-    - A patched Men.pack, Men2.pack or cafe_barista_men.bfsar
-        - If you do not have a patched menu file, follow [Patching](patching.md)
-
-    ### Installation
-    1. Download and extract the `.zip` file and copy the `sdcafiine.wps` file to `SD:/wiiu/environments/aroma/plugins`.
-
-    - For SDCafiine to load the files, you will need create the following folders: 
-        - Create an `sdcafiine` folder in your `wiiu` folder on your SD card.
-        - Inside the `sdcafiine` folder create a folder with your Wii U Menu's title ID. This will vary on your consoles region: 
-            - USA: `0005001010040100`
-            - EUR: `0005001010040200`
-            - JPN: `0005001010040000`
-        - Inside your title ID folder, create a folder with the name of your theme.
-        - Create a `content` folder inside your theme's name folder.
-        - Create a `Common` folder inside your `content` folder.
-        - Create a `Package` folder inside your `Common` folder.
-        - Place your modified `Men.pack` and `Men2.pack` files inside of the `Package` folder.
-        - Create a `Sound` folder inside your `Common` folder.
-        - Create a `Men` folder inside your `Sound` folder.
-        - Place your modified `cafe_barista_men.bfsar` file inside of the `Men` folder.
-
-
-    2. Your final paths should be
-        - `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Package/Men.pack, Men2.pack`
-        - and
-        - `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Sound/Men/cafe_barista_men.bfsar`
-
-    ### Usage
-
-    Insert your SD card into your Wii U and boot into CFW.
-
-    Select your theme with the A button
-
-    !!! abstract "Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for the information in this section"
+- [SDCafiine](#sdcafiine)
 
 === "StyleMiiU-Plugin"
 
@@ -96,6 +54,48 @@ Currently there's two ways to load themes using aroma
         - Additional files like AllMessage.szs do still need to be on their corresponding folder structure, like this: `SD:/wiiu/themes/[ThemeName]/content/[TheLanguageToPatch]/Message/AllMessage.szs`
 
         - Shuffle themes: This option tries to mimic the 3DS' option of shuffling themes, you can use it by simply activating the option and then in **Available Themes**, select the themes you want to shuffle through. The themes will change **every time you restart the console**. If you disable this option, then the last theme you selected will become the default theme for it to fallback on.
+
+=== "SDCafiine"
+
+    ## Loading with SDCafiine
+
+    ### What you need
+
+    - [SDCafiine Plugin](https://github.com/wiiu-env/sdcafiine_plugin/releases)
+    - A patched Men.pack, Men2.pack or cafe_barista_men.bfsar
+        - If you do not have a patched menu file, follow [Patching](patching.md)
+
+    ### Installation
+    1. Download and extract the `.zip` file and copy the `sdcafiine.wps` file to `SD:/wiiu/environments/aroma/plugins`.
+
+    - For SDCafiine to load the files, you will need create the following folders: 
+        - Create an `sdcafiine` folder in your `wiiu` folder on your SD card.
+        - Inside the `sdcafiine` folder create a folder with your Wii U Menu's title ID. This will vary on your consoles region: 
+            - USA: `0005001010040100`
+            - EUR: `0005001010040200`
+            - JPN: `0005001010040000`
+        - Inside your title ID folder, create a folder with the name of your theme.
+        - Create a `content` folder inside your theme's name folder.
+        - Create a `Common` folder inside your `content` folder.
+        - Create a `Package` folder inside your `Common` folder.
+        - Place your modified `Men.pack` and `Men2.pack` files inside of the `Package` folder.
+        - Create a `Sound` folder inside your `Common` folder.
+        - Create a `Men` folder inside your `Sound` folder.
+        - Place your modified `cafe_barista_men.bfsar` file inside of the `Men` folder.
+
+
+    2. Your final paths should be
+        - `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Package/Men.pack, Men2.pack`
+        - and
+        - `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Sound/Men/cafe_barista_men.bfsar`
+
+    ### Usage
+
+    Insert your SD card into your Wii U and boot into CFW.
+
+    Select your theme with the A button
+
+    !!! abstract "Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for the information in this section"
 
 -----------------
 

@@ -51,10 +51,7 @@ First, we need to obtain the menu files, either through FTP or by using JNUSTool
 
     !!! abstract "Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for the information in this section"
 
-    
-
 === "JNUSTool"
-
 
     ## Using JNUSTool to Download Menu Files
 
