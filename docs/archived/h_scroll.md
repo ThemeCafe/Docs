@@ -21,7 +21,7 @@ We will be working with this template
 
 [:fontawesome-solid-download: Download template (Scrolling)](base/scrolling/Men2.bps){ .md-button .md-button--primary }
 
-Apply the patch to a copy of your `Men2.pack` file ([Patching](../../install/patching.md)) and come back here when you're done
+Apply the patch to a copy of your `Men2.pack` file ([Patching](../install/patching.md)) and come back here when you're done
 
 ### Replacing Textures
 
@@ -60,7 +60,7 @@ After replacing the textures
 
 !!! success
 
-    Your Scrolling animation is done and you can now test it [SDCafiine](../../install/loading.md#sdcafiine)
+    Your Scrolling animation is done and you can now test it [SDCafiine](../install/loading.md#sdcafiine)
 
 ## Scrolling Speed
 
@@ -258,4 +258,4 @@ Now open your scrolling theme with Switch Toolbox
 
 !!! success
 
-    Your Scrolling animation is done and you can now test it [SDCafiine](../../install/loading.md#sdcafiine)
+    Your Scrolling animation is done and you can now test it [SDCafiine](../install/loading.md#sdcafiine)

@@ -43,7 +43,7 @@ After downloading your base you will need to patch your original files with the 
 
 - Rom Patcher JS (<https://www.marcrobledo.com/RomPatcher.js/>)
 
-If you have any question on how to patch your original files go [here](../../install/patching.md)
+If you have any question on how to patch your original files go [here](../install/patching.md)
 
 --------------
 Adding a custom image:

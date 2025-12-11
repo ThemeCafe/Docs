@@ -49,7 +49,7 @@ So, how to make static themes
 
     How to use them?
 
-    You need to patch the themes previously mentioned with your original files read more about patching on [here](../../install/patching.md)
+    You need to patch the themes previously mentioned with your original files read more about patching on [here](../install/patching.md)
     **if you already got a base you can skip this**
     ------------------------------
 

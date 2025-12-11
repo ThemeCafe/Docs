@@ -77,7 +77,7 @@ extra_css:
 not_in_nav: |
   md.md
   themiify.md
-  themecreation/archived/bootsound.md
+  archived/bootsound.md
   themecreation/advanced/misc.md
   themecreation/advanced/userselect.md
   themecreation/advanced/accountsetting.md
@@ -120,18 +120,18 @@ nav:
       - themecreation/sharing.md
 
       - Archived:
-        - themecreation/archived/index.md
-        - New Creator: themecreation/archived/newcreator.md
-        - Arrows: themecreation/archived/arrows.md
-        - Floor: themecreation/archived/floor.md
-        - Frame by frame: themecreation/archived/framebyframe.md
-        - Layers: themecreation/archived/layers.md 
-        - Music: themecreation/archived/music.md
-        - Vertical Scrolling: themecreation/archived/v_scroll.md
-        - Horizontal Scrolling: themecreation/archived/h_scroll.md
-        - Static: themecreation/archived/static.md 
-        - Static to WWP: themecreation/archived/statictowwp.md
-        - Minimalist: themecreation/archived/minimalist.md
+        - archived/index.md
+        - New Creator: archived/newcreator.md
+        - Arrows: archived/arrows.md
+        - Floor: archived/floor.md
+        - Frame by frame: archived/framebyframe.md
+        - Layers: archived/layers.md 
+        - Music: archived/music.md
+        - Vertical Scrolling: archived/v_scroll.md
+        - Horizontal Scrolling: archived/h_scroll.md
+        - Static: archived/static.md 
+        - Static to WWP: archived/statictowwp.md
+        - Minimalist: archived/minimalist.md
   - Troubleshooting: troubleshooting.md
 
 extra:
