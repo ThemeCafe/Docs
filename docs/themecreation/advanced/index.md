@@ -18,4 +18,16 @@ icon: fontawesome/solid/gear
 
     [Go :material-arrow-right:](wwp.md){ .md-button .md-button--primary }
 
+-   **User Select**
+
+    ![image](imgs/userselect/prev.png)
+
+    [Go :material-arrow-right:](userselect.md){ .md-button .md-button--primary }
+
+-   **Menu Text**
+
+    ![image](../themes/imgs/template/s5.webp)
+
+    [Go :material-arrow-right:](wwp.md){ .md-button .md-button--primary }
+
 </div>

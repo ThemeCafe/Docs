@@ -79,9 +79,7 @@ not_in_nav: |
   themiify.md
   archived/bootsound.md
   themecreation/advanced/misc.md
-  themecreation/advanced/userselect.md
   themecreation/advanced/accountsetting.md
-  themecreation/resources/arrows.md
 
 nav:
   - Home: index.md
@@ -103,8 +101,9 @@ nav:
         - Launcher: themecreation/advanced/launcher.md
         - Wara Wara Plaza: themecreation/advanced/wwp.md
         # - Account Settings: themecreation/advanced/accountsetting.md
-        # - User Select: themecreation/advanced/userselect.md
+        - User Select: themecreation/advanced/userselect.md
         # - Miscellaneous: themecreation/advanced/misc.md
+        - Text: themecreation/advanced/text.md
       - Resources: 
         - themecreation/resources/index.md
         - Applets: themecreation/resources/applets.md
