@@ -80,6 +80,7 @@ not_in_nav: |
   archived/bootsound.md
   themecreation/advanced/misc.md
   themecreation/advanced/accountsetting.md
+  themecreation/advanced/sfx.md
 
 nav:
   - Home: index.md
@@ -104,6 +105,7 @@ nav:
         - User Select: themecreation/advanced/userselect.md
         # - Miscellaneous: themecreation/advanced/misc.md
         - Text: themecreation/advanced/text.md
+        # - Sound Effects: themecreation/advanced/sfx.md
       - Resources: 
         - themecreation/resources/index.md
         - Applets: themecreation/resources/applets.md
