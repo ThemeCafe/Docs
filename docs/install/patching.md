@@ -22,11 +22,10 @@ You will need:
 
 ### Getting a patch file
 
-You can join the Theme Café [discord server](https://discord.com/invite/2DNvH9db2A) to check for new themes or go to the [Theme Café Wesbsite](https://perrohuevo.wixsite.com/theme-cafe)
+You can obtain theme patch files via
 
-??? question "Theme Café Website Info"
-
-    The Theme Café website might not upload new themes very often, it's recommended to join the [discord server](https://discord.com/invite/2DNvH9db2A)
+- [Themezer](https://themezer.net/wiiu/themes) (Using the Download Assets button)
+- The Theme Café [discord server](https://discord.com/invite/2DNvH9db2A)
 
 ### Applying patches
 
