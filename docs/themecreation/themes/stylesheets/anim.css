@@ -1,22 +1,23 @@
 button {
-    background-color:#009485;
+    background-color: var(--md-primary-fg-color);
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 3px;
+    border-radius: 1.2rem;
     cursor: pointer;
     font-size: 16px;
     font-family: Arial, sans-serif; 
     transition: background-color 0.3s ease;
+    font-weight: 700;
 }
 
 button:hover {
-    background-color: #df41fb;
+    background-color: #354394;
     transition: 0.1s;
 }
 
 button:active {
-    background-color: #bc60ff;
+    background-color: #354394;
 }
 
 /* Prevent admonition border from appearing when form elements are selected */
