@@ -80,15 +80,7 @@ Special Thanks
 /// caption
 Perrohuevo
 /// caption
-Theme Cafe Owner
-///
-///
-
-![Image title](ils.webp){ width="200" }
-/// caption
-ilovesplatoon8
-/// caption
-Moderator
+Theme Café Owner
 ///
 ///
 
@@ -96,4 +88,4 @@ Moderator
 
 Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page
 
-This page was made with [Materials for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+This page was made with [Zensical](https://zensical.org/)

@@ -1,5 +1,5 @@
 ---
-icon: material/format-font
+icon: fontawesome/solid/font
 ---
 
 # Fonts

@@ -1,7 +1,7 @@
 ---
 hide:
   - toc
-icon: material/brush
+icon: fontawesome/solid/paint-brush
 ---
 
 # Loading Custom Themes

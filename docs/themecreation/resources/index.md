@@ -18,4 +18,17 @@ icon: fontawesome/solid/wrench
 
     [Go :material-arrow-right:](arrows.md){ .md-button .md-button--primary }
 
+
+-   **Custom Color Illustrations**
+
+    ![](imgs/illust/pre.png)
+
+    [Go :material-arrow-right:](illust.md){ .md-button .md-button--primary }
+
+-   **Cemu Theme Testing**
+
+    ![image](imgs/cemu/pre.png)
+
+    [Go :material-arrow-right:](cemu.md){ .md-button .md-button--primary }
+
 </div>

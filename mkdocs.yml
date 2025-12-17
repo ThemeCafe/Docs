@@ -1,6 +1,5 @@
 site_name: Theme Café Docs
-validation:
-  anchors: ignore # ignore anchor link warnings
+site_url: https://themecafe.github.io/Docs/
 theme:
   name: material
   custom_dir: docs/material
@@ -27,6 +26,7 @@ theme:
     - content.code.annotation
     - content.code.copy
     - navigation.indexes
+    - navigation.instant
   language: en
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -34,16 +34,16 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-      primary: teal
-      accent: purple
+      primary: blue
+      accent: deep purple
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate 
       toggle:
         icon: material/weather-night
         name: Switch to light mode    
-      primary: teal
-      accent: purple
+      primary: indigo
+      accent: deep purple
   favicon: assets/logo/favicon.svg
 markdown_extensions:
   - pymdownx.tabbed:
@@ -110,6 +110,8 @@ nav:
         - themecreation/resources/index.md
         - Applets: themecreation/resources/applets.md
         - Arrows: themecreation/resources/arrows.md
+        - Custom Color Illustrations: themecreation/resources/illust.md
+        - Testing with Cemu: themecreation/resources/cemu.md
       - Basic Guides: 
         - themecreation/general/index.md
         - Changing Colors: themecreation/general/colors.md 

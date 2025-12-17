@@ -8,6 +8,16 @@
 
 .md-header, .md-tabs {
     background-color: #15b19f;
+    color: #FFFFFF
+}
+
+.md-tabs{
+    box-shadow: none;
+    border-bottom: none
+}
+
+.md-tabs__item--active {
+    border-bottom: none
 }
 
 .main-content {
@@ -21,6 +31,10 @@
 [data-md-color-scheme="slate"] .md-main,
 [data-md-color-scheme="slate"] .bg-pattern {
     background-image: url("../../../assets/bg-dark.png");
+}
+
+[data-md-color-scheme="slate"] {
+    --md-default-bg-color: #1E2129
 }
 
 [data-md-color-scheme="slate"] .md-header,
