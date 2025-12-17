@@ -4,6 +4,6 @@ Wii U Menu Files Documentation for Theme Creation
 
 # Building
 
-- [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
+- [Zensical](https://zensical.org/docs/get-started/)
 
-Once installed start the site using `mkdocs serve` and point your browser to [localhost:8000](http://localhost:8000/)
+Once installed start the site using `zensical serve` and point your browser to [localhost:8000](http://localhost:8000/)

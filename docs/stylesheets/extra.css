@@ -34,7 +34,7 @@
 }
 .md-typeset .script > .admonition-title,
 .md-typeset .script > summary {
-  background-color: rgba(158, 158, 158, 0.1);
+  background-color: rgba(158, 158, 158, 0);
 }
 .md-typeset .script > .admonition-title::before,
 .md-typeset .script > summary::before {
