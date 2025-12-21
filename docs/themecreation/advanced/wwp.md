@@ -171,6 +171,12 @@ This is where the floor model is located
     - Go to `Text Pane`
     - In `Font` change the color
 
+??? "Drawing"
+
+    You can follow [Space Cookie](https://discord.com/users/787002790534840321)'s tutorial to change the color of this
+
+    [Custom Color Illustrations](../resources/illust.md){ .md-button .md-button--primary }
+
 ----------------------
 
 ### 5. App Floating Icon
