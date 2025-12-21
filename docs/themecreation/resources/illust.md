@@ -46,7 +46,7 @@ or
 3. Open in panes `Root pane > N_Trans > N_Scale > DummyFreehandMessage_00`
 4. Inside `DummyFreehandMessage_00` there is `P_CustomColor` and `P_CustomColorTest`
 5. Go into `P_CustomColorTest` and select some colors. After changing colors of the panes VERTEX COLOR, it should STAY INVISIBLE (Gradients are supported!).
-6. Copy these vertex colors to 'P_CustomColor'
+6. Copy these vertex colors to `P_CustomColor`
 7. Everything should be done!
 
 ??? note "More Personal Notes (YAY)"
