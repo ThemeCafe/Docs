@@ -35,7 +35,11 @@ Open your model file (`LoungeVR.szs`, `LoungeFloor.szs`) with [Switch Toolbox](h
 
     ??? info "Max amount of Frames"
 
-        At 1280x720 you can get about 30 frames, you can also reduce the quality/resolution of the images to get more frames but you'll have to try and see what works before the Menu starts to crash
+        - At 1280x720 you can get about 30 frames.
+        - At 1138x640 you can get about 65 frames.
+            - Note: This is the recommended amount for these resolutions before EU consoles start to crash
+
+        You can reduce the quality/resolution of the images to get more frames but you'll have to try and see what works before the Menu starts to crash.
 
     - Select all textures (with the first frame selected, shift+click the last frame)
     - Change the mip count to 1
