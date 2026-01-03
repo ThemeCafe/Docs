@@ -26,7 +26,7 @@ This is where the background image/animation is located
 
 ### 2. Applets
 
-![Image title](imgs/launcher/applets/appg.png)
+![Image title](imgs/launcher/2_applets.webp)
 
 `Men2.pack` > `Layout` > `OverlayAppBase.szs`
 
@@ -38,7 +38,7 @@ You can change the [Color and Texture](../resources/applets.md) of this by [repl
 
 ### 3. Usb Indicator
 
-![Image title](imgs/launcher/usbindicator/u1.png)
+![Image title](imgs/launcher/3_usb.webp)
 
 `Men2.pack` > `Layout` > `UsbIndicatorDrc.szs`
 
@@ -50,7 +50,7 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
 
 ### 4. Start (Applets)
 
-![Image title](imgs/launcher/applets/app2.png)
+![Image title](imgs/launcher/4_start.webp)
 
 `Men2.pack` > `Layout` > `BtnOverlayApp_01.szs`
 
@@ -66,7 +66,7 @@ Change the [Color](../general/colors.md) of the material `T_title` and `OLAActiv
 
 ### 5. Select Frame
 
-![Image title](imgs/launcher/selectframe/sfg.png)
+![Image title](imgs/launcher/5_selectframe.webp)
 
 `Men.pack` > `Layout` > `SelectFrame.szs`
 
@@ -76,7 +76,7 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
 
 ### 6. Active Frame
 
-![Image title](imgs/launcher/activeframe/ag.png)
+![Image title](imgs/launcher/6_activeframe.webp)
 
 `Men2.pack` > `Layout` > `LauncherIcon.szs`
 
@@ -88,7 +88,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ### 7. Button Swap
 
-![Image title](imgs/launcher/swap/swapg.png)
+![Image title](imgs/launcher/7_8_swap.webp)
 
 `Men.pack` > `Layout` > `BtnSwap_00.szs` , `BtnSwapDRC.szs`
 
@@ -108,7 +108,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ### 8. Button Swap Icons
 
-![Image title](imgs/launcher/swap/swapg.png)
+![Image title](imgs/launcher/7_8_swap.webp)
 
 `Men.pack` > `Layout` > `BtnSwap_00.szs`
 
@@ -118,11 +118,17 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
 
 ### 9 10. Arrows
 
-![Image title](imgs/launcher/arrows/arrg.png)
+![Image title](imgs/launcher/9_10_arrows.webp)
 
 `Men2.pack` > `Layout` > `BtnSlideLauncher.szs`
 
 `P_BtnSlideR`, `P_BtnSlideL`
+
+??? note "Changing Colors"
+
+    If you want to change the color of the arrows, you can [replace](../general/textures.md#replacing-textures) the original arrow with the following one (Right Click > Save as).
+
+    ![image title](imgs/launcher/blackarrow.png)
 
 ??? note "Outside folders"
 
@@ -168,7 +174,7 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
 
 ### 11. Page Indicator
 
-![Image title](imgs/launcher/pageindicator/pg.png)
+![Image title](imgs/launcher/11_pageindicator.webp)
 
 `Men2.pack` > `Layout` > `PageIndicator.szs`
 
@@ -184,7 +190,7 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
 
 ### 12. Folder
 
-![Image title](imgs/launcher/foldericon/f1.png)
+![Image title](imgs/launcher/12_folder.webp)
 
 `Men2.pack` > `Layout` > `LauncherIcon.szs`
 
@@ -194,7 +200,7 @@ You can change the [Texture](../general/textures.md) of this by changing the mat
 
 ### 13. Folder Create
 
-![Image title](imgs/launcher/foldericon/f2.png)
+![Image title](imgs/launcher/13_foldercreate.webp)
 
 `Men2.pack` > `Layout` > `LauncherIcon.szs`
 
@@ -204,7 +210,7 @@ You can change the [Texture](../general/textures.md) of this by changing the mat
 
 ### 14. Launcher Icon
 
-![image](imgs/launcher/launchericon/image.png)
+![image](imgs/launcher/14_launchericon.webp)
 
 `Men2.pack` > `Layout` > `LauncherIcon.szs`
 
@@ -214,7 +220,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ### 15. Wii Menu Icon
 
-![Image title](imgs/launcher/menuicons/AppIconWii.png)
+![Image title](imgs/launcher/AppIconWii.webp)
 
 `Men2.pack` > `Model` > `SystemAppIcon.szs` > `Textures` > `AppIconWii`
 
@@ -224,7 +230,7 @@ You can change the [Texture](../general/textures.md) of this by [replacing](../g
 
 ### 16. Disc Icon
 
-![Image title](imgs/launcher/menuicons/AppIconDisc.png)
+![Image title](imgs/launcher/AppIconDisc.webp)
 
 `Men2.pack` > `Model` > `SystemAppIcon.szs` > `Textures` > `AppIconDisc`
 
@@ -234,7 +240,7 @@ You can change the [Texture](../general/textures.md) of this by [replacing](../g
 
 ### 17. Network Icon
 
-![Image title](imgs/launcher/network/n1.png)
+![Image title](imgs/launcher/network.webp)
 
 `Men2.pack` > `Layout` > `BtnAccountSelect.szs`
 
@@ -244,7 +250,7 @@ You can change the [Texture](../general/textures.md) of this by changing the mat
 
 ### 18. Account Button
 
-![Image title](imgs/launcher/btnaccselect/btnaccsg.png)
+![Image title](imgs/launcher/18_btnacc.webp)
 
 `Men2.pack` > `Layout` > `BtnAccountSelect.szs`
 
@@ -266,13 +272,13 @@ If you want to change the color of the blue frame
 
 ### 19. Wii Cursor
 
-![image](imgs/launcher/cursor/cursor.png)
+![image](imgs/launcher/cursor.webp)
 
 `Men.pack` > `Layout` > `Cursor.szs`
 
 ??? note "Changing Textures"
 
-    ![image](imgs/launcher/cursor/ct0.png)
+    ![image](imgs/launcher/ct0.webp)
 
     Go to `Men.pack` > `Layout` > `Cursor.szs` > `Cursor.arc`
 
@@ -280,12 +286,12 @@ If you want to change the color of the blue frame
     - Click the texture you want to replace
     - Change the display to `File Editor` if you haven't
 
-    ![image](imgs/launcher/cursor/ct1.png)
+    ![image](imgs/launcher/ct1.webp)
 
     - Click `File`
     - Click `Replace`
 
-    ![image](imgs/launcher/cursor/ct2.png)
+    ![image](imgs/launcher/ct2.webp)
 
     Replace each texture you want to change
 
@@ -293,7 +299,7 @@ If you want to change the color of the blue frame
 
 ??? note "Changing Colors"
 
-    ![image](imgs/launcher/cursor/cc0.png)
+    ![image](imgs/launcher/cc0.webp)
 
     Go to `Men.pack` > `Layout` > `Cursor.szs` > `Cursor.arc`
 
@@ -304,7 +310,7 @@ If you want to change the color of the blue frame
 
     Each player has its own color in separate RGB decimal values
 
-    ![image](imgs/launcher/cursor/cc1.png)
+    ![image](imgs/launcher/cc1.webp)
 
     - P1 uses frames 0 and 1
     - P2 uses frames 2 and 3
@@ -347,12 +353,12 @@ If you want to change the color of the blue frame
 
         Finally, test your theme and you will see that the Cursor has changed from blue to pink
 
-        ![image](imgs/launcher/cursor/cc2.png)
+        ![image](imgs/launcher/cc2.webp)
 ----------------------
 
 ### 20. Balloon Text
 
-![image](imgs/launcher/balloon/image.png)
+![image](imgs/launcher/20_balloon.webp)
 
 `Men2.pack` > `Layout` > `Balloon.szs` > `Balloon.bflyt`
 

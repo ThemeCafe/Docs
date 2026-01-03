@@ -18,7 +18,7 @@ This is where the floor model is located
 
 ### 2. Button Scale
 
-![Image title](imgs/wwp/btnscale/btnscale.png)
+![Image title](imgs/wwp/btnscale.webp)
 
 `Men.pack` > `Layout` > `BtnLoungeScale_00.szs`
 
@@ -88,7 +88,7 @@ This is where the floor model is located
 
 ### 3. Speech Balloon
 
-![Image title](imgs/wwp/speechballoon/speechballoon.png)
+![Image title](imgs/wwp/speechballoon.webp)
 
 `Men2.pack` > `Layout` > `SpeechBalloon.szs`
 
@@ -131,7 +131,7 @@ This is where the floor model is located
         - Still in `Text Pane`
         - Uncheck `Size Restriction`
 
-        ![image](imgs/wwp/speechballoon/sb1.png)
+        ![image](imgs/wwp/sb1.webp)
 
         **OTHERWISE YOUR CONSOLE WILL CRASH!**
 
@@ -139,7 +139,7 @@ This is where the floor model is located
 
 ### 4. Speech Balloon Drawing
 
-![Image title](imgs/wwp/speechballoondrawing/sbd.png)
+![Image title](imgs/wwp/sbd.webp)
 
 `Men2.pack` > `Layout` > `SpeechBalloonIllust.szs`
 
@@ -181,7 +181,7 @@ This is where the floor model is located
 
 ### 5. App Floating Icon
 
-![Image title](imgs/wwp/cube00/cube00.png){ width="200"}
+![Image title](imgs/wwp/cube00.webp){ width="200"}
 
 `Men2.pack` > `Model` > `Cube00.szs`
 
@@ -189,7 +189,7 @@ This is where the floor model is located
 
 ### 6. "Save This Mii"
 
-![Image title](imgs/wwp/savemii/mii.png)
+![Image title](imgs/wwp/mii.webp)
 
 `Men2.pack` > `Layout` > `BtnMiiWindow_02.szs`
 
@@ -199,7 +199,7 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
 
 ### 7. App Launch
 
-![Image title](imgs/wwp/launchericon/launcher.png)
+![Image title](imgs/wwp/launcher.webp)
 
 `Men2.pack` > `Layout` > `CommandLauncherIcon.szs`
 
@@ -209,7 +209,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ### 8. Post Info
 
-![Image title](imgs/wwp/commandposting/commandpost.png){ width="250"}
+![Image title](imgs/wwp/commandpost.webp){ width="250"}
 
 `Men2.pack` > `Layout` > `CommandPosting.szs`
 
@@ -217,7 +217,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ### 9. App Info
 
-![Image title](imgs/wwp/commandcube/commandcube.png){ width="250"}
+![Image title](imgs/wwp/commandcube.webp){ width="250"}
 
 `Men2.pack` > `Layout` > `CommandCube.szs`
 
@@ -225,7 +225,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ### 10. Button
 
-![Image title](imgs/wwp/btn/btn.png)
+![Image title](imgs/wwp/btn.webp)
 
 `Men.pack` > `Layout` > `BtnLoungeWindow_00.szs`
 
@@ -240,7 +240,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ### 11. Close Button
 
-![Image title](imgs/wwp/btnclose/closebtn.png)
+![Image title](imgs/wwp/closebtn.webp)
 
 `Men.pack` > `Layout` > `BtnLoungeWindowClose.szs`
 

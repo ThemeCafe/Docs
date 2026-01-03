@@ -2,7 +2,7 @@
 
 #### By: Space Cookie
 
-![image](imgs/illust/pre.png)
+![image](imgs/illust/pre.webp)
 
 -------------------------------------
 
@@ -35,7 +35,7 @@ or
 
 ## Adding the color
 
-![image](imgs/illust/i1.png)
+![image](imgs/illust/i1.webp)
 
 !!! note
 

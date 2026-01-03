@@ -23,7 +23,7 @@ We  will be using this one as a base:
 
 for this tutorial we will be using this one
 
-![Image title](imgs/scrolling/s2.png)
+![Image title](imgs/scrolling/s2.jpg)
 
 3. Add it like with **BC3_UNORM** format
 

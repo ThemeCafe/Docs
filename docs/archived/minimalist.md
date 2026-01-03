@@ -40,7 +40,7 @@ You can use **Switch Toolbox** search it up
 
     heres the **Midna Theme** background, just change the paint brush thing with whatever you like, just use it as reference to know where the center is
 
-    ![image](imgs/minimalist/m5.png)
+    ![image](imgs/minimalist/m5.jpg)
 
 5. You are basically done, if you want to change the colors of the icons and stuff like that, its too much work to explain it but basically modify the **Layout** folder inside both **Men.pack, Men2.pack** files
 

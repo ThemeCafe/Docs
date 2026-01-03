@@ -20,13 +20,13 @@ icon: fontawesome/solid/gear
 
 -   **User Select**
 
-    ![image](imgs/userselect/prev.png)
+    ![image](imgs/userselect/prev.webp)
 
     [Go :material-arrow-right:](userselect.md){ .md-button .md-button--primary }
 
 -   **Menu Text**
 
-    ![image](imgs/text/prev.png)
+    ![image](imgs/text/prev.webp)
 
     [Go :material-arrow-right:](text.md){ .md-button .md-button--primary }
 

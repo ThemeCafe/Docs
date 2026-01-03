@@ -63,7 +63,7 @@ So, how to make static themes
 
     **For this tutorial we will be using this image**
 
-    ![Image title](imgs/static/s7.png)
+    ![Image title](imgs/static/s7.jpg)
 
 3. When adding the image make sure you change the **format** to **BC3_UNORM**
 

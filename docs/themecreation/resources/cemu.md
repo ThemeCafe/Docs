@@ -16,8 +16,9 @@ This is useful in case you are creating themes and want to quickly test your cha
     !!! warning "**Dumping the MLC can take 6-20 hours depending on it's contents!**"
     
         Make sure you have enough space available.
-            - At least 8GB for a basic white Wii U.
-            - At least 32GB for a premium pack Wii U (Black Wii U or some White JP ones).
+
+        - At least 8GB for a basic white Wii U.
+        - At least 32GB for a premium pack Wii U (Black Wii U or some White JP ones).
 
 3. Select Proceed.
 4. Select your Dump Destination.

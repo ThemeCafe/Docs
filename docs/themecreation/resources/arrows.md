@@ -4,7 +4,7 @@
 
 ----------------------
 
-![image](imgs/arrows/pre.png)
+![image](imgs/arrows/pre.webp)
 
 You can use this PSD file to further edit the arrows to allow more customization
 

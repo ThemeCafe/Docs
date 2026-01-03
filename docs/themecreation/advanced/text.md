@@ -1,6 +1,6 @@
 # Text
 
-![img](imgs/text/prev.png)
+![img](imgs/text/prev.webp)
 
 You can follow this guide if you want to modify any of the Wii U Menu's text files
 
@@ -54,7 +54,7 @@ You will need the `AllMessage.szs` file for the language you want to edit, if yo
 - Go to the String you want to edit and change it
 - Save
 
-![img](imgs/text/edit.png)
+![img](imgs/text/edit.webp)
 
 --------------
 
@@ -67,4 +67,4 @@ You will need the `AllMessage.szs` file for the language you want to edit, if yo
 
 !!! success "You are done!"
 
-    ![image](imgs/text/result.png)
+    ![image](imgs/text/result.webp)

@@ -120,7 +120,7 @@ I was lazy so i didnt fix the bases before uploading them so you may see they lo
 
 Download this image as a **png**
 
-![Image title](imgs/newcreator/n6.png)
+![Image title](../themecreation/advanced/imgs/launcher/blackarrow.png)
 
 5. Click the add button
 
