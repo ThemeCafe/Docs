@@ -9,24 +9,19 @@ hide:
 
 !!! warning "Disclaimer"
 
-    We are not responsible for what you do with your console.
-    
-    The guides provided make use of [Aroma CFW](https://aroma.foryour.cafe/) and [SDCafiine](https://github.com/wiiu-env/sdcafiine_plugin/releases) to load custom themes which **does not modify the Wii U System Files**. SDCafiine works by loading the files via the SD Card.
+    We are not responsible for what you do with your console. These guides make use of [Aroma CFW](https://aroma.foryour.cafe/) and [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin) to load custom themes which **does not modify the Wii U System Files**.
 
 [Click here to get started! :material-arrow-right:](files.md){ .md-button .md-button--primary }
 
 --------------
 
-***Menu Files***: You can get your menu files with [FTP](files.md#ftp) or [JNUSTool](files.md#jnustool)
+**Menu Files**: You can get your menu files with [FTP](files.md#ftp) or [JNUSTool](files.md#jnustool)
 
-***Patching***: To patch your `.ips, .bps, .ups, .ppf, .aps` or `.rup` files follow [Patching](patching.md)
+**Patching**: To patch your `.ips, .bps, .ups, .ppf, .aps` or `.rup` files follow [Patching](patching.md)
 
-***Loading Custom Themes***: To load your custom theme, you can use any of the following
+**Loading Custom Themes**: To load your custom theme, you can use [StyleMiiU-Plugin](loading.md#stylemiiu-plugin) (Recommended) or [SDCafiine](loading.md#sdcafiine)
 
-- [SDCafiine](loading.md#sdcafiine)
-- [StyleMiiU-Plugin](loading.md#stylemiiu-plugin)
-
-***Using custom fonts***: If you want to learn how to use custom fonts follow [Fonts](fonts.md)
+**Using custom fonts**: To use custom fonts follow [Fonts](fonts.md)
 
 --------------
 

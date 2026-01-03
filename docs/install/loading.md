@@ -10,6 +10,8 @@ icon: fontawesome/solid/paint-brush
 
 Currently there's two ways to load themes using aroma
 
+!!! info "***No system file is modified by these plugins.***"
+
 - [StyleMiiU-Plugin](#stylemiiu-plugin)
 - [SDCafiine](#sdcafiine)
 
@@ -17,27 +19,18 @@ Currently there's two ways to load themes using aroma
 
     ## Loading with StyleMiiU-Plugin
 
-    This is an Aroma plugin to safely apply custom themes!
-
-    !!! info "***No system file is modified by this plugin.***"
-
     ### What you need
 
     - [StyleMiiU-Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases)
     - A patched Men.pack, Men2.pack or cafe_barista_men.bfsar
         - If you do not have a patched menu file, follow [Patching](patching.md)
 
-    ### Installation
+    ### Installation & Usage
 
-    1. Copy the file `stylemiiu.wps` into `SD:/wiiu/environments/aroma/plugins`.
-
-    2. Requires the [WiiUPluginLoaderBackend](https://github.com/wiiu-env/WiiUPluginLoaderBackend) and [ContentRedirectionModule](https://github.com/wiiu-env/ContentRedirectionModule) in `SD:/wiiu/environments/aroma/modules`.
-
-    ### Usage
-
-    This plugin can detect Men.pack, Men2.pack and cafe_barista_men.bfsar automatically to make the theme have any folder structure you desire, like `SD:/wiiu/themes/[ThemeName]/Men.pack , Men2.pack , cafe_barista_men.bfsar`. SDCaffine's file structure is still compatible with this plugin. 
-
-    Themes will only load from the `SD:/wiiu/themes` directory, it is recommended that you move all your themes from SDCafiine into the themes directory to avoid problems of both plugins trying to patch the Wii U Menu.
+    - Copy the file `stylemiiu.wps` into `SD:/wiiu/environments/aroma/plugins`.
+    - Create a `themes` folder in your `wiiu` folder on your SD card.
+    - Inside the `themes` folder create a folder with the name of your theme.
+    - Copy your patched `Men.pack`, `Men2.pack` and/or `cafe_barista_men.bfsar` files to the folder with the name of your theme
 
     A step to step guide on how to use it:
 
@@ -48,6 +41,10 @@ Currently there's two ways to load themes using aroma
     3. Once you exit the WUPS menu, the Home Menu should restart and once it gets restarted, your Home Menu will now have the theme you chose applied to it.
 
     ??? info "Extra Info"
+
+        This plugin can detect Men.pack, Men2.pack and cafe_barista_men.bfsar automatically to make the theme have any folder structure you desire, like `SD:/wiiu/themes/[ThemeName]/Men.pack , Men2.pack , cafe_barista_men.bfsar`. SDCaffine's file structure is still compatible with this plugin. 
+
+        Themes will only load from the `SD:/wiiu/themes` directory, it is recommended that you move all your themes from SDCafiine into the themes directory to avoid problems of both plugins trying to patch the Wii U Menu.
     
         - If you happen to have installed an older version of this plugin, delete the previous `theme_manager.wps` and rename `sd:/wiiu/environments/aroma/plugins/config/theme_manager.json` to `style-mii-u.json`
 

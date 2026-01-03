@@ -114,10 +114,6 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
 
 !!! abstract "Credits to [Marcrobledo](https://www.marcrobledo.com/) for RomPatcher.js"
 
-It should now look like this
-
-![Image title](imgs/p4.webp)
-
 ??? failure "Having issues?"
 
     - If you're getting a Source ROM checksum mismatch or a red "X", you can follow [Troubleshooting](../troubleshooting.md#checksum-mismatch)
