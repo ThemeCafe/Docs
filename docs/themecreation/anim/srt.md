@@ -35,7 +35,7 @@ For better results please use a seamless texture and do the following.
 <source src="../imgs/srt/translateprev.webm" type="video/mp4">
 </video>
 
-- Scrolls horizontally to from left to right (Right to left if it's reversed).
+- Scrolls horizontally from left to right (Right to left if it's reversed).
 - Scrolls vertically Up (Down if it's reversed).
 
 !!! script "Translate Animation Generator"
@@ -74,10 +74,10 @@ For better results please use a seamless texture and do the following.
 
 !!! info "Themes using these animations"
 
-    - [Splatoon Loading Screen - By Gatto](https://themezer.net/wiiu/themes/splatoon-loading-screen-5).
-    - [From now on - By Gatto](https://themezer.net/wiiu/themes/from-now-on-36).
-    - [Dark Sanctuary - By Gatto](https://themezer.net/wiiu/themes/dark-sanctuary-57).
-    - [Mario Kart World - By Gatto](https://themezer.net/wiiu/themes/mario-kart-world-63). 
+    - [Splatoon Loading Screen - By Gatto](https://themezer.net/wiiu/themes/splatoon-loading-screen-5)
+    - [From now on - By Gatto](https://themezer.net/wiiu/themes/from-now-on-36)
+    - [Dark Sanctuary - By Gatto](https://themezer.net/wiiu/themes/dark-sanctuary-57)
+    - [Mario Kart World - By Gatto](https://themezer.net/wiiu/themes/mario-kart-world-63)
 
 ### Scale Texture Animations
 
@@ -160,7 +160,7 @@ This animation will rotate the texture around the center of the UV Mapping.
 
 !!! info "Themes using these animations"
 
-    - [Super Mario Oddysey - By Gatto](https://themezer.net/wiiu/themes/super-mario-odyssey-5B).
+    - [Super Mario Oddysey - By Gatto](https://themezer.net/wiiu/themes/super-mario-odyssey-5B)
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 <script src="../scripts/srt.js"></script>
