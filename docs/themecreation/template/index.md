@@ -6,7 +6,7 @@ icon: material/file
 
 This is a Custom Theme
 
-![image](imgs/template/1.webp)
+![image](imgs/1.webp)
 
 Custom themes can have a 2D non moving image, or be animated by adding texture animations to the models, themes can be created easily using a template.
 
@@ -24,13 +24,13 @@ We will be working with a template.
 
 -   **Light Template**
 
-    ![image](imgs/template/light.webp)
+    ![image](imgs/light.webp)
 
     [:fontawesome-solid-download: Download Light Template](templates/Men2.bps){ .md-button .md-button--primary }
 
 -   **Dark Template**
 
-    ![image](imgs/template/dark.webp)
+    ![image](imgs/dark.webp)
 
     [:fontawesome-solid-download: Download Dark Template](templates/DarkTemplate.zip){ .md-button .md-button--primary }
 
@@ -60,7 +60,7 @@ Open the patched `Men2.pack` template with [Switch Toolbox](https://github.com/K
 
     This image will be displayed here.
 
-    ![image](imgs/template/s2.webp)
+    ![image](imgs/s2.webp)
     
 -----------------------
 
@@ -84,7 +84,7 @@ We are now going to change the image that's between the Wara Wara Plaza and the 
 
     This image will be displayed here.
 
-    ![image](imgs/template/s3.webp)
+    ![image](imgs/s3.webp)
 
 -----------------------
 
@@ -96,7 +96,7 @@ There are two ways you can have the floor.
 
 === "Tiled"
 
-    ![image](imgs/template/s5.webp)
+    ![image](imgs/s5.webp)
 
     - Go back to the `Models` folder.
     - Go to `LoungeFloor.szs > gsys.bfres > Textures`.
@@ -111,7 +111,7 @@ There are two ways you can have the floor.
 
 === "Stretched"
 
-    ![image](imgs/template/s8.webp)
+    ![image](imgs/s8.webp)
 
     - Go back to the `Models` folder.
     - Go to `LoungeFloor.szs > gsys.bfres > Models > LoungeFloor`.
@@ -176,20 +176,20 @@ Select your new texture and make sure you import it in format `TCS_R8_G8_B8_A8_S
 
 ??? question "How does the gradient look like?"
 
-    ![image](imgs/template/s6.webp)
+    ![image](imgs/s6.webp)
 
 ??? note "If you do not want to use a gradient"
 
     *Right click* the next button and click `Save Link As...` and download the `Blank.png` file.
 
-    [:fontawesome-solid-download: Download blank texture](imgs/template/Blank.png){ .md-button .md-button--primary }
+    [:fontawesome-solid-download: Download blank texture](imgs/Blank.png){ .md-button .md-button--primary }
 
     - Right click `Gradient` , Click `Replace` and select the blank texture you just downloaded.
     - Import it in format `TCS_R8_G8_B8_A8_SRGB`.
 
     The gradient should no longer be visible.
 
-    ![image](imgs/template/s7.webp)
+    ![image](imgs/s7.webp)
 
 
 -----------------------
@@ -198,7 +198,7 @@ Select your new texture and make sure you import it in format `TCS_R8_G8_B8_A8_S
 
     If you want to add animations to your theme follow
 
-    [:material-star-shooting: Animations](anim.md){ .md-button .md-button--primary }
+    [:material-star-shooting: Animations](../anim/index.md){ .md-button .md-button--primary }
     
 !!! success
 

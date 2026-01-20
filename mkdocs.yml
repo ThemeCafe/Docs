@@ -93,8 +93,11 @@ nav:
     - Credits: credits/index.md
   - Theme Creation:
       - themecreation/index.md
-      - Template: themecreation/themes/template.md
-      - Animations: themecreation/themes/anim.md
+      - Template: themecreation/template/index.md
+      - Animations: 
+        - themecreation/anim/index.md
+        - Pattern: themecreation/anim/pattern.md
+        - SRT: themecreation/anim/srt.md
       - Music: 
         - themecreation/music/index.md
       - Advanced:

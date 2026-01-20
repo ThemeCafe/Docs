@@ -8,15 +8,15 @@
 
 This is where the background image/animation is located
 
-![image](../themes/imgs/template/1.webp){ width="426" height="240" }
+![image](../template/imgs/1.webp){ width="426" height="240" }
 
-[Template Guide](../themes/template.md){ .md-button .md-button--primary }
+[Template Guide](../template/index.md){ .md-button .md-button--primary }
 
 <video controls width="426" height="240">
-<source src="../../themes/imgs/frame/vf.mp4" type="video/mp4">
+<source src="../../anim/imgs/frame/vf.mp4" type="video/mp4">
 </video>
 
-[Animations Guide](../themes/anim.md){ .md-button .md-button--primary }
+[Animations Guide](../anim/pattern.md){ .md-button .md-button--primary }
 
 ??? info "Info"
 

@@ -8,7 +8,7 @@
 
 <div class="grid cards" markdown>
 
-!!! template "[__Template Guide__](themes/template.md) & [__Animations__](themes/anim.md)"
+!!! template "[__Template Guide__](template/index.md) & [__Animations__](anim/index.md)"
 
 !!! music "[__Custom Music__](music/index.md)"
 

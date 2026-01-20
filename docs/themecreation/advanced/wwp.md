@@ -6,13 +6,13 @@
 
 ### 1. Floor
 
-![Image title](../themes/imgs/template/s5.webp){ width="426" height="240" }
+![Image title](../template/imgs/s5.webp){ width="426" height="240" }
 
 `Men2.pack` > `Model` > `LoungeFloor.szs`
 
 This is where the floor model is located
 
-[Floor Guide](../themes/template.md#floor){ .md-button .md-button--primary }
+[Floor Guide](../template/index.md#floor){ .md-button .md-button--primary }
 
 ----------------------
 
