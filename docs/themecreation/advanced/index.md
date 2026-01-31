@@ -4,6 +4,8 @@ icon: fontawesome/solid/gear
 
 # Advanced
 
+*Make sure to regularly make backups of your theme in case it starts crashing for whatever reason*
+
 <div class="grid cards" markdown>
 
 -   **Launcher**
