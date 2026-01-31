@@ -33,11 +33,11 @@ You will need the `AllMessage.szs` file for the language you want to edit, if yo
 ### Before Starting
 
 - Make sure you make a backup of your original `AllMessage.szs` file(s) in case anything goes wrong
-- You can load the modified `AllMessage.szs` file(s) with [StyleMiiU-Plugin](../../install/loading.md#stylemiiu-plugin) or [SDCaffiine](../../install/loading.md#sdcafiine)
+- You can load the modified `AllMessage.szs` file(s) with [StyleMiiU-Plugin](../../install/loading.md#stylemiiu-plugin) or [SDCafiine](../../install/loading.md#sdcafiine)
 
 !!! warning "Do **NOT** edit the files using Switch Toolbox, if you do it will cause **A LOT** of issues."
 
-!!! danger "**DO NOT REPLACE THE MODIFIED FILE ON YOUR NAND**, you can risk **bricking** your system if you do, use [StyleMiiU-Plugin](../../install/loading.md#stylemiiu-plugin) or [SDCaffiine](../../install/loading.md#sdcafiine) to load the modified file instead."
+!!! danger "**DO NOT REPLACE THE MODIFIED FILE ON YOUR NAND**, you can risk **bricking** your system if you do, use [StyleMiiU-Plugin](../../install/loading.md#stylemiiu-plugin) or [SDCafiine](../../install/loading.md#sdcafiine) to load the modified file instead."
 
 --------------
 
@@ -72,7 +72,7 @@ You should now have your modified `AllMessage.szs` file.
 
 ### Loading Custom Text
 
-You can load the text using either StyleMiiU-Plugin or SDCaffiine.
+You can load the text using either StyleMiiU-Plugin or SDCafiine.
 
 === "StyleMiiU-Plugin"
 
@@ -83,7 +83,7 @@ You can load the text using either StyleMiiU-Plugin or SDCaffiine.
     - In `[LANGUAGE]` use the language you want to edit.
         - For example: `UsEnglish`.
 
-=== "SDCaffiine"
+=== "SDCafiine"
 
     - Place the modified `AllMessage.szs` file(s) in the following location
         - `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/[LANGUAGE]/Message/AllMessage.szs`
