@@ -15,14 +15,16 @@ hide:
 
 --------------
 
-**Menu Files**: You can get your menu files with [FTP](files.md#ftp) or [JNUSTool](files.md#jnustool)
+- [**Menu Files**](files.md): You can get your menu files with [FTP](files.md#ftp) or [JNUSTool](files.md#jnustool).
 
-**Patching**: To patch your `.ips, .bps, .ups, .ppf, .aps` or `.rup` files follow [Patching](patching.md)
+- [**Patching**](patching.md): To patch your `.ips, .bps, .ups, .ppf, .aps` or `.rup` files.
 
-**Loading Custom Themes**: To load your custom theme, you can use [StyleMiiU-Plugin](loading.md#stylemiiu-plugin) (Recommended) or [SDCafiine](loading.md#sdcafiine)
+- [**Loading Custom Themes**](loading.md): To load your custom theme, you can use [StyleMiiU-Plugin](loading.md#stylemiiu-plugin) (Recommended) or [SDCafiine](loading.md#sdcafiine).
 
-**Using custom fonts**: To use custom fonts follow [Fonts](fonts.md)
+- [**Splash Screen**](splash.md): You can add a custom image when booting up your console.
+
+- [**Custom Fonts**](fonts.md): To use custom fonts on your console.
 
 --------------
 
-!!! abstract "Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page"
+!!! abstract "Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page."

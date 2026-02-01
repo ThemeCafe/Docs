@@ -1,8 +1,14 @@
-# How to use Splash Screens
+---
+hide:
+  - toc
+icon: fontawesome/solid/image
+---
+
+# Splash Screen
 
 ## What you need
 
-- [Aroma](https://aroma.foryour.cafe/)
+- [Splash Screen Module](https://github.com/wiiu-env/SplashscreenModule). (Bundled with Aroma)
 
 ## Usage
 

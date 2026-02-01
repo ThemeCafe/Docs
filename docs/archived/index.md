@@ -6,7 +6,7 @@ icon: material/folder
 
 # Archived
 
-This is an archive of guides either from the Theme Cafe Discord server or the Theme Cafe Docs itself for preservation purposes and for easy access
+This is an archive of guides either from the Theme Café Discord server or the Theme Café Docs itself for preservation purposes and for easy access
 
 <div class="grid" markdown>
 

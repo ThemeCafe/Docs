@@ -10,13 +10,13 @@ icon: fontawesome/solid/wrench
 
 You will need:
 
-- [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or [Flips](https://github.com/Alcaro/Flips)
-- Men.pack, Men2.pack, cafe_barista_men.bfsar
-    - If you do not have your original files please follow [Menu Files](files.md)
-- A patch file
-    - It can be one of the following formats .ips, .bps, .ups, .ppf, .aps, .rup
+- [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or [Flips](https://github.com/Alcaro/Flips).
+- Original `Men.pack`, `Men2.pack`, and/or `cafe_barista_men.bfsar`.
+    - If you do not have your original files please follow [Menu Files](files.md).
+- A patch file.
+    - It can be any of the following formats `.ips, .bps, .ups, .ppf, .aps, .rup`.
 
-!!! info "For convenience, save your unmodified Men.pack, Men2.pack, cafe_barista_men.bfsar files somewhere so you dont need to get your files again"
+!!! info "Save your original `Men.pack`, `Men2.pack`, `cafe_barista_men.bfsar` files somewhere safe so you don't have to get your files again in the future"
 
 --------------
 
@@ -25,13 +25,13 @@ You will need:
 You can obtain theme patch files via
 
 - [Themezer](https://themezer.net/wiiu/themes) (Using the Download Assets button)
-- The Theme Café [discord server](https://discord.com/invite/2DNvH9db2A)
+- The [Theme Café Discord Server](https://discord.com/invite/2DNvH9db2A)
 
 ### Applying patches
 
 1. In `Original file` select your **ORIGINAL UNMODIFIED** `Men.pack` / `Men2.pack` / `cafe_barista_men.bfsar` file you want to patch
 
-2. For the Patch File select the **.ips, .bps, .ups, .ppf, .aps, .rup file** you got from downloading the theme that matches the name of the ROM file
+2. For the Patch File select the `.ips, .bps, .ups, .ppf, .aps, .rup` file you got from downloading the theme that matches the name of the ROM file
 
 3. Click Apply patch
 
@@ -118,20 +118,15 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
 
     - If you're getting a Source ROM checksum mismatch or a red "X", you can follow [Troubleshooting](../troubleshooting.md#checksum-mismatch)
 
-Finally remove the `(Patched)` from the name
+- Finally remove the `(Patched)` from the name
 
-![Image title](imgs/p5.webp)
+    - `Men2 (Patched).pack` -> `Men2.pack`
 
-![Image title](imgs/p6.webp)
+Repeat this process for every file you want to patch  
 
-Now do the same with the other files
+--------------------------------
 
-
-!!! success
-
-    You can now go to [Loading Custom Themes](loading.md)
-
-    [Continue to Loading Custom Themes → ](loading.md){ .md-button .md-button--primary }
+[Continue to Loading Custom Themes → ](loading.md){ .md-button .md-button--primary }
 
 
 <script src="rom-patcher-js/RomPatcher.webworker.apply.js"></script>

@@ -1,19 +1,14 @@
----
-icon: fontawesome/solid/user
----
-
-
 # Credits
 
 --------------
 
-Theme Café Docs Maintainers
+**Theme Café Docs Maintainers**
 
 <div class="grid cards" markdown>
 
 ![Image title](gato.webp){ width="200" }
 /// caption
-Gatto
+★ Gatto ★
 ///
 
 ![Image title](dewgong.webp){ width="200" }
@@ -23,7 +18,7 @@ dewgong64
 
 </div>
 
-Wii U App Developers
+**Wii U App Developers**
 
 <div class="grid cards" markdown>
 
@@ -39,7 +34,7 @@ Nathaniel
 
 </div>
 
-Plugin Developers
+**Plugin Developers**
 
 <div class="grid cards" markdown>
 
@@ -61,7 +56,7 @@ StyleMiiU Plugin
 
 </div>
 
-Themezer Developer
+**Themezer**
 
 <div class="grid cards" markdown>
 
@@ -72,7 +67,7 @@ Migush
 
 </div>
 
-Special Thanks
+**Special Thanks**
 
 <div class="grid cards" markdown>
 
@@ -86,6 +81,10 @@ Theme Café Owner
 
 </div>
 
-Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page
+- [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page
 
-This page was made with [Zensical](https://zensical.org/)
+- [Marcrobledo](https://www.marcrobledo.com/) for [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
+
+- [Themezer](https://themezer.net/) for hosting Wii U Themes
+
+Theme Café Docs was made with [Zensical](https://zensical.org/)

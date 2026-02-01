@@ -90,7 +90,7 @@ nav:
     - Patching: install/patching.md
     - Loading Theme: install/loading.md
     - Fonts: install/fonts.md
-    - Credits: credits/index.md
+    - Splash Screen: install/splash.md
   - Theme Creation:
       - themecreation/index.md
       - Template: themecreation/template/index.md
@@ -120,7 +120,6 @@ nav:
         - Changing Colors: themecreation/general/colors.md 
         - Textures: themecreation/general/textures.md
         - Exporting / Replacing: themecreation/general/exportimport.md
-        - Splash Screen: themecreation/general/splash.md
         - Mix Themes: themecreation/general/mixthemes.md
 
       - Sharing: themecreation/sharing/index.md
@@ -140,6 +139,8 @@ nav:
         - Minimalist: archived/minimalist.md
   - Troubleshooting: troubleshooting.md
 
+  - Credits: credits/index.md
+  
 extra:
   generator: false
   social:
