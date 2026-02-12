@@ -95,12 +95,12 @@
 
 .btn {
     display: block;
-    padding: 0.75rem 1.5rem;
+    padding: 10px 20px;
     font-size: 25px;
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 1.2rem;
     margin: 0.5rem;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.);
     transition: all 0.3s ease;
@@ -118,7 +118,7 @@
 }
 
 .btn-creation {
-    background-color: #32b4a7;
+    background-color: var(--md-primary-fg-color);
 }
 
 .card {
@@ -142,46 +142,6 @@
 
 .screenshots .container {
     display: flex;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    div.screenshots div.container {
-        animation: screenshots-scroll infinite 40s linear;
-    }
-}
-
-div.screenshots div.container img {
-    display: block;
-    width: 350px;
-}
-
-@keyframes screenshots-scroll {
-    0% {
-        transform: translateX(0px);
-    }
-    100% {
-        transform: translateX(-3500px);
-    }
-}
-
-@keyframes screenshots-scroll-medium {
-    0% {
-        transform: translateX(0px);
-    }
-    100% {
-        transform: translateX(-2500px);
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    @media (prefers-reduced-motion: no-preference) {
-        div.screenshots div.container {
-            animation: screenshots-scroll-medium infinite 50s linear;
-        }
-    }
-    div.screenshots div.container img {
-        width: 250px;
-    }
 }
 
 @media screen and (max-width: 60em) {
