@@ -31,11 +31,6 @@ First, we need to obtain the menu files, either through FTP or by using JNUSTool
 
     ### Guide
 
-    - Use the IDS below on step 7, the folder name will change depending by the region of your console.
-        - USA: `10040100`
-        - EUR: `10040200`
-        - JPN: `10040000`
-
     Step by step guide
 
     1. Turn on your console without any custom theme. (This will cause issues when getting the files we need.)
@@ -44,10 +39,15 @@ First, we need to obtain the menu files, either through FTP or by using JNUSTool
     4. On your PC open the FTP client.
     5. It will ask for your Console IP and Port Number you can see these details on your console. This is a local IP address, so it doesn't matter.
     6. It will ask for a user and a password, leave it blank, just accept.
-    7. Now navigate to `storage_mlc` > `sys` > `title` > `00050010` > (This depends on the region of your console) > `content` > `Common` > `Package`
+    7. Now navigate to the Wii U Menu Folder, depending on the console region:
+
+        - USA: `storage_mlc/sys/title/00050010/10040100/content/Common/Package`
+        - EUR: `storage_mlc/sys/title/00050010/10040200/content/Common/Package`
+        - JPN: `storage_mlc/sys/title/00050010/10040000/content/Common/Package`
+
     8. Select `Men.pack` and `Men2.pack`, then click Download.
     9. It will ask for a place to download the files, it's recommended to create a specific folder to save the content.
-    10. Now do the same but with `cafe_barista_men.bfsar`, Go back and then navigate to `Sound` > `Men`.
+    10. Now do the same but with `cafe_barista_men.bfsar`, Go back and then navigate to `Sound/Men`.
     11. Download `cafe_barista_men.bfsar`.
 
     !!! abstract "Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for the information in this section."
@@ -115,11 +115,11 @@ First, we need to obtain the menu files, either through FTP or by using JNUSTool
 
     ### **Downloading files**
 
-    Go into `root/content/Common/Package` and download `Men.pack` and `Men2.pack`.
+    Go to `root/content/Common/Package` and download `Men.pack` and `Men2.pack`.
 
     ![Image title](imgs/i5.webp)
 
-    Go into `root/content/Common/Sound/Men` and download `cafe_barista_men.bfsar`.
+    Go to `root/content/Common/Sound/Men` and download `cafe_barista_men.bfsar`.
 
 -----------------
 

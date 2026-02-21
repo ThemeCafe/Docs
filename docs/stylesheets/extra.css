@@ -12,6 +12,26 @@
   width: 100vw;
 }
 
+[data-md-color-scheme="default"] {
+  --code-color: #000;
+  --code-border: #00000020;
+}
+
+[data-md-color-scheme="slate"] {
+  --code-color: #fff;
+  --code-border: #ffffff20;
+}
+
+.md-typeset code {
+  color: var(--code-color);
+}
+
+.md-typeset p code,
+.md-typeset li code {
+  border: 1px solid var(--code-border);
+  padding: 2px 5px;
+}
+
   
 .md-typeset .admonition.star,
 .md-typeset details.star {
