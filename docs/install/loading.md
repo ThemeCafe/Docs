@@ -50,7 +50,7 @@ There's two ways to load themes using aroma
 
         - Shuffle themes: This option tries to mimic the 3DS' option of shuffling themes, you can use it by simply activating the option and then in **Available Themes**, select the themes you want to shuffle through. The themes will change **every time you restart the console**. If you disable this option, then the last theme you selected will become the default theme for it to fallback on.
 
-        - If you happen to have installed an older version of this plugin, delete the previous `theme_manager.wps` and rename `sd:/wiiu/environments/aroma/plugins/config/theme_manager.json` to `style-mii-u.json`.
+        - If you happen to have installed an older version of this plugin, delete the previous `theme_manager.wps` and rename `SD:/wiiu/environments/aroma/plugins/config/theme_manager.json` to `style-mii-u.json`.
 
 === "SDCafiine"
 
@@ -82,11 +82,11 @@ There's two ways to load themes using aroma
 
 
     2. Your final paths should be
-        - `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Package/Men.pack, Men2.pack`
+        - `SD:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Package/Men.pack, Men2.pack`
 
         and
 
-        - `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Sound/Men/cafe_barista_men.bfsar`
+        - `SD:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Sound/Men/cafe_barista_men.bfsar`
 
     ### Usage
 

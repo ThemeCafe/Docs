@@ -39,6 +39,8 @@ We will be working with a template.
 
 Apply the patch to a copy of your `Men2.pack` (and `Men.pack` if you are using the Dark Template) file ([Patching](../../install/patching.md)) and come back here when you're done.
 
+- If you do not have these files, follow [Menu Files](../../install/files.md) to learn how to get them.
+
 -----------------------
 
 ### Launcher
