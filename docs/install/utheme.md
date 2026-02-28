@@ -4,7 +4,7 @@ icon: fontawesome/solid/brush
 
 # Utheme
 
-Utheme is a homebrew application that allows for on the fly installation of Wii U System Menu themes without the need for users to use external tools, and allows to browse and install themes directly from the internet to your console. Once a theme is installed [StyleMiiU-Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases) will read the theme and show it next time the Wii U Menu is loaded.
+Utheme is a homebrew application that allows for on the fly installation of Wii U System Menu themes without the need for users to use external tools, and browse/install themes directly from the internet to your console. Once a theme is installed [StyleMiiU-Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases) will read the theme and show it next time the Wii U Menu is loaded.
 
 !!! info "**No system file is modified by this app.**"
 
@@ -40,7 +40,7 @@ Utheme is a homebrew application that allows for on the fly installation of Wii 
 
 ??? warning "Having Issues?"
 
-    - If you used to load themes with `SDCafiine` remove every theme from `SD:/wiiu/sdcafiine/0005001010040X00/` or move them to `SD:/wiiu/themes`
+    - If you used to load themes with `SDCafiine` remove every theme from `SD:/wiiu/sdcafiine/0005001010040X00/` (X = depends on your console region , USA = 1, EUR = 2, JPN = 0) or move them to `SD:/wiiu/themes`
 
     - If your theme is crashing your console go to `SD:/wiiu/themes` and delete the theme you just installed.
 
