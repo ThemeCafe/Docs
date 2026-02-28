@@ -22,9 +22,9 @@ dewgong64
 
 <div class="grid cards" markdown>
 
-![Image title](Ac.webp){ width="200" }
+![Image title](xziip.webp){ width="200" }
 /// caption
-Alpha Craft
+Xziip
 ///
 
 ![Image title](nathaniel.webp){ width="200" }
@@ -33,6 +33,11 @@ Nathaniel
 ///
 
 </div>
+
+![Image title](Ac.webp){ width="200" }
+/// caption
+Alpha Craft
+///
 
 **Plugin Developers**
 
@@ -58,18 +63,12 @@ StyleMiiU Plugin
 
 **Themezer**
 
-<div class="grid cards" markdown>
-
 ![Image title](migush.webp){ width="200" }
 /// caption
 Migush
 ///
 
-</div>
-
 **Special Thanks**
-
-<div class="grid cards" markdown>
 
 ![Image title](perro.webp){ width="200" }
 /// caption
@@ -78,8 +77,6 @@ Perrohuevo
 Theme Café Owner
 ///
 ///
-
-</div>
 
 - [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page
 

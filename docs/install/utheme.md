@@ -30,7 +30,7 @@ Utheme is a homebrew application that allows for on the fly installation of Wii 
 
 ??? question "If you are using an older version of UTheme (0.2B) or your theme does not load"
 
-    - Open the WUPS menu (L + DPAD Down + Select)
+    - Open the WUPS menu (L + ↓ + Select)
     - Select StyleMiiU.
     - Select "Available Themes".
     - Press A on the theme you want to set as your current one.
