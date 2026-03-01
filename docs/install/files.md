@@ -34,7 +34,7 @@ First, we need to obtain the menu files, either through FTP or by using JNUSTool
     Step by step guide
 
     1. Turn on your console without any custom theme. (This will cause issues when getting the files we need.)
-    2. Press L + DPAD Down + Select and search for FTPiiU Plugin.
+    2. Open the WUPS Menu (L + ↓ + SELECT) and search for FTPiiU Plugin.
     3. Press Settings and enable everything.
     4. On your PC open the FTP client.
     5. It will ask for your Console IP and Port Number you can see these details on your console. This is a local IP address, so it doesn't matter.

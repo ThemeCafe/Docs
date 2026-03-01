@@ -1,6 +1,8 @@
 ---
 hide:
   - toc
+search:
+  exclude: true
 ---
 
 
@@ -13,8 +15,8 @@ hide:
 | `WAV_244_GUESS_BANK_COMMON` | Confirm 1 (advance dialog) | Opening user settings, or advancing dialogs |
 | `WAV_245_GUESS_BANK_COMMON` | Confirm 2 (dialog end) | Clicking the final dialog button, selecting a user in the user select screen, selecting an option in user settings, clicking add new user |
 | `WAV_246_GUESS_BANK_COMMON` | Error | An error ocurrs |
-| `WAV_247_GUESS_BANK_COMMON` | Close Home Menu | The home menu is closed |
-| `WAV_248_GUESS_BANK_COMMON` | ??? (Home Menu) |  |
+| `WAV_247_GUESS_BANK_COMMON` |  |  |
+| `WAV_248_GUESS_BANK_COMMON` |  |  |
 | `WAV_249_GUESS_BANK_COMMON` | Loading | The console is loading something |
 | `WAV_251_GUESS_BANK_COMMON` | Backspace (Typing)? |  |
 | `WAV_252_GUESS_BANK_MEN` | Zoom + |  |

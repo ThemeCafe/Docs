@@ -2,7 +2,8 @@
 hide:
   - navigation
   - toc
-comments: true
+search:
+  exclude: true
 ---
 
 # Heading level 1
