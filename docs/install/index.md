@@ -13,14 +13,6 @@ hide:
 
 <div class="grid cards" markdown>
 
--   **Utheme (Recommended!)**
-
-    ![image](imgs/utheme.png)
-
-    Install themes directly from your Wii U.
-
-    [Go :material-arrow-right:](utheme.md){ .md-button .md-button--primary }
-
 -   **Manual Installation**
 
     ![image](imgs/manual.png)
@@ -28,6 +20,14 @@ hide:
     Manually load themes using StyleMiiU or SDCafiine.
 
     [Go :material-arrow-right:](files.md){ .md-button .md-button--primary }
+
+-   **Utheme**
+
+    ![image](imgs/utheme.png)
+
+    Install themes directly from your Wii U.
+
+    [Go :material-arrow-right:](utheme.md){ .md-button .md-button--primary } 
 
 </div>
 
