@@ -150,18 +150,6 @@ There are two ways you can have the floor.
 
     - Save.
     
-    ??? question "Rotation"
-
-        By default the image will be rotated, if you want to remove this rotation.
-
-        - Open the `Materials` folder.
-        - Select `m_floor`.
-        - Go to the `Parameters` Tab.
-        - Scroll down and click `tex_mtx0`.
-        - Set `Rotation: X` to 0.
-        - Click Ok.
-        - Save.
-
 ### Gradient
 
 There's also the option to use a gradient to make the transition between the screens smoother.
