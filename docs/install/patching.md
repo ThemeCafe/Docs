@@ -8,32 +8,34 @@ icon: fontawesome/solid/wrench
 
 --------------
 
+Now we will use the Menu files you obtained from the previous step and patch them with the theme of your liking. 
+
 You will need:
 
 - [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or [Flips](https://github.com/Alcaro/Flips).
 - Original `Men.pack`, `Men2.pack`, and/or `cafe_barista_men.bfsar`.
     - If you do not have your original files please follow [Menu Files](files.md).
-- A patch file.
+- A theme patch file.
     - It can be any of the following formats `.ips, .bps, .ups, .ppf, .aps, .rup`.
 
 !!! info "Save your original `Men.pack`, `Men2.pack`, `cafe_barista_men.bfsar` files somewhere safe so you don't have to get your files again in the future"
 
 --------------
 
-### Getting a patch file
+### Getting a theme patch file
 
-You can obtain theme patch files via
+You can obtain `.bps` theme patch files via
 
-- [Themezer](https://themezer.net/wiiu/themes) (Using the Download Assets button)
+- [Themezer](https://themezer.net/wiiu/themes) (Using the View Assets button)
 - The [Theme Café Discord Server](https://discord.com/invite/2DNvH9db2A)
 
 ### Applying patches
 
-1. In `Original file` select your **ORIGINAL UNMODIFIED** `Men.pack` / `Men2.pack` / `cafe_barista_men.bfsar` file you want to patch
+1. In `Original file` select your **ORIGINAL UNMODIFIED** `Men.pack` / `Men2.pack` / `cafe_barista_men.bfsar` file you want to patch. 
 
-2. For the Patch File select the `.ips, .bps, .ups, .ppf, .aps, .rup` file you got from downloading the theme that matches the name of the ROM file
+2. For the Patch File select the `.ips, .bps, .ups, .ppf, .aps, .rup` file you got from downloading the theme that matches the name of the ROM file. 
 
-3. Click Apply patch
+3. Click Apply patch. 
 
 <style>
 body[data-md-color-scheme="slate"] #rom-patcher-container {
@@ -116,13 +118,13 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
 
 ??? failure "Having issues?"
 
-    - If you're getting a Source ROM checksum mismatch or a red "X", you can follow [Troubleshooting](../troubleshooting.md#checksum-mismatch)
+    - If you're getting a Source ROM checksum mismatch or a red "X", you can follow [Troubleshooting](../troubleshooting.md#checksum-mismatch). 
 
-- Finally remove the `(Patched)` from the name
+- Finally remove the `(Patched)` from the name. 
 
     - `Men2 (Patched).pack` -> `Men2.pack`
 
-Repeat this process for every file you want to patch  
+Repeat this process for every file you want to patch.  
 
 --------------------------------
 
