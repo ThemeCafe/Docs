@@ -77,15 +77,21 @@ You can now close this window
 - Click `File` in the top left corner
 - Save
 
-!!! tip "Extra Info"
+!!! tip "Looping points"
 
-    If your wav file has looping points, the music will loop accordingly
+    If your WAV file has looping points, the music will loop accordingly, otherwise you can set loop points within Citric Composer or use other tools such as [Wavosaur](https://www.wavosaur.com/), Audacity will not work for this as it removes loop points when exporting.
 
 !!! success
 
-    You can now test your music [SDCafiine](../../install/loading.md#sdcafiine)
+    You can now test your music [StyleMiiU](../../install/loading.md#stylemiiu-plugin)
 
 !!! bug "If you are having issues"
+
+    - If you have the following error when replacing the WAV file:
+    
+        "The output char buffer is too small to contain the decoded characters, encoding 'Unicode (UTF-8) fallback"
+
+        Make sure that you export your WAV file with the encoding: `Signed 16-bit PCM`
 
     - If the console freezes before loading the Wii U menu follow [Freezing](../../troubleshooting.md#freezing)
 
