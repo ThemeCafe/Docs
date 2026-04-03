@@ -9,15 +9,15 @@ hide:
 
 ## Menu loads but it's unresponsive
 
-You are probably using Swip Swap Me
+You are probably using Swip Swap Me.
 
 If you are using the default configuration
 
-- Press the TV button on the gamepad
+- Press the TV button on the Wii U Gamepad.
 
 If you are not using the default configuration and don't remember the button combo
 
-- Delete the config file of the plugin and/or Delete the plugin
+- Delete the config file of the plugin and/or Delete the plugin.
 
 --------------
 
@@ -25,10 +25,10 @@ If you are not using the default configuration and don't remember the button com
 
 Go to [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
 
-- Click *ROM File*
-- Select your ORIGINAL Wii U Menu File
-- Check the information below and make sure it matches the following
-    - For Men.pack
+- Click **ROM File**.
+- Select your ORIGINAL Wii U Menu File.
+- Check the information below and make sure it matches the following:
+    - For `Men.pack`
 
         ```
         CRC32:
@@ -39,7 +39,7 @@ Go to [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
         b39b24aa3b0cfc4441fab10122f41548b63d5595
         ```
     
-    - For Men2.pack
+    - For `Men2.pack`
 
         ```    
         CRC32:
@@ -50,7 +50,7 @@ Go to [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
         50a291bc94d4873a52818c8933d9c4b4de69dc6f
         ```
 
-    - For cafe_barista_men.bfsar
+    - For `cafe_barista_men.bfsar`
 
         ```
         CRC32:
@@ -61,76 +61,60 @@ Go to [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
         61a43d75cebba980568f0b554d3638a8a6441597
         ```
 
-If the information does not match, follow [JNUSTool](install/files.md#jnustool) to get your original files again
+If the information does not match, follow [JNUSTool](install/files.md#jnustool) to get your original files again.
 
-If the information matches with the one from your files and you're still getting the Source ROM checksum mismatch error, it might be a bad patch, you can try applying the patch anyways or use another theme
-
---------------
-
-## Black Screen
-
-Either the patch that you used was a bad patch or the Theme is too heavy for the console to handle
-
-You can
-
-- Patch the files again
-- Check the size of the file
-- If your console is EUR, check if the Theme is compatible with that region
-
-If it doesn't work and the console is still showing a black screen you can try
-
-- On the SDCafiine screen, press B to launch without a modpack
-- Delete your theme from `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]`
-- Deleting the plugin `SD:/wiiu/environments/aroma/plugins/sdcafiine.wps`.
+If the information matches with the one from your files and you're still getting the Source ROM checksum mismatch error, it might be a bad theme patch, you can try applying the patch anyways or use a different theme.
 
 --------------
 
 ## Freezing
 
-Something is wrong with the cafe_barista_men.bfsar
-
-Either
-
-- Your music is too long
-- Your music is too heavy
-- The file was not patched correctly
+Something might be wrong with the `cafe_barista_men.bfsar` file, your music might be too heavy.
 
 You can
 
-- Patch the files again
-- Check the size of the file
-- If the song used is too long, try making it shorter
+- Reduce the KHz of the audio file you used.
+- Shorten the lenght of the audio file you used.
+- Change the audio from Stereo to Mono.
 
 --------------
 
-## Wii U Menu Bootloop
+## Black Screen / Wii U Menu Bootloop
 
-If your console is bootlooping in the "Wii U Menu" splash screen, something is wrong with your Men.pack, Men2.pack files
+Something is wrong with the theme you applied (`Men.pack`, `Men2.pack`).
 
-You can
-
-- Patch the files again
-- Check the size of the file
-- If your console is EUR, check if the Theme is compatible with that region
+- Check if the file was patched correctly.
+- If your console is EUR, check if the theme is compatible.
 
 ??? question "European Consoles"
 
-    European consoles have more language packs built onto the menu meaning the file size on themes needs to be smaller to work properly. This is more likely to happen with unoptimized or animated themes
+    European consoles have more language packs built onto the menu meaning the file size on themes needs to be smaller to work properly. This is more likely but not guaranteed to happen with unoptimized or themes with texture pattern animations.
 
-If it doesn't work and the console is still loading indefinitely you can try
+Otherwise, you can:
 
-- Deleting your theme `sd:/wiiu/themes/[ThemeName]`
-- Deleting the plugin `SD:/wiiu/environments/aroma/plugins/stylemiiu.wps`.
+??? note "For SDCaffiine"
+
+    - On the SDCafiine screen, press B to launch without a modpack.
+    - Delete your theme from `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]`.
+    - Delete the plugin `SD:/wiiu/environments/aroma/plugins/sdcafiine.wps`.
+
+??? note "For StyleMiiU"
+
+    - Delete your theme: `sd:/wiiu/themes/[ThemeName]`.
+    - Delete the plugin config file: `SD:/wiiu/environments/aroma/plugins/config/style-mii-u.json`.
+    - Delete the plugin: `SD:/wiiu/environments/aroma/plugins/stylemiiu.wps`.
 
 --------------
 
 ## Theme not loading
 
-The files were not loaded correctly/no modifications were made
+The files were not loaded correctly / No modifications were made to the Menu.
 
-You can
-
-- Check that you patched the file correctly
-- Check that you are using the correct path
-    - SDCafiine: `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Package/Men.pack, Men2.pack`
-    - StyleMiiU: `sd:/wiiu/themes/[ThemeName]/content/Common/Package/Men.pack, Men2.pack`
+- Check that you have installed the plugin.
+    - SDCafiine: `SD:/wiiu/environments/aroma/plugins/sdcafiine.wps`.
+    - StyleMiiU: `SD:/wiiu/environments/aroma/plugins/stylemiiu.wps`.
+- Check that you patched the file correctly.
+    - The theme folder must contain the `.pack` files.
+- Check that you are using the correct path:
+    - SDCafiine: `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Package/Men.pack, Men2.pack`.
+    - StyleMiiU: `sd:/wiiu/themes/[ThemeName]/Men.pack, Men2.pack`.

@@ -115,10 +115,8 @@ There's two ways to load themes using aroma
 
 ??? warning "Troubleshooting"
 
-    - If you're stuck on a black screen: [Black Screen](../troubleshooting.md#black-screen)
+    - If you're stuck on a black screen or Bootloop: [Black Screen / Bootloop](../troubleshooting.md#black-screen-wii-u-menu-bootloop)
 
     - If your console freezes on the Wii U Menu loading screen: [Freezing](../troubleshooting.md#freezing)
 
     - If your theme didn't load and it's showing the default one: [Theme not loading](../troubleshooting.md#theme-not-loading)
-
-    - If the console is bootlooping on the "Wii U Menu" screen: [Wii U Menu Bootloop](../troubleshooting.md#wii-u-menu-bootloop)
