@@ -21,6 +21,7 @@ hide:
 
     [Go :material-arrow-right:](files.md){ .md-button .md-button--primary }
 
+</div>
 
 --------------
 
