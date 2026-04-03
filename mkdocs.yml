@@ -86,7 +86,6 @@ nav:
   - Home: index.md
   - Install:
     - install/index.md
-    - UTheme: install/utheme.md
     - Menu Files: install/files.md
     - Patching: install/patching.md
     - Loading Theme: install/loading.md

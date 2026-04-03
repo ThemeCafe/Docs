@@ -1,5 +1,7 @@
 ---
 icon: fontawesome/solid/brush
+search:
+  exclude: true
 ---
 
 # Utheme

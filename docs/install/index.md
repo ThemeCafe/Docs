@@ -21,19 +21,8 @@ hide:
 
     [Go :material-arrow-right:](files.md){ .md-button .md-button--primary }
 
--   **Utheme**
-
-    ![image](imgs/utheme.png)
-
-    Install themes directly from your Wii U.
-
-    [Go :material-arrow-right:](utheme.md){ .md-button .md-button--primary } 
-
-</div>
 
 --------------
-
-- [**UTheme**](utheme.md): Install themes directly from your Wii U.
 
 - [**Menu Files**](files.md): You can get your menu files with [FTP](files.md#ftp) or [JNUSTool](files.md#jnustool).
 
