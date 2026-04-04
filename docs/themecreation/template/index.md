@@ -90,20 +90,18 @@ We are now going to change the image that's between the Wara Wara Plaza and the 
 
 -----------------------
 
-### Floor
+### Wara Wara Plaza
 
-Now we need to change the texture of the floor.
+Here you can change the texture of the floor or hide the Wara Wara Plaza.
 
-There are two ways you can have the floor.
-
-=== "Tiled"
+=== "Tiled Floor"
 
     ![image](imgs/s5.webp)
 
     - Go back to the `Models` folder.
     - Go to `LoungeFloor.szs > gsys.bfres > Textures`.
     - Right click `Floor_Alb` and select `Replace`.
-    - Choose the image you want to use as background for the Menu.
+    - Choose the image you want to use as the floor for the Wara Wara Plaza.
 
         ??? info "Recommended Image Resolution"
 
@@ -111,7 +109,9 @@ There are two ways you can have the floor.
 
     - Save.
 
-=== "Stretched"
+    For more customization to the Wara Wara Plaza check [Wara Wara Plaza (Advanced)](../advanced/wwp.md)
+
+=== "Stretched Floor"
 
     ![image](imgs/s8.webp)
 
@@ -140,7 +140,7 @@ There are two ways you can have the floor.
     - Delete the `floor__m_floor` object.
     - Go back to Textures.
     - Right click `Floor_Alb` and select `Replace`.
-    - Choose the image you want to use as background for the Menu.
+    - Choose the image you want to use as the floor for the Wara Wara Plaza.
     
     !!! warning "When importing the image, import it in format `T_BC1_SRGB`"
 
@@ -149,10 +149,42 @@ There are two ways you can have the floor.
         2000x2000
 
     - Save.
+
+    For more customization to the Wara Wara Plaza check [Wara Wara Plaza (Advanced)](../advanced/wwp.md)
     
+=== "Hide Wara Wara Plaza"
+
+    ![image](imgs/hide.webp)
+
+    - Go to `Layout > LoungeScaleMeter.szs > LoungeScaleMeter.arc > timg > bg.bflim`
+
+    - In `Display` Select `File Editor`, then `File > Replace`
+
+    ![image](imgs/h1.png)
+
+    - Select the image you want to use to hide the Wara Wara Plaza.
+
+    - Import it as `T_BC1_UNORM`
+
+    ??? info "Recommended Image Resolution"
+
+        1280x720
+
+    - Now Open `LoungeScaleMeter.bflyt`
+
+    - Go to `RootPane > L_BtnLoungeScale_01`
+
+    ![image](imgs/h2.png)
+
+    - Uncheck `Pane visible`
+
+    - Repeat this for `L_BtnLoungeScale_02` and `L_BtnLoungeScale_03`
+
+-----------------
+
 ### Gradient
 
-There's also the option to use a gradient to make the transition between the screens smoother.
+There's also the option to use a gradient to make the transition between the screens smoother, this only applies if you didn't hide the Wara Wara Plaza on the previous step.
 
 Still in `LoungeFloor.szs > gsys.bfres > Textures`.
 
@@ -196,4 +228,4 @@ Select your new texture and make sure you import it in format `TCS_R8_G8_B8_A8_S
 
     For more advanced changes go to
 
-    [:octicons-gear-16: Advanced](../advanced/launcher.md){ .md-button .md-button--primary }
+    [:octicons-gear-16: Advanced](../advanced/index.md){ .md-button .md-button--primary }

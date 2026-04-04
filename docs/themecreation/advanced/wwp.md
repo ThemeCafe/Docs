@@ -12,7 +12,7 @@
 
 This is where the floor model is located
 
-[Floor Guide](../template/index.md#floor){ .md-button .md-button--primary }
+[Floor Guide](../template/index.md#tiled-floor){ .md-button .md-button--primary }
 
 ----------------------
 
