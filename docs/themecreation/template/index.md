@@ -18,201 +18,274 @@ Custom themes can have a 2D non moving image, or be animated by adding texture a
 
 ### Template
 
-We will be working with a template.
+We will be working with a template to simplify the process of creating a theme.
 
-<div class="grid cards" markdown>
+=== "Base Template"
 
--   **Light Template**
+    With this template, we will be using:
 
-    ![image](imgs/light.webp)
+    - Two 16:9 textures.
+    - One 1:1 Floor texture.
+    - A gradient to make the transition between the Wara Wara Plaza and Launcher screens smoother.
 
-    [:fontawesome-solid-download: Download Light Template](templates/Men2.bps){ .md-button .md-button--primary }
+    <div class="grid cards" markdown>
 
--   **Dark Template**
+    -   **Light Template**
 
-    ![image](imgs/dark.webp)
+        ![image](imgs/light.webp)
 
-    [:fontawesome-solid-download: Download Dark Template](templates/DarkTemplate.zip){ .md-button .md-button--primary }
+        [:fontawesome-solid-download: Download Light Template](templates/Men2.bps){ .md-button .md-button--primary }
+
+    -   **Dark Template**
+
+        ![image](imgs/dark.webp)
+
+        [:fontawesome-solid-download: Download Dark Template](templates/DarkTemplate.zip){ .md-button .md-button--primary }
 
 
-</div>
+    </div>
 
-Apply the patch to a copy of your `Men2.pack` (and `Men.pack` if you are using the Dark Template) file ([Patching](../../install/patching.md)) and come back here when you're done.
+    Apply the patch to a copy of your `Men2.pack` (and `Men.pack` if you are using the Dark Template) file ([Patching](../../install/patching.md)) and come back here when you're done.
 
-- If you do not have these files, follow [Menu Files](../../install/files.md) to learn how to get them.
+    - If you do not have these files, follow [Menu Files](../../install/files.md) to learn how to get them.
 
------------------------
+    -----------------------
 
-### Launcher
+    ### Launcher
 
-Open the patched `Men2.pack` template with [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases/tag/Final)
+    Open the patched `Men2.pack` template with [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases/tag/Final)
 
-- Go to `Common > Model > LoungueVR.szs > gsys.bfres > Textures`.
-- Right click `bg02` and select `Replace`.
-- Choose the image you want to use as background for the Menu.
+    - Go to `Common > Model > LoungueVR.szs > gsys.bfres > Textures`.
+    - Right click `bg02` and select `Replace`.
+    - Choose the image you want to use as background for the Menu.
 
-    ???+ info "Recommended Image Resolution"
+        ???+ info "Recommended Image Resolution"
 
-        1280x720
+            1280x720
 
-- When importing the image, import it in format `T_BC1_SRGB`.
-- Save.
+    - When importing the image, import it in format `T_BC1_SRGB`.
+    - Save.
 
-??? question "Where is this image displayed?"
+    ??? question "Where is this image displayed?"
 
-    This image will be displayed here.
+        This image will be displayed here.
 
-    ![image](imgs/s2.webp)
-    
------------------------
+        ![image](imgs/s2.webp)
+        
+    -----------------------
 
-### Screen Transition
+    ### Screen Transition
 
-We are now going to change the image that's between the Wara Wara Plaza and the launcher.
-
-- Go back to the `Models` folder.
-- Go to `FloatIcon00.szs > gsys.bfres > Textures`.
-- Right click `White_00` and select `Replace`.
-- Choose the image you want to use as background for the Menu.
-
-    ??? info "Recommended Image Resolution"
-
-        1280x720.
-
-- When importing the image, import it in format `T_BC1_SRGB`.
-- Save.
-
-??? question "Where is this image displayed?"
-
-    This image will be displayed here.
-
-    ![image](imgs/s3.webp)
-
------------------------
-
-### Wara Wara Plaza
-
-Here you can change the texture of the floor or hide the Wara Wara Plaza.
-
-=== "Tiled Floor"
-
-    ![image](imgs/s5.webp)
+    We are now going to change the image that's between the Wara Wara Plaza and the launcher.
 
     - Go back to the `Models` folder.
-    - Go to `LoungeFloor.szs > gsys.bfres > Textures`.
-    - Right click `Floor_Alb` and select `Replace`.
-    - Choose the image you want to use as the floor for the Wara Wara Plaza.
+    - Go to `FloatIcon00.szs > gsys.bfres > Textures`.
+    - Right click `White_00` and select `Replace`.
+    - Choose the image you want to use as background for the Menu.
 
         ??? info "Recommended Image Resolution"
 
-            1024x1024
+            1280x720.
 
+    - When importing the image, import it in format `T_BC1_SRGB`.
     - Save.
 
-    For more customization to the Wara Wara Plaza check [Wara Wara Plaza (Advanced)](../advanced/wwp.md)
+    ??? question "Where is this image displayed?"
 
-=== "Stretched Floor"
+        This image will be displayed here.
 
-    ![image](imgs/s8.webp)
+        ![image](imgs/s3.webp)
 
-    - Go back to the `Models` folder.
-    - Go to `LoungeFloor.szs > gsys.bfres > Models > LoungeFloor`.
-    - Download the following floor model.
+    -----------------------
 
-    [:fontawesome-solid-download: Download Stretched Floor Model](templates/LoungeFloor.dae){ .md-button .md-button--primary }
+    ### Wara Wara Plaza
 
-    - Right Click `Objects` and select `Import Static Object`.
-    - Import using the `LoungeFloor.dae` you just downloaded.
-    - Click `OK`.
+    Here you can change the texture of the floor or hide the Wara Wara Plaza.
 
-    In Model Settings.
+    === "Tiled Floor"
 
-    - Uncheck `Use Material`.
-    - Check `Enable Vertex Colors`.
+        ![image](imgs/s5.webp)
 
-    Now go to the `Inject Mode` Tab.
+        - Go back to the `Models` folder.
+        - Go to `LoungeFloor.szs > gsys.bfres > Textures`.
+        - Right click `Floor_Alb` and select `Replace`.
+        - Choose the image you want to use as the floor for the Wara Wara Plaza.
 
-    - Check `Keep Original Skin Count`.
+            ??? info "Recommended Image Resolution"
 
-    Go back to the Model Settings tab and click Save.
+                1024x1024
 
-    - Open the Objects folder.
-    - Delete the `floor__m_floor` object.
-    - Go back to Textures.
+        - Save.
+
+        For more customization to the Wara Wara Plaza check [Wara Wara Plaza (Advanced)](../advanced/wwp.md)
+
+    === "Stretched Floor"
+
+        ![image](imgs/s8.webp)
+
+        - Go back to the `Models` folder.
+        - Go to `LoungeFloor.szs > gsys.bfres > Models > LoungeFloor`.
+        - Download the following floor model.
+
+        [:fontawesome-solid-download: Download Stretched Floor Model](templates/LoungeFloor.dae){ .md-button .md-button--primary }
+
+        - Right Click `Objects` and select `Import Static Object`.
+        - Import using the `LoungeFloor.dae` you just downloaded.
+        - Click `OK`.
+
+        In Model Settings.
+
+        - Uncheck `Use Material`.
+        - Check `Enable Vertex Colors`.
+
+        Now go to the `Inject Mode` Tab.
+
+        - Check `Keep Original Skin Count`.
+
+        Go back to the Model Settings tab and click Save.
+
+        - Open the Objects folder.
+        - Delete the `floor__m_floor` object.
+        - Go back to Textures.
+        - Right click `Floor_Alb` and select `Replace`.
+        - Choose the image you want to use as the floor for the Wara Wara Plaza.
+        
+        !!! warning "When importing the image, import it in format `T_BC1_SRGB`"
+
+        ??? info "Recommended Image Resolution"
+
+            2000x2000
+
+        - Save.
+
+        For more customization to the Wara Wara Plaza check [Wara Wara Plaza (Advanced)](../advanced/wwp.md)
+        
+    === "Hide Wara Wara Plaza"
+
+        ![image](imgs/hide.webp)
+
+        - Go to `Layout > LoungeScaleMeter.szs > LoungeScaleMeter.arc > timg > bg.bflim`
+
+        - In `Display` Select `File Editor`, then `File > Replace`
+
+        ![image](imgs/h1.png)
+
+        - Select the image you want to use to hide the Wara Wara Plaza.
+
+        - Import it as `T_BC1_UNORM`
+
+        ??? info "Recommended Image Resolution"
+
+            1280x720
+
+        - Now Open `LoungeScaleMeter.bflyt`
+
+        - Go to `RootPane > L_BtnLoungeScale_01`
+
+        ![image](imgs/h2.png)
+
+        - Uncheck `Pane visible`
+
+        - Repeat this for `L_BtnLoungeScale_02` and `L_BtnLoungeScale_03`
+
+    -----------------
+
+    ### Gradient
+
+    There's also the option to use a gradient to make the transition between the screens smoother, this only applies if you didn't hide the Wara Wara Plaza on the previous step.
+
+    Still in `LoungeFloor.szs > gsys.bfres > Textures`.
+
+    - Right click `Gradient` and click `Export`.
+
+    You can edit the color of the gradient to your liking in the program of your choice, when you are done simply.
+
+    - Right click `Gradient`, click `Replace`.
+
+    Select your new texture and make sure you import it in format `TCS_R8_G8_B8_A8_SRGB`.
+
+    ??? question "How does the gradient look like?"
+
+        ![image](imgs/s6.webp)
+
+    ??? note "If you do not want to use a gradient"
+
+        *Right click* the next button and click `Save Link As...` and download the `Blank.png` file.
+
+        [:fontawesome-solid-download: Download blank texture](imgs/Blank.png){ .md-button .md-button--primary }
+
+        - Right click `Gradient` , Click `Replace` and select the blank texture you just downloaded.
+        - Import it in format `TCS_R8_G8_B8_A8_SRGB`.
+
+        The gradient should no longer be visible.
+
+        ![image](imgs/s7.webp)
+
+=== "Simple Template"
+
+    With this template, we will be using:
+
+    - Three 16:9 textures to display as backgrounds
+
+        ![image](imgs/st.webp)
+
+    !!! note "Adittional Notes"
+
+        - This template shows the image for the Wara Wara Plaza as a background instead of the floor, which means the Miis will appear to walk in the air and the image will be partially shown on screen depending on where the camera is.
+        - The recommended resolution for textures is 1280x720.
+        - When importing textures, use the format `T_BC1_SRGB`.
+
+    <div class="grid cards" markdown>
+
+    -   **Light Template**
+
+        ![image](imgs/light.webp)
+
+        [:fontawesome-solid-download: Download Light Template](templates/SimpleTemplate.zip){ .md-button .md-button--primary }
+
+    -   **Dark Template**
+
+        ![image](imgs/dark.webp)
+
+        [:fontawesome-solid-download: Download Dark Template](templates/DarkSimpleTemplate.zip){ .md-button .md-button--primary }
+
+
+    </div>
+
+    Apply the patch to a copy of your `Men2.pack` and `Men.pack` files ([Patching](../../install/patching.md)) and come back here when you're done. 
+
+    - If you do not have these files, follow [Menu Files](../../install/files.md) to learn how to get them.
+
+    -----------------------
+
+    Open the patched `Men2.pack` template with [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases/tag/Final)
+
+    **Launcher**
+
+    - Go to `Common > Model > LoungueVR.szs > gsys.bfres > Textures`.
+    - Right click `bg02` and select `Replace`.
+    - Choose the image you want to use as background for the Launcher.
+    - Save.
+    
+    **Screen Transition**
+
+    - Go to `Common > Model > FloatIcon00.szs > gsys.bfres > Textures`.
+    - Right click `White_00` and select `Replace`.
+    - Choose the image you want to use as background for the Transition.
+    - Save.
+
+    **Wara Wara Plaza**
+
+    - Go to `Common > Model > LoungeFloor.szs > gsys.bfres > Textures`.
     - Right click `Floor_Alb` and select `Replace`.
-    - Choose the image you want to use as the floor for the Wara Wara Plaza.
-    
-    !!! warning "When importing the image, import it in format `T_BC1_SRGB`"
-
-    ??? info "Recommended Image Resolution"
-
-        2000x2000
-
+    - Choose the image you want to use as background for the Wara Wara Plaza
     - Save.
 
-    For more customization to the Wara Wara Plaza check [Wara Wara Plaza (Advanced)](../advanced/wwp.md)
-    
-=== "Hide Wara Wara Plaza"
+    -----------------------
 
-    ![image](imgs/hide.webp)
+    ??? bug "Troubleshooting"
 
-    - Go to `Layout > LoungeScaleMeter.szs > LoungeScaleMeter.arc > timg > bg.bflim`
-
-    - In `Display` Select `File Editor`, then `File > Replace`
-
-    ![image](imgs/h1.png)
-
-    - Select the image you want to use to hide the Wara Wara Plaza.
-
-    - Import it as `T_BC1_UNORM`
-
-    ??? info "Recommended Image Resolution"
-
-        1280x720
-
-    - Now Open `LoungeScaleMeter.bflyt`
-
-    - Go to `RootPane > L_BtnLoungeScale_01`
-
-    ![image](imgs/h2.png)
-
-    - Uncheck `Pane visible`
-
-    - Repeat this for `L_BtnLoungeScale_02` and `L_BtnLoungeScale_03`
-
------------------
-
-### Gradient
-
-There's also the option to use a gradient to make the transition between the screens smoother, this only applies if you didn't hide the Wara Wara Plaza on the previous step.
-
-Still in `LoungeFloor.szs > gsys.bfres > Textures`.
-
-- Right click `Gradient` and click `Export`.
-
-You can edit the color of the gradient to your liking in the program of your choice, when you are done simply.
-
-- Right click `Gradient`, click `Replace`.
-
-Select your new texture and make sure you import it in format `TCS_R8_G8_B8_A8_SRGB`.
-
-??? question "How does the gradient look like?"
-
-    ![image](imgs/s6.webp)
-
-??? note "If you do not want to use a gradient"
-
-    *Right click* the next button and click `Save Link As...` and download the `Blank.png` file.
-
-    [:fontawesome-solid-download: Download blank texture](imgs/Blank.png){ .md-button .md-button--primary }
-
-    - Right click `Gradient` , Click `Replace` and select the blank texture you just downloaded.
-    - Import it in format `TCS_R8_G8_B8_A8_SRGB`.
-
-    The gradient should no longer be visible.
-
-    ![image](imgs/s7.webp)
-
+        - If the Wara Wara Plaza appears blurry, use the Men.bps patch file that comes with the template and load it with your theme.
 
 -----------------------
 
