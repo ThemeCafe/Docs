@@ -31,34 +31,25 @@ Go to [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
     - For `Men.pack`
 
         ```
-        CRC32:
-        b9a4343a
-        MD5:
-        39138b2ff5a94f9cade38084f088c7c1
-        SHA-1:
-        b39b24aa3b0cfc4441fab10122f41548b63d5595
+        CRC32: b9a4343a
+        MD5:   39138b2ff5a94f9cade38084f088c7c1
+        SHA-1: b39b24aa3b0cfc4441fab10122f41548b63d5595
         ```
     
     - For `Men2.pack`
 
         ```    
-        CRC32:
-        946cd8a2
-        MD5:
-        e0087fd4bc295abf9b787aab3c1f6292
-        SHA-1:
-        50a291bc94d4873a52818c8933d9c4b4de69dc6f
+        CRC32: 946cd8a2
+        MD5:   e0087fd4bc295abf9b787aab3c1f6292
+        SHA-1: 50a291bc94d4873a52818c8933d9c4b4de69dc6f
         ```
 
     - For `cafe_barista_men.bfsar`
 
         ```
-        CRC32:
-        c9c16521
-        MD5:
-        0a2880e33eb0f15102decf2e155f6a95
-        SHA-1:
-        61a43d75cebba980568f0b554d3638a8a6441597
+        CRC32: c9c16521
+        MD5:   0a2880e33eb0f15102decf2e155f6a95
+        SHA-1: 61a43d75cebba980568f0b554d3638a8a6441597
         ```
 
 If the information does not match, follow [JNUSTool](install/files.md#jnustool) to get your original files again.
@@ -118,3 +109,8 @@ The files were not loaded correctly / No modifications were made to the Menu.
 - Check that you are using the correct path:
     - SDCafiine: `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Package/Men.pack, Men2.pack`.
     - StyleMiiU: `sd:/wiiu/themes/[ThemeName]/Men.pack, Men2.pack`.
+- Check that your theme is selected:
+    - SDCafiine: Select the Modpack with your theme
+    
+    - StyleMiiU:
+        - Open the WUPS menu (**L + ↓ + SELECT**) and enter the **StyleMiiU** menu. Make sure StyleMiiU is enabled, otherwise it won't do anything. Enter the **Available Themes** option and you should see the folders that are in `SD:/wiiu/themes/`. Once there, set whatever theme you want to Current Theme. Once you exit the WUPS menu, the Home Menu should restart and once it gets restarted, your Home Menu will now have the theme you chose applied to it.
