@@ -281,8 +281,6 @@ We will be working with a template to simplify the process of creating a theme.
     - Choose the image you want to use as background for the Wara Wara Plaza
     - Save.
 
-    -----------------------
-
     ??? bug "Troubleshooting"
 
         - If the Wara Wara Plaza appears blurry, use the Men.bps patch file that comes with the template and load it with your theme.
