@@ -229,7 +229,7 @@ We will be working with a template to simplify the process of creating a theme.
 
         ![image](imgs/st.webp)
 
-    !!! note "Adittional Notes"
+    !!! note "Extra info"
 
         - This template shows the image for the Wara Wara Plaza as a background instead of the floor, which means the Miis will appear to walk in the air and the image will be partially shown on screen depending on where the camera is.
         - The recommended resolution for textures is 1280x720.
