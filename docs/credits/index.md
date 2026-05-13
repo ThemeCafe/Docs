@@ -84,4 +84,4 @@ Theme Café Owner
 
 - [Themezer](https://themezer.net/) for hosting Wii U Themes
 
-Theme Café Docs was made with [Zensical](https://zensical.org/)
+Theme Café Docs was built with [Zensical](https://zensical.org/)
