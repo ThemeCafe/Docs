@@ -178,6 +178,20 @@ We will be working with a template to simplify the process of creating a theme.
 
             1280x720
 
+        !!! info "Hide Scale Buttons"
+
+            - Now Open `LoungeScaleMeter.bflyt`
+
+            - Go to `RootPane > L_BtnLoungeScale_01`
+
+            ![image](imgs/h2.png)
+
+            - Set `Alpha` to 0
+
+            - Repeat this for `L_BtnLoungeScale_02` and `L_BtnLoungeScale_03`
+
+            !!! abstract "Special Thanks to remure_"
+
     -----------------
 
     ### Gradient
