@@ -178,16 +178,6 @@ We will be working with a template to simplify the process of creating a theme.
 
             1280x720
 
-        - Now Open `LoungeScaleMeter.bflyt`
-
-        - Go to `RootPane > L_BtnLoungeScale_01`
-
-        ![image](imgs/h2.png)
-
-        - Uncheck `Pane visible`
-
-        - Repeat this for `L_BtnLoungeScale_02` and `L_BtnLoungeScale_03`
-
     -----------------
 
     ### Gradient
