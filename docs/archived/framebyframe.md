@@ -84,7 +84,7 @@ You can test it directly on switch toolbox
 Go into animation Hierarchy, select footerout or footerin and click play
 
 <video controls>
-<source src="../imgs/framebyframe/vf.webm" type="video/mp4">
+<source src="imgs/framebyframe/vf.webm" type="video/mp4">
 </video>
 
 Use this file as a base "You will need to patch a Men2.pack to use it" [here](../install/files.md)
