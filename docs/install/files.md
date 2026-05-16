@@ -79,7 +79,7 @@ First, we need to obtain the menu files, either through FTP or by using JNUSTool
             </ul>
         </li>
     </ul>
-    <script src="../scripts/otp.js"></script>
+    <script src="scripts/otp.js"></script>
     
     ### **Setting up JNUSTool**
 

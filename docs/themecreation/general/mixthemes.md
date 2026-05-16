@@ -66,7 +66,7 @@ Open your **Main** theme and search for the file you want to change (In my case 
 You can now move your file to your SD as usual and try out the theme
 
 <video controls>
-<source src="../imgs/vm1.webm" type="video/mp4">
+<source src="imgs/vm1.webm" type="video/mp4">
 </video>
 
 ✨ If you are going to upload a theme using resources from other people **please credit them** ✨  
@@ -85,7 +85,7 @@ You are already familiar with the steps so i'll keep it brief
 Open your **Source** theme and search for the file (In this case is FolderBase), right click and export, save the file on your computer, then open your **Main** theme and search for the file, right click and replace, then save, boot up your theme and check it out
 
 <video controls>
-<source src="../imgs/vm2.mp4" type="video/mp4">
+<source src="imgs/vm2.mp4" type="video/mp4">
 </video>
 
 ### TL:DR

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../stylesheets/anim.css" />
+<link rel="stylesheet" href="stylesheets/anim.css" />
 
 # SRT Animations
 
@@ -32,7 +32,7 @@ For better results please use a seamless texture and do the following.
 ### Translate Texture Animations
 
 <video controls>
-<source src="../imgs/srt/translateprev.webm" type="video/mp4">
+<source src="imgs/srt/translateprev.webm" type="video/mp4">
 </video>
 
 - Scrolls horizontally from left to right (Right to left if it's reversed).
@@ -82,7 +82,7 @@ For better results please use a seamless texture and do the following.
 ### Scale Texture Animations
 
 <video controls>
-<source src="../imgs/srt/scaleprev.webm" type="video/mp4">
+<source src="imgs/srt/scaleprev.webm" type="video/mp4">
 </video>
 
 - A higher value means the texture will get smaller.
@@ -125,7 +125,7 @@ MaterialAnimConfigs:
 ### Rotate Texture Animations
 
 <video controls>
-<source src="../imgs/srt/rotateprev.webm" type="video/mp4">
+<source src="imgs/srt/rotateprev.webm" type="video/mp4">
 </video>
 
 This animation will rotate the texture around the center of the UV Mapping.
@@ -163,7 +163,7 @@ This animation will rotate the texture around the center of the UV Mapping.
     - [Super Mario Oddysey - By Gatto](https://themezer.net/wiiu/themes/super-mario-odyssey-5B)
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
-<script src="../scripts/srt.js"></script>
+<script src="scripts/srt.js"></script>
 
 ### Importing Animations
 

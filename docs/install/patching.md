@@ -131,6 +131,6 @@ Repeat this process for every file you want to patch.
 [Continue to Loading Custom Themes → ](loading.md){ .md-button .md-button--primary }
 
 
-<script src="rom-patcher-js/RomPatcher.webworker.apply.js"></script>
-<script src="rom-patcher-js/RomPatcher.webworker.crc.js"></script>
-<script src="rom-patcher-js/RomPatcher.webapp.js"></script>
+<script src="patching/rom-patcher-js/RomPatcher.webworker.apply.js"></script>
+<script src="patching/rom-patcher-js/RomPatcher.webworker.crc.js"></script>
+<script src="patching/rom-patcher-js/RomPatcher.webapp.js"></script>
