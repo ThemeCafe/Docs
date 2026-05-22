@@ -123,4 +123,4 @@ First, we need to obtain the menu files, either through FTP or by using JNUSTool
 
 -----------------
 
-[Continue to Patching → ](patching.md){ .md-button .md-button--primary }
+[Continue to Patching →](patching.md){ .md-button .md-button--primary }

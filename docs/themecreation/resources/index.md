@@ -18,10 +18,9 @@ icon: fontawesome/solid/wrench
 
     [Go :material-arrow-right:](arrows.md){ .md-button .md-button--primary }
 
-
 -   **Custom Color Illustrations**
 
-    ![](imgs/illust/pre.webp)
+    ![image](imgs/illust/pre.webp)
 
     [Go :material-arrow-right:](illust.md){ .md-button .md-button--primary }
 

@@ -11,7 +11,7 @@ icon: fontawesome/solid/music
 - A program that can export audio file as `.WAV`
     - For example [Audacity](https://www.audacityteam.org/)
 
-- [Citric Composer](https://gota7.github.io/Citric-Composer/) 
+- [Citric Composer](https://gota7.github.io/Citric-Composer/)
 
 ### Template
 
@@ -72,7 +72,6 @@ Adding your music
 - Click Save
 
 You can now close this window
-
 
 - Click `File` in the top left corner
 - Save

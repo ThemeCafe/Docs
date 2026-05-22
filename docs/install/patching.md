@@ -8,7 +8,7 @@ icon: fontawesome/solid/wrench
 
 --------------
 
-Now we will use the Menu files you obtained from the previous step and patch them with the theme of your liking. 
+Now we will use the Menu files you obtained from the previous step and patch them with the theme of your liking.
 
 You will need:
 
@@ -31,11 +31,11 @@ You can obtain `.bps` theme patch files via
 
 ### Applying patches
 
-1. In `Original file` select your **ORIGINAL UNMODIFIED** `Men.pack` / `Men2.pack` / `cafe_barista_men.bfsar` file you want to patch. 
+1. In `Original file` select your **ORIGINAL UNMODIFIED** `Men.pack` / `Men2.pack` / `cafe_barista_men.bfsar` file you want to patch.
 
-2. For the Patch File select the `.ips, .bps, .ups, .ppf, .aps, .rup` file you got from downloading the theme that matches the name of the ROM file. 
+2. For the Patch File select the `.ips, .bps, .ups, .ppf, .aps, .rup` file you got from downloading the theme that matches the name of the ROM file.
 
-3. Click Apply patch. 
+3. Click Apply patch.
 
 <style>
 body[data-md-color-scheme="slate"] #rom-patcher-container {
@@ -56,11 +56,11 @@ body[data-md-color-scheme="slate"] #rom-patcher-container label {
 body[data-md-color-scheme="slate"] #rom-patcher-container input[type="file"] {
     color: #ffffff;
     background-color: #2e2e2e;
-    border: 1px solid #444444; 
+    border: 1px solid #444444;
 }
 
 body[data-md-color-scheme="slate"] #rom-patcher-container input[type="file"]:hover {
-    background-color: #3a3a3a; 
+    background-color: #3a3a3a;
 }
 
 body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
@@ -112,7 +112,7 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
         };
         RomPatcherWeb.initialize(myPatcherSettings);
     });
-</script>   
+</script>
 
 !!! abstract "Credits to [Marcrobledo](https://www.marcrobledo.com/) for RomPatcher.js"
 
@@ -120,7 +120,7 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
 
     - If you're getting a Source ROM checksum mismatch or a red "X", you can follow [Troubleshooting](../troubleshooting.md#checksum-mismatch). 
 
-- Finally remove the `(Patched)` from the name. 
+- Finally remove the `(Patched)` from the name.
 
     - `Men2 (Patched).pack` -> `Men2.pack`
 
@@ -128,8 +128,7 @@ Repeat this process for every file you want to patch.
 
 --------------------------------
 
-[Continue to Loading Custom Themes → ](loading.md){ .md-button .md-button--primary }
-
+[Continue to Loading Custom Themes →](loading.md){ .md-button .md-button--primary }
 
 <script src="patching/rom-patcher-js/RomPatcher.webworker.apply.js"></script>
 <script src="patching/rom-patcher-js/RomPatcher.webworker.crc.js"></script>

@@ -116,7 +116,6 @@ After generating your animation file, go back to Switch ToolBox.
 - Select **Import** -> `Texture Pattern Animation`.
 - Open the animation file you previously generated.
 
-
 !!! info "You can preview the animation by clicking the *Play* button"
 
     ![image](imgs/frame/preview.gif)

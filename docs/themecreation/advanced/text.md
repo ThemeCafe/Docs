@@ -61,7 +61,7 @@ You will need the `AllMessage.szs` file for the language you want to edit, if yo
 
 --------------
 
-### Replacing msbt files 
+### Replacing MSBT files
 
 - Go back to Switch Toolbox.
 - Locate the file (In this case `AllMessage.szs` > `SceneMessage.sarc` > `MenuScene.msbt`).
@@ -96,8 +96,6 @@ You can load the text using either StyleMiiU-Plugin or SDCafiine.
     - In `[ThemeName]` with the theme where you want to modify the text.
     - In `[LANGUAGE]` with the language you want to edit.
         - For example: `UsEnglish`
-
-
 
 !!! success "Your text should now be modified!"
 

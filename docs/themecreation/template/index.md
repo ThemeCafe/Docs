@@ -304,3 +304,4 @@ We will be working with a template to simplify the process of creating a theme.
     For more advanced changes go to
 
     [:octicons-gear-16: Advanced](../advanced/index.md){ .md-button .md-button--primary }
+    

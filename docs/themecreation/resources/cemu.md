@@ -14,7 +14,7 @@ This is useful in case you are creating themes and want to quickly test your cha
 2. Select `Dump whole MLC (everything stored on internal Storage)`.
 
     !!! warning "**Dumping the MLC can take 6-20 hours depending on it's contents!**"
-    
+
         Make sure you have enough space available.
 
         - At least 8GB for a basic white Wii U.
@@ -64,3 +64,4 @@ This is useful in case you are creating themes and want to quickly test your cha
     - Emulator not crashing when the console does.
 
     So make sure to test on real hardware from time to time.
+    
