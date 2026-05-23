@@ -37,39 +37,6 @@ You can obtain `.bps` theme patch files via
 
 3. Click Apply patch.
 
-<style>
-body[data-md-color-scheme="slate"] #rom-patcher-container {
-    background-color: #2e2e2e;
-    color: #ffffff;
-    border: 1px solid #444444;
-}
-
-body[data-md-color-scheme="slate"] #rom-patcher-container button {
-    color: #ffffff;
-    background-color: #009485;
-}
-
-body[data-md-color-scheme="slate"] #rom-patcher-container label {
-    color: #ffffff;
-}
-
-body[data-md-color-scheme="slate"] #rom-patcher-container input[type="file"] {
-    color: #ffffff;
-    background-color: #2e2e2e;
-    border: 1px solid #444444;
-}
-
-body[data-md-color-scheme="slate"] #rom-patcher-container input[type="file"]:hover {
-    background-color: #3a3a3a;
-}
-
-body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
-    color: #000000;
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-}
-</style>
-
 <div id="rom-patcher-container">
     <div>
         <label for="rom-patcher-input-file-rom">Original file:</label>
@@ -93,6 +60,13 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
     <div>
         <label for="rom-patcher-input-file-patch">Patch File:</label>
         <input type="file" id="rom-patcher-input-file-patch">
+    </div>
+    <div id="rom-patcher-row-error-message">
+        <span id="rom-patcher-error-message"></span>
+    </div>
+        <div class="row m-b text-selectable text-mono" id="rom-patcher-row-patch-requirements">
+        <div class="text-right text-mono" id="rom-patcher-patch-requirements-type"></div>
+        <div class="text-truncate" id="rom-patcher-patch-requirements-value"></div>
     </div>
     <div>
         <br><button id="rom-patcher-button-apply">Apply Patch</button>
