@@ -1,9 +1,9 @@
-<link rel="stylesheet" href="../stylesheets/anim.css" />
+<link rel="stylesheet" href="stylesheets/anim.css" />
 
 # Texture Pattern Animations
 
 <video controls>
-<source src="../imgs/frame/vf.mp4" type="video/mp4">
+<source src="imgs/frame/vf.mp4" type="video/mp4">
 </video>
 
 -----------------------
@@ -106,7 +106,7 @@ This step is required for your animation to work correctly.
     </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
-<script src="../scripts/pattern.js"></script>
+<script src="scripts/pattern.js"></script>
 
 !!! warning "Make sure the name of the exported animation ends in _auto or the animation will not work!"
 
@@ -115,7 +115,6 @@ After generating your animation file, go back to Switch ToolBox.
 - Right click the Animations folder.
 - Select **Import** -> `Texture Pattern Animation`.
 - Open the animation file you previously generated.
-
 
 !!! info "You can preview the animation by clicking the *Play* button"
 

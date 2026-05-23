@@ -22,22 +22,17 @@ dewgong64
 
 <div class="grid cards" markdown>
 
-![Image title](xziip.webp){ width="200" }
-/// caption
-Xziip
-///
-
 ![Image title](nathaniel.webp){ width="200" }
 /// caption
 Nathaniel
 ///
 
-</div>
-
 ![Image title](Ac.webp){ width="200" }
 /// caption
 Alpha Craft
 ///
+
+</div>
 
 **Plugin Developers**
 

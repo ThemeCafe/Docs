@@ -28,10 +28,9 @@ or
         - [Flips](https://github.com/Alcaro/Flips)
         - [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
 5. Save it on your device
-7. Open the `Men2.pack` you want to modify
-8. Search 'SpeechBalloonIllust' again
-9. Right-click and *REPLACE* raw data
-
+6. Open the `Men2.pack` you want to modify
+7. Search 'SpeechBalloonIllust' again
+8. Right-click and *REPLACE* raw data
 
 ## Adding the color
 

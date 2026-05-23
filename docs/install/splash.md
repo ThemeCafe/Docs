@@ -12,20 +12,21 @@ icon: fontawesome/solid/image
 
 ## Usage
 
-The module will attempt to load the splash image, in this order:
+The module will attempt to load a splash image from multiple places, in this order:
 
-1. `sd:/wiiu/environments/aroma/splash.png`
-2. `sd:/wiiu/environments/aroma/splash.tga`
-3. A random image from the directory `sd:/wiiu/environments/aroma/splashes/`.
+1. `SD:/wiiu/enviroments/aroma/`: an image named `splash.EXT`
+2. `SD:/wiiu/enviroments/aroma/splashes/`: a **random** image in that folder.
+3. `SD:/wiiu/`: an image named `splash.EXT`
+4. `SD:/wiiu/splashes/`: a **random** image in that folder.
+
+Where `EXT` can be `png`, `jpg`, `jpeg`, `tga` or `webp`.
 
 If no splash screen is found on the sd card, this module will effectively do nothing.
 
 ??? tip "Notes"
 
-    - When using a `tga` make sure its 24 bit and uncompressed
-    - In theory any (reasonable) resolution is supported, something like 1280x720 is recommended
-    - If you are loading your splash from `sd:/wiiu/environments/aroma/splash.png` make sure your image is named `splash.png`
-    - If you are loading your splash from `sd:/wiiu/environments/aroma/splashes/` you can name your images whatever you want and one will be loaded randomly
+    - When using a TGA image, make sure its 24 bit and uncompressed,
+    - In theory any (reasonable) resolution is supported, **1280x720** is recommended for best quality on both gamepad and TV screens.
 
 !!! success
 

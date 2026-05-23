@@ -150,3 +150,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/ThemeCafe/Docs
       name: Docs Github Repository
+
+validation:
+  unresolved_references: false

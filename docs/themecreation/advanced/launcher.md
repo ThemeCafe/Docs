@@ -1,9 +1,11 @@
+# Launcher
+
 ![Image title](imgs/launchertutorial.webp)
 
 --------------------------------
 
 ### 1. Background
-    
+
 `Men2.pack` > `Model` > `LoungeVR.szs`
 
 This is where the background image/animation is located
@@ -112,7 +114,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 `Men.pack` > `Layout` > `BtnSwap_00.szs`
 
-You can change the [Color](../general/colors.md) / [Texture](../general/textures.md) of this by doing changes to the materials inside of the bflyt file 
+You can change the [Color](../general/colors.md) / [Texture](../general/textures.md) of this by doing changes to the materials inside of the bflyt file.
 
 ----------------------
 

@@ -22,7 +22,7 @@ In this tutorial you'll be able to mix and match a bunch of stuff from themes so
 - Backgrounds
 - Etc...
 
-## You need:
+## You need
 
 - The theme that you're editing (**Main**)
 - The theme that you're getting resources from (**Source**)
@@ -30,7 +30,7 @@ In this tutorial you'll be able to mix and match a bunch of stuff from themes so
 
 This guide assumes that you've made at least a theme before and you are somewhat familiar with the process and that you've already patched both themes with your files
 
-### Example 1 
+### Example 1
 
 - A very detailed explanation, with steps and images
 
@@ -41,6 +41,7 @@ Let's say that you like the ⭐[Sleepy Yoshi Animated](https://discord.com/chann
 ![Image](imgs/m3.webp)
 
 #### Step 1
+
 Open your **Source** theme and search for the file you want to use on your Main theme (In this case I want the floor from the Pixel Mario theme so I will search for LoungeFloor.szs), if you're unsure where the file is located you can check the tutorials or ask for [help](https://discord.com/channels/1195784055296381020/1205976336209027074)
 
 ![Image](imgs/m1.webp)
@@ -58,15 +59,17 @@ You can repeat Step 1 and 2 if you want to change more files
 We are done with the **Source** theme, you can close it now
 
 #### Step 3
+
 Open your **Main** theme and search for the file you want to change (In my case LoungueFloor.szs), then choose "Replace Raw Data" and use the file you saved earlier, you can now save your **Main** theme
 
 ![Image](imgs/m6.webp)
 
 #### Results
+
 You can now move your file to your SD as usual and try out the theme
 
 <video controls>
-<source src="../imgs/vm1.webm" type="video/mp4">
+<source src="imgs/vm1.webm" type="video/mp4">
 </video>
 
 ✨ If you are going to upload a theme using resources from other people **please credit them** ✨  
@@ -85,7 +88,7 @@ You are already familiar with the steps so i'll keep it brief
 Open your **Source** theme and search for the file (In this case is FolderBase), right click and export, save the file on your computer, then open your **Main** theme and search for the file, right click and replace, then save, boot up your theme and check it out
 
 <video controls>
-<source src="../imgs/vm2.mp4" type="video/mp4">
+<source src="imgs/vm2.mp4" type="video/mp4">
 </video>
 
 ### TL:DR

@@ -2,8 +2,7 @@
 
 ![image](imgs/userselect/prev.webp)
 
-
-!!! note "For the file `AccountSelect`" 
+!!! note "For the file `AccountSelect`"
 
     - Go to `Men2.pack` > `Common` > `Layout` > `AccountSelect`
     - Right click > Export Raw Data

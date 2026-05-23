@@ -8,7 +8,7 @@ icon: fontawesome/solid/wrench
 
 --------------
 
-Now we will use the Menu files you obtained from the previous step and patch them with the theme of your liking. 
+Now we will use the Menu files you obtained from the previous step and patch them with the theme of your liking.
 
 You will need:
 
@@ -31,44 +31,11 @@ You can obtain `.bps` theme patch files via
 
 ### Applying patches
 
-1. In `Original file` select your **ORIGINAL UNMODIFIED** `Men.pack` / `Men2.pack` / `cafe_barista_men.bfsar` file you want to patch. 
+1. In `Original file` select your **ORIGINAL UNMODIFIED** `Men.pack` / `Men2.pack` / `cafe_barista_men.bfsar` file you want to patch.
 
-2. For the Patch File select the `.ips, .bps, .ups, .ppf, .aps, .rup` file you got from downloading the theme that matches the name of the ROM file. 
+2. For the Patch File select the `.ips, .bps, .ups, .ppf, .aps, .rup` file you got from downloading the theme that matches the name of the ROM file.
 
-3. Click Apply patch. 
-
-<style>
-body[data-md-color-scheme="slate"] #rom-patcher-container {
-    background-color: #2e2e2e;
-    color: #ffffff;
-    border: 1px solid #444444;
-}
-
-body[data-md-color-scheme="slate"] #rom-patcher-container button {
-    color: #ffffff;
-    background-color: #009485;
-}
-
-body[data-md-color-scheme="slate"] #rom-patcher-container label {
-    color: #ffffff;
-}
-
-body[data-md-color-scheme="slate"] #rom-patcher-container input[type="file"] {
-    color: #ffffff;
-    background-color: #2e2e2e;
-    border: 1px solid #444444; 
-}
-
-body[data-md-color-scheme="slate"] #rom-patcher-container input[type="file"]:hover {
-    background-color: #3a3a3a; 
-}
-
-body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
-    color: #000000;
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-}
-</style>
+3. Click Apply patch.
 
 <div id="rom-patcher-container">
     <div>
@@ -83,7 +50,7 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
             <div class="text-left">MD5: &nbsp&nbsp<span id="rom-patcher-span-md5"></span></div>
         </div>
         <div class="row">
-            <div class="text-left">SHA-1: <span id="rom-patcher-span-sha1"></div>
+            <div class="text-left">SHA-1: <span id="rom-patcher-span-sha1"></span></div>
         </div>
         <div class="row" id="rom-patcher-row-info-rom">
             <div class="text-right">ROM:</div>
@@ -93,6 +60,13 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
     <div>
         <label for="rom-patcher-input-file-patch">Patch File:</label>
         <input type="file" id="rom-patcher-input-file-patch">
+    </div>
+    <div id="rom-patcher-row-error-message">
+        <span id="rom-patcher-error-message"></span>
+    </div>
+        <div class="row m-b text-selectable text-mono" id="rom-patcher-row-patch-requirements">
+        <div class="text-right text-mono" id="rom-patcher-patch-requirements-type"></div>
+        <div class="text-truncate" id="rom-patcher-patch-requirements-value"></div>
     </div>
     <div>
         <br><button id="rom-patcher-button-apply">Apply Patch</button>
@@ -112,7 +86,7 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
         };
         RomPatcherWeb.initialize(myPatcherSettings);
     });
-</script>   
+</script>
 
 !!! abstract "Credits to [Marcrobledo](https://www.marcrobledo.com/) for RomPatcher.js"
 
@@ -120,7 +94,7 @@ body[data-md-color-scheme="default"] #rom-patcher-container input[type="file"] {
 
     - If you're getting a Source ROM checksum mismatch or a red "X", you can follow [Troubleshooting](../troubleshooting.md#checksum-mismatch). 
 
-- Finally remove the `(Patched)` from the name. 
+- Finally remove the `(Patched)` from the name.
 
     - `Men2 (Patched).pack` -> `Men2.pack`
 
@@ -128,9 +102,8 @@ Repeat this process for every file you want to patch.
 
 --------------------------------
 
-[Continue to Loading Custom Themes → ](loading.md){ .md-button .md-button--primary }
+[Continue to Loading Custom Themes →](loading.md){ .md-button .md-button--primary }
 
-
-<script src="rom-patcher-js/RomPatcher.webworker.apply.js"></script>
-<script src="rom-patcher-js/RomPatcher.webworker.crc.js"></script>
-<script src="rom-patcher-js/RomPatcher.webapp.js"></script>
+<script src="patching/rom-patcher-js/RomPatcher.webworker.apply.js"></script>
+<script src="patching/rom-patcher-js/RomPatcher.webworker.crc.js"></script>
+<script src="patching/rom-patcher-js/RomPatcher.webapp.js"></script>

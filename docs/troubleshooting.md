@@ -35,10 +35,10 @@ Go to [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
         MD5:   39138b2ff5a94f9cade38084f088c7c1
         SHA-1: b39b24aa3b0cfc4441fab10122f41548b63d5595
         ```
-    
+
     - For `Men2.pack`
 
-        ```    
+        ```
         CRC32: 946cd8a2
         MD5:   e0087fd4bc295abf9b787aab3c1f6292
         SHA-1: 50a291bc94d4873a52818c8933d9c4b4de69dc6f
@@ -60,13 +60,15 @@ If the information matches with the one from your files and you're still getting
 
 ## Freezing
 
-Something might be wrong with the `cafe_barista_men.bfsar` file, your music might be too heavy.
+If your console freezes right after loading the menu, something might be wrong with the `cafe_barista_men.bfsar` file, your music might be too heavy.
 
 You can
 
 - Reduce the KHz of the audio file you used.
 - Shorten the lenght of the audio file you used.
 - Change the audio from Stereo to Mono.
+
+If this is not the case, a file from `Men.pack` or `Men2.pack` might be causing issues
 
 --------------
 
@@ -101,16 +103,22 @@ Otherwise, you can:
 
 The files were not loaded correctly / No modifications were made to the Menu.
 
-- Check that you have installed the plugin.
+??? info "Check that you have installed the plugin"
     - SDCafiine: `SD:/wiiu/environments/aroma/plugins/sdcafiine.wps`.
     - StyleMiiU: `SD:/wiiu/environments/aroma/plugins/stylemiiu.wps`.
-- Check that you patched the file correctly.
-    - The theme folder must contain the `.pack` files.
-- Check that you are using the correct path:
+
+??? info "Check that you patched the file correctly"
+    - The theme folder must contain the patched `.pack` files.
+
+??? info "Check that you are using the correct path"
     - SDCafiine: `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Package/Men.pack, Men2.pack`.
     - StyleMiiU: `sd:/wiiu/themes/[ThemeName]/Men.pack, Men2.pack`.
-- Check that your theme is selected:
+
+??? info "Check that your theme is selected"
     - SDCafiine: Select the Modpack with your theme
-    
+
     - StyleMiiU:
-        - Open the WUPS menu (**L + ↓ + SELECT**) and enter the **StyleMiiU** menu. Make sure StyleMiiU is enabled, otherwise it won't do anything. Enter the **Available Themes** option and you should see the folders that are in `SD:/wiiu/themes/`. Once there, set whatever theme you want to Current Theme. Once you exit the WUPS menu, the Home Menu should restart and once it gets restarted, your Home Menu will now have the theme you chose applied to it.
+        - Open the WUPS menu (**L + ↓ + SELECT**) and enter the **StyleMiiU** menu. (Make sure StyleMiiU is enabled)
+        - Enter the **Available Themes** option, you should see the folders that are in `SD:/wiiu/themes/`.
+        - Set whatever theme you want to Current Theme.
+        - Exit the WUPS menu.

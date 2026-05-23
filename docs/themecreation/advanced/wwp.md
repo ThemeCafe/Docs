@@ -193,7 +193,7 @@ This is where the floor model is located
 
 `Men2.pack` > `Layout` > `BtnMiiWindow_02.szs`
 
-You can change the [Color](../general/colors.md) / [Texture](../general/textures.md) of this by doing changes to the materials inside of the bflyt file 
+You can change the [Color](../general/colors.md) / [Texture](../general/textures.md) of this by doing changes to the materials inside of the bflyt file.
 
 ----------------------
 
@@ -229,7 +229,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 `Men.pack` > `Layout` > `BtnLoungeWindow_00.szs`
 
-You can change the [Color](../general/colors.md) of this by changing the materials 
+You can change the [Color](../general/colors.md) of this by changing the materials
 
 - `W_Shadow_01LT`
 - `W_Shadow_01RT`
@@ -244,7 +244,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 `Men.pack` > `Layout` > `BtnLoungeWindowClose.szs`
 
-You can change the [Color](../general/colors.md) of this by changing the materials 
+You can change the [Color](../general/colors.md) of this by changing the materials
 
 - `W_BtnDialogCloseC`
 - `W_BtnDialogCloseLT`

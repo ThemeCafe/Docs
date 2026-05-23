@@ -152,20 +152,18 @@ font.
 
 --------------
 
-## ***System Font Replacer Helper***
+## System Font Replacer Helper
 
 This is a companion app for the System Font Replacer plugin.
 
 With it you can:
 
-  - process `.bps` font patches in `SD:/wiiu/fonts/` to create `.ttf` fonts;
-
-  - export the system fonts to `SD:/wiiu/fonts/`.
+- process `.bps` font patches in `SD:/wiiu/fonts/` to create `.ttf` fonts;
+- export the system fonts to `SD:/wiiu/fonts/`.
 
 !!! info
 
     **No system file is modified by this application. All changes are done to the SD card only.**
-
 
 ### Creating `.ttf` fonts from `.bps` patches
 
@@ -179,7 +177,6 @@ With it you can:
 
 You will now find the corresponding `.ttf` fonts in `SD:/wiiu/fonts/`, ready to be used in
 the plugin configuration.
-
 
 ### Exporting the system fonts
 

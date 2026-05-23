@@ -84,7 +84,7 @@ You can play with this as much as you want, it's all up to you
 i'll save and show the final product
 
 <video controls>
-<source src="../imgs/scrolling/vs.webm" type="video/mp4">
+<source src="imgs/scrolling/vs.webm" type="video/mp4">
 </video>
 
 you can make it slower by increasing the amount of frames
