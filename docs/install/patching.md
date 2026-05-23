@@ -50,7 +50,7 @@ You can obtain `.bps` theme patch files via
             <div class="text-left">MD5: &nbsp&nbsp<span id="rom-patcher-span-md5"></span></div>
         </div>
         <div class="row">
-            <div class="text-left">SHA-1: <span id="rom-patcher-span-sha1"></div>
+            <div class="text-left">SHA-1: <span id="rom-patcher-span-sha1"></span></div>
         </div>
         <div class="row" id="rom-patcher-row-info-rom">
             <div class="text-right">ROM:</div>
