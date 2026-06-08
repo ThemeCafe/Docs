@@ -24,6 +24,12 @@ icon: fontawesome/solid/wrench
 
     [Go :material-arrow-right:](illust.md){ .md-button .md-button--primary }
 
+-   **Pretendo Text Patches**
+
+    ![image](imgs/textpretendo/pre.png)
+
+    [Go :material-arrow-right:](textpretendo.md){ .md-button .md-button--primary }
+
 -   **Cemu Theme Testing**
 
     ![image](imgs/cemu/pre.webp)

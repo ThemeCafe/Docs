@@ -114,6 +114,7 @@ nav:
         - Applets: themecreation/resources/applets.md
         - Arrows: themecreation/resources/arrows.md
         - Custom Color Illustrations: themecreation/resources/illust.md
+        - Pretendo Text Patches: themecreation/resources/textpretendo.md
         - Testing with Cemu: themecreation/resources/cemu.md
       - Basic Guides: 
         - themecreation/general/index.md

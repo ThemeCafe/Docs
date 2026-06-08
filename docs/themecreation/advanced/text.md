@@ -16,17 +16,19 @@ This example will change the name of "Miiverse" to "Juxtaposition"
 
 You will need the `AllMessage.szs` file for the language you want to edit, if you do not have this file you can obtain it using any of the methods from [Menu Files](../../install/files.md) and get the file from the following location.
 
-- For FTP: `storage_mlc > sys > title > 00050010 > [REGION] > content > [LANGUAGE] > Message > AllMessage.szs`.
-    - Depending on the region of your console, in `[REGION]` use
-        - `10040100` for USA.
-        - `10040200` for EUR.
-        - `10040000` for JPN.
-    - In `[LANGUAGE]` use the language you want to edit.
-        - For example: `UsEnglish`.
+=== "JNUSTool"
+    - `content > [LANGUAGE] > Message > AllMessage.szs`.
+        - In `[LANGUAGE]` use the language you want to edit.
+            - For example: `UsEnglish`.
 
-- For JNUSTool: `content > [LANGUAGE] > Message > AllMessage.szs`.
-    - In `[LANGUAGE]` use the language you want to edit.
-        - For example: `UsEnglish`.
+=== "FTP"
+    - `storage_mlc > sys > title > 00050010 > [REGION] > content > [LANGUAGE] > Message > AllMessage.szs`.
+        - Depending on the region of your console, in `[REGION]` use
+            - `10040100` for USA.
+            - `10040200` for EUR.
+            - `10040000` for JPN.
+        - In `[LANGUAGE]` use the language you want to edit.
+            - For example: `UsEnglish`.
 
 --------------
 
