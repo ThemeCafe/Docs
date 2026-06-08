@@ -71,7 +71,7 @@ You can load the text using either StyleMiiU-Plugin or SDCafiine.
 === "SDCafiine"
 
     - Place the patched `AllMessage.szs` file(s) in the following location
-        - `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/[LANGUAGE]/Message/AllMessage.szs`
+        - `SD:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/[LANGUAGE]/Message/AllMessage.szs`
 
     - Replace `[TITLEID]` with the title ID of your region.
         - USA: `0005001010040100`
