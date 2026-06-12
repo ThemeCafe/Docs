@@ -81,6 +81,7 @@ not_in_nav: |
   themecreation/advanced/misc.md
   themecreation/advanced/accountsetting.md
   themecreation/advanced/sfx.md
+  themecreation/advanced/sfxmisc.md
 
 nav:
   - Home: index.md
