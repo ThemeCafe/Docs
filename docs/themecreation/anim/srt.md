@@ -160,7 +160,7 @@ This animation will rotate the texture around the center of the UV Mapping.
 
 !!! info "Themes using these animations"
 
-    - [Super Mario Oddysey - By Gatto](https://themezer.net/wiiu/themes/super-mario-odyssey-5B)
+    - [Super Mario Odyssey - By Gatto](https://themezer.net/wiiu/themes/super-mario-odyssey-5B)
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 <script src="scripts/srt.js"></script>

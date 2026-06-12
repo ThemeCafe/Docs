@@ -99,9 +99,7 @@ Tips by yeetyeeter456
 ??? info "Tips and Tricks for making Wii U Custom Music"
 
     !!! abstract "Thanks to the discord user @yeetyeeter456 for these tips and tricks"
-
-        
-
+    
     Tips and tricks to help you spend just a few minutes per song!
 
     NOTICE: 
