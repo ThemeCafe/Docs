@@ -5,7 +5,7 @@ This exist mainly to keep notes, if you are reading this be aware that some thin
 Sequence File Notes
 
 - `prg` = PROGRAM
-    - Used to know which instrument to play, each instrument has it's own assigned, two instruments cannot have the same program value
+    - Used to know which instrument to play, each instrument has its own assigned, two instruments cannot have the same program value
 - Instrument Pitch
     - For example: `cn4 127, 0`
     - `cn4` is the note played where `C` is the note, `N` means normal (`S` for sharp) and `4` is the octave
