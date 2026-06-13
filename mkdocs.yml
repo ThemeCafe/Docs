@@ -7,17 +7,18 @@ theme:
   logo: assets/logo/outline.png
   icon:
     admonition:
-      note: octicons/tag-16
-      abstract: fontawesome/solid/book
-      info: fontawesome/solid/circle-info
-      tip: fontawesome/solid/bullhorn
-      success: fontawesome/solid/check
-      question: fontawesome/solid/circle-question
-      warning: fontawesome/solid/triangle-exclamation
-      danger: fontawesome/solid/skull
-      bug: fontawesome/solid/robot
-      example: fontawesome/solid/flask
-      quote: fontawesome/solid/quote-left
+      note: lucide/tag
+      abstract: lucide/notebook
+      info: lucide/info
+      tip: lucide/lightbulb
+      success: lucide/check
+      question: lucide/message-circle-question-mark
+      warning: lucide/triangle-alert
+      failure: lucide/octagon-alert
+      danger: lucide/skull
+      bug: lucide/bug
+      example: lucide/flask-conical
+      quote: lucide/message-square-quote
   features:
     - navigation.tabs
     - navigation.top
@@ -35,7 +36,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
-        icon: material/weather-sunny
+        icon: lucide/sun
         name: Switch to dark mode
       primary: blue
       accent: deep purple
@@ -43,7 +44,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate 
       toggle:
-        icon: material/weather-night
+        icon: lucide/moon-star
         name: Switch to light mode    
       primary: indigo
       accent: deep purple

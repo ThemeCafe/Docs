@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="stylesheets/anim.css" />
-
 # SRT Animations
+
+<link rel="stylesheet" href="stylesheets/anim.css" />
 
 -----------------------
 
@@ -72,7 +72,7 @@ For better results please use a seamless texture and do the following.
         </form>
     </div>
 
-!!! info "Themes using these animations"
+!!! example "Themes using these animations"
 
     - [Splatoon Loading Screen - By Gatto](https://themezer.net/wiiu/themes/splatoon-loading-screen-5)
     - [From now on - By Gatto](https://themezer.net/wiiu/themes/from-now-on-36)
@@ -158,7 +158,7 @@ This animation will rotate the texture around the center of the UV Mapping.
         </form>
     </div>
 
-!!! info "Themes using these animations"
+!!! example "Themes using these animations"
 
     - [Super Mario Odyssey - By Gatto](https://themezer.net/wiiu/themes/super-mario-odyssey-5B)
 
