@@ -7,12 +7,7 @@ This file was automatically generated - do not edit
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="material/overrides/stylesheets/splide.min.css" rel="stylesheet">
-    <script src="material/overrides/scripts/splide.min.js"></script>
-    <script src="material/overrides/scripts/splide-extension-auto-scroll.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="material/overrides/stylesheets/main.css">
-    <link rel="stylesheet" href="material/overrides/stylesheets/main.css">
     <link rel="stylesheet" href="material/overrides/stylesheets/main.css">
 </head>
 <!-- Hero Section -->
@@ -65,33 +60,7 @@ This file was automatically generated - do not edit
         <a class="btn btn-install" href='./install/'><b> <i class="fa-solid fa-download"></i> Install</b></a>
     </div>
 </section>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const splide = new Splide('#image-carousel', {
-            type: 'loop',
-            perPage: 6,
-            arrows: false,
-            pagination: false,
-            autoScroll: {
-                speed: 1,
-                pauseOnHover: false,
-                pauseOnFocus: false,
-            },
-            breakpoints: {
-                2000: {
-                    perPage: 5,
-                },
-                1600: {
-                    perPage: 4,
-                },
-                1000: {
-                    perPage: 2,
-                },
-            },
-        });
-        splide.mount({ AutoScroll: window.splide.Extensions.AutoScroll });
-    });
-</script>
+<script src="javascripts/extra.js"></script>
 
 <style>
 .splide__slide img {

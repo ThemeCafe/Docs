@@ -1,5 +1,6 @@
 site_name: Theme Café Docs
 site_url: https://themecafe.github.io/Docs/
+site_description: Resources for Creating & Installing Wii U Menu Themes.
 theme:
   name: material
   custom_dir: docs/material
@@ -26,7 +27,9 @@ theme:
     - content.code.annotation
     - content.code.copy
     - navigation.indexes
-    # - navigation.instant
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
   language: en
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -74,6 +77,11 @@ markdown_extensions:
 extra_css:
   - install/patching/rom-patcher-js/style.css
   - stylesheets/extra.css
+  - material/overrides/stylesheets/splide.min.css
+extra_javascript:
+  - javascripts/extra.js
+  - material/overrides/scripts/splide-extension-auto-scroll.min.js
+  - material/overrides/scripts/splide.min.js
 not_in_nav: |
   md.md
   themiify.md

@@ -30,11 +30,11 @@ search:
 
 ![Image title](imgs/music/m2.webp)
 
-3. Expand the Wave Archives drop down and double click [1]WARC_1_GUESS_GROUP_MEN
+3. Expand the Wave Archives drop down and double click \[1]WARC_1_GUESS_GROUP_MEN
 
 ![Image title](imgs/music/m3.webp)
 
-4. Scroll to the bottom of the archive and find [302] WAV_302_GUESS_BANK_MEN_BGM. Right click this file and select replace.
+4. Scroll to the bottom of the archive and find \[302] WAV_302_GUESS_BANK_MEN_BGM. Right click this file and select replace.
 
 5. Choose your newly created WAV file you want to replace the current music with.
 
@@ -90,7 +90,7 @@ As far as music goes, I recommend using the same output options in the image pro
 
 ![Image title](imgs/music/m8.webp)
 
-Once you have the audio converted to the correct format, open Citric Composer. Next, open the template BFSAR file. Expand the Wave Archives area and double click [1] WARC_1_GUESS_GROUP_MEN.
+Once you have the audio converted to the correct format, open Citric Composer. Next, open the template BFSAR file. Expand the Wave Archives area and double click \[1] WARC_1_GUESS_GROUP_MEN.
 
 Scroll to the bottom of the window and find wave 302. Right click and replace this file with the audio file of your choice.
 
