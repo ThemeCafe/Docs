@@ -28,9 +28,9 @@ theme:
     - content.code.annotation
     - content.code.copy
     - navigation.indexes
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
   language: en
   palette:
     - media: "(prefers-color-scheme: light)"
