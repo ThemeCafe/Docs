@@ -22,7 +22,7 @@ Open your model file (`LoungeVR.szs`, `LoungeFloor.szs`) with [Switch Toolbox](h
 - Press import.
 - Select all of your frames -> Open.
 
-    ![image](imgs/frame/importTex.webp)
+    ![Import Textures](imgs/frame/importTex.webp)
 
     ??? info "Recommended Image Resolution"
 
@@ -39,7 +39,7 @@ Open your model file (`LoungeVR.szs`, `LoungeFloor.szs`) with [Switch Toolbox](h
     - Select all textures (with the first frame selected, shift+click the last frame).
     - Change the mip count to 1.
 
-        ![image](imgs/frame/mip.webp)
+        ![Mip Count](imgs/frame/mip.webp)
 
     - Make sure the format is set to `BC1_SRGB`.
     - Click OK.
@@ -118,7 +118,7 @@ After generating your animation file, go back to Switch ToolBox.
 
 !!! info "You can preview the animation by clicking the *Play* button"
 
-    ![image](imgs/frame/preview.gif)
+    ![Final Animation Preview](imgs/frame/preview.gif)
 
 !!! success
 

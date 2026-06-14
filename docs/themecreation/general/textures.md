@@ -23,11 +23,11 @@
 
     - In `Display` select `File Editor`
 
-        ![image](imgs/t1.webp)
+        ![Textures Visual Guide](imgs/t1.webp)
 
     - Click `File` then `Replace`
 
-        ![image](imgs/t2.webp)
+        ![Textures Visual Guide](imgs/t2.webp)
 
     - Select the image you want to use
     - Import it
@@ -55,7 +55,7 @@
 
     - Click the green "+" button
 
-        ![image](imgs/t.webp)
+        ![Textures Visual Guide](imgs/t.webp)
 
     - Select your image
     - Change the format

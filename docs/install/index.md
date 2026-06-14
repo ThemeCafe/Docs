@@ -15,7 +15,7 @@ hide:
 
 -   **Manual Installation**
 
-    ![image](imgs/manual.png)
+    ![Manual Installation](imgs/manual.png)
 
     Manually load themes using StyleMiiU or SDCafiine.
 

@@ -1,6 +1,6 @@
 # User Select Screen
 
-![image](imgs/userselect/prev.webp)
+![User Select Screen](imgs/userselect/prev.webp)
 
 !!! note "For the file `AccountSelect`"
 
@@ -14,7 +14,7 @@
 
 ### 1. Account Button
 
-![Image title](imgs/userselect/btnaccsg.webp)
+![Button Account Select](imgs/userselect/btnaccsg.webp)
 
 `Men2.pack` > `Layout` > `BtnAccountSelect.szs`
 
@@ -36,7 +36,7 @@ If you want to change the color of the blue frame
 
 ### 2. Start with This User
 
-![Image title](imgs/userselect/start.webp)
+![Account Balloon](imgs/userselect/start.webp)
 
 `Men2.pack` > `Layout` > `AccountBalloon.szs`
 
@@ -54,7 +54,7 @@ If you want to change the color of the blue frame
 
 ### 2. Line
 
-![Image title](imgs/userselect/line.webp)
+![Line](imgs/userselect/line.webp)
 
 `Men2.pack` > `Layout` > `AccountSelect.szs`
 
@@ -64,7 +64,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ### 3. Text
 
-![Image title](imgs/userselect/text.webp)
+![Account Select Text](imgs/userselect/text.webp)
 
 `Men2.pack` > `Layout` > `AccountSelect.szs` > `AccountSelect.bflyt` > `RootPane` > `N_Root`
 
@@ -75,7 +75,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 To change the color of the text
 
-![Image title](imgs/userselect/t.webp)
+![Text Visual Guide](imgs/userselect/t.webp)
 
 - Select the one you want to change
 - Go to `Text Pane` > `Font` and change the color
@@ -84,7 +84,7 @@ To change the color of the text
 
 ### 4. Add New User Button
 
-![image](imgs/userselect/add.webp)
+![New User Button](imgs/userselect/add.webp)
 
 `Men2.pack` > `Layout` > `BtnCornerPlusRT.szs`
 

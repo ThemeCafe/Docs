@@ -101,4 +101,4 @@ You can load the text using either StyleMiiU-Plugin or SDCafiine.
 
 !!! success "Your text should now be modified!"
 
-    ![image](imgs/text/result.webp)
+    ![Modified Text Preview](imgs/text/result.webp)

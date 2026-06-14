@@ -17,17 +17,17 @@ For better results please use a seamless texture and do the following.
 - Select the texture.
 - Change `Wrap X` and `Wrap Y` from `Mirror` to `Wrap`.
 
-![image](imgs/srt/srt1.png)
+![Set Textures to Wrap](imgs/srt/srt1.png)
 
 ??? question "Difference between Mirror and Wrap"
 
     Mirror repeats the texture by reflecting it:
 
-    ![image](imgs/srt/mirrored.png)
+    ![Mirrored Preview](imgs/srt/mirrored.png)
 
     Wrap repeats the texture:
 
-    ![image](imgs/srt/wrap.png)
+    ![Wrap Preview](imgs/srt/wrap.png)
 
 ### Translate Texture Animations
 

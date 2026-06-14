@@ -6,7 +6,7 @@ icon: material/file
 
 This is a Custom Theme
 
-![image](imgs/1.webp)
+![Theme Preview](imgs/1.webp)
 
 Custom themes can have a 2D non moving image, or be animated by adding texture animations to the models, themes can be created easily using a template.
 
@@ -16,7 +16,7 @@ Custom themes can have a 2D non moving image, or be animated by adding texture a
 
 - [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases/tag/Final)
 
-### Template
+### Theme Template
 
 We will be working with a template to simplify the process of creating a theme.
 
@@ -32,13 +32,13 @@ We will be working with a template to simplify the process of creating a theme.
 
     -   **Light Template**
 
-        ![image](imgs/light.webp)
+        ![Light Mode Template](imgs/light.webp)
 
         [:fontawesome-solid-download: Download Light Template](templates/Men2.bps){ .md-button .md-button--primary }
 
     -   **Dark Template**
 
-        ![image](imgs/dark.webp)
+        ![Dark Mode Template](imgs/dark.webp)
 
         [:fontawesome-solid-download: Download Dark Template](templates/DarkTemplate.zip){ .md-button .md-button--primary }
 
@@ -70,7 +70,7 @@ We will be working with a template to simplify the process of creating a theme.
 
         This image will be displayed here.
 
-        ![image](imgs/s2.webp)
+        ![Launcher Preview](imgs/s2.webp)
         
     -----------------------
 
@@ -94,7 +94,7 @@ We will be working with a template to simplify the process of creating a theme.
 
         This image will be displayed here.
 
-        ![image](imgs/s3.webp)
+        ![FloatIcon Preview](imgs/s3.webp)
 
     -----------------------
 
@@ -104,7 +104,7 @@ We will be working with a template to simplify the process of creating a theme.
 
     === "Tiled Floor"
 
-        ![image](imgs/s5.webp)
+        ![Tiled Floor Preview](imgs/s5.webp)
 
         - Go back to the `Models` folder.
         - Go to `LoungeFloor.szs > gsys.bfres > Textures`.
@@ -121,7 +121,7 @@ We will be working with a template to simplify the process of creating a theme.
 
     === "Stretched Floor"
 
-        ![image](imgs/s8.webp)
+        ![Stretched Floor Preview](imgs/s8.webp)
 
         - Go back to the `Models` folder.
         - Go to `LoungeFloor.szs > gsys.bfres > Models > LoungeFloor`.
@@ -162,13 +162,13 @@ We will be working with a template to simplify the process of creating a theme.
         
     === "Hide Wara Wara Plaza"
 
-        ![image](imgs/hide.webp)
+        ![Hidden Preview](imgs/hide.webp)
 
         - Go to `Layout > LoungeScaleMeter.szs > LoungeScaleMeter.arc > timg > bg.bflim`
 
         - In `Display` Select `File Editor`, then `File > Replace`
 
-        ![image](imgs/h1.png)
+        ![Hidden WWP Visual Guide](imgs/h1.png)
 
         - Select the image you want to use to hide the Wara Wara Plaza.
 
@@ -184,7 +184,7 @@ We will be working with a template to simplify the process of creating a theme.
 
             - Go to `RootPane > L_BtnLoungeScale_01`
 
-            ![image](imgs/h2.png)
+            ![Hidden WWP Visual Guide](imgs/h2.png)
 
             - Set `Alpha` to 0
 
@@ -210,7 +210,7 @@ We will be working with a template to simplify the process of creating a theme.
 
     ??? question "How does the gradient look like?"
 
-        ![image](imgs/s6.webp)
+        ![Gradient Preview](imgs/s6.webp)
 
     ??? note "If you do not want to use a gradient"
 
@@ -223,7 +223,7 @@ We will be working with a template to simplify the process of creating a theme.
 
         The gradient should no longer be visible.
 
-        ![image](imgs/s7.webp)
+        ![Gradient Gone Preview](imgs/s7.webp)
 
 === "Simple Template"
 
@@ -231,7 +231,7 @@ We will be working with a template to simplify the process of creating a theme.
 
     - Three 16:9 textures to display as backgrounds
 
-        ![image](imgs/st.webp)
+        ![Simple Template Preview](imgs/st.webp)
 
     !!! note "Extra info"
 
@@ -243,13 +243,13 @@ We will be working with a template to simplify the process of creating a theme.
 
     -   **Light Template**
 
-        ![image](imgs/light.webp)
+        ![Light Mode Template](imgs/light.webp)
 
         [:fontawesome-solid-download: Download Light Template](templates/SimpleTemplate.zip){ .md-button .md-button--primary }
 
     -   **Dark Template**
 
-        ![image](imgs/dark.webp)
+        ![Dark Mode Template](imgs/dark.webp)
 
         [:fontawesome-solid-download: Download Dark Template](templates/DarkSimpleTemplate.zip){ .md-button .md-button--primary }
 
