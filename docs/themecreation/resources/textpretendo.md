@@ -4,7 +4,7 @@
 
 ----------------------
 
-![Text Patches Preview](imgs/textpretendo/pre.png)
+![Text Patches Preview](imgs/textpretendo/pre.webp)
 
 You can use these AllMessage BPS patch files to replace "Nintendo Network" instances with "Pretendo Network"
 

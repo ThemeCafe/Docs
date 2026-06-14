@@ -168,7 +168,7 @@ We will be working with a template to simplify the process of creating a theme.
 
         - In `Display` Select `File Editor`, then `File > Replace`
 
-        ![Hidden WWP Visual Guide](imgs/h1.png)
+        ![Hidden WWP Visual Guide](imgs/h1.webp)
 
         - Select the image you want to use to hide the Wara Wara Plaza.
 
@@ -184,7 +184,7 @@ We will be working with a template to simplify the process of creating a theme.
 
             - Go to `RootPane > L_BtnLoungeScale_01`
 
-            ![Hidden WWP Visual Guide](imgs/h2.png)
+            ![Hidden WWP Visual Guide](imgs/h2.webp)
 
             - Set `Alpha` to 0
 

@@ -17,17 +17,17 @@ For better results please use a seamless texture and do the following.
 - Select the texture.
 - Change `Wrap X` and `Wrap Y` from `Mirror` to `Wrap`.
 
-![Set Textures to Wrap](imgs/srt/srt1.png)
+![Set Textures to Wrap](imgs/srt/srt1.webp)
 
 ??? question "Difference between Mirror and Wrap"
 
     Mirror repeats the texture by reflecting it:
 
-    ![Mirrored Preview](imgs/srt/mirrored.png)
+    ![Mirrored Preview](imgs/srt/mirrored.webp)
 
     Wrap repeats the texture:
 
-    ![Wrap Preview](imgs/srt/wrap.png)
+    ![Wrap Preview](imgs/srt/wrap.webp)
 
 ### Translate Texture Animations
 
@@ -82,7 +82,7 @@ For better results please use a seamless texture and do the following.
 ### Scale Texture Animations
 
 <video controls>
-<source src="imgs/srt/scaleprev.webm" type="video/mp4">
+<source src="imgs/srt/scaleprev.mp4" type="video/mp4">
 </video>
 
 - A higher value means the texture will get smaller.
@@ -125,7 +125,7 @@ MaterialAnimConfigs:
 ### Rotate Texture Animations
 
 <video controls>
-<source src="imgs/srt/rotateprev.webm" type="video/mp4">
+<source src="imgs/srt/rotateprev.mp4" type="video/mp4">
 </video>
 
 This animation will rotate the texture around the center of the UV Mapping.

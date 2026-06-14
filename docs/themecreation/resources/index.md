@@ -26,7 +26,7 @@ icon: fontawesome/solid/wrench
 
 -   **Pretendo Text Patches**
 
-    ![Text Patches Preview](imgs/textpretendo/pre.png)
+    ![Text Patches Preview](imgs/textpretendo/pre.webp)
 
     [Go :material-arrow-right:](textpretendo.md){ .md-button .md-button--primary }
 

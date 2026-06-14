@@ -6,9 +6,9 @@
 
 <div class="grid cards" markdown>
 
-![Image title](gato.webp){ width="200" }
+![Image title](gatto.webp){ width="200" }
 /// caption
-★ Gatto ★
+Gatto
 ///
 
 ![Image title](dewgong.webp){ width="200" }
