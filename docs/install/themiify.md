@@ -62,7 +62,7 @@ Themiify is a homebrew application that allows for on the fly installation of Wi
 
     ### Installing Themes Locally
 
-    You can install themes locally by placing your themes in `.utheme` 
+    You can install themes locally by placing your `.utheme` files in `SD:/wiiu/themes`.
 
     1. Open Themiify.
     2. Select the Theme Management Tab and select Local Theme Installation.
