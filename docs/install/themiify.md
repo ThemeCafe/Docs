@@ -8,19 +8,21 @@ Themiify is a homebrew application that allows for on the fly installation of Wi
 
 !!! info "**No system file is modified by this app.**"
 
+--------------
+
 ## What you need
 
 - A modded Wii U with [Aroma](https://wiiu.hacks.guide/aroma/getting-started.html).
 - [Themiify](https://github.com/Themiify-hb/Themiify/releases).
 - [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases).
-- Your theme with the extension `.utheme`. (Optional)
-    - These can be obtained in [Themezer](https://themezer.net/wiiu/themes).
+- Your Wii U Theme with the extension `.utheme`. (Optional)
+    - These can be obtained from [Themezer](https://themezer.net/wiiu/themes).
 
 ## Installation
 
 1. Download [Themiify](https://github.com/Themiify-hb/Themiify/releases) and copy the `Themiify.wuhb` file to `SD:/wiiu/apps`.
 2. Download [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases) and copy the file `stylemiiu.wps` to `SD:/wiiu/environments/aroma/plugins`.
-3. If you have it, copy your `.utheme` file to `SD:/wiiu/themes` (This is used for [Local Installation](#local-installation)).
+3. If you have it, copy your `.utheme` file(s) to `SD:/wiiu/themes` (This is used for [Local Installation](#local-installation)).
 
 ## Installing Themes
 
@@ -50,7 +52,7 @@ Themiify is a homebrew application that allows for on the fly installation of Wi
 
         !!! info "If you decide to not install the theme right away, you will be able to install it later via [Local Installation](#local-installation)."
 
-    7. After the installation is finished, you will be asked to delete the `.utheme` file of the theme you just installed, do so to save storage space.
+    7. After the installation is finished, you will be asked to delete the `.utheme` theme archive of the theme you just installed, do so to save storage space.
 
         ![Delete Utheme File](imgs/t5.png)
 
@@ -62,19 +64,20 @@ Themiify is a homebrew application that allows for on the fly installation of Wi
 
     ### Installing Themes Locally
 
-    You can install themes locally by placing your `.utheme` files in `SD:/wiiu/themes`.
+    You can install themes locally by placing your `.utheme` theme archive files in `SD:/wiiu/themes`.
 
-    1. Open Themiify.
-    2. Select the Theme Management Tab and select Local Theme Installation.
+    1. Turn on your Wii U and boot aroma.
+    2. Open Themiify.
+    3. Select the Theme Management Tab and select Local Theme Installation.
 
         ![Local Theme Installation Tab](imgs/t7.png)
 
-    3. Install your previously downloaded `.utheme` file.
-    4. After the installation is finished, you will be asked to delete the `.utheme` file of the theme you just installed, do so to save storage space.
+    4. Install your previously downloaded `.utheme` file.
+    5. After the installation is finished, you will be asked to delete the `.utheme` theme archive of the theme you just installed, do so to save storage space.
 
         ![Delete utheme](imgs/t8.png)
 
-    5. Press `B` and select the Exit button.
+    6. Press `B` and select the Exit button.
 
         ![Exit](imgs/t6.png)
 
@@ -84,9 +87,19 @@ Themiify is a homebrew application that allows for on the fly installation of Wi
 
     ![image](imgs/r.png)
 
-!!! info "If you want to use custom fonts, follow [Fonts](fonts.md)"
+!!! tip "If you want to use custom fonts, follow [Fonts](fonts.md)."
 
-!!! warning "Troubleshooting"
+!!! tip "If you want to use a Splash Screen follow [Splash Screen](splash.md)"
 
-    If you have any issues while using Themiify, please join our [Discord Server](https://discord.com/invite/2DNvH9db2A) for support.
+??? failure "Troubleshooting"
+
+    - If a theme was not installed due to the menu files on your NAND being modified, you will need the original Wii U Menu files.
+
+        1. Use [JNUSTool](install/files.md#jnustool) to get the original files.
+        2. Copy `Men.pack`, `Men2.pack` to `SD:/themiify/cache/Common/Package/`.
+        3. Copy `cafe_barista_men.bfsar` to `SD:/themiify/cache/Common/Sound/Men/`.
+
+        After that, you should be able to use Themiify normally.
+
+    If you have any other issues while using Themiify, please join our [Discord Server](https://discord.com/invite/2DNvH9db2A) for support.
     

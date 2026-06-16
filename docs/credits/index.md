@@ -2,7 +2,7 @@
 
 --------------
 
-**Theme Café Docs Maintainers**
+**Theme Café Docs**
 
 <div class="grid cards" markdown>
 
@@ -18,7 +18,7 @@ dewgong64
 
 </div>
 
-**Wii U App Developers**
+**Wii U Homebrew Devs**
 
 <div class="grid cards" markdown>
 
@@ -32,26 +32,14 @@ Nathaniel
 Alpha Craft
 ///
 
-</div>
-
-**Plugin Developers**
-
-<div class="grid cards" markdown>
-
 ![Image title](Daniel.webp){ width="200" }
 /// caption
 DanielKO
-/// caption
-System Font Replacer
-///
 ///
 
 ![Image title](juanen.webp){ width="200" }
 /// caption
 Juanen
-/// caption
-StyleMiiU Plugin
-///
 ///
 
 </div>
@@ -68,15 +56,12 @@ Migush
 ![Image title](perro.webp){ width="200" }
 /// caption
 Perrohuevo
-/// caption
-Theme Café Owner
-///
 ///
 
-- [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page
+- [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for some of the information in this page.
 
-- [Marcrobledo](https://www.marcrobledo.com/) for [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
+- [Marcrobledo](https://www.marcrobledo.com/) for [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/).
 
-- [Themezer](https://themezer.net/) for hosting Wii U Themes
+- [Themezer](https://themezer.net/).
 
 Theme Café Docs was built with [Zensical](https://zensical.org/)

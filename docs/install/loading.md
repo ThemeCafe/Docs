@@ -101,22 +101,55 @@ There's two ways to load themes using aroma
 
     You have successfully installed a Custom Theme on your Wii U.
 
-??? info "Fonts"
+!!! tip "If you want to use custom fonts, follow [Fonts](fonts.md)."
 
-    If you want to use custom fonts follow
+!!! tip "If you want to use a Splash Screen follow [Splash Screen](splash.md)"
 
-    [Use Custom Fonts](fonts.md){ .md-button .md-button--primary }
+??? failure "Troubleshooting: Stuck on black screen/splash or bootlooping"
 
-??? info "Splash Screen"
+    Something is wrong with the theme you applied (`Men.pack`, `Men2.pack`).
 
-    If you want to use a Splash Screen follow
+    - Check if the file was patched correctly.
+    - If your console is EUR, check if the theme is compatible.
 
-    [Splash Screen](splash.md){ .md-button .md-button--primary }
+    ??? question "European Consoles"
 
-??? warning "Troubleshooting"
+        European consoles have more language packs built onto the menu meaning the file size on themes needs to be smaller to work properly. This is more likely but not guaranteed to happen with unoptimized or themes with texture pattern animations.
 
-    - If you're stuck on a black screen or Bootloop: [Black Screen / Bootloop](../troubleshooting.md#black-screen-wii-u-menu-bootloop)
+    Otherwise, you can:
 
-    - If your console freezes on the Wii U Menu loading screen: [Freezing](../troubleshooting.md#freezing)
+    ??? note "For SDCaffiine"
 
-    - If your theme didn't load and it's showing the default one: [Theme not loading](../troubleshooting.md#theme-not-loading)
+        - On the SDCafiine screen, press B to launch without a modpack.
+        - Delete your theme from `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]`.
+        - Delete the plugin `SD:/wiiu/environments/aroma/plugins/sdcafiine.wps`.
+
+    ??? note "For StyleMiiU"
+
+        - Delete your theme: `sd:/wiiu/themes/[ThemeName]`.
+        - Delete the plugin config file: `SD:/wiiu/environments/aroma/plugins/config/style-mii-u.json`.
+        - Delete the plugin: `SD:/wiiu/environments/aroma/plugins/stylemiiu.wps`.
+
+??? failure "Troubleshooting: Theme not loading"
+
+    The files were not loaded correctly or no modifications were made to the Menu.
+
+    ??? info "Check that you have installed the plugin"
+        - SDCafiine: `SD:/wiiu/environments/aroma/plugins/sdcafiine.wps`.
+        - StyleMiiU: `SD:/wiiu/environments/aroma/plugins/stylemiiu.wps`.
+
+    ??? info "Check that you patched the file correctly"
+        - The theme folder must contain the patched `.pack` files.
+
+    ??? info "Check that you are using the correct path"
+        - SDCafiine: `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Package/Men.pack, Men2.pack`.
+        - StyleMiiU: `sd:/wiiu/themes/[ThemeName]/Men.pack, Men2.pack`.
+
+    ??? info "Check that your theme is selected"
+        - SDCafiine: Select the Modpack with your theme
+
+        - StyleMiiU:
+            - Open the WUPS menu (**L + ↓ + SELECT**) and enter the **StyleMiiU** menu. (Make sure StyleMiiU is enabled)
+            - Enter the **Available Themes** option, you should see the folders that are in `SD:/wiiu/themes/`.
+            - Set whatever theme you want to Current Theme.
+            - Exit the WUPS menu.

@@ -6,11 +6,9 @@ icon: fontawesome/solid/font
 
 You can use custom fonts on your Wii U using [System Font Replacer](#system-font-replacer)
 
-!!! abstract "Credits to [Daniel K.O](https://github.com/dkosmari/) for the information in this page & for creating the System Font Replacer plugin"
-
 --------------
 
-## ***System Font Replacer***
+## System Font Replacer
 
 This is an Aroma plugin to safely temporarily replace the Wii U's system font.
 
@@ -31,12 +29,11 @@ anything in your NAND.
 2. Download the `system-font-replacer-helper.wuhb` file and copy it to `SD:/wiiu/apps`.
 
 - Create a `fonts` folder inside your `wiiu` folder.
-- Place your fonts inside the `fonts` folder
+- Place your `.ttf` fonts inside the `fonts` folder
 
 ### Usage
 
-The plugin can load TrueType fonts from anywhere in the SD card, but it's a good idea to have
-them in `SD:/wiiu/fonts/`; that's the default location the plugin looks for fonts.
+The plugin will load TrueType (`.ttf`) fonts from `SD:/wiiu/fonts/`
 
 1. Open up the WUPS menu (**L + ↓ + SELECT**) and enter the **System Font
    Replacer** menu.
@@ -45,17 +42,11 @@ them in `SD:/wiiu/fonts/`; that's the default location the plugin looks for font
 
 3. Select the "Std Font" option, and press **A** to start editing it:
 
-   - Press **→** to enter a folder;
-   - Press **←** to leave a folder;
-   - Press **↑** or **↓** to change the file;
-   - Press **X** to reset back to the default value (`SD:/wiiu/fonts/`);
+   - Press ← or → to cycle through the fonts in `SD:/wiiu/fonts/`.
+   - Press **X** to reset back to the default value (empty, no font)
    - Press **A** to confirm, or **B** to cancel the change.
 
-   Use it to navigate to the desired `.ttf` font you want to use, then press **A** to
-   confirm it.
-
-   Note that, if you select a directory (like the default, `SD:/wiiu/fonts`) the font will
-   not be replaced, and the original system font is used instead.
+    > Std font is used for Western and Japanese text. Use the Cn, Kr or Tw options if you want to replace the Simplified Chinese, Korean, or Traditional Chinese fonts. Most official games and apps do not use these fonts, so there almost no reason to replace them.
 
 4. Exit the plugin menu.
 
@@ -67,21 +58,11 @@ them in `SD:/wiiu/fonts/`; that's the default location the plugin looks for font
 
 !!! success
 
-    You should now see your custom font
+    You should now see your custom font.
 
 !!! warning
 
     If you have any issues getting your fonts to work check [Issues](#issues)
-
---------------
-
-### Helper App
-
-If you get a custom font in the form of a `.bps` patch, to be applied to one of the system
-fonts, you can use the [System Font Replacer Helper](#system-font-replacer-helper) to easily convert them.
-
-Simply put your `.bps` patches in `SD:/wiiu/fonts/`, and run the Helper app. It will then
-automatically convert all `.bps` patches in that folder into `.ttf` fonts.
 
 ### "Use custom fonts only for Wii U Menu"
 
@@ -93,20 +74,59 @@ Settings, the Friends List, etc, you can disable this option ("*no*").
 
 --------------
 
-### Issues
+## System Font Replacer Helper
 
-#### Freezes/Crashes and text glitches
+This is a companion app for the System Font Replacer plugin.
+
+With it you can:
+
+- Process `.bps` font patches in `SD:/wiiu/fonts/` to create `.ttf` fonts;
+- Export the system fonts to `SD:/wiiu/fonts/`.
+
+!!! info
+
+    **No system file is modified by this application. All changes are done to the SD card only.**
+
+### Creating `.ttf` fonts from `.bps` patches
+
+1. Copy the font `.bps` patches to `SD:/wiiu/fonts/`.
+
+2. Run the app by tapping on the **System Font Replacer Helper** icon.
+
+3. When prompted, press **A** to process all the `.bps` patches.
+
+4. At the end, press the **HOME** button and close the app.
+
+You will now find the corresponding `.ttf` fonts in `SD:/wiiu/fonts/`, ready to be used in
+the plugin configuration.
+
+### Exporting the system fonts
+
+1. Run the app, by tapping on the **System Font Replacer Helper** icon.
+
+2. When prompted, press **+** to export the system fonts.
+
+3. At the end, press the **HOME** button and close the app.
+
+You will now find copies of the system fonts (`CafeCn.ttf`, `CafeKr.ttf`, `CafeStd.ttf`,
+`CafeTw.ttf`) in `SD:/wiiu/fonts/`.
+
+--------------
+
+## Issues
+
+### Freezes/Crashes and text glitches
 
 Not every game/app has good a font rendering implementation. Some cannot handle more
 "advanced" TTF fonts, and will either render it incorrectly, or outright crash.
 
-#### Large font files
+### Large font files
 
 Aroma plugins have very limited amount of memory to use. If the font file is too large, it
 might use too much memory, and other plugins might stop working. Fonts up to 12.5 MiB in
 size seem to work fine; larger fonts have not been tested.
 
-#### Missing symbols
+### Missing symbols
 
 Some Wii U software make use of the system font's Private Use Area (PUA) block (from
 `U+E000` to `U+E099`), to show symbols for gamepad buttons, sticks, etc. If the
@@ -152,39 +172,4 @@ font.
 
 --------------
 
-## System Font Replacer Helper
-
-This is a companion app for the System Font Replacer plugin.
-
-With it you can:
-
-- process `.bps` font patches in `SD:/wiiu/fonts/` to create `.ttf` fonts;
-- export the system fonts to `SD:/wiiu/fonts/`.
-
-!!! info
-
-    **No system file is modified by this application. All changes are done to the SD card only.**
-
-### Creating `.ttf` fonts from `.bps` patches
-
-1. Copy the font `.bps` patches to `SD:/wiiu/fonts/`.
-
-2. Run the app by tapping on the **System Font Replacer Helper** icon.
-
-3. When prompted, press **A** to process all the `.bps` patches.
-
-4. At the end, press the **HOME** button and close the app.
-
-You will now find the corresponding `.ttf` fonts in `SD:/wiiu/fonts/`, ready to be used in
-the plugin configuration.
-
-### Exporting the system fonts
-
-1. Run the app, by tapping on the **System Font Replacer Helper** icon.
-
-2. When prompted, press **+** to export the system fonts.
-
-3. At the end, press the **HOME** button and close the app.
-
-You will now find copies of the system fonts (`CafeCn.ttf`, `CafeKr.ttf`, `CafeStd.ttf`,
-`CafeTw.ttf`) in `SD:/wiiu/fonts/`.
+!!! abstract "Credits to [Daniel K.O](https://github.com/dkosmari/) for the information in this page & for creating the System Font Replacer plugin"

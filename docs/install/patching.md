@@ -88,12 +88,6 @@ You can obtain `.bps` theme patch files via
     });
 </script>
 
-!!! abstract "Credits to [Marcrobledo](https://www.marcrobledo.com/) for RomPatcher.js"
-
-??? failure "Having issues?"
-
-    - If you're getting a Source ROM checksum mismatch or a red "X", you can follow [Troubleshooting](../troubleshooting.md#checksum-mismatch). 
-
 - Finally remove the `(Patched)` from the name.
 
     - `Men2 (Patched).pack` -> `Men2.pack`
@@ -103,6 +97,46 @@ Repeat this process for every file you want to patch.
 --------------------------------
 
 [Continue to Loading Custom Themes →](loading.md){ .md-button .md-button--primary }
+
+--------------------------------
+
+??? failure "Troubleshooting: Checksum Mismatch"
+
+    If you're getting a Source ROM checksum mismatch.
+
+    - Click **Original File**.
+    - Select your ORIGINAL Wii U Menu File.
+    - Check the information below and make sure it matches the following:
+        - For `Men.pack`
+
+            ```
+            CRC32: b9a4343a
+            MD5:   39138b2ff5a94f9cade38084f088c7c1
+            SHA-1: b39b24aa3b0cfc4441fab10122f41548b63d5595
+            ```
+
+        - For `Men2.pack`
+
+            ```
+            CRC32: 946cd8a2
+            MD5:   e0087fd4bc295abf9b787aab3c1f6292
+            SHA-1: 50a291bc94d4873a52818c8933d9c4b4de69dc6f
+            ```
+
+        - For `cafe_barista_men.bfsar`
+
+            ```
+            CRC32: c9c16521
+            MD5:   0a2880e33eb0f15102decf2e155f6a95
+            SHA-1: 61a43d75cebba980568f0b554d3638a8a6441597
+            ```
+
+    If the information does not match, follow [JNUSTool](install/files.md#jnustool) to get your original files again.
+
+    If the information matches with the one from your files and you're still getting the Source ROM checksum mismatch error, it might be a bad theme patch, so you can try using a different theme.
+
+!!! abstract "Credits to [Marcrobledo](https://www.marcrobledo.com/) for RomPatcher.js"
+
 
 <script src="patching/rom-patcher-js/RomPatcher.webworker.apply.js"></script>
 <script src="patching/rom-patcher-js/RomPatcher.webworker.crc.js"></script>

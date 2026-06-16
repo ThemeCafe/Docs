@@ -89,9 +89,10 @@ nav:
   - Install:
     - install/index.md
     # - Themiify: install/themiify.md
-    - Menu Files: install/files.md
-    - Patching: install/patching.md
-    - Loading Theme: install/loading.md
+    - Manual Installation:
+      - Menu Files: install/files.md
+      - Patching: install/patching.md
+      - Loading Theme: install/loading.md
     - Fonts: install/fonts.md
     - Splash Screen: install/splash.md
   - Theme Creation:

@@ -84,7 +84,7 @@ You can now close this window
 
     You can now test your music [StyleMiiU](../../install/loading.md#stylemiiu-plugin)
 
-!!! bug "If you are having issues"
+??? failure "Troubleshooting"
 
     - If you have the following error when replacing the WAV file:
     
@@ -92,7 +92,11 @@ You can now close this window
 
         Make sure that you export your WAV file with the encoding: `Signed 16-bit PCM`
 
-    - If the console freezes before loading the Wii U menu follow [Freezing](../../troubleshooting.md#freezing)
+    - If the console freezes before loading the Wii U menu, your music might be too heavy, you can:
+
+        - Reduce the Sample Rate of the audio file you used.
+        - Shorten the lenght of the audio file you used.
+        - Use Mono instead of Stereo.
 
 Tips by yeetyeeter456
 
