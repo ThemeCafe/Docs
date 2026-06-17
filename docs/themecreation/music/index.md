@@ -8,10 +8,10 @@ icon: fontawesome/solid/music
 
 ## What you need
 
-- A program that can export audio file as `.WAV`
-    - For example [Audacity](https://www.audacityteam.org/)
+- A program that can export audio file as `.WAV`.
+    - For example [Audacity](https://www.audacityteam.org/).
 
-- [Citric Composer](https://gota7.github.io/Citric-Composer/)
+- [Citric Composer](https://gota7.github.io/Citric-Composer/).
 
 ### Template
 
@@ -23,58 +23,58 @@ We will be working with this template
 
     With this template you will be able to make custom music up to 1:55 at 32000 Hz Stereo before the file is too large to work with
 
-    ??? info "I want to make longer music"
+    ??? info "About longer music"
 
         You can also use the following template
 
         [:fontawesome-solid-download: Download template (Music Without MII SFX)](templates/cafe_barista_men%20(NO%20MII%20SFX).bps){ .md-button .md-button--primary }
 
-        This template does not contain Mii SFX and will get you about 2:26 at 32000 Hz Stereo
+        This template does not contain Mii SFX and will get you about 2:26 at 32000 Hz Stereo.
 
-        ??? info "My music is still longer than 2:26"
+        ??? info "Even longer"
 
-            If you want to make longer music you can export your music at a lower sample rate and use Mono instead of Stereo, what matters is that the size of the file is not too large
+            If you want to make longer music you can export your music at a lower sample rate and use Mono instead of Stereo, what matters is that the size of the file is not too large.
 
-Apply the patch to a copy of your `cafe_barista_men.bfsar` file ([Patching](../../install/patching.md)) and come back here when you're done
+Apply the patch to a copy of your `cafe_barista_men.bfsar` file ([Patching](../../install/patching.md)) and come back here when you're done.
 
 ### Exporting Music as WAV
 
-Use the program of your choice to export your music as a `.WAV` file
+Use the program of your choice to export your music as a `.WAV` file.
 
 The best settings are
 
-- Sample Rate: 32000 Hz
-- Channels: Stereo
-- Encoding: Signed 16-bit PCM
+- Sample Rate: 32000 Hz.
+- Channels: Stereo.
+- Encoding: Signed 16-bit PCM.
 
 ### Citric Composer
 
 Adding your music
 
-- Launch Citric Composer
-- Open your cafe_barista_men.bfsar already patched with the provided [Template](#template)
-- Double click `Wave Archives`
-- Double click `[1] WARC_1_GUESS_GROUP_MEN`
-- A new window will open
+- Launch Citric Composer.
+- Open your cafe_barista_men.bfsar already patched with the provided [Template](#template).
+- Double click `Wave Archives`.
+- Double click `[1] WARC_1_GUESS_GROUP_MEN`.
+- A new window will open.
 
     ![Music Visual Guide](imgs/m1.webp)
 
-- Double click `Waves`
-- Scroll to the bottom to find `[302] WAV_302_GUESS_BANK_MEN_BGM`
-- Right click `[302] WAV_302_GUESS_BANK_MEN_BGM`
-- Click replace
-- Choose your `.WAV` file
-- Wait for it to change the name to `[302] {Unknown Wave Name}`
+- Double click `Waves`.
+- Scroll to the bottom to find `[302] WAV_302_GUESS_BANK_MEN_BGM`.
+- Right click `[302] WAV_302_GUESS_BANK_MEN_BGM`.
+- Click replace.
+- Choose your `.WAV` file.
+- Wait for it to change the name to `[302] {Unknown Wave Name}`.
 
     ![Music Visual Guide](imgs/m2.webp)
 
-- Click `File` in the top left corner
-- Click Save
+- Click `File` in the top left corner.
+- Click Save.
 
-You can now close this window
+You can now close this window.
 
-- Click `File` in the top left corner
-- Save
+- Click `File` in the top left corner.
+- Save.
 
 !!! tip "Looping points"
 
@@ -82,7 +82,7 @@ You can now close this window
 
 !!! success
 
-    You can now test your music [StyleMiiU](../../install/loading.md#stylemiiu-plugin)
+    You can now test your music [StyleMiiU](../../install/loading.md#stylemiiu-plugin).
 
 ??? failure "Troubleshooting"
 

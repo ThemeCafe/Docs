@@ -26,8 +26,8 @@ You will need:
 
 You can obtain `.bps` theme patch files via
 
-- [Themezer](https://themezer.net/wiiu/themes) (Using the View Assets button)
-- The [Theme Café Discord Server](https://discord.com/invite/2DNvH9db2A)
+- [Themezer](https://themezer.net/wiiu/themes). (Using the View Assets button)
+- The [Theme Café Discord Server](https://discord.com/invite/2DNvH9db2A).
 
 ### Applying patches
 

@@ -13,7 +13,7 @@ hide:
     - If you have not modded your Wii U follow the [Wii U Homebrew Guide](https://wiiu.hacks.guide/).
 2. [StyleMiiU-Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin) to load your custom themes.
     - Copy `stylemiiu.wps` to `SD:/wiiu/environments/aroma/plugins`.
-3. The latest release of [Themiify](https://github.com/Themiify-hb/Themiify/releases).
+3. The latest release of [Themiify](https://github.com/Fangal-Airbag/Themiify/releases).
     - Copy the `Themiify.wuhb` to `SD:/wiiu/apps`.
 
 Start Themiify, download any theme you like and enjoy!

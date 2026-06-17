@@ -14,14 +14,14 @@ Themiify is a homebrew application that allows for on the fly installation of Wi
 ## What you need
 
 - A modded Wii U with [Aroma](https://wiiu.hacks.guide/aroma/getting-started.html).
-- [Themiify](https://github.com/Themiify-hb/Themiify/releases).
+- [Themiify](https://github.com/Fangal-Airbag/Themiify/releases).
 - [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases).
 - Your Wii U Theme with the extension `.utheme`. (Optional)
     - These can be obtained from [Themezer](https://themezer.net/wiiu/themes).
 
 ## Installation
 
-1. Download [Themiify](https://github.com/Themiify-hb/Themiify/releases) and copy the `Themiify.wuhb` file to `SD:/wiiu/apps/`.
+1. Download [Themiify](https://github.com/Fangal-Airbag/Themiify/releases) and copy the `Themiify.wuhb` file to `SD:/wiiu/apps/`.
 2. Download [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases) and copy the file `stylemiiu.wps` to `SD:/wiiu/environments/aroma/plugins`.
 3. If you have it, copy your `.utheme` file(s) to `SD:/wiiu/themes/` (This is used for [Local Installation](#local-installation)).
 
@@ -71,7 +71,7 @@ Themiify is a homebrew application that allows for on the fly installation of Wi
 
     1. Turn on your Wii U and boot aroma.
     2. Open Themiify.
-    3. Select the Theme Management Tab and select Local Theme Installation.
+    3. Select the Local Themes Tab and select Local Theme Installation.
 
         ![Local Theme Installation Tab](imgs/t7.png)
 

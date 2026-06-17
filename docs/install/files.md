@@ -20,7 +20,7 @@ First, we need to obtain the menu files, there are several ways to do it:
 
     ### What you need
 
-    - [Themiify](https://github.com/Themiify-hb/Themiify/releases).
+    - [Themiify](https://github.com/Fangal-Airbag/Themiify/releases).
     - [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases).
 
     ### Guide
@@ -28,7 +28,7 @@ First, we need to obtain the menu files, there are several ways to do it:
     1. Open Themiify.
     2. Go to Settings.
     3. Select "Dump Wii U Menu Files"
-    4. Confirm
+    4. Confirm.
     
         - Your Wii U Menu Files have been dumped to `SD:/themiify/cache/`
         
@@ -56,8 +56,6 @@ First, we need to obtain the menu files, there are several ways to do it:
     - Android: [File Manager](https://play.google.com/store/apps/details?id=com.alphainventor.filemanager).
 
     ### Guide
-
-    Step by step guide
 
     1. Turn on your console without any custom theme. (This will cause issues when getting the files we need.)
     2. Open the WUPS Menu (L + ↓ + SELECT) and search for FTPiiU Plugin.
@@ -155,8 +153,8 @@ First, we need to obtain the menu files, there are several ways to do it:
     Go to `root/content/[LANGUAGE]/Message/` and download `AllMessage.szs`.
 
     - `content > [LANGUAGE] > Message > AllMessage.szs`.
-            - In `[LANGUAGE]` use the language you want to dump.
-                - For example: `UsEnglish`.
+        - In `[LANGUAGE]` use the language you want to dump.
+            - For example: `UsEnglish`.
 
 -----------------
 
