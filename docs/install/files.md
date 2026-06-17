@@ -8,10 +8,36 @@ icon: material/file
 
 --------------
 
-First, we need to obtain the menu files, either through FTP or by using JNUSTool
+First, we need to obtain the menu files, there are several ways to do it:
 
+- [Themiify](#themiify)
 - [FTP](#ftp)
 - [JNUSTool](#jnustool)
+
+=== "Themiify"
+
+    ## Retrieving Menu Files Through Themiify
+
+    ### What you need
+
+    - [Themiify](https://github.com/Themiify-hb/Themiify/releases).
+    - [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases).
+
+    ### Guide
+
+    1. Open Themiify.
+    2. Go to Settings.
+    3. Select "Dump Wii U Menu Files"
+    4. Confirm
+    
+        - Your Wii U Menu Files have been dumped to `SD:/themiify/cache/`
+        
+    5. Turn off your Wii U and insert your SD Card on your computer.
+    6. Go to `SD:/themiify/cache/Common/Package/` and copy `Men.pack` and `Men2.pack`.
+    7. Go to `SD:/themiify/cache/Common/Sound/Men/` and copy `cafe_barista_men.bfsar`.
+    8. (Optional) Go to `SD:/themiify/cache/[LANGUAGE]/Message/` and copy `AllMessage.szs`.
+        - In `[LANGUAGE]` use the language you want to dump.
+            - For example: `UsEnglish`.
 
 === "FTP"
 
@@ -47,8 +73,15 @@ First, we need to obtain the menu files, either through FTP or by using JNUSTool
 
     8. Select `Men.pack` and `Men2.pack`, then click Download.
     9. It will ask for a place to download the files, it's recommended to create a specific folder to save the content.
-    10. Now do the same but with `cafe_barista_men.bfsar`, Go back and then navigate to `Sound/Men`.
+    10. Go back and then navigate to `Sound/Men`.
     11. Download `cafe_barista_men.bfsar`.
+    12. (Optional) Dump `AllMessage.szs`
+
+        - Go back and navigate to `content/[LANGUAGE]/Message/AllMessage.szs`.
+            - In `[LANGUAGE]` use the language you want to dump.
+                - For example: `UsEnglish`.
+
+        - Download `AllMessage.szs`
 
     !!! abstract "Credits to [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii_U:Custom_themes) for the information in this section."
 
@@ -109,10 +142,6 @@ First, we need to obtain the menu files, either through FTP or by using JNUSTool
     - EUR: `0005001010040200`
     - JPN: `0005001010040000`
 
-    *Example with USA region*
-
-    ![Image title](imgs/i4.webp)
-
     ### **Downloading files**
 
     Go to `root/content/Common/Package` and download `Men.pack` and `Men2.pack`.
@@ -120,6 +149,14 @@ First, we need to obtain the menu files, either through FTP or by using JNUSTool
     ![Image title](imgs/i5.webp)
 
     Go to `root/content/Common/Sound/Men` and download `cafe_barista_men.bfsar`.
+
+    (Optional) Dump `AllMessage.szs`
+
+    Go to `root/content/[LANGUAGE]/Message/` and download `AllMessage.szs`.
+
+    - `content > [LANGUAGE] > Message > AllMessage.szs`.
+            - In `[LANGUAGE]` use the language you want to dump.
+                - For example: `UsEnglish`.
 
 -----------------
 

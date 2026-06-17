@@ -13,17 +13,27 @@ hide:
 
 <div class="grid cards" markdown>
 
+-   **Themiify**
+
+    ![Themiify](imgs/themiify.png)
+
+    Download and Install themes directly from your Wii U!
+
+    [Go :lucide-arrow-right:](themiify.md){ .md-button .md-button--primary }
+
 -   **Manual Installation**
 
     ![Manual Installation](imgs/manual.webp)
 
     Manually load themes using StyleMiiU or SDCafiine.
 
-    [Go :material-arrow-right:](files.md){ .md-button .md-button--primary }
+    [Go :lucide-arrow-right:](files.md){ .md-button .md-button--primary }
 
 </div>
 
 --------------
+
+- [**Themiify**](themiify.md): Download and Install themes directly from your Wii U!
 
 - [**Menu Files**](files.md): You can get your menu files with [FTP](files.md#ftp) or [JNUSTool](files.md#jnustool).
 

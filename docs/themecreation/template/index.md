@@ -4,8 +4,6 @@ icon: material/file
 
 # Template
 
-This is a Custom Theme
-
 ![Theme Preview](imgs/1.webp)
 
 Custom themes can have a 2D non moving image, or be animated by adding texture animations to the models, themes can be created easily using a template.

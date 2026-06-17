@@ -131,7 +131,7 @@ Repeat this process for every file you want to patch.
             SHA-1: 61a43d75cebba980568f0b554d3638a8a6441597
             ```
 
-    If the information does not match, follow [JNUSTool](install/files.md#jnustool) to get your original files again.
+    If the information does not match, follow [JNUSTool](files.md#jnustool) to get your original files again.
 
     If the information matches with the one from your files and you're still getting the Source ROM checksum mismatch error, it might be a bad theme patch, so you can try using a different theme.
 

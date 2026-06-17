@@ -117,3 +117,30 @@
 [data-md-color-scheme="slate"] .md-typeset details.share {
   border-color: rgb(53, 57, 64);
 }
+
+[data-md-component="announce"] {
+  background: linear-gradient(135deg, #00ddffcc, #bdffffcc);
+  transition: all 250ms;
+}
+
+[data-md-component="announce"]:hover {
+  opacity: 0.8;
+}
+
+[data-md-component="announce"] a {
+  margin-left: 4px;
+  color: #000000 !important;
+  text-decoration: none;
+}
+
+[data-md-component="announce"] .md-icon svg {
+  stroke: #000000;
+}
+
+img:not(.md-logo img):not(.splide__slide img) {
+  border-radius: 12px;
+}
+
+video {
+  border-radius: 12px;
+}
