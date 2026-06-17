@@ -119,3 +119,7 @@ This setting allows for dumping of the Wii U Menu files commonly used for themin
 - `AllMessage.szs` (Optional): This files stores the menu text for each individual language and can be used for [Custom Text](../themecreation/advanced/text.md).
 
 To create custom themes, use this option to dump the files and get started with [Theme Creation](../themecreation/index.md).
+
+--------------
+
+!!! abstract "Credits to [Nathaniel](https://github.com/Fangal-Airbag), [Alpha Craft](https://github.com/AlphaCraft9658), [Daniel K. O.](https://github.com/dkosmari) & contributors for [Themiify](https://github.com/Themiify-hb/Themiify)"

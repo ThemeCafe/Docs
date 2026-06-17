@@ -137,7 +137,6 @@ Repeat this process for every file you want to patch.
 
 !!! abstract "Credits to [Marcrobledo](https://www.marcrobledo.com/) for RomPatcher.js"
 
-
 <script src="patching/rom-patcher-js/RomPatcher.webworker.apply.js"></script>
 <script src="patching/rom-patcher-js/RomPatcher.webworker.crc.js"></script>
 <script src="patching/rom-patcher-js/RomPatcher.webapp.js"></script>
