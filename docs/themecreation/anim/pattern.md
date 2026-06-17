@@ -99,7 +99,7 @@ This step is required for your animation to work correctly.
                     required
                 />
             </div>
-            <button type="submit">
+            <button class="btnanim" type="submit">
                 Generate Animation
             </button>
         </form>

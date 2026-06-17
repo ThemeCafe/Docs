@@ -1,4 +1,5 @@
 ---
+status: new
 icon: fontawesome/solid/brush
 ---
 
@@ -13,16 +14,16 @@ Themiify is a homebrew application that allows for on the fly installation of Wi
 ## What you need
 
 - A modded Wii U with [Aroma](https://wiiu.hacks.guide/aroma/getting-started.html).
-- [Themiify](https://github.com/Themiify-hb/Themiify/releases).
+- [Themiify](https://github.com/Fangal-Airbag/Themiify/releases).
 - [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases).
 - Your Wii U Theme with the extension `.utheme`. (Optional)
     - These can be obtained from [Themezer](https://themezer.net/wiiu/themes).
 
 ## Installation
 
-1. Download [Themiify](https://github.com/Themiify-hb/Themiify/releases) and copy the `Themiify.wuhb` file to `SD:/wiiu/apps`.
+1. Download [Themiify](https://github.com/Fangal-Airbag/Themiify/releases) and copy the `Themiify.wuhb` file to `SD:/wiiu/apps/`.
 2. Download [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases) and copy the file `stylemiiu.wps` to `SD:/wiiu/environments/aroma/plugins`.
-3. If you have it, copy your `.utheme` file(s) to `SD:/wiiu/themes` (This is used for [Local Installation](#local-installation)).
+3. If you have it, copy your `.utheme` file(s) to `SD:/wiiu/themes/` (This is used for [Local Installation](#local-installation)).
 
 ## Installing Themes
 
@@ -56,6 +57,8 @@ Themiify is a homebrew application that allows for on the fly installation of Wi
 
         ![Delete Utheme File](imgs/t5.png)
 
+        !!! warning "If you see "Installation unsuccessful!" go to [Check integrity of Wii U Menu Files](#check-integrity-of-wii-u-menu-files)"
+
     8. Press `B` and select the Exit button.
 
         ![Exit](imgs/t6.png)
@@ -64,11 +67,11 @@ Themiify is a homebrew application that allows for on the fly installation of Wi
 
     ### Installing Themes Locally
 
-    You can install themes locally by placing your `.utheme` theme archive files in `SD:/wiiu/themes`.
+    You can install themes locally by placing your `.utheme` theme archive files in `SD:/wiiu/themes/`.
 
     1. Turn on your Wii U and boot aroma.
     2. Open Themiify.
-    3. Select the Theme Management Tab and select Local Theme Installation.
+    3. Select the Local Themes Tab and select Local Theme Installation.
 
         ![Local Theme Installation Tab](imgs/t7.png)
 
@@ -91,15 +94,32 @@ Themiify is a homebrew application that allows for on the fly installation of Wi
 
 !!! tip "If you want to use a Splash Screen follow [Splash Screen](splash.md)"
 
-??? failure "Troubleshooting"
+!!! failure "If you have any other issues while using Themiify, please join our [Discord Server](https://discord.com/invite/2DNvH9db2A) for support."
 
-    - If a theme was not installed due to the menu files on your NAND being modified, you will need the original Wii U Menu files.
+--------------
 
-        1. Use [JNUSTool](install/files.md#jnustool) to get the original files.
-        2. Copy `Men.pack`, `Men2.pack` to `SD:/themiify/cache/Common/Package/`.
-        3. Copy `cafe_barista_men.bfsar` to `SD:/themiify/cache/Common/Sound/Men/`.
+## Settings
 
-        After that, you should be able to use Themiify normally.
+### Check Integrity of Wii U Menu Files
 
-    If you have any other issues while using Themiify, please join our [Discord Server](https://discord.com/invite/2DNvH9db2A) for support.
-    
+This setting checks your if Wii U Menu files have been modified before, if this is the case, Themiify will not be able to install themes correctly, to solve this
+
+1. Use [JNUSTool](files.md#jnustool) to get the original Wii U Menu files.
+2. Copy `Men.pack`, `Men2.pack` to `SD:/themiify/cache/Common/Package/`.
+3. Copy `cafe_barista_men.bfsar` to `SD:/themiify/cache/Common/Sound/Men/`.
+
+After that, you should be able to use Themiify normally.
+
+### Dump Wii U Menu Files
+
+This setting allows for dumping of the Wii U Menu files commonly used for theming, this includes:
+
+- `Men.pack` & `Men2.pack`: Most of the important menu assets are stored here.
+- `cafe_barista_men.bfsar`: Used for [Custom Music](../themecreation/music/index.md) or Sound Effects.
+- `AllMessage.szs` (Optional): This files stores the menu text for each individual language and can be used for [Custom Text](../themecreation/advanced/text.md).
+
+To create custom themes, use this option to dump the files and get started with [Theme Creation](../themecreation/index.md).
+
+--------------
+
+!!! abstract "Credits to [Nathaniel](https://github.com/Fangal-Airbag), [Alpha Craft](https://github.com/AlphaCraft9658), [Daniel K. O.](https://github.com/dkosmari) & contributors for [Themiify](https://github.com/Themiify-hb/Themiify)"

@@ -26,8 +26,8 @@ You will need:
 
 You can obtain `.bps` theme patch files via
 
-- [Themezer](https://themezer.net/wiiu/themes) (Using the View Assets button)
-- The [Theme Café Discord Server](https://discord.com/invite/2DNvH9db2A)
+- [Themezer](https://themezer.net/wiiu/themes). (Using the View Assets button)
+- The [Theme Café Discord Server](https://discord.com/invite/2DNvH9db2A).
 
 ### Applying patches
 
@@ -131,12 +131,11 @@ Repeat this process for every file you want to patch.
             SHA-1: 61a43d75cebba980568f0b554d3638a8a6441597
             ```
 
-    If the information does not match, follow [JNUSTool](install/files.md#jnustool) to get your original files again.
+    If the information does not match, follow [JNUSTool](files.md#jnustool) to get your original files again.
 
     If the information matches with the one from your files and you're still getting the Source ROM checksum mismatch error, it might be a bad theme patch, so you can try using a different theme.
 
 !!! abstract "Credits to [Marcrobledo](https://www.marcrobledo.com/) for RomPatcher.js"
-
 
 <script src="patching/rom-patcher-js/RomPatcher.webworker.apply.js"></script>
 <script src="patching/rom-patcher-js/RomPatcher.webworker.crc.js"></script>

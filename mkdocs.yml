@@ -3,7 +3,7 @@ site_url: https://themecafe.github.io/Docs/
 site_description: Resources for Creating & Installing Wii U Menu Themes.
 theme:
   name: material
-  custom_dir: docs/material
+  custom_dir: docs/material/overrides
   logo: assets/logo/outline.png
   icon:
     admonition:
@@ -28,6 +28,8 @@ theme:
     - content.code.annotation
     - content.code.copy
     - navigation.indexes
+    - announce.dismiss
+    - content.tooltips
   language: en
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -62,6 +64,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - abbr
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
@@ -76,7 +79,7 @@ extra_css:
   - install/patching/rom-patcher-js/style.css
   - stylesheets/extra.css
   - material/overrides/stylesheets/splide.min.css
-not_in_nav: |
+not_in_nav:
   md.md
   archived/bootsound.md
   themecreation/advanced/misc.md
@@ -88,7 +91,7 @@ nav:
   - Home: index.md
   - Install:
     - install/index.md
-    # - Themiify: install/themiify.md
+    - Themiify: install/themiify.md
     - Manual Installation:
       - Menu Files: install/files.md
       - Patching: install/patching.md
@@ -142,12 +145,14 @@ nav:
         - Static: archived/static.md 
         - Static to WWP: archived/statictowwp.md
         - Minimalist: archived/minimalist.md
-  - Troubleshooting: troubleshooting.md
+  - FAQ & Troubleshooting: faq.md
 
   - Credits: credits/index.md
   
 extra:
   generator: false
+  status:
+    new: Recently added
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.com/invite/2DNvH9db2A

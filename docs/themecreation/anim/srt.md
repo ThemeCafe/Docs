@@ -66,7 +66,7 @@ For better results please use a seamless texture and do the following.
                 <label for="reverse">Reverse</label>
                 <input type="checkbox" id="scr-reverse">
             </div>
-            <button type="submit">
+            <button class="btnanim" type="submit">
                 Generate Animation
             </button>
         </form>
@@ -152,7 +152,7 @@ This animation will rotate the texture around the center of the UV Mapping.
                 <label for="reverse">Reverse</label>
                 <input type="checkbox" id="rot-reverse">
             </div>
-            <button type="submit">
+            <button class="btnanim" type="submit">
                 Generate Animation
             </button>
         </form>
