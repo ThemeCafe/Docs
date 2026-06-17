@@ -15,7 +15,7 @@ hide:
 
 -   **Themiify**
 
-    ![Themiify](imgs/themiify.png)
+    ![Themiify](imgs/Themiify.png)
 
     Download and Install themes directly from your Wii U!
 
