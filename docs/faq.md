@@ -13,7 +13,7 @@ hide:
     - If you have not modded your Wii U follow the [Wii U Homebrew Guide](https://wiiu.hacks.guide/).
 2. [StyleMiiU-Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin) to load your custom themes.
     - Copy `stylemiiu.wps` to `SD:/wiiu/environments/aroma/plugins`.
-3. The latest release of [Themiify](https://github.com/Fangal-Airbag/Themiify/releases).
+3. The latest release of [Themiify](https://github.com/Themiify-hb/Themiify/releases).
     - Copy the `Themiify.wuhb` to `SD:/wiiu/apps`.
 
 Start Themiify, download any theme you like and enjoy!
@@ -46,7 +46,7 @@ No. Custom themes will not appear because Themiify relies on [StyleMiiU-Plugin](
 
 Themiify requires StyleMiiU to work and apply themes properly.
 
-- Download StyleMiiU from [Github](https://github.com/Themiify-hb/StyleMiiU-Plugin) or the [Homebrew App Store](https://hb-app.store/wiiu/StyleMiiU)
+- Download StyleMiiU from [GitHub](https://github.com/Themiify-hb/StyleMiiU-Plugin) or the [Homebrew App Store](https://hb-app.store/wiiu/StyleMiiU)
 - Copy the file `stylemiiu.wps` into `SD:/wiiu/environments/aroma/plugins`.
 
 ### I have previously installed a theme to my NAND and Themiify won't work

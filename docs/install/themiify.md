@@ -5,7 +5,8 @@ icon: fontawesome/solid/brush
 
 # Themiify
 
-Themiify is a homebrew application that allows for on the fly installation of Wii U Menu themes via the internet. Once a theme is installed [StyleMiiU](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases) will read the theme and show it next time the Wii U Menu is loaded.
+Themiify is a homebrew application that allows for on the fly installation of Wii U Menu themes via the [Themezer](https://themezer.net/) API or via `.utheme` files placed on an SD Card. 
+Once a theme is installed [StyleMiiU](https://github.com/Themiify-hb/StyleMiiU-Plugin) will read the theme and show it the next time the Wii U Menu is loaded.
 
 !!! info "**No system file is modified by this app.**"
 
@@ -14,14 +15,14 @@ Themiify is a homebrew application that allows for on the fly installation of Wi
 ## What you need
 
 - A modded Wii U with [Aroma](https://wiiu.hacks.guide/aroma/getting-started.html).
-- [Themiify](https://github.com/Fangal-Airbag/Themiify/releases).
-- [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases).
+- [Themiify](https://github.com/Themiify-hb/Themiify/releases) (Also available in the [Homebrew App Store](https://hb-app.store/wiiu/Themiify)).
+- [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases) (Also available in the [Homebrew App Store](https://hb-app.store/wiiu/StyleMiiU)).
 - Your Wii U Theme with the extension `.utheme`. (Optional)
     - These can be obtained from [Themezer](https://themezer.net/wiiu/themes).
 
 ## Installation
 
-1. Download [Themiify](https://github.com/Fangal-Airbag/Themiify/releases) and copy the `Themiify.wuhb` file to `SD:/wiiu/apps/`.
+1. Download [Themiify](https://github.com/Themiify-hb/Themiify/releases) and copy the `Themiify.wuhb` file to `SD:/wiiu/apps/`.
 2. Download [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases) and copy the file `stylemiiu.wps` to `SD:/wiiu/environments/aroma/plugins`.
 3. If you have it, copy your `.utheme` file(s) to `SD:/wiiu/themes/` (This is used for [Local Installation](#local-installation)).
 

@@ -14,13 +14,15 @@ First, we need to obtain the menu files, there are several ways to do it:
 - [FTP](#ftp)
 - [JNUSTool](#jnustool)
 
+If you have previously modified the Wii U Menu files from your nand, your only option is [JNUSTool](#jnustool).
+
 === "Themiify"
 
     ## Retrieving Menu Files Through Themiify
 
     ### What you need
 
-    - [Themiify](https://github.com/Fangal-Airbag/Themiify/releases).
+    - [Themiify](https://github.com/Themiify-hb/Themiify/releases).
     - [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases).
 
     ### Guide
