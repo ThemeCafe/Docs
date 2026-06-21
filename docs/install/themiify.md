@@ -15,8 +15,8 @@ Once a theme is installed [StyleMiiU](https://github.com/Themiify-hb/StyleMiiU-P
 ## What you need
 
 - A modded Wii U with [Aroma](https://wiiu.hacks.guide/aroma/getting-started.html).
-- [Themiify](https://github.com/Themiify-hb/Themiify/releases) (Also available in the [Homebrew App Store](https://hb-app.store/wiiu/Themiify)).
-- [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases) (Also available in the [Homebrew App Store](https://hb-app.store/wiiu/StyleMiiU)).
+- [Themiify](https://github.com/Themiify-hb/Themiify/releases) (Also available on the [Homebrew App Store](https://hb-app.store/wiiu/Themiify)).
+- [StyleMiiU Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases) (Also available on the [Homebrew App Store](https://hb-app.store/wiiu/StyleMiiU)).
 - Your Wii U Theme with the extension `.utheme`. (Optional)
     - These can be obtained from [Themezer](https://themezer.net/wiiu/themes).
 
