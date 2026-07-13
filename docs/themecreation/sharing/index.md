@@ -82,8 +82,7 @@ If you want to share your themes, first you'll need to make them into a patch.
 
 ### Guide
 
-- Go to [Themezer](https://themezer.net/).
-- Log in with your Discord Account.
+- Go to [Themezer](https://themezer.net/) and log in.
 - Go to `+ Create & Upload`.
 - Select Wii U.
 - Fill out the details, upload your files and share your theme!.

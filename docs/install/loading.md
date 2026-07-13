@@ -48,7 +48,7 @@ There's two ways to load themes using aroma
 
         - Additional files like AllMessage.szs do still need to be on their corresponding folder structure, for example: `SD:/wiiu/themes/[ThemeName]/content/[TheLanguageToPatch]/Message/AllMessage.szs`.
 
-        - Shuffle themes: This option tries to mimic the 3DS' option of shuffling themes, you can use it by simply activating the option and then in **Available Themes**, select the themes you want to shuffle through. The themes will change **every time you restart the console**. If you disable this option, then the last theme you selected will become the default theme for it to fallback on.
+        - Shuffle themes: This option tries to mimic the 3DS' option of shuffling themes, you can use it by simply activating the option and then in **Available Themes**, select the themes you want to shuffle through. The themes will change every time you restart the console or exiting back to the menu. If you disable this option, then the last theme you selected will become the default theme for it to fallback on.
 
         - If you happen to have installed an older version of this plugin, delete the previous `theme_manager.wps` and rename `SD:/wiiu/environments/aroma/plugins/config/theme_manager.json` to `style-mii-u.json`.
 
