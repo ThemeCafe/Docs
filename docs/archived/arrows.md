@@ -5,8 +5,6 @@ search:
 
 **Arrow Colors**
 
-![image](#)
-
 1. To modify the arrow colors first we need to locate them, if you are using one of my themes as a base they may be located inside **Men2.pack** then **layout** and then look for the file **BtnSlideLauncher**
 
     ![image](imgs/arrows/a1.webp)

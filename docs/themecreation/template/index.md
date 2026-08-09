@@ -76,7 +76,7 @@ We will be working with a template to simplify the process of creating a theme.
 
     We are now going to change the image that's between the Wara Wara Plaza and the launcher.
 
-    - Go back to the `Models` folder.
+    - Go back to the `Model` folder.
     - Go to `FloatIcon00.szs > gsys.bfres > Textures`.
     - Right click `White_00` and select `Replace`.
     - Choose the image you want to use as background for the Menu.
@@ -104,7 +104,7 @@ We will be working with a template to simplify the process of creating a theme.
 
         ![Tiled Floor Preview](imgs/s5.webp)
 
-        - Go back to the `Models` folder.
+        - Go back to the `Model` folder.
         - Go to `LoungeFloor.szs > gsys.bfres > Textures`.
         - Right click `Floor_Alb` and select `Replace`.
         - Choose the image you want to use as the floor for the Wara Wara Plaza.
@@ -121,7 +121,7 @@ We will be working with a template to simplify the process of creating a theme.
 
         ![Stretched Floor Preview](imgs/s8.webp)
 
-        - Go back to the `Models` folder.
+        - Go back to the `Model` folder.
         - Go to `LoungeFloor.szs > gsys.bfres > Models > LoungeFloor`.
         - Download the following floor model.
 

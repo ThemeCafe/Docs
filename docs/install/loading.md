@@ -121,12 +121,12 @@ There's two ways to load themes using aroma
     ??? note "For SDCaffiine"
 
         - On the SDCafiine screen, press B to launch without a modpack.
-        - Delete your theme from `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]`.
+        - Delete your theme from `SD:/wiiu/sdcafiine/[TITLEID]/[ThemeName]`.
         - Delete the plugin `SD:/wiiu/environments/aroma/plugins/sdcafiine.wps`.
 
     ??? note "For StyleMiiU"
 
-        - Delete your theme: `sd:/wiiu/themes/[ThemeName]`.
+        - Delete your theme: `SD:/wiiu/themes/[ThemeName]`.
         - Delete the plugin config file: `SD:/wiiu/environments/aroma/plugins/config/style-mii-u.json`.
         - Delete the plugin: `SD:/wiiu/environments/aroma/plugins/stylemiiu.wps`.
 
@@ -142,8 +142,8 @@ There's two ways to load themes using aroma
         - The theme folder must contain the patched `.pack` files.
 
     ??? info "Check that you are using the correct path"
-        - SDCafiine: `sd:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Package/Men.pack, Men2.pack`.
-        - StyleMiiU: `sd:/wiiu/themes/[ThemeName]/Men.pack, Men2.pack`.
+        - SDCafiine: `SD:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Package/Men.pack, Men2.pack`.
+        - StyleMiiU: `SD:/wiiu/themes/[ThemeName]/Men.pack, Men2.pack`.
 
     ??? info "Check that your theme is selected"
         - SDCafiine: Select the Modpack with your theme

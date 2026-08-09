@@ -96,6 +96,7 @@ nav:
       - Menu Files: install/files.md
       - Patching: install/patching.md
       - Loading Theme: install/loading.md
+    - Moving to Themiify: install/moving.md
     - Fonts: install/fonts.md
     - Splash Screen: install/splash.md
   - Theme Creation:
