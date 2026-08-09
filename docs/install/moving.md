@@ -8,7 +8,7 @@ If you currently have themes installed and want to start using Themiify, you can
 
 === "SDCafiine Plugin"
 
-    Move your themes from `SD:/wiiu/sdcafiine/[TITLEID]` to `SD:/wiiu/themes/`
+    Move your themes from `SD:/wiiu/sdcafiine/[TITLEID]/` to `SD:/wiiu/themes/`
 
     - For [TITLEID] use your Wii U Menu's title ID. This will vary on your consoles region: 
         - USA: `0005001010040100`
