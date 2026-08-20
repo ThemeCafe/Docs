@@ -12,11 +12,11 @@ I made a custom preset you can patch onto your theme!
 
 ## What you need
 
-- [SpeechBalloonIllust Custom Colors v2.0.bps](https://file.garden/ZyaG_W8sITLxB-in/Themes%20(Wii%20u)/SpeechBalloonIllust%20Custom%20Colors%20v2.0.bps)
+[SpeechBalloonIllust Custom Colors v2.0.bps](https://file.garden/ZyaG_W8sITLxB-in/Themes%20(Wii%20u)/SpeechBalloonIllust%20Custom%20Colors%20v2.0.bps){ .md-button .md-button--primary }
 
 or
 
-- [SpeechBalloonIllust white.bps](https://file.garden/ZyaG_W8sITLxB-in/Themes%20(Wii%20u)/SpeechBalloonIllust%20white.bps)
+[SpeechBalloonIllust white.bps](https://file.garden/ZyaG_W8sITLxB-in/Themes%20(Wii%20u)/SpeechBalloonIllust%20white.bps){ .md-button .md-button--primary }
 
 ## Getting your original file and starting up
 

@@ -1,5 +1,6 @@
 ---
 icon: fontawesome/solid/wrench
+hide: toc
 ---
 
 # Resources
@@ -29,6 +30,12 @@ icon: fontawesome/solid/wrench
     ![Text Patches Preview](imgs/textpretendo/pre.webp)
 
     [Go :material-arrow-right:](textpretendo.md){ .md-button .md-button--primary }
+
+-   **Hide WWP with Animation**
+
+    ![Hide WWP Animation Preview](imgs/hidewwpanim/pre.png)
+
+    [Go :material-arrow-right:](hidewwpanim.md){ .md-button .md-button--primary }
 
 -   **Cemu Theme Testing**
 

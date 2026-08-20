@@ -14,15 +14,13 @@ This is where the background image/animation is located
 
 [Template Guide](../template/index.md){ .md-button .md-button--primary }
 
-<video controls width="426" height="240">
+<video autoplay loop muted playsinline width="426" height="240">
 <source src="../anim/imgs/frame/vf.mp4" type="video/mp4">
 </video>
 
 [Animations Guide](../anim/pattern.md){ .md-button .md-button--primary }
 
-??? info "Info"
-
-    This only applies when using patches provided by the docs
+!!! info "*This only applies when using patches provided by the docs*"
 
 ----------------------
 

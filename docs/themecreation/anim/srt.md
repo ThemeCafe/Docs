@@ -31,8 +31,8 @@ For better results please use a seamless texture and do the following.
 
 ### Translate Texture Animations
 
-<video controls>
-<source src="imgs/srt/translateprev.webm" type="video/mp4">
+<video autoplay loop muted playsinline>
+<source src="imgs/srt/translateprev.mp4" type="video/mp4">
 </video>
 
 - Scrolls horizontally from left to right (Right to left if it's reversed).
@@ -81,7 +81,7 @@ For better results please use a seamless texture and do the following.
 
 ### Scale Texture Animations
 
-<video controls>
+<video autoplay loop muted playsinline>
 <source src="imgs/srt/scaleprev.mp4" type="video/mp4">
 </video>
 
@@ -124,7 +124,7 @@ MaterialAnimConfigs:
 
 ### Rotate Texture Animations
 
-<video controls>
+<video autoplay loop muted playsinline>
 <source src="imgs/srt/rotateprev.mp4" type="video/mp4">
 </video>
 

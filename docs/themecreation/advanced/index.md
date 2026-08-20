@@ -1,5 +1,6 @@
 ---
 icon: fontawesome/solid/gear
+hide: toc
 ---
 
 # Advanced

@@ -2,64 +2,64 @@
 
 ## Replacing Textures
 
-!!! note "For bfres"
+### For bfres
 
-    Open your file
+Open your file
 
-    - Go to the `Textures` folder
-    - Right Click the texture you want to replace
-    - Click `Replace`
-    - Select the image you want to use
-    - Make sure the format is set to `BC1_SRGB`
-    - Click OK
-    - Save
+- Go to the `Textures` folder
+- Right Click the texture you want to replace
+- Click `Replace`
+- Select the image you want to use
+- Make sure the format is set to `BC1_SRGB`
+- Click OK
+- Save
 
-!!! note "For bflyt"
+### For bflyt
 
-    Open your file
+Open your file
 
-    - Go to the `timg` folder
-    - Click the texture you want to replace
+- Go to the `timg` folder
+- Click the texture you want to replace
 
-    - In `Display` select `File Editor`
+- In `Display` select `File Editor`
 
-        ![Textures Visual Guide](imgs/t1.webp)
+    ![Textures Visual Guide](imgs/t1.webp)
 
-    - Click `File` then `Replace`
+- Click `File` then `Replace`
 
-        ![Textures Visual Guide](imgs/t2.webp)
+    ![Textures Visual Guide](imgs/t2.webp)
 
-    - Select the image you want to use
-    - Import it
-    - Save
+- Select the image you want to use
+- Import it
+- Save
 
 ## Adding a new texture
 
 !!! warning "If you are going to replace textures, please follow [Replacing Textures](#replacing-textures) instead"
 
-!!! note "For bfres"
+### For bfres
 
-    Open your file
+Open your file
 
-    - Right Click the `Textures` folder
-    - Select the image or images you want to use
-    - Select all textures (with the first frame selected, shift+click the last frame)
-    - Change the mip count to 1
-    - Make sure the format is set to `BC1_SRGB`
-    - Click OK
-    - Save
+- Right Click the `Textures` folder
+- Select the image or images you want to use
+- Select all textures (with the first frame selected, shift+click the last frame)
+- Change the mip count to 1
+- Make sure the format is set to `BC1_SRGB`
+- Click OK
+- Save
 
-!!! note "For bflyt"
+### For bflyt
 
-    Open your `bflyt` file
+Open your `bflyt` file
 
-    - Click the green "+" button
+- Click the green "+" button
 
-        ![Textures Visual Guide](imgs/t.webp)
+    ![Textures Visual Guide](imgs/t.webp)
 
-    - Select your image
-    - Change the format
-    - Click OK
+- Select your image
+- Change the format
+- Click OK
 
 !!! failure "Don't delete default textures"
 

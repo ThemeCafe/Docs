@@ -190,6 +190,8 @@ We will be working with a template to simplify the process of creating a theme.
 
             !!! abstract "Special Thanks to remure_"
 
+        For hiding the WWP with an animation see [Resources > Hide WWP with Animation](../resources/hidewwpanim.md)
+
     -----------------
 
     ### Gradient

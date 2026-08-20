@@ -2,7 +2,7 @@
 
 # Texture Pattern Animations
 
-<video controls>
+<video autoplay loop muted playsinline>
 <source src="imgs/frame/vf.mp4" type="video/mp4">
 </video>
 
@@ -118,7 +118,9 @@ After generating your animation file, go back to Switch ToolBox.
 
 !!! info "You can preview the animation by clicking the *Play* button"
 
-    ![Final Animation Preview](imgs/frame/preview.gif)
+    <video autoplay loop muted playsinline>
+    <source src="imgs/frame/preview.mp4" type="video/mp4">
+    </video>
 
 !!! success
 

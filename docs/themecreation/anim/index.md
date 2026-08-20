@@ -1,5 +1,6 @@
 ---
 icon: material/star-shooting
+hide: toc
 ---
 
 # Animations
@@ -8,7 +9,7 @@ icon: material/star-shooting
 
 -   **Texture Pattern Animations**
 
-    <video controls>
+    <video autoplay loop muted playsinline>
     <source src="imgs/frame/vf.mp4" type="video/mp4">
     </video>
 
@@ -16,8 +17,8 @@ icon: material/star-shooting
 
 -   **Texture SRT Animations**
 
-    <video controls>
-    <source src="imgs/srt/translateprev.webm" type="video/mp4">
+    <video autoplay loop muted playsinline>
+    <source src="imgs/srt/translateprev.mp4" type="video/mp4">
     </video>
 
     [Go :material-arrow-right:](srt.md){ .md-button .md-button--primary }
