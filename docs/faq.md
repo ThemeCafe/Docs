@@ -53,6 +53,9 @@ Themiify requires StyleMiiU to work and apply themes properly.
 
 For Themiify to work properly, you will need the original Wii U Menu files.
 
+You can either restore the Wii U Menu files in the NAND with the original ones or manually place
+the original files in the SD Card for Themiify to use, this will only cover the latter.
+
 1. Use [JNUSTool](install/files.md#jnustool) to get the original files.
 2. Copy `Men.pack`, `Men2.pack` to `SD:/themiify/cache/Common/Package/`.
 3. Copy `cafe_barista_men.bfsar` to `SD:/themiify/cache/Common/Sound/Men/`.

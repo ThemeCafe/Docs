@@ -102,7 +102,13 @@ Once a theme is installed [StyleMiiU](https://github.com/Themiify-hb/StyleMiiU-P
 
 ### Check Integrity of Wii U Menu Files
 
-This setting checks your if Wii U Menu files have been modified before, if this is the case, Themiify will not be able to install themes correctly, to solve this use [JNUSTool](files.md#jnustool) to get the original Wii U Menu files that you need and copy them to the corresponding location.
+This setting checks your if Wii U Menu files have been modified before, if this is the case, Themiify 
+will not be able to install themes correctly, to solve this, You can either restore the Wii U Menu files 
+in the NAND with the original ones or manually place the original files in the SD Card for Themiify to 
+use, this will only cover the latter. 
+
+Use [JNUSTool](files.md#jnustool) to get the original Wii U Menu 
+files that you need and copy them to the corresponding location.
 
 1. For `Men.pack`, `Men2.pack`: `SD:/themiify/cache/Common/Package/`.
 2. For `cafe_barista_men.bfsar`: `SD:/themiify/cache/Common/Sound/Men/`.
