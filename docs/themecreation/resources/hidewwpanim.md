@@ -22,8 +22,9 @@ If you are using the example animation, you will have to [replace your frames](.
 
 !!! note "Notes"
 
+    - This template is a 30 frame animation at 30 frames per second
     - If you want to use this kind of animation in a different theme, export the file `LoungeScaleMeter.szs` from this template and replace it in the theme you want to use it.
-    - The recommended resolution for your frames is 480p, however keep in mind the memory usage of your theme.
+    - The recommended resolution for your frames is 480p, however keep in mind the memory usage of your theme, if you have memory to spare you can increase the resolution of the frames to 540p for better quality
 
 ### Help
 
