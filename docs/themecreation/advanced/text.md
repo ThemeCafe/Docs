@@ -46,7 +46,7 @@ You will need the `AllMessage.szs` file for the language you want to edit, if yo
 ### Exporting the text file
 
 - Open your `AllMessage.szs` file with [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases/tag/Final).
-- Locate the file you want to edit (In this case `AllMessage.szs` > `SceneMessage.sarc` > `MenuScene.msbt`).
+- Locate the file you want to edit (In this case `AllMessage.szs > SceneMessage.sarc > MenuScene.msbt`).
 - Right click and `Export Raw Data`.
 - Save it on your device.
 
@@ -66,7 +66,7 @@ You will need the `AllMessage.szs` file for the language you want to edit, if yo
 ### Replacing MSBT files
 
 - Go back to Switch Toolbox.
-- Locate the file (In this case `AllMessage.szs` > `SceneMessage.sarc` > `MenuScene.msbt`).
+- Locate the file (In this case `AllMessage.szs > SceneMessage.sarc > MenuScene.msbt`).
 - Right click and `Replace Raw Data`.
 - Save.
 

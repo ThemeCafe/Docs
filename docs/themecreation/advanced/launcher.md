@@ -6,7 +6,7 @@
 
 ### 1. Background
 
-`Men2.pack` > `Model` > `LoungeVR.szs`
+`Men2.pack > Model > LoungeVR.szs`
 
 This is where the background image/animation is located
 
@@ -28,7 +28,7 @@ This is where the background image/animation is located
 
 ![Applets](imgs/launcher/2_applets.webp)
 
-`Men2.pack` > `Layout` > `OverlayAppBase.szs`
+`Men2.pack > Layout > OverlayAppBase.szs`
 
 This is where the App Icons at the bottom of the menu are located
 
@@ -40,7 +40,7 @@ You can change the [Color and Texture](../resources/applets.md) of this by [repl
 
 ![USB Indicator](imgs/launcher/3_usb.webp)
 
-`Men2.pack` > `Layout` > `UsbIndicatorDrc.szs`
+`Men2.pack > Layout > UsbIndicatorDrc.szs`
 
 This is where the Usb Indicator is located
 
@@ -52,7 +52,7 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
 
 ![Start](imgs/launcher/4_start.webp)
 
-`Men2.pack` > `Layout` > `BtnOverlayApp_01.szs`
+`Men2.pack > Layout > BtnOverlayApp_01.szs`
 
 This is where `Start` from the applets is located
 
@@ -68,7 +68,7 @@ Change the [Color](../general/colors.md) of the material `T_title` and `OLAActiv
 
 ![Select Frame](imgs/launcher/5_selectframe.webp)
 
-`Men.pack` > `Layout` > `SelectFrame.szs`
+`Men.pack > Layout > SelectFrame.szs`
 
 You can change the [Color](../general/colors.md) / [Texture](../general/textures.md) of this by changing the material `W_SelectFrame_01LT` and `W_SelectFrame_00LT`
 
@@ -78,7 +78,7 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
 
 ![Active Frame](imgs/launcher/6_activeframe.webp)
 
-`Men2.pack` > `Layout` > `LauncherIcon.szs`
+`Men2.pack > Layout > LauncherIcon.szs`
 
 This is the frame that shows up for creating a folder or starting an application
 
@@ -90,7 +90,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ![Button Swap](imgs/launcher/7_8_swap.webp)
 
-`Men.pack` > `Layout` > `BtnSwap_00.szs` , `BtnSwapDRC.szs`
+`Men.pack > Layout > BtnSwap_00.szs` , `BtnSwapDRC.szs`
 
 ??? note "***TV***"
 
@@ -110,7 +110,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ![Button Swap](imgs/launcher/7_8_swap.webp)
 
-`Men.pack` > `Layout` > `BtnSwap_00.szs`
+`Men.pack > Layout > BtnSwap_00.szs`
 
 You can change the [Color](../general/colors.md) / [Texture](../general/textures.md) of this by doing changes to the materials inside of the bflyt file.
 
@@ -120,7 +120,7 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
 
 ![Arrows](imgs/launcher/9_10_arrows.webp)
 
-`Men2.pack` > `Layout` > `BtnSlideLauncher.szs`
+`Men2.pack > Layout > BtnSlideLauncher.szs`
 
 `P_BtnSlideR`, `P_BtnSlideL`
 
@@ -176,7 +176,7 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
 
 ![Page Indicator](imgs/launcher/11_pageindicator.webp)
 
-`Men2.pack` > `Layout` > `PageIndicator.szs`
+`Men2.pack > Layout > PageIndicator.szs`
 
 ??? "Active tab"
 
@@ -192,7 +192,7 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
 
 ![Folder](imgs/launcher/12_folder.webp)
 
-`Men2.pack` > `Layout` > `LauncherIcon.szs`
+`Men2.pack > Layout > LauncherIcon.szs`
 
 You can change the [Texture](../general/textures.md) of this by changing the material `P_IconFolder_01`
 
@@ -202,7 +202,7 @@ You can change the [Texture](../general/textures.md) of this by changing the mat
 
 ![Folder Create](imgs/launcher/13_foldercreate.webp)
 
-`Men2.pack` > `Layout` > `LauncherIcon.szs`
+`Men2.pack > Layout > LauncherIcon.szs`
 
 You can change the [Texture](../general/textures.md) of this by changing the material `P_Folder`
 
@@ -212,7 +212,7 @@ You can change the [Texture](../general/textures.md) of this by changing the mat
 
 ![Launcher Icon](imgs/launcher/14_launchericon.webp)
 
-`Men2.pack` > `Layout` > `LauncherIcon.szs`
+`Men2.pack > Layout > LauncherIcon.szs`
 
 You can change the [Color](../general/colors.md) of this by changing the material `PF_LauncherBtnSpec_00`
 
@@ -222,7 +222,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ![Wii Menu](imgs/launcher/AppIconWii.webp)
 
-`Men2.pack` > `Model` > `SystemAppIcon.szs` > `Textures` > `AppIconWii`
+`Men2.pack > Model > SystemAppIcon.szs > Textures > AppIconWii`
 
 You can change the [Texture](../general/textures.md) of this by [replacing](../general/exportimport.md#replace) the texture `AppIconWii`
 
@@ -232,7 +232,7 @@ You can change the [Texture](../general/textures.md) of this by [replacing](../g
 
 ![Disc](imgs/launcher/AppIconDisc.webp)
 
-`Men2.pack` > `Model` > `SystemAppIcon.szs` > `Textures` > `AppIconDisc`
+`Men2.pack > Model > SystemAppIcon.szs > Textures > AppIconDisc`
 
 You can change the [Texture](../general/textures.md) of this by [replacing](../general/exportimport.md#replace) the texture `AppIconDisc`
 
@@ -242,7 +242,7 @@ You can change the [Texture](../general/textures.md) of this by [replacing](../g
 
 ![Pretendo Network](imgs/launcher/network.webp)
 
-`Men2.pack` > `Layout` > `BtnAccountSelect.szs`
+`Men2.pack > Layout > BtnAccountSelect.szs`
 
 You can change the [Texture](../general/textures.md) of this by changing the material `P_NetworkAccountMark_00`
 
@@ -252,7 +252,7 @@ You can change the [Texture](../general/textures.md) of this by changing the mat
 
 ![Account Button](imgs/launcher/18_btnacc.webp)
 
-`Men2.pack` > `Layout` > `BtnAccountSelect.szs`
+`Men2.pack > Layout > BtnAccountSelect.szs`
 
 You can change the [Texture](../general/textures.md) of this by doing changes to the materials inside of the bflyt file
 
@@ -274,13 +274,13 @@ If you want to change the color of the blue frame
 
 ![Wii Cursor](imgs/launcher/cursor.webp)
 
-`Men.pack` > `Layout` > `Cursor.szs`
+`Men.pack > Layout > Cursor.szs`
 
 ??? note "Changing Textures"
 
     ![Custom Wii Cursor](imgs/launcher/ct0.webp)
 
-    Go to `Men.pack` > `Layout` > `Cursor.szs` > `Cursor.arc`
+    Go to `Men.pack > Layout > Cursor.szs > Cursor.arc`
 
     - Go to the `timg` folder
     - Click the texture you want to replace
@@ -301,12 +301,12 @@ If you want to change the color of the blue frame
 
     ![Custom Wii Cursor Color](imgs/launcher/cc0.webp)
 
-    Go to `Men.pack` > `Layout` > `Cursor.szs` > `Cursor.arc`
+    Go to `Men.pack > Layout > Cursor.szs > Cursor.arc`
 
     - Go to the `anim` folder
     - Open `Cursor_CursorNumber.bflan`
     - In Animation Hierarchy open `Cursor_CursorNumber.bflan`
-    - Go to `Animation Info` > `CursorBaseAlpha` > `MaterialColor`
+    - Go to `Animation Info > CursorBaseAlpha > MaterialColor`
 
     Each player has its own color in separate RGB decimal values
 
@@ -360,7 +360,7 @@ If you want to change the color of the blue frame
 
 ![Balloon](imgs/launcher/20_balloon.webp)
 
-`Men2.pack` > `Layout` > `Balloon.szs` > `Balloon.bflyt`
+`Men2.pack > Layout > Balloon.szs > Balloon.bflyt`
 
 ??? "Balloon"
 
@@ -372,7 +372,7 @@ If you want to change the color of the blue frame
 
 ??? "Text"
 
-    Go to `RootPane` > `N_Trans` > `N_Scale`
+    Go to `RootPane > N_Trans > N_Scale`
     
     - Click `T_Balloon`
     - Go to `Text Pane`

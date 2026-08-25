@@ -8,7 +8,7 @@
 
 ![Floor](../template/imgs/s5.webp){ width="426" height="240" }
 
-`Men2.pack` > `Model` > `LoungeFloor.szs`
+`Men2.pack > Model > LoungeFloor.szs`
 
 This is where the floor model is located
 
@@ -20,20 +20,20 @@ This is where the floor model is located
 
 ![Button Lounge Scale](imgs/wwp/btnscale.webp)
 
-`Men.pack` > `Layout` > `BtnLoungeScale_00.szs`
+`Men.pack > Layout > BtnLoungeScale_00.szs`
 
 ??? "Glow"
 
-    Go to `Men.pack` > `Layout` > `BtnLoungeScale_00.szs` > `BtnLoungeScale_00.bflyt`
+    Go to `Men.pack > Layout > BtnLoungeScale_00.szs > BtnLoungeScale_00.bflyt`
 
     Change the color of the material `P_StaleIconGlow_00`
 
 ??? "Color"
 
-    Go to `Men.pack` > `Layout` > `BtnLoungeScale_00.szs` > `BtnLoungeScale_00.bflyt`
+    Go to `Men.pack > Layout > BtnLoungeScale_00.szs > BtnLoungeScale_00.bflyt`
 
     - In Animation Hierarchy open `BtnLoungeScale_00_Active.bflan`
-    - Go to `Animation Info` > `PF_ScaleDotIndirect_00` > `MaterialColor`
+    - Go to `Animation Info > PF_ScaleDotIndirect_00 > MaterialColor`
 
     Change the `Key Frame 1` value of 
 
@@ -67,7 +67,7 @@ This is where the floor model is located
 
     Once you changed the values close the current window and open `BtnLoungeScale_00_Inactive.bflan`
 
-    - Go to `Animation Info` > `PF_ScaleDotIndirect_00` > `MaterialColor`
+    - Go to `Animation Info > PF_ScaleDotIndirect_00 > MaterialColor`
     - Right click `BlackColorRed` and select `Add Keyframe` 
     - Change the `Key Frame 1` Frame to 8
     - Change the `Key Frame 1` Value to 0
@@ -90,7 +90,7 @@ This is where the floor model is located
 
 ![Speech Balloon](imgs/wwp/speechballoon.webp)
 
-`Men2.pack` > `Layout` > `SpeechBalloon.szs`
+`Men2.pack > Layout > SpeechBalloon.szs`
 
 ??? "Balloon"
 
@@ -112,11 +112,11 @@ This is where the floor model is located
 
 ??? "Text"
 
-    Go to `RootPane` > `N_Trans` > `N_Scale`
+    Go to `RootPane > N_Trans > N_Scale`
 
     To change the color of the title of the Balloon
 
-    - Go to `N_InBalloon` > `T_Name`
+    - Go to `N_InBalloon > T_Name`
     - Go to `Text Pane`
     - In `Font` change the color
 
@@ -141,7 +141,7 @@ This is where the floor model is located
 
 ![Speech Balloon Drawing](imgs/wwp/sbd.webp)
 
-`Men2.pack` > `Layout` > `SpeechBalloonIllust.szs`
+`Men2.pack > Layout > SpeechBalloonIllust.szs`
 
 ??? "Balloon"
 
@@ -163,7 +163,7 @@ This is where the floor model is located
 
 ??? "Text"
 
-    Go to `RootPane` > `N_Trans` > `N_Scale` > `N_InBalloon`
+    Go to `RootPane > N_Trans > N_Scale > N_InBalloon`
 
     To change the color of the title of the Balloon
 
@@ -183,7 +183,7 @@ This is where the floor model is located
 
 ![Floating Icons](imgs/wwp/cube00.webp){ width="200"}
 
-`Men2.pack` > `Model` > `Cube00.szs`
+`Men2.pack > Model > Cube00.szs`
 
 ----------------------
 
@@ -191,7 +191,7 @@ This is where the floor model is located
 
 ![Save This Mii](imgs/wwp/mii.webp)
 
-`Men2.pack` > `Layout` > `BtnMiiWindow_02.szs`
+`Men2.pack > Layout > BtnMiiWindow_02.szs`
 
 You can change the [Color](../general/colors.md) / [Texture](../general/textures.md) of this by doing changes to the materials inside of the bflyt file.
 
@@ -201,7 +201,7 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
 
 ![App Launch WWP](imgs/wwp/launcher.webp)
 
-`Men2.pack` > `Layout` > `CommandLauncherIcon.szs`
+`Men2.pack > Layout > CommandLauncherIcon.szs`
 
 You can change the [Color](../general/colors.md) of this by changing the material `ActiveFrame_01`
 
@@ -211,7 +211,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ![Post](imgs/wwp/commandpost.webp){ width="250"}
 
-`Men2.pack` > `Layout` > `CommandPosting.szs`
+`Men2.pack > Layout > CommandPosting.szs`
 
 ----------------------
 
@@ -219,7 +219,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ![App](imgs/wwp/commandcube.webp){ width="250"}
 
-`Men2.pack` > `Layout` > `CommandCube.szs`
+`Men2.pack > Layout > CommandCube.szs`
 
 ----------------------
 
@@ -227,7 +227,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ![Button](imgs/wwp/btn.webp)
 
-`Men.pack` > `Layout` > `BtnLoungeWindow_00.szs`
+`Men.pack > Layout > BtnLoungeWindow_00.szs`
 
 You can change the [Color](../general/colors.md) of this by changing the materials
 
@@ -242,7 +242,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ![Close Button](imgs/wwp/closebtn.webp)
 
-`Men.pack` > `Layout` > `BtnLoungeWindowClose.szs`
+`Men.pack > Layout > BtnLoungeWindowClose.szs`
 
 You can change the [Color](../general/colors.md) of this by changing the materials
 

@@ -1,5 +1,7 @@
 # Color Animations
 
+<link rel="stylesheet" href="stylesheets/anim.css" />
+
 -----------------------
 
 ## What you need
@@ -9,44 +11,35 @@
 
 WIP
 
-### YAML Template
+!!! script "Color Animation Generator"
 
-``` YAML title="LoungeFloor_auto.yaml"
-Name: LoungeFloor_auto
-Path: null
-Loop: true
-FrameCount: 200
-MaterialAnimConfigs:
-  - Name: m_floor
-    TexturePatternInfos: []
-    ParamInfos:
-      - Name: albedo_tex_color
-        IsConstant: false
-        Constants: []
+    <div class="formContainer">
+        <form id="gen-color" class="animForm" autocomplete="off">
+            <div class="formHdr">Model</div>
+            <div>
+                <input type="radio" id="vr-color" name="model" value="vr" required/>
+                <label for="vr-color">LoungeVR</label>
+            </div>
+            <div>
+                <input type="radio" id="float-color" name="model" value="float" required/>
+                <label for="float-color">FloatIcon00</label>
+            </div>
+            <div>
+                <input type="radio" id="floor-color" name="model" value="floor" required/>
+                <label for="floor-color">LoungeFloor</label>
+            </div>
+            <div>
+                <label for="color-keyframes" class="formLbl">
+                    Keyframe, #HexColor
+                </label>
+                <textarea class="formInp" id="color-keyframes" rows="10" required >0, #FF0000&#10;60, #FFA600&#10;120, #FFFF00&#10;180, #00FF00&#10;240, #0000FF&#10;300, #800080&#10;360, #FF0000</textarea>
+            </div>
+            <button class="btnanim" type="submit">
+                Generate Color Animation
+            </button>
+        </form>
+    </div>
 
-        CurveData:
-          - Offset: R
-            KeyFrames:
-              0: 0.0
-              100: 1.0
-              200: 0.0
-
-          - Offset: G
-            KeyFrames:
-              0: 1.0
-              100: 0.0
-              200: 1.0
-
-          - Offset: B
-            KeyFrames:
-              0: 0.0
-              100: 0.0
-              200: 0.0
-```
-
-- Has offsets R, G and B for RED, GREEN and BLUE respectively
-- The value of each keyframe represents the strenght of the color channel where 0 = 0 and 1 = 255
-- this template goes from 255 GREEN to 255 RED after 100 frames, then goes back to 255 GREEN after another 100 frames
-- Switch toolbox for some reason does not allow exporting the animation but it does allow importing it
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+<script src="scripts/color.js"></script>
 WIP
