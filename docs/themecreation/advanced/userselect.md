@@ -117,7 +117,7 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 This text shows up for users without a Network ID linked.
 
-To change the text color, go to `AccountSelect.bflyt > RootPane > N_Root > L_BtnHelpText` then click `Text Pane > Font` and change the color.
+To change the text color, go to `AccountSelect.bflyt > Quick Access > Part Pane > L_BtnHelpText > T_Text` then click `Text Pane > Font` and change the color.
 
 ### 8. Line
 
