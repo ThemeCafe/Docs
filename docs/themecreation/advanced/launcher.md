@@ -140,13 +140,13 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
 
         Right arrow
 
-        - Go to `RootPane > PF_RBtnMask > P_Pict`
+        - Go to `RootPane > PF_RBtnMask`
         - Click on the `Pane` tab
         - Uncheck `Pane visible`    
 
         Left arrow
 
-        - Go to `RootPane > PF_LBtnMask > P_Pict_0`
+        - Go to `RootPane > PF_LBtnMask`
         - Click on the `Pane` tab
         - Uncheck `Pane visible`
 
@@ -155,20 +155,6 @@ You can change the [Color](../general/colors.md) / [Texture](../general/textures
     Located in Men2.pack > BtnSlideFolder.szs
 
     You can change the [Color](../general/colors.md) / [Texture](../general/textures.md) of this by changing the material `P_BtnSlideR` and `P_BtnSlideL`
-
-    ??? info "Removing the weird blur"
-
-        Right arrow
-
-        - Go to `RootPane > PF_RBtnMask > P_Pict`
-        - Click on the `Pane` tab
-        - Uncheck `Pane visible`    
-
-        Left arrow
-
-        - Go to `RootPane > PF_LBtnMask > P_Pict_0`
-        - Click on the `Pane` tab
-        - Uncheck `Pane visible`
 
 ----------------------
 
