@@ -27,6 +27,12 @@ hide: toc
 
     [Go :material-arrow-right:](userselect.md){ .md-button .md-button--primary }
 
+-   **Folder**
+
+    ![Folder](imgs/folder/prev.png)
+
+    [Go :material-arrow-right:](folder.md){ .md-button .md-button--primary }
+
 -   **Menu Text**
 
     ![Menu Text](imgs/text/prev.webp)
