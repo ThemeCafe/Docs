@@ -23,4 +23,12 @@ hide: toc
 
     [Go :material-arrow-right:](srt.md){ .md-button .md-button--primary }
 
+-   **Color Animations**
+
+    <video autoplay loop muted playsinline>
+    <source src="imgs/color/vc.mp4" type="video/mp4">
+    </video>
+
+    [Go :material-arrow-right:](color.md){ .md-button .md-button--primary }
+
 </div>

@@ -1,15 +1,28 @@
+<link rel="stylesheet" href="stylesheets/anim.css" />
+
 # Color Animations
 
-<link rel="stylesheet" href="stylesheets/anim.css" />
+<video autoplay loop muted playsinline>
+<source src="imgs/color/vc.mp4" type="video/mp4">
+</video>
+
+You can add color animations which will multiply the texture color by the animation color.
+
+- Color animations will gradually transition between each keyframe.
+- These animations are for `.BFRES` (3D Models) and not `.BFLYT` (Layout)
+- For better results use black and white textures.
 
 -----------------------
 
 ## What you need
 
 - [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases/tag/Final).
-- [Template](../template/index.md#template).
 
-WIP
+
+### Color Animation generator
+
+The following Script allows you to generate a Color Animation for `LoungeVR`, `FloatIcon00`, and `LoungeFloor`. 
+However you can manually edit the name of the model and material on the generated animation to use them for something else.
 
 !!! script "Color Animation Generator"
 
@@ -42,4 +55,14 @@ WIP
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 <script src="scripts/color.js"></script>
-WIP
+
+### Importing Animations
+
+- Go to your model file.
+- Right Click the Animations folder.
+- Select Import -> `Color Animation`.
+- Open your `.yaml` animation from before.
+
+!!! success
+
+    Your custom animation has been added and you can now test it [StyleMiiU](../../install/loading.md#stylemiiu-plugin).
