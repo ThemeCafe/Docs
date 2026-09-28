@@ -16,6 +16,20 @@ This example will change the name of "Miiverse" to "Juxtaposition"
 
 You will need the `AllMessage.szs` file for the language you want to edit, if you do not have this file you can obtain it using any of the methods from [Menu Files](../../install/files.md) and get the file from the following location.
 
+=== "Themiify"
+
+    1. Open Themiify.
+    2. Go to Settings.
+    3. Select "Dump Wii U Menu Files".
+    4. Confirm.
+
+        - Your Wii U Menu Files have been dumped to `SD:/themiify/cache/`
+        
+    5. Turn off your Wii U and insert your SD Card on your computer.
+    8. Go to `SD:/themiify/cache/[LANGUAGE]/Message/` and copy `AllMessage.szs`.
+        - In `[LANGUAGE]` use the language you want to edit.
+            - For example: `UsEnglish`.
+
 === "JNUSTool"
     - `content > [LANGUAGE] > Message > AllMessage.szs`.
         - In `[LANGUAGE]` use the language you want to edit.

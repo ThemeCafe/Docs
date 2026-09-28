@@ -113,11 +113,9 @@ You can change the [Color](../general/colors.md) of this by changing the materia
 
 ![No ID linked Image](imgs/userselect/noid.png)
 
-`Men2.pack > Layout > AccountSelect.szs`
+`Men2.pack > Layout > BtnHelpText.szs`
 
-This text shows up for users without a Network ID linked.
-
-To change the text color, go to `AccountSelect.bflyt > Quick Access > Part Pane > L_BtnHelpText > T_Text` then click `Text Pane > Font` and change the color.
+*Switch ToolBox crashes upon opening this file, because of this, there's no instructions to modify it.*
 
 ### 8. Line
 

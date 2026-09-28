@@ -97,6 +97,7 @@ If you have previously modified the Wii U Menu files from your nand, your only o
         - It's already in your sd card if you're using aroma.
         - `SD:\wiiu\backups\SERIAL_NUMBER\otp.bin`.
     - [JNUSTool](https://github.com/Maschell/JNUSTool/releases/tag/0.3b).
+    - [Java](https://www.java.com/).
 
     ### **Getting the Wii U Common Key**
 
@@ -141,6 +142,10 @@ If you have previously modified the Wii U Menu files from your nand, your only o
     - USA: `0005001010040100`
     - EUR: `0005001010040200`
     - JPN: `0005001010040000`
+    
+    ??? warning "Error: 'java' is not recognized as an internal or external command..."
+
+        If you see this error, you need to install [Java](https://www.java.com/) to run JNUSTool.
 
     ### **Downloading files**
 
