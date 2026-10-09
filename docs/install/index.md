@@ -39,7 +39,7 @@ hide:
 
 - [**Patching**](patching.md): To patch your `.ips, .bps, .ups, .ppf, .aps` or `.rup` files.
 
-- [**Loading Custom Themes**](loading.md): To load your custom theme, you can use [StyleMiiU-Plugin](loading.md#stylemiiu-plugin) (Recommended) or [SDCafiine](loading.md#sdcafiine).
+- [**Loading Custom Themes**](loading.md): To load your custom theme, you can use [StyleMiiU-Plugin](loading.md#stylemiiu) (Recommended) or [SDCafiine](loading.md#sdcafiine).
 
 - [**Custom Fonts**](fonts.md): To use custom fonts on your console.
 

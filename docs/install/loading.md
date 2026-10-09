@@ -6,22 +6,15 @@ icon: fontawesome/solid/paint-brush
 
 # Loading Custom Themes
 
---------------
+=== "StyleMiiU"
 
-There's two ways to load themes using aroma
+    ## Loading with StyleMiiU
 
-!!! info "***No system file is modified by these plugins.***"
-
-- [StyleMiiU-Plugin](#stylemiiu-plugin)
-- [SDCafiine](#sdcafiine)
-
-=== "StyleMiiU-Plugin"
-
-    ## Loading with StyleMiiU-Plugin
+    *No system file is modified by this plugin*
 
     ### What you need
 
-    - [StyleMiiU-Plugin](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases).
+    - [StyleMiiU](https://github.com/Themiify-hb/StyleMiiU-Plugin/releases).
     - A patched `Men.pack`, `Men2.pack` and/or `cafe_barista_men.bfsar` file.
         - If you do not have a patched menu file, follow [Patching](patching.md).
 
@@ -36,7 +29,7 @@ There's two ways to load themes using aroma
 
     1. Open the WUPS menu (**L + ↓ + SELECT**) and enter the **StyleMiiU** menu. Make sure StyleMiiU is enabled, otherwise it won't do anything.
 
-    2. Enter the **Available Themes** option and you should see the folders that are in `SD:/wiiu/themes/`, showing up empty if no theme is present. Once there, set whatever theme you want to Current Theme. If no theme it's set, the Wii U's default home menu will be loaded.
+    2. Enter the **Available Themes** option and you should see the folders that are in `SD:/wiiu/themes/`, showing up empty if no theme is present. Once there, set whatever theme you want to Current Theme. If no theme is set, the Wii U's default home menu will be loaded.
 
     3. Once you exit the WUPS menu, the Home Menu should restart and once it gets restarted, your Home Menu will now have the theme you chose applied to it.
 
@@ -56,6 +49,8 @@ There's two ways to load themes using aroma
 
     ## Loading with SDCafiine
 
+    *No system file is modified by this plugin*
+
     ### What you need
 
     - [SDCafiine Plugin](https://github.com/wiiu-env/sdcafiine_plugin/releases).
@@ -65,7 +60,7 @@ There's two ways to load themes using aroma
     ### Installation
     1. Download and extract the `.zip` file and copy the `sdcafiine.wps` file to `SD:/wiiu/environments/aroma/plugins`.
 
-    - For SDCafiine to load the files, you will need create the following folders: 
+    2. For SDCafiine to load the files, you will need create the following folders: 
         - Create an `sdcafiine` folder in your `wiiu` folder on your SD card.
         - Inside the `sdcafiine` folder create a folder with your Wii U Menu's title ID. This will vary on your consoles region: 
             - USA: `0005001010040100`
@@ -81,11 +76,8 @@ There's two ways to load themes using aroma
         - Place your patched `cafe_barista_men.bfsar` file inside of the `Men` folder.
 
 
-    2. Your final paths should be
+    3. Your final paths should be
         - `SD:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Package/Men.pack, Men2.pack`
-
-        and
-
         - `SD:/wiiu/sdcafiine/[TITLEID]/[ThemeName]/content/Common/Sound/Men/cafe_barista_men.bfsar`
 
     ### Usage
@@ -105,9 +97,9 @@ There's two ways to load themes using aroma
 
 !!! tip "If you want to use a Splash Screen follow [Splash Screen](splash.md)"
 
-??? failure "Troubleshooting: Stuck on black screen/splash or bootlooping"
+??? failure "Troubleshooting: Wii U Menu fails to load"
 
-    Something is wrong with the theme you applied (`Men.pack`, `Men2.pack`).
+    Something is wrong with the theme you applied.
 
     - Check if the file was patched correctly.
     - If your console is EUR, check if the theme is compatible.
@@ -130,7 +122,7 @@ There's two ways to load themes using aroma
         - Delete the plugin config file: `SD:/wiiu/environments/aroma/plugins/config/style-mii-u.json`.
         - Delete the plugin: `SD:/wiiu/environments/aroma/plugins/stylemiiu.wps`.
 
-??? failure "Troubleshooting: Theme not loading"
+??? failure "Troubleshooting: Wii U Menu Remains Unchanged"
 
     The files were not loaded correctly or no modifications were made to the Menu.
 

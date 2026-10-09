@@ -33,7 +33,13 @@ If you currently have themes installed and want to start using Themiify, you can
 
 === "UTheme App"
 
-    No action is needed before proceeding with Themiify.
+    UTheme can sometimes crash and leave broken themes, it's recommended to delete the following before proceeding
+
+    - Delete any broken themes installed by the app: `SD:/wiiu/themes/[ThemeName]`.
+    - Delete the StyleMiiU plugin config file: `SD:/wiiu/environments/aroma/plugins/config/style-mii-u.json`.
+    - Delete the StyleMiiU plugin: `SD:/wiiu/environments/aroma/plugins/stylemiiu.wps`.
+
+    You will have to re download [StyleMiiU](https://github.com/ThemeCafe/StyleMiiU-Plugin/releases). (Available on the [Homebrew App Store](https://hb-app.store/wiiu/StyleMiiU))
 
 === "StyleMiiU"
 

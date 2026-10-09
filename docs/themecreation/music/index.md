@@ -82,7 +82,7 @@ You can now close this window.
 
 !!! success
 
-    You can now test your music [StyleMiiU](../../install/loading.md#stylemiiu-plugin).
+    You can now test your music [StyleMiiU](../../install/loading.md#stylemiiu).
 
 ??? failure "Troubleshooting"
 

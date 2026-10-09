@@ -8,13 +8,13 @@ icon: material/file
 
 --------------
 
-First, we need to obtain the menu files, there are several ways to do it:
+There are several ways obtain the Wii U Menu files
 
 - [Themiify](#themiify)
 - [FTP](#ftp)
 - [JNUSTool](#jnustool)
 
-If you have previously modified the Wii U Menu files from your nand, your only option is [JNUSTool](#jnustool).
+If you have previously modified the Wii U Menu files from your NAND, your only option is [JNUSTool](#jnustool).
 
 === "Themiify"
 
@@ -59,27 +59,26 @@ If you have previously modified the Wii U Menu files from your nand, your only o
 
     ### Guide
 
-    1. Turn on your console without any custom theme. (This will cause issues when getting the files we need.)
+    1. Turn on your console without any custom theme.
+        - Having custom themes applied will cause issues when getting the files we need.
     2. Open the WUPS Menu (L + ↓ + SELECT) and search for FTPiiU Plugin.
     3. Press Settings and enable everything.
     4. On your PC open the FTP client.
-    5. It will ask for your Console IP and Port Number you can see these details on your console. This is a local IP address, so it doesn't matter.
-    6. It will ask for a user and a password, leave it blank, just accept.
-    7. Now navigate to the Wii U Menu Folder, depending on the console region:
+    5. Enter the Console IP and Port Number with the details seen on your console and leave the User and Password fields blank.
+    6. Now navigate to the Wii U Menu Folder, depending on the console region:
 
         - USA: `storage_mlc/sys/title/00050010/10040100/content/Common/Package`
         - EUR: `storage_mlc/sys/title/00050010/10040200/content/Common/Package`
         - JPN: `storage_mlc/sys/title/00050010/10040000/content/Common/Package`
 
-    8. Select `Men.pack` and `Men2.pack`, then click Download.
-    9. It will ask for a place to download the files, it's recommended to create a specific folder to save the content.
-    10. Go back and then navigate to `Sound/Men`.
-    11. Download `cafe_barista_men.bfsar`.
-    12. (Optional) Dump `AllMessage.szs`
+    7. Select `Men.pack` and `Men2.pack`, then click Download.
+    8. It will ask for a place to download the files, it's recommended to create a specific folder to save the content.
+    9. Go back and then navigate to `Sound/Men`.
+    10. Download `cafe_barista_men.bfsar`.
+    11. Dump `AllMessage.szs`. (Optional)
 
         - Go back and navigate to `content/[LANGUAGE]/Message/AllMessage.szs`.
-            - In `[LANGUAGE]` use the language you want to dump.
-                - For example: `UsEnglish`.
+            - In `[LANGUAGE]` use the language you want to dump. For example: `UsEnglish`.
 
         - Download `AllMessage.szs`
 
@@ -149,19 +148,11 @@ If you have previously modified the Wii U Menu files from your nand, your only o
 
     ### **Downloading files**
 
-    Go to `root/content/Common/Package` and download `Men.pack` and `Men2.pack`.
-
-    ![Image title](imgs/i5.webp)
-
-    Go to `root/content/Common/Sound/Men` and download `cafe_barista_men.bfsar`.
-
-    (Optional) Dump `AllMessage.szs`
-
-    Go to `root/content/[LANGUAGE]/Message/` and download `AllMessage.szs`.
-
-    - `content > [LANGUAGE] > Message > AllMessage.szs`.
-        - In `[LANGUAGE]` use the language you want to dump.
-            - For example: `UsEnglish`.
+    - Go to `root/content/Common/Package` and download `Men.pack` and `Men2.pack`.
+    - Go to `root/content/Common/Sound/Men` and download `cafe_barista_men.bfsar`.
+    - Dump `AllMessage.szs` (Optional)
+    - Go to `root/content/[LANGUAGE]/Message/` and download `AllMessage.szs`.
+        - In `[LANGUAGE]` use the language you want to dump. For example: `UsEnglish`.
 
 -----------------
 

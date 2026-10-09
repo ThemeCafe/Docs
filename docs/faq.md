@@ -70,6 +70,8 @@ You can remove any previously installed theme.
 2. Open `SD:/wiiu/themes/`.
 3. Delete the folder with your recently installed theme.
 
+Alternatively you can boot into Aroma Safe Mode by holding L + ↑ + SELECT while booting Aroma, delete the theme using Themiify and re enable any plugins that were disabled.
+
 After this, the Wii U will boot using the original theme.
 
 --------------

@@ -124,7 +124,7 @@ After generating your animation file, go back to Switch ToolBox.
 
 !!! success
 
-    Your custom animation has been added and you can now test it [StyleMiiU](../../install/loading.md#stylemiiu-plugin).
+    Your custom animation has been added and you can now test it [StyleMiiU](../../install/loading.md#stylemiiu).
     
 ??? warning "Troubleshooting"
 

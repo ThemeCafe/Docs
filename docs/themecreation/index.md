@@ -21,7 +21,7 @@
 !!! note "Testing Themes"
 
     - You can use [Cemu](resources/cemu.md) to test custom themes quickly.
-    - You can use [StyleMiiU-Plugin](../install/loading.md#stylemiiu-plugin) or [SDCafiine](../install/loading.md#sdcafiine) to test themes in real hardware (see [Loading Theme](../install/loading.md)).
+    - You can use [StyleMiiU-Plugin](../install/loading.md#stylemiiu) or [SDCafiine](../install/loading.md#sdcafiine) to test themes in real hardware (see [Loading Theme](../install/loading.md)).
 
     - **Do not replace files on your NAND to test changes otherwise you risk bricking your console.**
     

@@ -44,6 +44,7 @@ We will be working with a template to simplify the process of creating a theme.
     </div>
 
     Apply the patch to a copy of your `Men2.pack` (and `Men.pack` if you are using the Dark Template) file ([Patching](../../install/patching.md)) and come back here when you're done.
+    If you are using the light template, you do not need `Men.pack` unless you want to do [Advanced](../advanced/index.md) changes to the menu.
 
     - If you do not have these files, follow [Menu Files](../../install/files.md) to learn how to get them.
 

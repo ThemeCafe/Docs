@@ -65,4 +65,4 @@ However you can manually edit the name of the model and material on the generate
 
 !!! success
 
-    Your custom animation has been added and you can now test it [StyleMiiU](../../install/loading.md#stylemiiu-plugin).
+    Your custom animation has been added and you can now test it [StyleMiiU](../../install/loading.md#stylemiiu).

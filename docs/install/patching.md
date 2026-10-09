@@ -6,11 +6,7 @@ icon: fontawesome/solid/wrench
 
 # Patching
 
---------------
-
-Now we will use the Menu files you obtained from the previous step and patch them with the theme of your liking.
-
-You will need:
+## What you need
 
 - [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or [Flips](https://github.com/Alcaro/Flips).
 - Original `Men.pack`, `Men2.pack`, and/or `cafe_barista_men.bfsar`.
@@ -18,7 +14,7 @@ You will need:
 - A theme patch file.
     - It can be any of the following formats `.ips, .bps, .ups, .ppf, .aps, .rup`.
 
-!!! info "Save your original `Men.pack`, `Men2.pack`, `cafe_barista_men.bfsar` files somewhere safe so you don't have to get your files again in the future"
+!!! info "Make sure to keep a copy of your original `Men.pack`, `Men2.pack`, `cafe_barista_men.bfsar` files."
 
 --------------
 
@@ -97,8 +93,6 @@ Repeat this process for every file you want to patch.
 --------------------------------
 
 [Continue to Loading Custom Themes →](loading.md){ .md-button .md-button--primary }
-
---------------------------------
 
 ??? failure "Troubleshooting: Checksum Mismatch"
 

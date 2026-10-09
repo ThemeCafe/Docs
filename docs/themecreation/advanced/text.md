@@ -21,12 +21,13 @@ You will need the `AllMessage.szs` file for the language you want to edit, if yo
     1. Open Themiify.
     2. Go to Settings.
     3. Select "Dump Wii U Menu Files".
-    4. Confirm.
+    4. Check "Dump AllMessage.szs for all languages".
+    5. Select Dump Files.
 
         - Your Wii U Menu Files have been dumped to `SD:/themiify/cache/`
         
-    5. Turn off your Wii U and insert your SD Card on your computer.
-    8. Go to `SD:/themiify/cache/[LANGUAGE]/Message/` and copy `AllMessage.szs`.
+    6. Turn off your Wii U and insert your SD Card on your computer.
+    7. Go to `SD:/themiify/cache/[LANGUAGE]/Message/` and copy `AllMessage.szs`.
         - In `[LANGUAGE]` use the language you want to edit.
             - For example: `UsEnglish`.
 
@@ -49,11 +50,11 @@ You will need the `AllMessage.szs` file for the language you want to edit, if yo
 ### Before Starting
 
 - Make sure you make a backup of your original `AllMessage.szs` file(s) in case anything goes wrong
-- You can load the modified `AllMessage.szs` file(s) with [StyleMiiU-Plugin](../../install/loading.md#stylemiiu-plugin) or [SDCafiine](../../install/loading.md#sdcafiine)
+- You can load the modified `AllMessage.szs` file(s) with [StyleMiiU-Plugin](../../install/loading.md#stylemiiu) or [SDCafiine](../../install/loading.md#sdcafiine)
 
 !!! warning "Do **NOT** edit the files using Switch Toolbox, if you do it will cause **A LOT** of issues."
 
-!!! danger "**DO NOT REPLACE THE MODIFIED FILE ON YOUR NAND**, you can risk **bricking** your system if you do, use [StyleMiiU-Plugin](../../install/loading.md#stylemiiu-plugin) or [SDCafiine](../../install/loading.md#sdcafiine) to load the modified file instead."
+!!! danger "**DO NOT REPLACE THE MODIFIED FILE ON YOUR NAND**, you can risk **bricking** your system if you do, use [StyleMiiU-Plugin](../../install/loading.md#stylemiiu) or [SDCafiine](../../install/loading.md#sdcafiine) to load the modified file instead."
 
 --------------
 
