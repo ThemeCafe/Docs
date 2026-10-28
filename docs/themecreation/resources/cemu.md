@@ -37,21 +37,37 @@ This is useful in case you are creating themes and want to quickly test your cha
 2. Go to `Options > General Settings`.
 3. In `Custom MLC Path` click `Change` and select your MLC Dump folder.
 4. After confirming, Cemu will restart.
-5. Open Cemu, and open the `Wii U Menu` title.
+5. Open Cemu, and start the Wii U Menu title.
 
 !!! success "The Wii U menu should boot on Cemu!"
 
 ## Modifying the Wii U Menu
 
-1. Right click the `Wii U Menu` title and select `Game Directory`.
+1. Click File > Open Cemu Folder.
+2. Go to `graphicPacks`.
+3. Create the following folders in `graphicPacks`:
 
-    - It is recommended that you make a backup of the 3 folders (`code`,`content`,`meta`) in case something breaks.
+    - `WiiUMenu\[ThemeName]\content\Common\Package`.
+        - Place your `Men.pack` and `Men2.pack` here.
+    - `WiiUMenu\[ThemeName]\content\Common\Sound\Men`.
+        - Place your `cafe_barista_men.bfsar` here.
+    
+    *Rename `[ThemeName]` to the name of your theme.*
 
-2. Go to the files you want to modify (eg. Men.pack and Men2.pack).
+4. Go to `WiiUMenu\[ThemeName]`, create a `rules.txt` file and paste the following:
 
-    - In this case they are in `content > Common > Package > Men.pack, Men2.pack`.
+    ``` txt title="rules.txt"
+    [Definition]
+    titleIds = 0005001010040100,0005001010040200,0005001010040000
+    name = Custom Theme
+    path = "Wii U Menu/Mods/Custom Theme"
+    description = Loads a Custom Wii U Menu Theme
+    ```
 
-3. Replace the files with your modified ones.
+5. Restart Cemu.
+6. Right Click the Wii U Menu Title > Edit Graphic Packs.
+7. Enable your Custom Theme in Wii U Menu > Mods > Custom Themes.
+8. Start the Wii U Menu title.
 
 !!! success "You are now ready to test Themes on Cemu"
 

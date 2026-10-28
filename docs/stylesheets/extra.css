@@ -22,12 +22,12 @@
   --code-border: #ffffff20;
 }
 
-.md-typeset code {
+.md-typeset code:not(.md-code__content) {
   color: var(--code-color);
 }
 
-.md-typeset p code,
-.md-typeset li code {
+.md-typeset p code:not(.md-code__content),
+.md-typeset li code:not(.md-code__content) {
   border: 1px solid var(--code-border);
   padding: 2px 5px;
 }

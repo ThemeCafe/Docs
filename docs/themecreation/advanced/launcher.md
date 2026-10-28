@@ -10,15 +10,11 @@
 
 This is where the background image/animation is located
 
-![Template](../template/imgs/1.webp){ width="426" height="240" }
-
-[Template Guide](../template/index.md){ .md-button .md-button--primary }
-
 <video autoplay loop muted playsinline width="426" height="240">
 <source src="../anim/imgs/frame/vf.mp4" type="video/mp4">
 </video>
 
-[Animations Guide](../anim/pattern.md){ .md-button .md-button--primary }
+[Template Guide](../template/index.md){ .md-button .md-button--primary } &nbsp; [Animations Guide](../anim/pattern.md){ .md-button .md-button--primary }
 
 !!! info "*This only applies when using patches provided by the docs*"
 
